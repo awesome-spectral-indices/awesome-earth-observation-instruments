@@ -62,6 +62,10 @@ properties:
               type: number
               description: Ground Sampling Distance (m)
 
+            snr:
+              type: number
+              description: Signal to Noise Ratio (SNR)
+
   range:
     type: object
     additionalProperties: false
