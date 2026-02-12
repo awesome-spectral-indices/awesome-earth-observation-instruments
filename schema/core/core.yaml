@@ -1,0 +1,126 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: file:///core/core
+title: Earth Observation Sensor
+type: object
+
+required:
+  - id
+  - name
+  - acronym
+  - type
+  - platform_type
+  - platform
+  - start_date
+  - status
+  - references
+  - availability
+  - operator
+
+properties:
+
+  id:
+    type: string
+    description: Alphanumerical identifier of the instrument
+
+  name:
+    type: string
+    description: Full name of the instrument
+
+  acronym:
+    type: string
+    description: Instrument acronym
+
+  type:
+    type: string
+    enum:
+      - multispectral
+      - hyperspectral
+      - radar
+      - rgb
+      - lidar
+      - other
+
+  platform_type:
+    type: string
+    enum:
+      - satellite
+      - airborn
+      - uav
+      - terrestrial
+
+  platform:
+    type: array
+    description: Satellite name, UAV model, aircraft, or terrestrial platform
+    items:
+      type: string
+
+  operator:
+    type: array
+    description: Organization operating the instrument
+    items:
+      anyOf:
+        - type: string
+          enum:
+            - Copernicus
+            - ESA
+            - NASA
+            - JAXA
+            - NOAA
+            - DLR
+            - ISRO
+        - type: string
+          description: Other operator (not yet standardized)
+
+  start_date:
+    type: string
+    description: Start of operation (YYYY-MM-DD)
+
+  status:
+    type: string
+    enum:
+      - operational
+      - retired
+      - experimental
+      - planned
+
+  availability:
+    type: string
+    enum:
+      - public
+      - private
+    description: Data accessibility level
+
+  end_date:
+    type: string
+    description: End of operation (YYYY-MM-DD)
+
+  notes:
+    type: string
+    description: Free-form additional notes
+
+  references:
+    type: array
+    description: URLs of references (papers, web pages, etc.)
+    items:
+      type: string
+
+  data_links:
+    type: array
+    description: URLs of data links for teh instrument
+    items:
+      type: string 
+
+  extensions:
+    type: object
+    additionalProperties: false
+    properties:
+      spectral:
+        $ref: /extensions/spectral    
+      imaging:
+        $ref: /extensions/imaging    
+      ee:
+        $ref: /extensions/earth-engine
+      planetary_computer:
+        $ref: /extensions/planetary-computer
+
+additionalProperties: false

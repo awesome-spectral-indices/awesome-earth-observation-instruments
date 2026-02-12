@@ -1,0 +1,14 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd,snr
+B1,442.2,20,Aerosols,coastal,60,129
+B2,492.3,65,Blue,blue,10,154
+B3,558.9,35,Green,green,10,168
+B4,664.9,31,Red,red,10,142
+B5,703.8,15,Red Edge 1,rededge071,20,117
+B6,739.1,14,Red Edge 2,rededge075,20,89
+B7,779.7,20,Red Edge 3,rededge078,20,105
+B8,832.9,115,NIR,nir,10,174
+B8A,864,20,Narrow NIR,nir08,20,72
+B9,943.2,20,Water Vapour,nir09,60,114
+B10,1376.9,30,Cirrus,cirrus,60,50
+B11,1610.4,93,SWIR 1,swir16,20,100
+B12,2185.7,181,SWIR 2,swir22,20,100

@@ -1,0 +1,101 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: /extensions/spectral
+title: Spectral Extension
+type: object
+
+properties:
+
+  bands:
+    oneOf:
+      # External CSV
+      - type: string
+        description: Filename of the Bands CSV file (with extension)
+
+      # Inline band definitions
+      - type: object
+        description: Dictionary of spectral bands keyed by band identifier
+        additionalProperties:
+          type: object
+          additionalProperties: false
+          required:
+            - center_wavelength
+            - bandwidth
+          properties:
+            center_wavelength:
+              type: number
+              description: Center wavelength (nm)
+  
+            bandwidth:
+              type: number
+              description: Bandwidth (nm)
+  
+            band_description:
+              type: string
+              description: Description of the band
+  
+            common_name:
+              type: string
+              description: Common band name (STAC EO)
+              enum:
+                - pan
+                - coastal
+                - blue
+                - green
+                - green05
+                - yellow
+                - red
+                - rededge
+                - rededge071
+                - rededge075
+                - rededge078
+                - nir
+                - nir08
+                - nir09
+                - cirrus
+                - swir16
+                - swir22
+                - lwir
+                - lwir11
+                - lwir12
+  
+            gsd:
+              type: number
+              description: Ground Sampling Distance (m)
+
+  range:
+    type: object
+    additionalProperties: false
+    required:
+      - min
+      - max
+    properties:
+      min:
+        type: number
+        description: Minimum wavelength (nm)
+
+      max:
+        type: number
+        description: Maximum wavelength (nm)
+
+      sampling:
+        type: number
+        description: Spectral sampling interval (nm)
+
+      total_bands:
+        type: integer
+        description: Number of bands
+
+    oneOf:
+      - required: [sampling]
+      - required: [total_bands]
+
+  spectral_response_function:
+    type: string
+    description: Filename of the Spectral Response Function (SRF) CSV file (with extension)
+
+allOf:
+  - oneOf:
+      - required: [bands]
+      - required: [range]
+
+additionalProperties: false
