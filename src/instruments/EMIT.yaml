@@ -1,0 +1,49 @@
+id: EMIT
+name: Earth Surface Mineral Dust Source Investigation
+acronym: EMIT
+type: hyperspectral
+platform_type: satellite
+platform:
+  - ISS
+operator:
+  - NASA
+start_date: 2022-08-09
+status: operational
+availability: public
+references:
+  - "https://earth.jpl.nasa.gov/emit/"
+  - "https://earth.jpl.nasa.gov/emit/instrument/overview/"
+  - "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer/spectral-bands"
+
+data_links:
+  - "https://www.earthdata.nasa.gov/data/catalog/lpcloud-emitl1brad-001"
+  - "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD"
+  - "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
+
+extensions:
+
+  spectral:
+    range:
+      min: 381
+      max: 2493
+      total_bands: 285
+
+  imaging:
+    fnumber: 1.8
+    across_fov: 11
+    across_ifov: 155
+    along_ifov: 71
+    focal_length: 193.5
+    entrance_pupil: 110
+    gsd: 60
+    
+  ee:
+    primary:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
+      collection: "NASA/EMIT/L2A/RFL"
+    raw:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD"
+      collection: "NASA/EMIT/L1B/RAD"
+    boa:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
+      collection: "NASA/EMIT/L2A/RFL"

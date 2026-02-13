@@ -19,11 +19,11 @@ properties:
 
   across_ifov:
     type: number
-    description: Across-track Instantaneous Field of View (IFOV) (degrees). Relevant for satellite platforms
+    description: Across-track Instantaneous Field of View (IFOV) (microradians). Relevant for satellite platforms
 
   along_ifov:
     type: number
-    description: Along-track Instantaneous Field of View (IFOV) (degrees). Relevant for satellite platforms
+    description: Along-track Instantaneous Field of View (IFOV) (microradians). Relevant for satellite platforms
 
   hfov:
     type: number

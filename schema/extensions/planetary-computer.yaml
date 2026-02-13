@@ -27,7 +27,21 @@ properties:
       collection:
         type: string
         description: Planetary Computer STAC collection name
-  
+
+  raw:
+    type: object
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of raw data
+      collection:
+        type: string
+        description: Planetary Computer STAC collection name
+
   boa:
     type: object
     additionalProperties: false

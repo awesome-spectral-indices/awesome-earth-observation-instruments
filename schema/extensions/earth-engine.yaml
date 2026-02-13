@@ -22,6 +22,20 @@ properties:
         type: string
         description: Earth Engine collection name
   
+  raw:
+    type: object
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of raw data
+      collection:
+        type: string
+        description: Earth Engine collection name
+
   boa:
     type: object
     additionalProperties: false
