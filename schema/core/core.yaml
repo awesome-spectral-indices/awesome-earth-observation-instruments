@@ -44,7 +44,7 @@ properties:
     type: string
     enum:
       - satellite
-      - airborn
+      - airborne
       - uav
       - terrestrial
 
