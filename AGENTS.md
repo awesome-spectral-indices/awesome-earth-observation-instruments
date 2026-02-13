@@ -8,6 +8,7 @@ This repository contains the source inputs for the creation of an open catalogue
 - /src/: source inputs: bands, instruments, srf (spectral response functions), and code.
 - /catalogue/: folder for the output catalogue in JSON format.
 - /docs/: folder with documentation in Markdown.
+- /README.md: Readme file of the repo. Read this document for context. DO NOT CHANGE THIS FILE. This readme is created autimatically from /src/code/readme.py
 
 ## Schemas
 
