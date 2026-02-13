@@ -1,0 +1,33 @@
+id: MSS_L4
+name: Multispectral Scanner System
+acronym: MSS
+type: multispectral
+platform_type: satellite
+platform:
+  - Landsat 4
+operator:
+  - NASA
+  - USGS
+start_date: 1982-07-16
+end_date: 2001-06-15
+status: retired
+availability: public
+references:
+  - "https://science.nasa.gov/mission/landsat/mss/"
+
+data_links:
+  - "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-4/data-access-tools"
+  - "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1"
+
+extensions:
+
+  spectral:
+    bands: MSS45_BANDS.csv
+    
+  ee:
+    primary:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1"
+      collection: "LANDSAT/LM04/C02/T1"      
+    raw:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1"
+      collection: "LANDSAT/LM04/C02/T1"

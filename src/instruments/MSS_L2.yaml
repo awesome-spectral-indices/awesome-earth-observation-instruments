@@ -1,0 +1,33 @@
+id: MSS_L2
+name: Multispectral Scanner System
+acronym: MSS
+type: multispectral
+platform_type: satellite
+platform:
+  - Landsat 2
+operator:
+  - NASA
+  - NOAA
+start_date: 1975-01-22
+end_date: 1982-02-25
+status: retired
+availability: public
+references:
+  - "https://science.nasa.gov/mission/landsat/mss/"
+
+data_links:
+  - "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-2/data-access-tools"
+  - "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
+
+extensions:
+
+  spectral:
+    bands: MSS123_BANDS.csv
+    
+  ee:
+    primary:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
+      collection: "LANDSAT/LM02/C02/T1"      
+    raw:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
+      collection: "LANDSAT/LM02/C02/T1"

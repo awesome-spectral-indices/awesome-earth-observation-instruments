@@ -1,0 +1,5 @@
+band,center_wavelength,bandwidth,band_description,gsd
+B4,550,100,Green,60
+B5,650,100,Red,60
+B6,750,100,NIR,60
+B7,950,300,NIR 2,60

@@ -1,0 +1,32 @@
+id: MSS_L3
+name: Multispectral Scanner System
+acronym: MSS
+type: multispectral
+platform_type: satellite
+platform:
+  - Landsat 3
+operator:
+  - NASA
+start_date: 1978-03-05
+end_date: 1983-09-07
+status: retired
+availability: public
+references:
+  - "https://science.nasa.gov/mission/landsat/mss/"
+
+data_links:
+  - "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-3/data-access-tools"
+  - "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1"
+
+extensions:
+
+  spectral:
+    bands: MSS123_BANDS.csv
+    
+  ee:
+    primary:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1"
+      collection: "LANDSAT/LM03/C02/T1"      
+    raw:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1"
+      collection: "LANDSAT/LM03/C02/T1"
