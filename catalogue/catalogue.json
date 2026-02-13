@@ -89963,5 +89963,328 @@
         }
       }
     }
+  },
+  "MSS_L1": {
+    "id": "MSS_L1",
+    "name": "Multispectral Scanner System",
+    "acronym": "MSS",
+    "type": "multispectral",
+    "platform_type": "satellite",
+    "platform": [
+      "Landsat 1"
+    ],
+    "operator": [
+      "NASA"
+    ],
+    "start_date": "1972-07-23",
+    "end_date": "1978-01-06",
+    "status": "retired",
+    "availability": "public",
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "data_links": [
+      "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-1/data-access-tools",
+      "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1"
+    ],
+    "extensions": {
+      "spectral": {
+        "bands": {
+          "B4": {
+            "center_wavelength": 550,
+            "bandwidth": 100,
+            "band_description": "Green",
+            "gsd": 60
+          },
+          "B5": {
+            "center_wavelength": 650,
+            "bandwidth": 100,
+            "band_description": "Red",
+            "gsd": 60
+          },
+          "B6": {
+            "center_wavelength": 750,
+            "bandwidth": 100,
+            "band_description": "NIR",
+            "gsd": 60
+          },
+          "B7": {
+            "center_wavelength": 950,
+            "bandwidth": 300,
+            "band_description": "NIR 2",
+            "gsd": 60
+          }
+        }
+      },
+      "ee": {
+        "primary": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
+          "collection": "LANDSAT/LM01/C02/T1"
+        },
+        "raw": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
+          "collection": "LANDSAT/LM01/C02/T1"
+        }
+      }
+    }
+  },
+  "MSS_L2": {
+    "id": "MSS_L2",
+    "name": "Multispectral Scanner System",
+    "acronym": "MSS",
+    "type": "multispectral",
+    "platform_type": "satellite",
+    "platform": [
+      "Landsat 2"
+    ],
+    "operator": [
+      "NASA",
+      "NOAA"
+    ],
+    "start_date": "1975-01-22",
+    "end_date": "1982-02-25",
+    "status": "retired",
+    "availability": "public",
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "data_links": [
+      "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-2/data-access-tools",
+      "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
+    ],
+    "extensions": {
+      "spectral": {
+        "bands": {
+          "B4": {
+            "center_wavelength": 550,
+            "bandwidth": 100,
+            "band_description": "Green",
+            "gsd": 60
+          },
+          "B5": {
+            "center_wavelength": 650,
+            "bandwidth": 100,
+            "band_description": "Red",
+            "gsd": 60
+          },
+          "B6": {
+            "center_wavelength": 750,
+            "bandwidth": 100,
+            "band_description": "NIR",
+            "gsd": 60
+          },
+          "B7": {
+            "center_wavelength": 950,
+            "bandwidth": 300,
+            "band_description": "NIR 2",
+            "gsd": 60
+          }
+        }
+      },
+      "ee": {
+        "primary": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
+          "collection": "LANDSAT/LM02/C02/T1"
+        },
+        "raw": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
+          "collection": "LANDSAT/LM02/C02/T1"
+        }
+      }
+    }
+  },
+  "MSS_L3": {
+    "id": "MSS_L3",
+    "name": "Multispectral Scanner System",
+    "acronym": "MSS",
+    "type": "multispectral",
+    "platform_type": "satellite",
+    "platform": [
+      "Landsat 3"
+    ],
+    "operator": [
+      "NASA"
+    ],
+    "start_date": "1978-03-05",
+    "end_date": "1983-09-07",
+    "status": "retired",
+    "availability": "public",
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "data_links": [
+      "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-3/data-access-tools",
+      "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1"
+    ],
+    "extensions": {
+      "spectral": {
+        "bands": {
+          "B4": {
+            "center_wavelength": 550,
+            "bandwidth": 100,
+            "band_description": "Green",
+            "gsd": 60
+          },
+          "B5": {
+            "center_wavelength": 650,
+            "bandwidth": 100,
+            "band_description": "Red",
+            "gsd": 60
+          },
+          "B6": {
+            "center_wavelength": 750,
+            "bandwidth": 100,
+            "band_description": "NIR",
+            "gsd": 60
+          },
+          "B7": {
+            "center_wavelength": 950,
+            "bandwidth": 300,
+            "band_description": "NIR 2",
+            "gsd": 60
+          }
+        }
+      },
+      "ee": {
+        "primary": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
+          "collection": "LANDSAT/LM03/C02/T1"
+        },
+        "raw": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
+          "collection": "LANDSAT/LM03/C02/T1"
+        }
+      }
+    }
+  },
+  "MSS_L4": {
+    "id": "MSS_L4",
+    "name": "Multispectral Scanner System",
+    "acronym": "MSS",
+    "type": "multispectral",
+    "platform_type": "satellite",
+    "platform": [
+      "Landsat 4"
+    ],
+    "operator": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "1982-07-16",
+    "end_date": "2001-06-15",
+    "status": "retired",
+    "availability": "public",
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "data_links": [
+      "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-4/data-access-tools",
+      "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1"
+    ],
+    "extensions": {
+      "spectral": {
+        "bands": {
+          "B1": {
+            "center_wavelength": 550,
+            "bandwidth": 100,
+            "band_description": "Green",
+            "gsd": 60
+          },
+          "B2": {
+            "center_wavelength": 650,
+            "bandwidth": 100,
+            "band_description": "Red",
+            "gsd": 60
+          },
+          "B3": {
+            "center_wavelength": 750,
+            "bandwidth": 100,
+            "band_description": "NIR",
+            "gsd": 60
+          },
+          "B4": {
+            "center_wavelength": 950,
+            "bandwidth": 300,
+            "band_description": "NIR 2",
+            "gsd": 60
+          }
+        }
+      },
+      "ee": {
+        "primary": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
+          "collection": "LANDSAT/LM04/C02/T1"
+        },
+        "raw": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
+          "collection": "LANDSAT/LM04/C02/T1"
+        }
+      }
+    }
+  },
+  "MSS_L5": {
+    "id": "MSS_L5",
+    "name": "Multispectral Scanner System",
+    "acronym": "MSS",
+    "type": "multispectral",
+    "platform_type": "satellite",
+    "platform": [
+      "Landsat 5"
+    ],
+    "operator": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "1984-03-01",
+    "end_date": "2013-06-05",
+    "status": "retired",
+    "availability": "public",
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "data_links": [
+      "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-5/data-access-tools",
+      "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1"
+    ],
+    "extensions": {
+      "spectral": {
+        "bands": {
+          "B1": {
+            "center_wavelength": 550,
+            "bandwidth": 100,
+            "band_description": "Green",
+            "gsd": 60
+          },
+          "B2": {
+            "center_wavelength": 650,
+            "bandwidth": 100,
+            "band_description": "Red",
+            "gsd": 60
+          },
+          "B3": {
+            "center_wavelength": 750,
+            "bandwidth": 100,
+            "band_description": "NIR",
+            "gsd": 60
+          },
+          "B4": {
+            "center_wavelength": 950,
+            "bandwidth": 300,
+            "band_description": "NIR 2",
+            "gsd": 60
+          }
+        }
+      },
+      "ee": {
+        "primary": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
+          "collection": "LANDSAT/LM05/C02/T1"
+        },
+        "raw": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
+          "collection": "LANDSAT/LM05/C02/T1"
+        }
+      }
+    }
   }
 }
