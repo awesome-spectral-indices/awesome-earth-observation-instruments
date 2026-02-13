@@ -47,6 +47,27 @@ def _srf_csv_to_object(filename: str) -> dict[str, list[Any]]:
     return output
 
 
+def _bands_from_range(range_payload: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    minimum = float(range_payload["min"])
+    maximum = float(range_payload["max"])
+    total_bands = int(range_payload["total_bands"])
+    if total_bands <= 0:
+        raise ValueError("spectral.range.total_bands must be greater than 0.")
+    if maximum <= minimum:
+        raise ValueError("spectral.range.max must be greater than spectral.range.min.")
+
+    bandwidth = (maximum - minimum) / total_bands
+    bands: dict[str, dict[str, Any]] = {}
+    for idx in range(total_bands):
+        band_name = f"B{idx + 1}"
+        center_wavelength = minimum + (idx + 0.5) * bandwidth
+        bands[band_name] = {
+            "center_wavelength": center_wavelength,
+            "bandwidth": bandwidth,
+        }
+    return bands
+
+
 def _materialize_spectral_csvs(instrument: dict[str, Any]) -> dict[str, Any]:
     result = json.loads(json.dumps(instrument))
     spectral = result.get("extensions", {}).get("spectral")
@@ -56,6 +77,10 @@ def _materialize_spectral_csvs(instrument: dict[str, Any]) -> dict[str, Any]:
     bands_value = spectral.get("bands")
     if isinstance(bands_value, str):
         spectral["bands"] = _bands_csv_to_object(bands_value)
+    elif "bands" not in spectral and isinstance(spectral.get("range"), dict):
+        range_payload = spectral["range"]
+        if "total_bands" in range_payload and "min" in range_payload and "max" in range_payload:
+            spectral["bands"] = _bands_from_range(range_payload)
 
     srf_value = spectral.get("spectral_response_function")
     if isinstance(srf_value, str):

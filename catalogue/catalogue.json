@@ -1,4 +1,1204 @@
 {
+  "EMIT": {
+    "id": "EMIT",
+    "name": "Earth Surface Mineral Dust Source Investigation",
+    "acronym": "EMIT",
+    "type": "hyperspectral",
+    "platform_type": "satellite",
+    "platform": [
+      "ISS"
+    ],
+    "operator": [
+      "NASA"
+    ],
+    "start_date": "2022-08-09",
+    "status": "operational",
+    "availability": "public",
+    "references": [
+      "https://earth.jpl.nasa.gov/emit/",
+      "https://earth.jpl.nasa.gov/emit/instrument/overview/",
+      "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer/spectral-bands"
+    ],
+    "data_links": [
+      "https://www.earthdata.nasa.gov/data/catalog/lpcloud-emitl1brad-001",
+      "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD",
+      "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
+    ],
+    "extensions": {
+      "spectral": {
+        "range": {
+          "min": 381,
+          "max": 2493,
+          "total_bands": 285
+        },
+        "bands": {
+          "B1": {
+            "center_wavelength": 384.70526315789476,
+            "bandwidth": 7.410526315789474
+          },
+          "B2": {
+            "center_wavelength": 392.11578947368423,
+            "bandwidth": 7.410526315789474
+          },
+          "B3": {
+            "center_wavelength": 399.5263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B4": {
+            "center_wavelength": 406.93684210526317,
+            "bandwidth": 7.410526315789474
+          },
+          "B5": {
+            "center_wavelength": 414.34736842105264,
+            "bandwidth": 7.410526315789474
+          },
+          "B6": {
+            "center_wavelength": 421.7578947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B7": {
+            "center_wavelength": 429.1684210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B8": {
+            "center_wavelength": 436.57894736842104,
+            "bandwidth": 7.410526315789474
+          },
+          "B9": {
+            "center_wavelength": 443.9894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B10": {
+            "center_wavelength": 451.4,
+            "bandwidth": 7.410526315789474
+          },
+          "B11": {
+            "center_wavelength": 458.8105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B12": {
+            "center_wavelength": 466.2210526315789,
+            "bandwidth": 7.410526315789474
+          },
+          "B13": {
+            "center_wavelength": 473.63157894736844,
+            "bandwidth": 7.410526315789474
+          },
+          "B14": {
+            "center_wavelength": 481.0421052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B15": {
+            "center_wavelength": 488.4526315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B16": {
+            "center_wavelength": 495.86315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B17": {
+            "center_wavelength": 503.2736842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B18": {
+            "center_wavelength": 510.6842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B19": {
+            "center_wavelength": 518.0947368421052,
+            "bandwidth": 7.410526315789474
+          },
+          "B20": {
+            "center_wavelength": 525.5052631578948,
+            "bandwidth": 7.410526315789474
+          },
+          "B21": {
+            "center_wavelength": 532.9157894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B22": {
+            "center_wavelength": 540.3263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B23": {
+            "center_wavelength": 547.7368421052631,
+            "bandwidth": 7.410526315789474
+          },
+          "B24": {
+            "center_wavelength": 555.1473684210526,
+            "bandwidth": 7.410526315789474
+          },
+          "B25": {
+            "center_wavelength": 562.5578947368422,
+            "bandwidth": 7.410526315789474
+          },
+          "B26": {
+            "center_wavelength": 569.9684210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B27": {
+            "center_wavelength": 577.378947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B28": {
+            "center_wavelength": 584.7894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B29": {
+            "center_wavelength": 592.2,
+            "bandwidth": 7.410526315789474
+          },
+          "B30": {
+            "center_wavelength": 599.6105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B31": {
+            "center_wavelength": 607.021052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B32": {
+            "center_wavelength": 614.4315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B33": {
+            "center_wavelength": 621.8421052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B34": {
+            "center_wavelength": 629.2526315789473,
+            "bandwidth": 7.410526315789474
+          },
+          "B35": {
+            "center_wavelength": 636.6631578947369,
+            "bandwidth": 7.410526315789474
+          },
+          "B36": {
+            "center_wavelength": 644.0736842105264,
+            "bandwidth": 7.410526315789474
+          },
+          "B37": {
+            "center_wavelength": 651.4842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B38": {
+            "center_wavelength": 658.8947368421052,
+            "bandwidth": 7.410526315789474
+          },
+          "B39": {
+            "center_wavelength": 666.3052631578947,
+            "bandwidth": 7.410526315789474
+          },
+          "B40": {
+            "center_wavelength": 673.7157894736843,
+            "bandwidth": 7.410526315789474
+          },
+          "B41": {
+            "center_wavelength": 681.1263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B42": {
+            "center_wavelength": 688.5368421052631,
+            "bandwidth": 7.410526315789474
+          },
+          "B43": {
+            "center_wavelength": 695.9473684210526,
+            "bandwidth": 7.410526315789474
+          },
+          "B44": {
+            "center_wavelength": 703.3578947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B45": {
+            "center_wavelength": 710.7684210526315,
+            "bandwidth": 7.410526315789474
+          },
+          "B46": {
+            "center_wavelength": 718.1789473684211,
+            "bandwidth": 7.410526315789474
+          },
+          "B47": {
+            "center_wavelength": 725.5894736842106,
+            "bandwidth": 7.410526315789474
+          },
+          "B48": {
+            "center_wavelength": 733.0,
+            "bandwidth": 7.410526315789474
+          },
+          "B49": {
+            "center_wavelength": 740.4105263157894,
+            "bandwidth": 7.410526315789474
+          },
+          "B50": {
+            "center_wavelength": 747.8210526315789,
+            "bandwidth": 7.410526315789474
+          },
+          "B51": {
+            "center_wavelength": 755.2315789473685,
+            "bandwidth": 7.410526315789474
+          },
+          "B52": {
+            "center_wavelength": 762.6421052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B53": {
+            "center_wavelength": 770.0526315789473,
+            "bandwidth": 7.410526315789474
+          },
+          "B54": {
+            "center_wavelength": 777.4631578947369,
+            "bandwidth": 7.410526315789474
+          },
+          "B55": {
+            "center_wavelength": 784.8736842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B56": {
+            "center_wavelength": 792.2842105263157,
+            "bandwidth": 7.410526315789474
+          },
+          "B57": {
+            "center_wavelength": 799.6947368421053,
+            "bandwidth": 7.410526315789474
+          },
+          "B58": {
+            "center_wavelength": 807.1052631578948,
+            "bandwidth": 7.410526315789474
+          },
+          "B59": {
+            "center_wavelength": 814.5157894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B60": {
+            "center_wavelength": 821.9263157894736,
+            "bandwidth": 7.410526315789474
+          },
+          "B61": {
+            "center_wavelength": 829.3368421052631,
+            "bandwidth": 7.410526315789474
+          },
+          "B62": {
+            "center_wavelength": 836.7473684210527,
+            "bandwidth": 7.410526315789474
+          },
+          "B63": {
+            "center_wavelength": 844.1578947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B64": {
+            "center_wavelength": 851.5684210526315,
+            "bandwidth": 7.410526315789474
+          },
+          "B65": {
+            "center_wavelength": 858.9789473684211,
+            "bandwidth": 7.410526315789474
+          },
+          "B66": {
+            "center_wavelength": 866.3894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B67": {
+            "center_wavelength": 873.8,
+            "bandwidth": 7.410526315789474
+          },
+          "B68": {
+            "center_wavelength": 881.2105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B69": {
+            "center_wavelength": 888.621052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B70": {
+            "center_wavelength": 896.0315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B71": {
+            "center_wavelength": 903.4421052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B72": {
+            "center_wavelength": 910.8526315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B73": {
+            "center_wavelength": 918.2631578947369,
+            "bandwidth": 7.410526315789474
+          },
+          "B74": {
+            "center_wavelength": 925.6736842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B75": {
+            "center_wavelength": 933.0842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B76": {
+            "center_wavelength": 940.4947368421052,
+            "bandwidth": 7.410526315789474
+          },
+          "B77": {
+            "center_wavelength": 947.9052631578948,
+            "bandwidth": 7.410526315789474
+          },
+          "B78": {
+            "center_wavelength": 955.3157894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B79": {
+            "center_wavelength": 962.7263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B80": {
+            "center_wavelength": 970.1368421052631,
+            "bandwidth": 7.410526315789474
+          },
+          "B81": {
+            "center_wavelength": 977.5473684210526,
+            "bandwidth": 7.410526315789474
+          },
+          "B82": {
+            "center_wavelength": 984.9578947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B83": {
+            "center_wavelength": 992.3684210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B84": {
+            "center_wavelength": 999.7789473684211,
+            "bandwidth": 7.410526315789474
+          },
+          "B85": {
+            "center_wavelength": 1007.1894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B86": {
+            "center_wavelength": 1014.6,
+            "bandwidth": 7.410526315789474
+          },
+          "B87": {
+            "center_wavelength": 1022.0105263157894,
+            "bandwidth": 7.410526315789474
+          },
+          "B88": {
+            "center_wavelength": 1029.421052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B89": {
+            "center_wavelength": 1036.8315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B90": {
+            "center_wavelength": 1044.242105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B91": {
+            "center_wavelength": 1051.6526315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B92": {
+            "center_wavelength": 1059.0631578947368,
+            "bandwidth": 7.410526315789474
+          },
+          "B93": {
+            "center_wavelength": 1066.4736842105262,
+            "bandwidth": 7.410526315789474
+          },
+          "B94": {
+            "center_wavelength": 1073.8842105263157,
+            "bandwidth": 7.410526315789474
+          },
+          "B95": {
+            "center_wavelength": 1081.2947368421053,
+            "bandwidth": 7.410526315789474
+          },
+          "B96": {
+            "center_wavelength": 1088.7052631578947,
+            "bandwidth": 7.410526315789474
+          },
+          "B97": {
+            "center_wavelength": 1096.1157894736843,
+            "bandwidth": 7.410526315789474
+          },
+          "B98": {
+            "center_wavelength": 1103.5263157894738,
+            "bandwidth": 7.410526315789474
+          },
+          "B99": {
+            "center_wavelength": 1110.9368421052632,
+            "bandwidth": 7.410526315789474
+          },
+          "B100": {
+            "center_wavelength": 1118.3473684210526,
+            "bandwidth": 7.410526315789474
+          },
+          "B101": {
+            "center_wavelength": 1125.757894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B102": {
+            "center_wavelength": 1133.1684210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B103": {
+            "center_wavelength": 1140.578947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B104": {
+            "center_wavelength": 1147.9894736842107,
+            "bandwidth": 7.410526315789474
+          },
+          "B105": {
+            "center_wavelength": 1155.4,
+            "bandwidth": 7.410526315789474
+          },
+          "B106": {
+            "center_wavelength": 1162.8105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B107": {
+            "center_wavelength": 1170.221052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B108": {
+            "center_wavelength": 1177.6315789473683,
+            "bandwidth": 7.410526315789474
+          },
+          "B109": {
+            "center_wavelength": 1185.0421052631577,
+            "bandwidth": 7.410526315789474
+          },
+          "B110": {
+            "center_wavelength": 1192.4526315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B111": {
+            "center_wavelength": 1199.8631578947368,
+            "bandwidth": 7.410526315789474
+          },
+          "B112": {
+            "center_wavelength": 1207.2736842105264,
+            "bandwidth": 7.410526315789474
+          },
+          "B113": {
+            "center_wavelength": 1214.6842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B114": {
+            "center_wavelength": 1222.0947368421052,
+            "bandwidth": 7.410526315789474
+          },
+          "B115": {
+            "center_wavelength": 1229.5052631578947,
+            "bandwidth": 7.410526315789474
+          },
+          "B116": {
+            "center_wavelength": 1236.915789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B117": {
+            "center_wavelength": 1244.3263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B118": {
+            "center_wavelength": 1251.7368421052631,
+            "bandwidth": 7.410526315789474
+          },
+          "B119": {
+            "center_wavelength": 1259.1473684210528,
+            "bandwidth": 7.410526315789474
+          },
+          "B120": {
+            "center_wavelength": 1266.5578947368422,
+            "bandwidth": 7.410526315789474
+          },
+          "B121": {
+            "center_wavelength": 1273.9684210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B122": {
+            "center_wavelength": 1281.378947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B123": {
+            "center_wavelength": 1288.7894736842104,
+            "bandwidth": 7.410526315789474
+          },
+          "B124": {
+            "center_wavelength": 1296.2,
+            "bandwidth": 7.410526315789474
+          },
+          "B125": {
+            "center_wavelength": 1303.6105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B126": {
+            "center_wavelength": 1311.021052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B127": {
+            "center_wavelength": 1318.4315789473685,
+            "bandwidth": 7.410526315789474
+          },
+          "B128": {
+            "center_wavelength": 1325.842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B129": {
+            "center_wavelength": 1333.2526315789473,
+            "bandwidth": 7.410526315789474
+          },
+          "B130": {
+            "center_wavelength": 1340.6631578947367,
+            "bandwidth": 7.410526315789474
+          },
+          "B131": {
+            "center_wavelength": 1348.0736842105262,
+            "bandwidth": 7.410526315789474
+          },
+          "B132": {
+            "center_wavelength": 1355.4842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B133": {
+            "center_wavelength": 1362.8947368421052,
+            "bandwidth": 7.410526315789474
+          },
+          "B134": {
+            "center_wavelength": 1370.3052631578948,
+            "bandwidth": 7.410526315789474
+          },
+          "B135": {
+            "center_wavelength": 1377.7157894736843,
+            "bandwidth": 7.410526315789474
+          },
+          "B136": {
+            "center_wavelength": 1385.1263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B137": {
+            "center_wavelength": 1392.536842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B138": {
+            "center_wavelength": 1399.9473684210525,
+            "bandwidth": 7.410526315789474
+          },
+          "B139": {
+            "center_wavelength": 1407.3578947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B140": {
+            "center_wavelength": 1414.7684210526315,
+            "bandwidth": 7.410526315789474
+          },
+          "B141": {
+            "center_wavelength": 1422.178947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B142": {
+            "center_wavelength": 1429.5894736842106,
+            "bandwidth": 7.410526315789474
+          },
+          "B143": {
+            "center_wavelength": 1437.0,
+            "bandwidth": 7.410526315789474
+          },
+          "B144": {
+            "center_wavelength": 1444.4105263157894,
+            "bandwidth": 7.410526315789474
+          },
+          "B145": {
+            "center_wavelength": 1451.821052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B146": {
+            "center_wavelength": 1459.2315789473685,
+            "bandwidth": 7.410526315789474
+          },
+          "B147": {
+            "center_wavelength": 1466.6421052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B148": {
+            "center_wavelength": 1474.0526315789473,
+            "bandwidth": 7.410526315789474
+          },
+          "B149": {
+            "center_wavelength": 1481.463157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B150": {
+            "center_wavelength": 1488.8736842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B151": {
+            "center_wavelength": 1496.2842105263157,
+            "bandwidth": 7.410526315789474
+          },
+          "B152": {
+            "center_wavelength": 1503.6947368421052,
+            "bandwidth": 7.410526315789474
+          },
+          "B153": {
+            "center_wavelength": 1511.1052631578948,
+            "bandwidth": 7.410526315789474
+          },
+          "B154": {
+            "center_wavelength": 1518.5157894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B155": {
+            "center_wavelength": 1525.9263157894736,
+            "bandwidth": 7.410526315789474
+          },
+          "B156": {
+            "center_wavelength": 1533.3368421052633,
+            "bandwidth": 7.410526315789474
+          },
+          "B157": {
+            "center_wavelength": 1540.7473684210527,
+            "bandwidth": 7.410526315789474
+          },
+          "B158": {
+            "center_wavelength": 1548.157894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B159": {
+            "center_wavelength": 1555.5684210526315,
+            "bandwidth": 7.410526315789474
+          },
+          "B160": {
+            "center_wavelength": 1562.9789473684211,
+            "bandwidth": 7.410526315789474
+          },
+          "B161": {
+            "center_wavelength": 1570.3894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B162": {
+            "center_wavelength": 1577.8,
+            "bandwidth": 7.410526315789474
+          },
+          "B163": {
+            "center_wavelength": 1585.2105263157894,
+            "bandwidth": 7.410526315789474
+          },
+          "B164": {
+            "center_wavelength": 1592.621052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B165": {
+            "center_wavelength": 1600.0315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B166": {
+            "center_wavelength": 1607.4421052631578,
+            "bandwidth": 7.410526315789474
+          },
+          "B167": {
+            "center_wavelength": 1614.8526315789475,
+            "bandwidth": 7.410526315789474
+          },
+          "B168": {
+            "center_wavelength": 1622.2631578947369,
+            "bandwidth": 7.410526315789474
+          },
+          "B169": {
+            "center_wavelength": 1629.6736842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B170": {
+            "center_wavelength": 1637.0842105263157,
+            "bandwidth": 7.410526315789474
+          },
+          "B171": {
+            "center_wavelength": 1644.4947368421053,
+            "bandwidth": 7.410526315789474
+          },
+          "B172": {
+            "center_wavelength": 1651.9052631578948,
+            "bandwidth": 7.410526315789474
+          },
+          "B173": {
+            "center_wavelength": 1659.3157894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B174": {
+            "center_wavelength": 1666.7263157894736,
+            "bandwidth": 7.410526315789474
+          },
+          "B175": {
+            "center_wavelength": 1674.1368421052632,
+            "bandwidth": 7.410526315789474
+          },
+          "B176": {
+            "center_wavelength": 1681.5473684210526,
+            "bandwidth": 7.410526315789474
+          },
+          "B177": {
+            "center_wavelength": 1688.957894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B178": {
+            "center_wavelength": 1696.3684210526317,
+            "bandwidth": 7.410526315789474
+          },
+          "B179": {
+            "center_wavelength": 1703.778947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B180": {
+            "center_wavelength": 1711.1894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B181": {
+            "center_wavelength": 1718.6,
+            "bandwidth": 7.410526315789474
+          },
+          "B182": {
+            "center_wavelength": 1726.0105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B183": {
+            "center_wavelength": 1733.421052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B184": {
+            "center_wavelength": 1740.8315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B185": {
+            "center_wavelength": 1748.2421052631578,
+            "bandwidth": 7.410526315789474
+          },
+          "B186": {
+            "center_wavelength": 1755.6526315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B187": {
+            "center_wavelength": 1763.0631578947368,
+            "bandwidth": 7.410526315789474
+          },
+          "B188": {
+            "center_wavelength": 1770.4736842105262,
+            "bandwidth": 7.410526315789474
+          },
+          "B189": {
+            "center_wavelength": 1777.8842105263159,
+            "bandwidth": 7.410526315789474
+          },
+          "B190": {
+            "center_wavelength": 1785.2947368421053,
+            "bandwidth": 7.410526315789474
+          },
+          "B191": {
+            "center_wavelength": 1792.7052631578947,
+            "bandwidth": 7.410526315789474
+          },
+          "B192": {
+            "center_wavelength": 1800.1157894736841,
+            "bandwidth": 7.410526315789474
+          },
+          "B193": {
+            "center_wavelength": 1807.5263157894738,
+            "bandwidth": 7.410526315789474
+          },
+          "B194": {
+            "center_wavelength": 1814.9368421052632,
+            "bandwidth": 7.410526315789474
+          },
+          "B195": {
+            "center_wavelength": 1822.3473684210526,
+            "bandwidth": 7.410526315789474
+          },
+          "B196": {
+            "center_wavelength": 1829.757894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B197": {
+            "center_wavelength": 1837.1684210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B198": {
+            "center_wavelength": 1844.578947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B199": {
+            "center_wavelength": 1851.9894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B200": {
+            "center_wavelength": 1859.4,
+            "bandwidth": 7.410526315789474
+          },
+          "B201": {
+            "center_wavelength": 1866.8105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B202": {
+            "center_wavelength": 1874.221052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B203": {
+            "center_wavelength": 1881.6315789473683,
+            "bandwidth": 7.410526315789474
+          },
+          "B204": {
+            "center_wavelength": 1889.042105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B205": {
+            "center_wavelength": 1896.4526315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B206": {
+            "center_wavelength": 1903.8631578947368,
+            "bandwidth": 7.410526315789474
+          },
+          "B207": {
+            "center_wavelength": 1911.2736842105262,
+            "bandwidth": 7.410526315789474
+          },
+          "B208": {
+            "center_wavelength": 1918.6842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B209": {
+            "center_wavelength": 1926.0947368421052,
+            "bandwidth": 7.410526315789474
+          },
+          "B210": {
+            "center_wavelength": 1933.5052631578947,
+            "bandwidth": 7.410526315789474
+          },
+          "B211": {
+            "center_wavelength": 1940.9157894736843,
+            "bandwidth": 7.410526315789474
+          },
+          "B212": {
+            "center_wavelength": 1948.3263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B213": {
+            "center_wavelength": 1955.7368421052631,
+            "bandwidth": 7.410526315789474
+          },
+          "B214": {
+            "center_wavelength": 1963.1473684210525,
+            "bandwidth": 7.410526315789474
+          },
+          "B215": {
+            "center_wavelength": 1970.5578947368422,
+            "bandwidth": 7.410526315789474
+          },
+          "B216": {
+            "center_wavelength": 1977.9684210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B217": {
+            "center_wavelength": 1985.378947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B218": {
+            "center_wavelength": 1992.7894736842104,
+            "bandwidth": 7.410526315789474
+          },
+          "B219": {
+            "center_wavelength": 2000.2,
+            "bandwidth": 7.410526315789474
+          },
+          "B220": {
+            "center_wavelength": 2007.6105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B221": {
+            "center_wavelength": 2015.0210526315789,
+            "bandwidth": 7.410526315789474
+          },
+          "B222": {
+            "center_wavelength": 2022.4315789473685,
+            "bandwidth": 7.410526315789474
+          },
+          "B223": {
+            "center_wavelength": 2029.842105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B224": {
+            "center_wavelength": 2037.2526315789473,
+            "bandwidth": 7.410526315789474
+          },
+          "B225": {
+            "center_wavelength": 2044.6631578947367,
+            "bandwidth": 7.410526315789474
+          },
+          "B226": {
+            "center_wavelength": 2052.073684210526,
+            "bandwidth": 7.410526315789474
+          },
+          "B227": {
+            "center_wavelength": 2059.484210526316,
+            "bandwidth": 7.410526315789474
+          },
+          "B228": {
+            "center_wavelength": 2066.894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B229": {
+            "center_wavelength": 2074.305263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B230": {
+            "center_wavelength": 2081.7157894736843,
+            "bandwidth": 7.410526315789474
+          },
+          "B231": {
+            "center_wavelength": 2089.1263157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B232": {
+            "center_wavelength": 2096.536842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B233": {
+            "center_wavelength": 2103.9473684210525,
+            "bandwidth": 7.410526315789474
+          },
+          "B234": {
+            "center_wavelength": 2111.3578947368424,
+            "bandwidth": 7.410526315789474
+          },
+          "B235": {
+            "center_wavelength": 2118.7684210526313,
+            "bandwidth": 7.410526315789474
+          },
+          "B236": {
+            "center_wavelength": 2126.178947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B237": {
+            "center_wavelength": 2133.5894736842106,
+            "bandwidth": 7.410526315789474
+          },
+          "B238": {
+            "center_wavelength": 2141.0,
+            "bandwidth": 7.410526315789474
+          },
+          "B239": {
+            "center_wavelength": 2148.4105263157894,
+            "bandwidth": 7.410526315789474
+          },
+          "B240": {
+            "center_wavelength": 2155.821052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B241": {
+            "center_wavelength": 2163.2315789473687,
+            "bandwidth": 7.410526315789474
+          },
+          "B242": {
+            "center_wavelength": 2170.6421052631576,
+            "bandwidth": 7.410526315789474
+          },
+          "B243": {
+            "center_wavelength": 2178.0526315789475,
+            "bandwidth": 7.410526315789474
+          },
+          "B244": {
+            "center_wavelength": 2185.463157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B245": {
+            "center_wavelength": 2192.8736842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B246": {
+            "center_wavelength": 2200.2842105263157,
+            "bandwidth": 7.410526315789474
+          },
+          "B247": {
+            "center_wavelength": 2207.694736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B248": {
+            "center_wavelength": 2215.105263157895,
+            "bandwidth": 7.410526315789474
+          },
+          "B249": {
+            "center_wavelength": 2222.515789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B250": {
+            "center_wavelength": 2229.926315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B251": {
+            "center_wavelength": 2237.336842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B252": {
+            "center_wavelength": 2244.7473684210527,
+            "bandwidth": 7.410526315789474
+          },
+          "B253": {
+            "center_wavelength": 2252.157894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B254": {
+            "center_wavelength": 2259.5684210526315,
+            "bandwidth": 7.410526315789474
+          },
+          "B255": {
+            "center_wavelength": 2266.9789473684214,
+            "bandwidth": 7.410526315789474
+          },
+          "B256": {
+            "center_wavelength": 2274.3894736842103,
+            "bandwidth": 7.410526315789474
+          },
+          "B257": {
+            "center_wavelength": 2281.8,
+            "bandwidth": 7.410526315789474
+          },
+          "B258": {
+            "center_wavelength": 2289.210526315789,
+            "bandwidth": 7.410526315789474
+          },
+          "B259": {
+            "center_wavelength": 2296.621052631579,
+            "bandwidth": 7.410526315789474
+          },
+          "B260": {
+            "center_wavelength": 2304.0315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B261": {
+            "center_wavelength": 2311.442105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B262": {
+            "center_wavelength": 2318.8526315789477,
+            "bandwidth": 7.410526315789474
+          },
+          "B263": {
+            "center_wavelength": 2326.2631578947367,
+            "bandwidth": 7.410526315789474
+          },
+          "B264": {
+            "center_wavelength": 2333.6736842105265,
+            "bandwidth": 7.410526315789474
+          },
+          "B265": {
+            "center_wavelength": 2341.0842105263155,
+            "bandwidth": 7.410526315789474
+          },
+          "B266": {
+            "center_wavelength": 2348.4947368421053,
+            "bandwidth": 7.410526315789474
+          },
+          "B267": {
+            "center_wavelength": 2355.9052631578948,
+            "bandwidth": 7.410526315789474
+          },
+          "B268": {
+            "center_wavelength": 2363.315789473684,
+            "bandwidth": 7.410526315789474
+          },
+          "B269": {
+            "center_wavelength": 2370.7263157894736,
+            "bandwidth": 7.410526315789474
+          },
+          "B270": {
+            "center_wavelength": 2378.136842105263,
+            "bandwidth": 7.410526315789474
+          },
+          "B271": {
+            "center_wavelength": 2385.547368421053,
+            "bandwidth": 7.410526315789474
+          },
+          "B272": {
+            "center_wavelength": 2392.957894736842,
+            "bandwidth": 7.410526315789474
+          },
+          "B273": {
+            "center_wavelength": 2400.3684210526317,
+            "bandwidth": 7.410526315789474
+          },
+          "B274": {
+            "center_wavelength": 2407.778947368421,
+            "bandwidth": 7.410526315789474
+          },
+          "B275": {
+            "center_wavelength": 2415.1894736842105,
+            "bandwidth": 7.410526315789474
+          },
+          "B276": {
+            "center_wavelength": 2422.6,
+            "bandwidth": 7.410526315789474
+          },
+          "B277": {
+            "center_wavelength": 2430.0105263157893,
+            "bandwidth": 7.410526315789474
+          },
+          "B278": {
+            "center_wavelength": 2437.4210526315787,
+            "bandwidth": 7.410526315789474
+          },
+          "B279": {
+            "center_wavelength": 2444.8315789473686,
+            "bandwidth": 7.410526315789474
+          },
+          "B280": {
+            "center_wavelength": 2452.242105263158,
+            "bandwidth": 7.410526315789474
+          },
+          "B281": {
+            "center_wavelength": 2459.6526315789474,
+            "bandwidth": 7.410526315789474
+          },
+          "B282": {
+            "center_wavelength": 2467.063157894737,
+            "bandwidth": 7.410526315789474
+          },
+          "B283": {
+            "center_wavelength": 2474.4736842105262,
+            "bandwidth": 7.410526315789474
+          },
+          "B284": {
+            "center_wavelength": 2481.8842105263157,
+            "bandwidth": 7.410526315789474
+          },
+          "B285": {
+            "center_wavelength": 2489.294736842105,
+            "bandwidth": 7.410526315789474
+          }
+        }
+      },
+      "imaging": {
+        "fnumber": 1.8,
+        "across_fov": 11,
+        "across_ifov": 155,
+        "along_ifov": 71,
+        "focal_length": 193.5,
+        "entrance_pupil": 110,
+        "gsd": 60
+      },
+      "ee": {
+        "primary": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
+          "collection": "NASA/EMIT/L2A/RFL"
+        },
+        "raw": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD",
+          "collection": "NASA/EMIT/L1B/RAD"
+        },
+        "boa": {
+          "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
+          "collection": "NASA/EMIT/L2A/RFL"
+        }
+      }
+    }
+  },
   "MSI_S2A": {
     "id": "MSI_S2A",
     "name": "MultiSpectral Instrument",
