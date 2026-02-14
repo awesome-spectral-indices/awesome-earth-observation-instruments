@@ -11,11 +11,11 @@ CATALOGUE_PATH = REPO_ROOT / "catalogue" / "catalogue.json"
 README_PATH = REPO_ROOT / "README.md"
 PLATFORM_CATEGORIES = ["satellite", "airborne", "uav", "terrestrial"]
 INSTRUMENT_TYPES = ["multispectral", "hyperspectral", "radar", "lidar", "rgb", "other"]
-STATUS_COLORS = {
-    "operational": "green",
-    "planned": "purple",
-    "experimental": "goldenrod",
-    "retired": "red",
+STATUS_EMOJIS = {
+    "operational": ":white_check_mark:",
+    "planned": ":stars:",
+    "experimental": ":warning:",
+    "retired": ":no_entry:",
 }
 
 
@@ -37,11 +37,11 @@ def _normalize_platform_type(value: str) -> str:
 
 
 def _status_cell(status: str) -> str:
-    color = STATUS_COLORS.get(status.lower())
+    emoji = STATUS_EMOJIS.get(status.lower())
     label = _escape_markdown_cell(status)
-    if not color:
+    if not emoji:
         return f"**{label}**"
-    return f"<span style='color:{color}'><strong>{label}</strong></span>"
+    return f"**{label} {emoji}**"
 
 
 def _docs_link(url: str) -> str:
