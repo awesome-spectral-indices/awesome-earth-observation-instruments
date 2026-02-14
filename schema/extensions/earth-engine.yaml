@@ -10,6 +10,7 @@ properties:
 
   primary:
     type: object
+    description: Primary Earth Engine dataset metadata for this instrument
     additionalProperties: false
     required:
       - docs
@@ -24,6 +25,7 @@ properties:
   
   raw:
     type: object
+    description: Optional Earth Engine metadata for raw (unprocessed) products
     additionalProperties: false
     required:
       - docs
@@ -38,6 +40,7 @@ properties:
 
   boa:
     type: object
+    description: Optional Earth Engine metadata for bottom-of-atmosphere (BOA) products
     additionalProperties: false
     required:
       - docs
@@ -52,6 +55,7 @@ properties:
 
   toa:
     type: object
+    description: Optional Earth Engine metadata for top-of-atmosphere (TOA) products
     additionalProperties: false
     required:
       - docs

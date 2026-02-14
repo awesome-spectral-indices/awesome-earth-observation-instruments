@@ -11,11 +11,12 @@ properties:
 
   stac_endpoint:
     type: string
-    description: Planetary Computer STAC endpoint
+    description: Planetary Computer STAC API endpoint
     const: "https://planetarycomputer.microsoft.com/api/stac/v1"
 
   primary:
     type: object
+    description: Primary Planetary Computer dataset metadata for this instrument
     additionalProperties: false
     required:
       - docs
@@ -30,6 +31,7 @@ properties:
 
   raw:
     type: object
+    description: Optional Planetary Computer metadata for raw (unprocessed) products
     additionalProperties: false
     required:
       - docs
@@ -44,6 +46,7 @@ properties:
 
   boa:
     type: object
+    description: Optional Planetary Computer metadata for bottom-of-atmosphere (BOA) products
     additionalProperties: false
     required:
       - docs
@@ -58,6 +61,7 @@ properties:
 
   toa:
     type: object
+    description: Optional Planetary Computer metadata for top-of-atmosphere (TOA) products
     additionalProperties: false
     required:
       - docs

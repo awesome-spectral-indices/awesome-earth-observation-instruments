@@ -47,4 +47,4 @@ properties:
 
   gsd:
     type: number
-    description: Ground Sampling Distance (m). If GSD differs across bands, update the CSV file of bands
+    description: Ground Sampling Distance (m). If GSD varies by band, define per-band values in the spectral bands data

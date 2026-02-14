@@ -32,6 +32,7 @@ properties:
 
   type:
     type: string
+    description: Instrument sensing modality category
     enum:
       - multispectral
       - hyperspectral
@@ -42,6 +43,7 @@ properties:
 
   platform_type:
     type: string
+    description: Platform class carrying the instrument
     enum:
       - satellite
       - airborne
@@ -77,6 +79,7 @@ properties:
 
   status:
     type: string
+    description: Operational lifecycle state of the instrument
     enum:
       - operational
       - retired
@@ -106,21 +109,26 @@ properties:
 
   data_links:
     type: array
-    description: URLs of data links for teh instrument
+    description: URLs where instrument data products can be accessed
     items:
       type: string 
 
   extensions:
     type: object
+    description: Optional extension blocks with domain-specific properties
     additionalProperties: false
     properties:
       spectral:
-        $ref: /extensions/spectral    
+        description: Spectral characteristics extension
+        $ref: /extensions/spectral
       imaging:
-        $ref: /extensions/imaging    
+        description: Imaging and optical characteristics extension
+        $ref: /extensions/imaging
       ee:
+        description: Google Earth Engine access metadata extension
         $ref: /extensions/earth-engine
       planetary_computer:
+        description: Microsoft Planetary Computer access metadata extension
         $ref: /extensions/planetary-computer
 
 additionalProperties: false

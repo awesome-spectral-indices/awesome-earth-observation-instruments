@@ -6,16 +6,18 @@ type: object
 properties:
 
   bands:
+    description: Band definitions provided inline or via a CSV file
     oneOf:
       # External CSV
       - type: string
-        description: Filename of the Bands CSV file (with extension)
+        description: Filename of the bands CSV file (with extension)
 
       # Inline band definitions
       - type: object
-        description: Dictionary of spectral bands keyed by band identifier
+        description: Dictionary of spectral bands keyed by band identifier (e.g., B1, B2)
         additionalProperties:
           type: object
+          description: Properties describing a single spectral band
           additionalProperties: false
           required:
             - center_wavelength
@@ -68,6 +70,7 @@ properties:
 
   range:
     type: object
+    description: Continuous spectral coverage metadata for instruments without explicit bands
     additionalProperties: false
     required:
       - min
@@ -95,7 +98,7 @@ properties:
 
   spectral_response_function:
     type: string
-    description: Filename of the Spectral Response Function (SRF) CSV file (with extension)
+    description: Filename of the spectral response function (SRF) CSV file (with extension)
 
 allOf:
   - oneOf:
