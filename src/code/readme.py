@@ -3,12 +3,23 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import Any
+import yaml
 
 from validators import REPO_ROOT
 
 DOCS_DIR = REPO_ROOT / "docs"
 CATALOGUE_PATH = REPO_ROOT / "catalogue" / "catalogue.json"
 README_PATH = REPO_ROOT / "README.md"
+SCHEMA_TABLES = [
+    ("Core Schema", REPO_ROOT / "schema" / "core" / "core.yaml"),
+    ("Spectral Extension", REPO_ROOT / "schema" / "extensions" / "spectral.yaml"),
+    ("Imaging Extension", REPO_ROOT / "schema" / "extensions" / "imaging.yaml"),
+    ("Earth Engine Extension", REPO_ROOT / "schema" / "extensions" / "earth-engine.yaml"),
+    (
+        "Planetary Computer Extension",
+        REPO_ROOT / "schema" / "extensions" / "planetary-computer.yaml",
+    ),
+]
 PLATFORM_CATEGORIES = ["satellite", "airborne", "uav", "terrestrial"]
 INSTRUMENT_TYPES = ["multispectral", "hyperspectral", "radar", "lidar", "rgb", "other"]
 STATUS_EMOJIS = {
@@ -27,6 +38,52 @@ def _read_text(path: Path, default: str = "") -> str:
 
 def _escape_markdown_cell(value: str) -> str:
     return value.replace("|", "\\|")
+
+
+def _schema_type(schema_property: dict[str, Any]) -> str:
+    if "type" in schema_property:
+        value = schema_property["type"]
+        return ", ".join(value) if isinstance(value, list) else str(value)
+    if "oneOf" in schema_property:
+        return "oneOf"
+    if "anyOf" in schema_property:
+        return "anyOf"
+    if "$ref" in schema_property:
+        return f"ref: {schema_property['$ref']}"
+    return "unspecified"
+
+
+def _build_schema_table(title: str, schema_path: Path) -> str:
+    data = yaml.safe_load(schema_path.read_text(encoding="utf-8"))
+    properties: dict[str, dict[str, Any]] = data.get("properties", {})
+    required = set(data.get("required", []))
+    rel_path = schema_path.relative_to(REPO_ROOT).as_posix()
+
+    rows = [
+        f"## {title} ([`{rel_path}`]({rel_path}))",
+        "",
+        "| Property | Required | Type | Description |",
+        "| --- | --- | --- | --- |",
+    ]
+
+    for prop in properties:
+        schema_prop = properties[prop]
+        prop_name = f"**{prop}**" if prop in required else prop
+        required_cell = "**Yes**" if prop in required else "No"
+        type_cell = _schema_type(schema_prop)
+        description = str(schema_prop.get("description", ""))
+        row_cells = [
+            _escape_markdown_cell(prop_name),
+            _escape_markdown_cell(required_cell),
+            _escape_markdown_cell(type_cell),
+            _escape_markdown_cell(description),
+        ]
+        rows.append(f"| {' | '.join(row_cells)} |")
+    return "\n".join(rows)
+
+
+def _build_schema_sections() -> str:
+    return "\n\n".join(_build_schema_table(title, path) for title, path in SCHEMA_TABLES)
 
 
 def _normalize_platform_type(value: str) -> str:
@@ -136,9 +193,10 @@ def generate_readme(
     footer = _read_text(DOCS_DIR / "FOOTER.md")
 
     catalogue = json.loads(catalogue_path.read_text(encoding="utf-8"))
+    schema_sections = _build_schema_sections()
     sections = _build_catalogue_sections(catalogue)
 
-    parts = [p for p in [header, sections, footer] if p]
+    parts = [p for p in [header, schema_sections, sections, footer] if p]
     content = "\n\n".join(parts).rstrip() + "\n"
     readme_path.write_text(content, encoding="utf-8")
     return content
