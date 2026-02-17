@@ -1,0 +1,49 @@
+id: TM_L4
+name: Thematic Mapper
+acronym: TM
+type: multispectral
+platform_type: satellite
+platform:
+  - Landsat 4
+operator:
+  - NASA
+  - USGS
+start_date: 1982-07-16
+end_date: 2001-06-15
+status: retired
+availability: public
+references:
+  - "https://science.nasa.gov/mission/landsat/tm/"
+
+data_links:
+  - "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-4/data-access-tools"
+  - "https://developers.google.com/earth-engine/datasets/catalog/landsat-4"
+
+extensions:
+
+  spectral:
+    bands: TM45_BANDS.csv
+    spectral_response_function: TM_L4_SRF.csv
+    
+  ee:
+    primary:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2"
+      collection: "LANDSAT/LT04/C02/T1_L2"      
+    raw:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1"
+      collection: "LANDSAT/LT04/C02/T1"
+    toa:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA"
+      collection: "LANDSAT/LT04/C02/T1_TOA"
+    boa:
+      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2"
+      collection: "LANDSAT/LT04/C02/T1_L2"
+
+  planetary_computer:
+    stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
+    primary:
+      docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
+      collection: "landsat-c2-l2"
+    boa:
+      docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
+      collection: "landsat-c2-l2"
