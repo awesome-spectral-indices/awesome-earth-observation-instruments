@@ -1,0 +1,8 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd
+B1,485,70,Blue,blue,30
+B2,560,80,Green,green,30
+B3,660,60,Red,red,30
+B4,830,140,NIR,nir,30
+B5,1650,200,SWIR,swir16,30
+B6,11455,2090,TIR,lwir,120
+B7,2215,270,SWIR 2,swir22,30

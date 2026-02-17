@@ -22,6 +22,7 @@ extensions:
 
   spectral:
     bands: MSS123_BANDS.csv
+    spectral_response_function: MSS_L3_SRF.csv
     
   ee:
     primary:
