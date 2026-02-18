@@ -1,0 +1,3 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd
+B10,10900,600,TIR 1,lwir11,30
+B11,12000,1000,TIR 2,lwir12,30
