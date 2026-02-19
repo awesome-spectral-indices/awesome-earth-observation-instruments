@@ -30,7 +30,34 @@
 
 ---
 
-## Core Schema ([`schema/core/core.yaml`](schema/core/core.yaml))
+# Earth Observation
+
+Earth observation (EO) instruments measure our planet from satellites, aircraft, drones, and ground systems.
+They capture information about land, oceans, atmosphere, ice, and human activity, helping both experts and the public understand environmental change.
+
+This catalogue organizes EO instrument metadata in a consistent, machine-readable format.
+The goal is to make comparison, discovery, and downstream use easier for research, operations, and education.
+
+# Schema
+
+The core schema defines the common metadata required for every instrument, such as identifier, platform, status, operators, and reference links.
+Using a single core structure improves interoperability across missions, agencies, and processing systems.
+
+In practical terms, the core schema makes data exchange more reliable:
+- developers can validate files automatically,
+- analysts can query instrument metadata consistently,
+- users can trace information back to references and data access links.
+
+Additionally, we added some extensions to the core schema. They add domain-specific details without changing the core model:
+- `spectral` for band and wavelength information,
+- `imaging` for optical and geometric parameters,
+- `earth-engine` for Google Earth Engine access metadata,
+- `planetary-computer` for Microsoft Planetary Computer access metadata.
+
+This modular design keeps the catalogue flexible.
+Simple instruments can use only the core fields, while advanced instruments can provide richer spectral and platform access details.
+
+### Core Schema ([`schema/core/core.yaml`](schema/core/core.yaml))
 
 | Property | Required | Type | Description |
 | --- | --- | --- | --- |
@@ -50,7 +77,7 @@
 | data_links | No | array | URLs where instrument data products can be accessed |
 | extensions | No | object | Optional extension blocks with domain-specific properties |
 
-## Spectral Extension ([`schema/extensions/spectral.yaml`](schema/extensions/spectral.yaml))
+### Spectral Extension ([`schema/extensions/spectral.yaml`](schema/extensions/spectral.yaml))
 
 | Property | Required | Type | Description |
 | --- | --- | --- | --- |
@@ -58,7 +85,7 @@
 | range | No | object | Continuous spectral coverage metadata for instruments without explicit bands |
 | spectral_response_function | No | string | Filename of the spectral response function (SRF) CSV file (with extension) |
 
-## Imaging Extension ([`schema/extensions/imaging.yaml`](schema/extensions/imaging.yaml))
+### Imaging Extension ([`schema/extensions/imaging.yaml`](schema/extensions/imaging.yaml))
 
 | Property | Required | Type | Description |
 | --- | --- | --- | --- |
@@ -74,7 +101,7 @@
 | fnumber | No | number | F-number |
 | gsd | No | number | Ground Sampling Distance (m). If GSD varies by band, define per-band values in the spectral bands data |
 
-## Earth Engine Extension ([`schema/extensions/earth-engine.yaml`](schema/extensions/earth-engine.yaml))
+### Earth Engine Extension ([`schema/extensions/earth-engine.yaml`](schema/extensions/earth-engine.yaml))
 
 | Property | Required | Type | Description |
 | --- | --- | --- | --- |
@@ -83,7 +110,7 @@
 | boa | No | object | Optional Earth Engine metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional Earth Engine metadata for top-of-atmosphere (TOA) products |
 
-## Planetary Computer Extension ([`schema/extensions/planetary-computer.yaml`](schema/extensions/planetary-computer.yaml))
+### Planetary Computer Extension ([`schema/extensions/planetary-computer.yaml`](schema/extensions/planetary-computer.yaml))
 
 | Property | Required | Type | Description |
 | --- | --- | --- | --- |
@@ -93,7 +120,21 @@
 | boa | No | object | Optional Planetary Computer metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional Planetary Computer metadata for top-of-atmosphere (TOA) products |
 
+# Catalogue
+
+This section organizes instruments by platform type and sensing modality to make discovery and comparison easier.
+Use the table of contents below to jump directly to available categories and subcategories.
+
+## Table of Contents
+- [Satellite Instruments](#catalogue-satellite-instruments)
+  - [Multispectral](#catalogue-satellite-multispectral)
+  - [Hyperspectral](#catalogue-satellite-hyperspectral)
+
+<a id="catalogue-satellite-instruments"></a>
+
 ## Satellite Instruments
+
+<a id="catalogue-satellite-multispectral"></a>
 
 ### Multispectral
 
@@ -114,6 +155,8 @@
 | [TIRS_L8](https://science.nasa.gov/mission/landsat/tirs/) | Thermal Infrared Sensor | Landsat 8 | **operational :white_check_mark:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2) | [:link: link](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) |
 | [TM_L4](https://science.nasa.gov/mission/landsat/tm/) | Thematic Mapper | Landsat 4 | **retired :no_entry:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2) | [:link: link](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) |
 | [TM_L5](https://science.nasa.gov/mission/landsat/tm/) | Thematic Mapper | Landsat 5 | **retired :no_entry:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2) | [:link: link](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) |
+
+<a id="catalogue-satellite-hyperspectral"></a>
 
 ### Hyperspectral
 

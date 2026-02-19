@@ -60,7 +60,7 @@ def _build_schema_table(title: str, schema_path: Path) -> str:
     rel_path = schema_path.relative_to(REPO_ROOT).as_posix()
 
     rows = [
-        f"## {title} ([`{rel_path}`]({rel_path}))",
+        f"### {title} ([`{rel_path}`]({rel_path}))",
         "",
         "| Property | Required | Type | Description |",
         "| --- | --- | --- | --- |",
@@ -163,7 +163,11 @@ def _build_catalogue_sections(catalogue: dict[str, dict[str, Any]]) -> str:
         if not platform_entries:
             continue
 
-        section_parts: list[str] = [f"## {platform.title()} Instruments"]
+        category_id = f"catalogue-{platform}-instruments"
+        section_parts: list[str] = [
+            f"<a id=\"{category_id}\"></a>",
+            f"## {platform.title()} Instruments",
+        ]
         for instrument_type in INSTRUMENT_TYPES:
             type_entries = [
                 (instrument_id, instrument)
@@ -172,12 +176,54 @@ def _build_catalogue_sections(catalogue: dict[str, dict[str, Any]]) -> str:
             ]
             if not type_entries:
                 continue
+            subcategory_id = f"catalogue-{platform}-{instrument_type}"
+            section_parts.append(f"<a id=\"{subcategory_id}\"></a>")
             section_parts.append(f"### {instrument_type.title()}")
             section_parts.append(_table_for_group(type_entries))
 
         if len(section_parts) > 1:
             sections.append("\n\n".join(section_parts))
     return "\n\n".join(sections)
+
+
+def _catalogue_groups(
+    catalogue: dict[str, dict[str, Any]],
+) -> list[tuple[str, list[str]]]:
+    groups: list[tuple[str, list[str]]] = []
+    for platform in PLATFORM_CATEGORIES:
+        platform_entries = [
+            instrument
+            for _, instrument in catalogue.items()
+            if _normalize_platform_type(str(instrument.get("platform_type", ""))) == platform
+        ]
+        if not platform_entries:
+            continue
+
+        available_types = []
+        for instrument_type in INSTRUMENT_TYPES:
+            if any(str(i.get("type", "")).lower() == instrument_type for i in platform_entries):
+                available_types.append(instrument_type)
+        if available_types:
+            groups.append((platform, available_types))
+    return groups
+
+
+def _catalogue_intro_and_toc(catalogue: dict[str, dict[str, Any]]) -> str:
+    groups = _catalogue_groups(catalogue)
+    lines = [
+        "# Catalogue",
+        "",
+        "This section organizes instruments by platform type and sensing modality to make discovery and comparison easier.",
+        "Use the table of contents below to jump directly to available categories and subcategories.",
+        "",
+        "## Table of Contents",
+    ]
+    for platform, instrument_types in groups:
+        category_title = f"{platform.title()} Instruments"
+        lines.append(f"- [{category_title}](#catalogue-{platform}-instruments)")
+        for instrument_type in instrument_types:
+            lines.append(f"  - [{instrument_type.title()}](#catalogue-{platform}-{instrument_type})")
+    return "\n".join(lines)
 
 
 def generate_readme(
@@ -190,13 +236,15 @@ def generate_readme(
         )
 
     header = _read_text(DOCS_DIR / "HEADER.md")
+    body = _read_text(DOCS_DIR / "BODY.md")
     footer = _read_text(DOCS_DIR / "FOOTER.md")
 
     catalogue = json.loads(catalogue_path.read_text(encoding="utf-8"))
     schema_sections = _build_schema_sections()
+    catalogue_intro = _catalogue_intro_and_toc(catalogue)
     sections = _build_catalogue_sections(catalogue)
 
-    parts = [p for p in [header, schema_sections, sections, footer] if p]
+    parts = [p for p in [header, body, schema_sections, catalogue_intro, sections, footer] if p]
     content = "\n\n".join(parts).rstrip() + "\n"
     readme_path.write_text(content, encoding="utf-8")
     return content
