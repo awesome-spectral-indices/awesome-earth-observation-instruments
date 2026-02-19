@@ -239,7 +239,10 @@ def generate_readme(
     body = _read_text(DOCS_DIR / "BODY.md")
     footer = _read_text(DOCS_DIR / "FOOTER.md")
 
-    catalogue = json.loads(catalogue_path.read_text(encoding="utf-8"))
+    catalogue_doc = json.loads(catalogue_path.read_text(encoding="utf-8"))
+    catalogue = catalogue_doc.get("instruments", catalogue_doc)
+    if not isinstance(catalogue, dict):
+        raise ValueError("Invalid catalogue format: 'instruments' must be an object.")
     schema_sections = _build_schema_sections()
     catalogue_intro = _catalogue_intro_and_toc(catalogue)
     sections = _build_catalogue_sections(catalogue)

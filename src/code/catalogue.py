@@ -10,6 +10,12 @@ from validators import BANDS_DIR, INSTRUMENTS_DIR, REPO_ROOT, SRF_DIR, validate_
 
 CATALOGUE_DIR = REPO_ROOT / "catalogue"
 CATALOGUE_PATH = CATALOGUE_DIR / "catalogue.json"
+PYPROJECT_PATH = REPO_ROOT / "pyproject.toml"
+CATALOGUE_NAME = "Awesome Earth Observation Instruments"
+CATALOGUE_LINK = (
+    "https://raw.githubusercontent.com/awesome-spectral-indices/"
+    "awesome-earth-observation-instruments/main/catalogue/catalogue.json"
+)
 
 
 def _to_python_scalar(value: Any) -> Any:
@@ -88,15 +94,40 @@ def _materialize_spectral_csvs(instrument: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
+def _project_version(pyproject_path: Path = PYPROJECT_PATH) -> str:
+    if not pyproject_path.exists():
+        raise FileNotFoundError(f"{pyproject_path.as_posix()} not found.")
+
+    in_project = False
+    for line in pyproject_path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        if stripped.startswith("[") and stripped.endswith("]"):
+            in_project = stripped == "[project]"
+            continue
+        if in_project and stripped.startswith("version"):
+            _, value = stripped.split("=", 1)
+            return value.strip().strip("\"'")
+    raise ValueError("Could not find [project].version in pyproject.toml.")
+
+
 def generate_catalogue(
     instruments_dir: Path = INSTRUMENTS_DIR,
     output_path: Path = CATALOGUE_PATH,
-) -> dict[str, dict[str, Any]]:
-    catalogue: dict[str, dict[str, Any]] = {}
+) -> dict[str, Any]:
+    instruments: dict[str, dict[str, Any]] = {}
     for instrument_path in sorted(instruments_dir.glob("*.yaml")):
         validated = validate_instrument(instrument_path)
         materialized = _materialize_spectral_csvs(validated)
-        catalogue[materialized["id"]] = materialized
+        instruments[materialized["id"]] = materialized
+
+    catalogue = {
+        "name": CATALOGUE_NAME,
+        "version": _project_version(),
+        "link": CATALOGUE_LINK,
+        "instruments": instruments,
+    }
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as handle:
