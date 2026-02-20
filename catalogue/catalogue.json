@@ -1,7 +1,7 @@
 {
   "name": "Awesome Earth Observation Instruments",
   "version": "0.1.0",
-  "link": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/catalogue/catalogue.json",
+  "link": "https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/raw/refs/heads/main/catalogue/catalogue.json",
   "instruments": {
     "EMIT": {
       "id": "EMIT",

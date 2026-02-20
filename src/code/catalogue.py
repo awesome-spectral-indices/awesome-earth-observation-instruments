@@ -13,8 +13,8 @@ CATALOGUE_PATH = CATALOGUE_DIR / "catalogue.json"
 PYPROJECT_PATH = REPO_ROOT / "pyproject.toml"
 CATALOGUE_NAME = "Awesome Earth Observation Instruments"
 CATALOGUE_LINK = (
-    "https://raw.githubusercontent.com/awesome-spectral-indices/"
-    "awesome-earth-observation-instruments/main/catalogue/catalogue.json"
+    "https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/"
+    "raw/refs/heads/main/catalogue/catalogue.json"
 )
 
 
