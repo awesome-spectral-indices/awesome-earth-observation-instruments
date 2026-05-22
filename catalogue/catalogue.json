@@ -117320,7 +117320,7 @@
               "center_wavelength": 865,
               "bandwidth": 30,
               "band_description": "NIR",
-              "common_name": "nir",
+              "common_name": "nir08",
               "gsd": 30
             },
             "B6": {
@@ -126564,7 +126564,7 @@
               "center_wavelength": 865,
               "bandwidth": 30,
               "band_description": "NIR",
-              "common_name": "nir",
+              "common_name": "nir08",
               "gsd": 30
             },
             "B6": {

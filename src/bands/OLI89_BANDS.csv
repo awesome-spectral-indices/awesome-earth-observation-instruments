@@ -3,7 +3,7 @@ B1,440,20,Aerosol,coastal,30
 B2,480,60,Blue,blue,30
 B3,560,60,Green,green,30
 B4,655,30,Red,red,30
-B5,865,30,NIR,nir,30
+B5,865,30,NIR,nir08,30
 B6,1610,80,SWIR,swir16,30
 B7,2200,180,SWIR 2,swir22,30
 B8,590,180,Panchromatic,pan,15
