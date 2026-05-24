@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: /extensions/planetary-computer
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/planetary-computer.yaml
 title: Planetary Computer Extension
 type: object
 

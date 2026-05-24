@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: /extensions/imaging
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/imaging.yaml
 title: Imaging Extension
 type: object
 

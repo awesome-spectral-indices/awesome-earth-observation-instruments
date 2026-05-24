@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: file:///core/core
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/core/core.yaml
 title: Earth Observation Sensor
 type: object
 
@@ -120,15 +120,15 @@ properties:
     properties:
       spectral:
         description: Spectral characteristics extension
-        $ref: /extensions/spectral
+        $ref: ../extensions/spectral.yaml
       imaging:
         description: Imaging and optical characteristics extension
-        $ref: /extensions/imaging
+        $ref: ../extensions/imaging.yaml
       ee:
         description: Google Earth Engine access metadata extension
-        $ref: /extensions/earth-engine
+        $ref: ../extensions/earth-engine.yaml
       planetary_computer:
         description: Microsoft Planetary Computer access metadata extension
-        $ref: /extensions/planetary-computer
+        $ref: ../extensions/planetary-computer.yaml
 
 additionalProperties: false
