@@ -24,3 +24,5 @@ Additionally, we added some extensions to the core schema. They add domain-speci
 
 This modular design keeps the catalogue flexible.
 Simple instruments can use only the core fields, while advanced instruments can provide richer spectral and platform access details.
+
+See the [schema specification](SCHEMA.md) for the complete list of core and extension properties.

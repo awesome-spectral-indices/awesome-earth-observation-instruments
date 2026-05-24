@@ -10,6 +10,7 @@ from validators import REPO_ROOT
 DOCS_DIR = REPO_ROOT / "docs"
 CATALOGUE_PATH = REPO_ROOT / "catalogue" / "catalogue.json"
 README_PATH = REPO_ROOT / "README.md"
+SCHEMA_PATH = REPO_ROOT / "SCHEMA.md"
 SCHEMA_TABLES = [
     ("Core Schema", REPO_ROOT / "schema" / "core" / "core.yaml"),
     ("Spectral Extension", REPO_ROOT / "schema" / "extensions" / "spectral.yaml"),
@@ -60,7 +61,7 @@ def _build_schema_table(title: str, schema_path: Path) -> str:
     rel_path = schema_path.relative_to(REPO_ROOT).as_posix()
 
     rows = [
-        f"### {title} ([`{rel_path}`]({rel_path}))",
+        f"## {title} ([`{rel_path}`]({rel_path}))",
         "",
         "| Property | Required | Type | Description |",
         "| --- | --- | --- | --- |",
@@ -84,6 +85,17 @@ def _build_schema_table(title: str, schema_path: Path) -> str:
 
 def _build_schema_sections() -> str:
     return "\n\n".join(_build_schema_table(title, path) for title, path in SCHEMA_TABLES)
+
+
+def generate_schema_document(schema_path: Path = SCHEMA_PATH) -> str:
+    parts = [
+        "# Schema Specification",
+        "The tables below summarize the properties defined by the core schema and its extensions.",
+        _build_schema_sections(),
+    ]
+    content = "\n\n".join(parts).rstrip() + "\n"
+    schema_path.write_text(content, encoding="utf-8")
+    return content
 
 
 def _normalize_platform_type(value: str) -> str:
@@ -243,15 +255,15 @@ def generate_readme(
     catalogue = catalogue_doc.get("instruments", catalogue_doc)
     if not isinstance(catalogue, dict):
         raise ValueError("Invalid catalogue format: 'instruments' must be an object.")
-    schema_sections = _build_schema_sections()
     catalogue_intro = _catalogue_intro_and_toc(catalogue)
     sections = _build_catalogue_sections(catalogue)
 
-    parts = [p for p in [header, body, schema_sections, catalogue_intro, sections, footer] if p]
+    parts = [p for p in [header, body, catalogue_intro, sections, footer] if p]
     content = "\n\n".join(parts).rstrip() + "\n"
     readme_path.write_text(content, encoding="utf-8")
     return content
 
 
 if __name__ == "__main__":
+    generate_schema_document()
     generate_readme()

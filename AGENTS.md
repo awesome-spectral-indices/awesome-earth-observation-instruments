@@ -14,14 +14,15 @@ machine-readable catalogue of Earth Observation (EO) instruments.
 | `src/srf/*.csv` | Optional spectral response functions (SRFs) |
 | `src/code/validators.py` | Source input validation |
 | `src/code/catalogue.py` | JSON catalogue generation |
-| `src/code/readme.py` | Root `README.md` generation |
+| `src/code/readme.py` | Root `README.md` and `SCHEMA.md` generation |
 | `catalogue/catalogue.json` | Generated catalogue output |
+| `SCHEMA.md` | Generated schema specification tables |
 | `docs/HEADER.md`, `docs/BODY.md`, `docs/FOOTER.md` | README source sections |
 | `pyproject.toml` | Project metadata, version, and runtime dependencies |
 
 ## Editing Rules
 
-- Treat `README.md` and `catalogue/catalogue.json` as generated files. Update
+- Treat `README.md`, `SCHEMA.md`, and `catalogue/catalogue.json` as generated files. Update
   their source or generator, then regenerate them.
 - Do not change files in `schema/` unless the task explicitly requires schema
   changes. If a schema change becomes necessary but was not requested, ask first.
@@ -74,22 +75,24 @@ Transformation rules:
   `spectral.bands` as `B1` through `Bn`, using `min`, `max`, and `total_bands`
   to calculate `center_wavelength` and `bandwidth`.
 
-## README Generation
+## Documentation Generation
 
-`src/code/readme.py` generates the root `README.md` from the catalogue, schemas,
-and documentation fragments in this order:
+`src/code/readme.py` generates the root `README.md` from the catalogue and
+documentation fragments in this order:
 
 1. `docs/HEADER.md`
 2. `docs/BODY.md`
-3. Schema tables: one for the core schema and one for each extension, with a
-   title link to its YAML file. Columns: `Property`, `Required`, `Type`,
-   `Description`. Bold required property names and `Yes` values.
-4. A first-level `# Catalogue` section with a short introduction and a table of
+3. A first-level `# Catalogue` section with a short introduction and a table of
    contents containing only existing platform/type groupings.
-5. Instrument tables grouped by platform type (`satellite`, `airborne`, `uav`,
+4. Instrument tables grouped by platform type (`satellite`, `airborne`, `uav`,
    `terrestrial`) and then instrument type (`multispectral`, `hyperspectral`,
    `radar`, `lidar`, `rgb`, `other`). Omit empty groups.
-6. `docs/FOOTER.md`
+5. `docs/FOOTER.md`
+
+The same script generates root `SCHEMA.md` with one table for the core schema
+and one for each extension. Each table title links to its YAML source. Columns:
+`Property`, `Required`, `Type`, `Description`. Bold required property names and
+`Yes` values. `docs/BODY.md` should link readers to `SCHEMA.md`.
 
 Instrument table columns:
 
@@ -108,5 +111,5 @@ After changes that affect source inputs, schemas, or generators:
 
 1. Run validation for all instrument source files.
 2. Regenerate `catalogue/catalogue.json`.
-3. Regenerate `README.md`.
+3. Regenerate `README.md` and `SCHEMA.md`.
 4. Confirm generated output reflects the requested change.
