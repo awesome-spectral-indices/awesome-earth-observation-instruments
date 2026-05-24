@@ -1,66 +1,112 @@
-# Info and instructions for AI agents in this repository
+# Agent Guide
 
-This repository contains the source inputs for the creation of an open catalogue of Earth Observation instruments.
+This repository is the source for **Awesome Earth Observation Instruments**, a
+machine-readable catalogue of Earth Observation (EO) instruments.
 
-## Repo structure
+## Repository Map
 
-- /schema/: folder with schemas in YAML files. There is a core schema and extensions (subschemas).
-- /src/: source inputs: bands, instruments, srf (spectral response functions), and code.
-- /catalogue/: folder for the output catalogue in JSON format.
-- /docs/: folder with documentation in Markdown.
-- /README.md: Readme file of the repo. Read this document for context. DO NOT CHANGE THIS FILE. This readme is created autimatically from /src/code/readme.py
-- /pyproject.toml: Minimal configuration file for packaging, includes all dependencies required to run the code for validating and generating the catalogue and generating the README. It also includes version and name of the catalogue "Awesome Earth Observation Instruments".
+| Path | Purpose |
+| --- | --- |
+| `schema/core/core.yaml` | Core instrument schema |
+| `schema/extensions/*.yaml` | Spectral, imaging, Earth Engine, and Planetary Computer extensions |
+| `src/instruments/*.yaml` | One source record per instrument |
+| `src/bands/*.csv` | Optional external spectral-band definitions |
+| `src/srf/*.csv` | Optional spectral response functions (SRFs) |
+| `src/code/validators.py` | Source input validation |
+| `src/code/catalogue.py` | JSON catalogue generation |
+| `src/code/readme.py` | Root `README.md` generation |
+| `catalogue/catalogue.json` | Generated catalogue output |
+| `docs/HEADER.md`, `docs/BODY.md`, `docs/FOOTER.md` | README source sections |
+| `pyproject.toml` | Project metadata, version, and runtime dependencies |
 
-## Schemas
+## Editing Rules
 
-### Core schema
+- Treat `README.md` and `catalogue/catalogue.json` as generated files. Update
+  their source or generator, then regenerate them.
+- Do not change files in `schema/` unless the task explicitly requires schema
+  changes. If a schema change becomes necessary but was not requested, ask first.
+- Keep schema property descriptions clear, formal, and suitable for EO users.
+- Use `src/instruments/`, `src/bands/`, and `src/srf/` as the authoritative
+  source inputs; do not manually edit transformed data in the generated catalogue.
+- Keep `pyproject.toml` minimal and ensure it lists dependencies required by the
+  validation and generation scripts.
 
-- /schema/core/core.yaml is the core schema of instruments. It contains identifiers and general characteristics for an instrument. Read this and make sure descriptions are clear and formal. Do not change the schema unless specified. Always ask when you need to make changes here.
+## Validation Requirements
 
-### Extensions
+`src/code/validators.py` must validate every YAML file in `src/instruments/`.
 
-- /schema/extensions/spectral.yaml is the spectral extension. It contains spectral characteristics for an instrument. Read this for context and make sure descriptions are clear and formal. Do not change the subschema unless specified. Always ask when you need to make changes here.
-- /schema/extensions/imaging.yaml is the imaging extension. It contains imaging and optical characteristics of an instrument. Read this for context and make sure descriptions are clear and formal. Do not change the subschema unless specified. Always ask when you need to make changes here. 
-- /schema/extensions/earth-engine.yaml is the Earth Engine extension. It contains data access data for Earth Engine for an instrument. Read this for context and make sure descriptions are clear and formal. Do not change the subschema unless specified. Always ask when you need to make changes here.
-- /schema/extensions/planetary-computer.yaml is the Planetary Computer extension. It contains data access data for Planetary Computer for an instrument. Read this for context and make sure descriptions are clear and formal. Do not change the subschema unless specified. Always ask when you need to make changes here. 
+It must provide:
 
-## Source Inputs
+1. Core and extension schema validation.
+2. Spectral extension validation, when present:
+   - `bands` as CSV: the file must exist in `src/bands/`, and CSV columns/values
+     must validate as the inline `bands` schema representation.
+   - `range`: `min` and `max` must be non-negative, and `min < max`.
+   - `spectral_response_function`: the CSV must exist in `src/srf/`, include a
+     `wavelength` column, and its band columns must match the spectral bands.
 
-### Instruments
+## Catalogue Generation
 
-- /src/instruments/ contains the input information for each instrument as a YAML file each. You don't need to read these files as they are validated afterwards.
+`src/code/catalogue.py` generates `catalogue/catalogue.json` only after input
+validation passes.
 
-### Bands
+The output structure is:
 
-- /src/bands/ contains bands information for each instrument if the "bands" property of the spectral extension is specified as a CSV file instead of an object. You don't need to read these files as they are validated afterwards.
+```json
+{
+  "name": "Awesome Earth Observation Instruments",
+  "version": "<version from pyproject.toml>",
+  "link": "<URL to catalogue/catalogue.json>",
+  "instruments": {
+    "<instrument id>": "<complete transformed instrument object>"
+  }
+}
+```
 
-### Spectral Response Functions
+Transformation rules:
 
-- /src/srf/ contains spectral response function information for each instrument if the "spectral_response_function" property of the spectral extension was specified. This property is always specified as a CSV file. You don't need to read these files as they are validated afterwards.
+- Convert a CSV `spectral.bands` value to the inline dictionary form defined by
+  `schema/extensions/spectral.yaml`.
+- Convert `spectral.spectral_response_function` CSV content to an object keyed
+  by column name, with each column represented as an array. All arrays must have
+  equal length.
+- When `spectral.range` is supplied instead of `spectral.bands`, create
+  `spectral.bands` as `B1` through `Bn`, using `min`, `max`, and `total_bands`
+  to calculate `center_wavelength` and `bandwidth`.
 
-### Code
+## README Generation
 
-#### Validators
+`src/code/readme.py` generates the root `README.md` from the catalogue, schemas,
+and documentation fragments in this order:
 
-- /src/code/validators.py contains the code to validate each instrument represented by a YAML file in /src/instruments/. This code must read each file and validate the schema. If this file does not exist or if the validation is not complete, create it or extend it. The validation should be structured as follows:
-    
-    1. A function for validating the schema.
-    2. A function for validating the spectral extension if it exists:
-        - If there is a bands property: if the bands property is a CSV file, validate if the file exists in /src/bands/ and it should match the same validation as if it were an object property (read /schema/extensions/spectral.yaml for context, column names should be the same as the properties).
-        - If there is a range property: min value should be lower than max value and none of them should be negative.
-        - If there is a spectral_response_function property: validate if the CSV file exists in /src/srf/ and the bands (as columns) should be the same bands specified for the bands property, and it should include a column named wavelength.
+1. `docs/HEADER.md`
+2. `docs/BODY.md`
+3. Schema tables: one for the core schema and one for each extension, with a
+   title link to its YAML file. Columns: `Property`, `Required`, `Type`,
+   `Description`. Bold required property names and `Yes` values.
+4. A first-level `# Catalogue` section with a short introduction and a table of
+   contents containing only existing platform/type groupings.
+5. Instrument tables grouped by platform type (`satellite`, `airborne`, `uav`,
+   `terrestrial`) and then instrument type (`multispectral`, `hyperspectral`,
+   `radar`, `lidar`, `rgb`, `other`). Omit empty groups.
+6. `docs/FOOTER.md`
 
-#### Catalogue Generation
+Instrument table columns:
 
-- /src/code/catalogue.py contains the code to generate the catalogue in a JSON format (catalogue.json) from all instruments in /src/instruments/. After validation passing, this code is run for creating the catalogue. The catalogue is an object in the form of a key-value, the first key is "name" with value "Awesome Earth Observation Instruments", the second key is "version" and the value is the version present in the pyproject.toml, the third key is "link" and it is the URL to the json file, the fourth key is "instruments" and the value is an object now containing the catalogue: in this object, also a key-value data model, the key is the "id" property of each instrument and the value would be the complete object (dictionary) of the instrument. If there are CSV files in the spectral extensions, their information should be transformed into a dictionary form. If the "bands" property of the spectral extension is a CSV file, it should be transformed in a way that matches the object option of that same property. If the "spectral_response_function" property of the spectral extension is passed, it should be transformed into a dictionary where each column name is a key and all the rows of that columns are the value represented as an array. If the "range" property of the spectral extension is passed instead of "bands", an additional "bands" property (in a way that matches the object option of the original "bands" property) in this extension must be created by creating the bands from the "min", "max", and "total_bands" properties of "range": the bands should be named "B1", "B2", ...., "Bn" where n is the number of total bands and center_wavelength and bandwidth should be computed for each band. Note that in spectral_response_function all of the resulting arrays must have the same length. If this file does not exist or if is not complete, create it or extend it.
+| Column | Content |
+| --- | --- |
+| `Id` | Instrument id linked to its first `references` URL |
+| `Name` | Instrument name |
+| `Platforms` | Comma-separated platforms |
+| `Status` | Bold status with emoji: `operational :white_check_mark:`, `planned :stars:`, `experimental :warning:`, `retired :no_entry:` |
+| `Earth Engine` | `[:link: link](docs-url)` for `extensions.ee.primary.docs`, otherwise blank |
+| `Planetary Computer` | `[:link: link](docs-url)` for `extensions.planetary_computer.primary.docs`, otherwise blank |
 
-#### Readme Generation
+## Completion Checklist
 
-- /src/code/readme.py contains the code to create a README.md in the root of the repository. If this code does not exist or if it is incomplete, create it or extend it. Follow this structure:
-    1. Header: this is the HEADER.md located in /docs/.
-    2. Body: this is the BODY.md located in /docs/.
-    3. A set of tables (with titles) for the schemas: A primary table with the core schema, and then a table for each extension (with titles). Each property is a row in the table. The columns are: Property (property name, if the property is required make it bold), Required (Yes or No, if Yes, make it bold), Type (type of the property) Description (use the description of each property). For each table add a link to the title that redirects to the YAML file in the repo.
-    4. The start of the catalogue with "Catalogue" as title using the first level heading "#". Here there should be a short intro to the catalogue with a Table of Contents to the 4 categories and their subcategories, but just if they exist.
-    5. A set of tables (with titles) of instruments by reading the catalogue.json in /catalogue/. There must be 4 categories of tables, each category corresponsing to one of the platform types: satellite, airborne, uav, or terrestrial. Then, within each category there must be a table for each subcategory corresponding to each of the instrument types: multispectral, hyperspectral, radar, lidar, rgb, or other. If a category or subcategory does not exist in the catalogue, then a file for this set is not created. For each table: Each file is an instrument. The columns should be: Id (with a link to the first item in the references property), Name, Platforms (divided by commas), status (bold the text and assign an emoji according to the status: operational - :white_check_mark:, planned - :stars:, experimental - :warning:, retired - :no_entry:) Earth Engine (if it exists, it should be written as "link" with the markdown emoji :link: with a link to the docs of the primary link, if it doesn't, leave it blank), Planetary Computer (if it exists, it should be written as "link" with the markdown emoji :link: with a link to the docs of the primary link, if it doesn't, leave it blank).
-    6. Footer: this is the FOOTER.md located in /docs/.
-        
+After changes that affect source inputs, schemas, or generators:
+
+1. Run validation for all instrument source files.
+2. Regenerate `catalogue/catalogue.json`.
+3. Regenerate `README.md`.
+4. Confirm generated output reflects the requested change.
