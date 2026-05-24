@@ -26,7 +26,5 @@
 
 **GitHub**: <a href="https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments" target="_blank">https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments</a>
 
-**Python Package**: <a href="https://github.com/awesome-spectral-indices/earth-observation" target="_blank">https://github.com/awesome-spectral-indices/earth-observation</a>
-
 ---
 

@@ -26,8 +26,6 @@
 
 **GitHub**: <a href="https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments" target="_blank">https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments</a>
 
-**Python Package**: <a href="https://github.com/awesome-spectral-indices/earth-observation" target="_blank">https://github.com/awesome-spectral-indices/earth-observation</a>
-
 ---
 
 # Earth Observation
@@ -104,4 +102,6 @@ Use the table of contents below to jump directly to available categories and sub
 | [EMIT](https://earth.jpl.nasa.gov/emit/) | Earth Surface Mineral Dust Source Investigation | ISS | **operational :white_check_mark:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL) |  |
 
 ---
-Generated from source files in `src/instruments/` via `src/code/catalogue.py` and `src/code/readme.py`.
+
+> [!WARNING]  
+> This README.md is generated automatically from source files in `src/instruments/` via `src/code/catalogue.py` and `src/code/readme.py`. DO NOT MODIFY THIS FILE DIRECTLY.
