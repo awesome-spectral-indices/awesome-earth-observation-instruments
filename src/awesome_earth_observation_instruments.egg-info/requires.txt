@@ -1,0 +1,4 @@
+pandas>=2.0
+PyYAML>=6.0
+jsonschema>=4.0
+referencing>=0.30
