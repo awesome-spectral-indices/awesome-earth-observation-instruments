@@ -1,0 +1,47 @@
+name: update_files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install .
+
+      - name: generate catalogue
+        run: |
+          python src/code/catalogue.py
+
+      - name: generate docs
+        run: |
+          python src/code/readme.py
+
+      - name: commit changes
+        run: |
+          today=$(date -u +"%Y-%m-%d %H:%M:%S")
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "Updated files ${today} UTC"
+
+      - name: push changes
+        run: |
+          git push
