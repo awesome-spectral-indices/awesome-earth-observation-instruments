@@ -11,6 +11,9 @@
 <a href="https://arxiv.org/abs/2606.13923" target="_blank">
     <img src="https://img.shields.io/badge/arXiv-2606.13923-b31b1b.svg" alt="arXiv">
 </a>
+<a href="https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/actions/workflows/tests.yml" target="_blank">
+    <img src="https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/actions/workflows/tests.yml/badge.svg" alt="Tests">
+</a>
 <a href="https://github.com/sponsors/davemlz" target="_blank">
     <img src="https://img.shields.io/badge/GitHub%20Sponsors-Donate-ff69b4.svg" alt="GitHub Sponsors">
 </a>
