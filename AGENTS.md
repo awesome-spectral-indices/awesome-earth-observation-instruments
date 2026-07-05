@@ -15,6 +15,7 @@ machine-readable catalogue of Earth Observation (EO) instruments.
 | `src/code/validators.py` | Source input validation |
 | `src/code/catalogue.py` | JSON catalogue generation |
 | `src/code/readme.py` | Root `README.md` and `SCHEMA.md` generation |
+| `tests/` | Pytest checks for validation and generated outputs |
 | `catalogue/catalogue.json` | Generated catalogue output |
 | `SCHEMA.md` | Generated schema specification tables |
 | `docs/HEADER.md`, `docs/BODY.md`, `docs/FOOTER.md` | README source sections |
@@ -112,4 +113,5 @@ After changes that affect source inputs, schemas, or generators:
 1. Run validation for all instrument source files.
 2. Regenerate `catalogue/catalogue.json`.
 3. Regenerate `README.md` and `SCHEMA.md`.
-4. Confirm generated output reflects the requested change.
+4. Run `python -m pytest tests`.
+5. Confirm generated output reflects the requested change.

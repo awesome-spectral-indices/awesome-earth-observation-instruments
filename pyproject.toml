@@ -18,3 +18,8 @@ dependencies = [
   "jsonschema>=4.0",
   "referencing>=0.30"
 ]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.0"
+]
