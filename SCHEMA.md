@@ -46,7 +46,14 @@ The tables below summarize the properties defined by the core schema and its ext
 | fnumber | No | number | F-number |
 | gsd | No | number | Ground Sampling Distance (m). If GSD varies by band, define per-band values in the spectral bands data |
 
-## Earth Engine Extension ([`schema/extensions/earth-engine.yaml`](schema/extensions/earth-engine.yaml))
+## Data Access Extension ([`schema/extensions/data-access.yaml`](schema/extensions/data-access.yaml))
+
+| Property | Required | Type | Description |
+| --- | --- | --- | --- |
+| ee | No | ref: data_access_points/earth-engine.yaml | Google Earth Engine access metadata |
+| planetary_computer | No | ref: data_access_points/planetary-computer.yaml | Microsoft Planetary Computer access metadata |
+
+## Earth Engine Access Point ([`schema/extensions/data_access_points/earth-engine.yaml`](schema/extensions/data_access_points/earth-engine.yaml))
 
 | Property | Required | Type | Description |
 | --- | --- | --- | --- |
@@ -55,7 +62,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | boa | No | object | Optional Earth Engine metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional Earth Engine metadata for top-of-atmosphere (TOA) products |
 
-## Planetary Computer Extension ([`schema/extensions/planetary-computer.yaml`](schema/extensions/planetary-computer.yaml))
+## Planetary Computer Access Point ([`schema/extensions/data_access_points/planetary-computer.yaml`](schema/extensions/data_access_points/planetary-computer.yaml))
 
 | Property | Required | Type | Description |
 | --- | --- | --- | --- |

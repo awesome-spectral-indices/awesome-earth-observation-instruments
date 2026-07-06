@@ -15,10 +15,18 @@ SCHEMA_TABLES = [
     ("Core Schema", REPO_ROOT / "schema" / "core" / "core.yaml"),
     ("Spectral Extension", REPO_ROOT / "schema" / "extensions" / "spectral.yaml"),
     ("Imaging Extension", REPO_ROOT / "schema" / "extensions" / "imaging.yaml"),
-    ("Earth Engine Extension", REPO_ROOT / "schema" / "extensions" / "earth-engine.yaml"),
+    ("Data Access Extension", REPO_ROOT / "schema" / "extensions" / "data-access.yaml"),
     (
-        "Planetary Computer Extension",
-        REPO_ROOT / "schema" / "extensions" / "planetary-computer.yaml",
+        "Earth Engine Access Point",
+        REPO_ROOT / "schema" / "extensions" / "data_access_points" / "earth-engine.yaml",
+    ),
+    (
+        "Planetary Computer Access Point",
+        REPO_ROOT
+        / "schema"
+        / "extensions"
+        / "data_access_points"
+        / "planetary-computer.yaml",
     ),
 ]
 PLATFORM_CATEGORIES = ["satellite", "airborne", "uav", "terrestrial"]
@@ -121,6 +129,7 @@ def _docs_link(url: str) -> str:
 def _ee_primary_link(instrument: dict[str, Any]) -> str:
     url = (
         instrument.get("extensions", {})
+        .get("data_access", {})
         .get("ee", {})
         .get("primary", {})
         .get("docs", "")
@@ -131,6 +140,7 @@ def _ee_primary_link(instrument: dict[str, Any]) -> str:
 def _pc_primary_link(instrument: dict[str, Any]) -> str:
     url = (
         instrument.get("extensions", {})
+        .get("data_access", {})
         .get("planetary_computer", {})
         .get("primary", {})
         .get("docs", "")

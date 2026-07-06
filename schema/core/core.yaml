@@ -124,11 +124,8 @@ properties:
       imaging:
         description: Imaging and optical characteristics extension
         $ref: ../extensions/imaging.yaml
-      ee:
-        description: Google Earth Engine access metadata extension
-        $ref: ../extensions/earth-engine.yaml
-      planetary_computer:
-        description: Microsoft Planetary Computer access metadata extension
-        $ref: ../extensions/planetary-computer.yaml
+      data_access:
+        description: Data access metadata extension
+        $ref: ../extensions/data-access.yaml
 
 additionalProperties: false

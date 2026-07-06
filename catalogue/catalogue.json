@@ -1187,18 +1187,20 @@
           "entrance_pupil": 110,
           "gsd": 60
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
-            "collection": "NASA/EMIT/L2A/RFL"
-          },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD",
-            "collection": "NASA/EMIT/L1B/RAD"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
-            "collection": "NASA/EMIT/L2A/RFL"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
+              "collection": "NASA/EMIT/L2A/RFL"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD",
+              "collection": "NASA/EMIT/L1B/RAD"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
+              "collection": "NASA/EMIT/L2A/RFL"
+            }
           }
         }
       }
@@ -10703,33 +10705,35 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2",
-            "collection": "LANDSAT/LE07/C02/T1_L2"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2",
+              "collection": "LANDSAT/LE07/C02/T1_L2"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1",
+              "collection": "LANDSAT/LE07/C02/T1"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_TOA",
+              "collection": "LANDSAT/LE07/C02/T1_TOA"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2",
+              "collection": "LANDSAT/LE07/C02/T1_L2"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1",
-            "collection": "LANDSAT/LE07/C02/T1"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_TOA",
-            "collection": "LANDSAT/LE07/C02/T1_TOA"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2",
-            "collection": "LANDSAT/LE07/C02/T1_L2"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            }
           }
         }
       }
@@ -43114,29 +43118,31 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
-            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+              "collection": "COPERNICUS/S2_SR_HARMONIZED"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+              "collection": "COPERNICUS/S2_SR_HARMONIZED"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
+              "collection": "COPERNICUS/S2_HARMONIZED"
+            }
           },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
-            "collection": "COPERNICUS/S2_SR_HARMONIZED"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
-            "collection": "COPERNICUS/S2_HARMONIZED"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
-            "collection": "sentinel-2-l2a"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
-            "collection": "sentinel-2-l2a"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            }
           }
         }
       }
@@ -71293,29 +71299,31 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
-            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+              "collection": "COPERNICUS/S2_SR_HARMONIZED"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+              "collection": "COPERNICUS/S2_SR_HARMONIZED"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
+              "collection": "COPERNICUS/S2_HARMONIZED"
+            }
           },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
-            "collection": "COPERNICUS/S2_SR_HARMONIZED"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
-            "collection": "COPERNICUS/S2_HARMONIZED"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
-            "collection": "sentinel-2-l2a"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
-            "collection": "sentinel-2-l2a"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            }
           }
         }
       }
@@ -99472,29 +99480,31 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
-            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+              "collection": "COPERNICUS/S2_SR_HARMONIZED"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+              "collection": "COPERNICUS/S2_SR_HARMONIZED"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
+              "collection": "COPERNICUS/S2_HARMONIZED"
+            }
           },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
-            "collection": "COPERNICUS/S2_SR_HARMONIZED"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
-            "collection": "COPERNICUS/S2_HARMONIZED"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
-            "collection": "sentinel-2-l2a"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
-            "collection": "sentinel-2-l2a"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            }
           }
         }
       }
@@ -103298,25 +103308,27 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
-            "collection": "LANDSAT/LM01/C02/T1"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
+              "collection": "LANDSAT/LM01/C02/T1"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
+              "collection": "LANDSAT/LM01/C02/T1"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
-            "collection": "LANDSAT/LM01/C02/T1"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
-          },
-          "raw": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            },
+            "raw": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            }
           }
         }
       }
@@ -106981,25 +106993,27 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
-            "collection": "LANDSAT/LM02/C02/T1"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
+              "collection": "LANDSAT/LM02/C02/T1"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
+              "collection": "LANDSAT/LM02/C02/T1"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
-            "collection": "LANDSAT/LM02/C02/T1"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
-          },
-          "raw": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            },
+            "raw": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            }
           }
         }
       }
@@ -110688,25 +110702,27 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
-            "collection": "LANDSAT/LM03/C02/T1"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
+              "collection": "LANDSAT/LM03/C02/T1"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
+              "collection": "LANDSAT/LM03/C02/T1"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
-            "collection": "LANDSAT/LM03/C02/T1"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
-          },
-          "raw": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            },
+            "raw": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            }
           }
         }
       }
@@ -113976,25 +113992,27 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
-            "collection": "LANDSAT/LM04/C02/T1"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
+              "collection": "LANDSAT/LM04/C02/T1"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
+              "collection": "LANDSAT/LM04/C02/T1"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
-            "collection": "LANDSAT/LM04/C02/T1"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
-          },
-          "raw": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            },
+            "raw": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            }
           }
         }
       }
@@ -117239,25 +117257,27 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
-            "collection": "LANDSAT/LM05/C02/T1"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
+              "collection": "LANDSAT/LM05/C02/T1"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
+              "collection": "LANDSAT/LM05/C02/T1"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
-            "collection": "LANDSAT/LM05/C02/T1"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
-          },
-          "raw": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
-            "collection": "landsat-c2-l1"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            },
+            "raw": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+              "collection": "landsat-c2-l1"
+            }
           }
         }
       }
@@ -126475,33 +126495,35 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
-            "collection": "LANDSAT/LC09/C02/T1_L2"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+              "collection": "LANDSAT/LC09/C02/T1_L2"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1",
+              "collection": "LANDSAT/LC09/C02/T1"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA",
+              "collection": "LANDSAT/LC09/C02/T1_TOA"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+              "collection": "LANDSAT/LC09/C02/T1_L2"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1",
-            "collection": "LANDSAT/LC09/C02/T1"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA",
-            "collection": "LANDSAT/LC09/C02/T1_TOA"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
-            "collection": "LANDSAT/LC09/C02/T1_L2"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            }
           }
         }
       }
@@ -135719,33 +135741,35 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
-            "collection": "LANDSAT/LC08/C02/T1_L2"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+              "collection": "LANDSAT/LC08/C02/T1_L2"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1",
+              "collection": "LANDSAT/LC08/C02/T1"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA",
+              "collection": "LANDSAT/LC08/C02/T1_TOA"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+              "collection": "LANDSAT/LC08/C02/T1_L2"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1",
-            "collection": "LANDSAT/LC08/C02/T1"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA",
-            "collection": "LANDSAT/LC08/C02/T1_TOA"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
-            "collection": "LANDSAT/LC08/C02/T1_L2"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            }
           }
         }
       }
@@ -135995,33 +136019,35 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
-            "collection": "LANDSAT/LC09/C02/T1_L2"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+              "collection": "LANDSAT/LC09/C02/T1_L2"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1",
+              "collection": "LANDSAT/LC09/C02/T1"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA",
+              "collection": "LANDSAT/LC09/C02/T1_TOA"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+              "collection": "LANDSAT/LC09/C02/T1_L2"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1",
-            "collection": "LANDSAT/LC09/C02/T1"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA",
-            "collection": "LANDSAT/LC09/C02/T1_TOA"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
-            "collection": "LANDSAT/LC09/C02/T1_L2"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            }
           }
         }
       }
@@ -136379,33 +136405,35 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
-            "collection": "LANDSAT/LC08/C02/T1_L2"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+              "collection": "LANDSAT/LC08/C02/T1_L2"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1",
+              "collection": "LANDSAT/LC08/C02/T1"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA",
+              "collection": "LANDSAT/LC08/C02/T1_TOA"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+              "collection": "LANDSAT/LC08/C02/T1_L2"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1",
-            "collection": "LANDSAT/LC08/C02/T1"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA",
-            "collection": "LANDSAT/LC08/C02/T1_TOA"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
-            "collection": "LANDSAT/LC08/C02/T1_L2"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            }
           }
         }
       }
@@ -144706,33 +144734,35 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2",
-            "collection": "LANDSAT/LT04/C02/T1_L2"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2",
+              "collection": "LANDSAT/LT04/C02/T1_L2"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1",
+              "collection": "LANDSAT/LT04/C02/T1"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA",
+              "collection": "LANDSAT/LT04/C02/T1_TOA"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2",
+              "collection": "LANDSAT/LT04/C02/T1_L2"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1",
-            "collection": "LANDSAT/LT04/C02/T1"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA",
-            "collection": "LANDSAT/LT04/C02/T1_TOA"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2",
-            "collection": "LANDSAT/LT04/C02/T1_L2"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            }
           }
         }
       }
@@ -152961,33 +152991,35 @@
             ]
           }
         },
-        "ee": {
-          "primary": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2",
-            "collection": "LANDSAT/LT05/C02/T1_L2"
+        "data_access": {
+          "ee": {
+            "primary": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2",
+              "collection": "LANDSAT/LT05/C02/T1_L2"
+            },
+            "raw": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1",
+              "collection": "LANDSAT/LT05/C02/T1"
+            },
+            "toa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_TOA",
+              "collection": "LANDSAT/LT05/C02/T1_TOA"
+            },
+            "boa": {
+              "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2",
+              "collection": "LANDSAT/LT05/C02/T1_L2"
+            }
           },
-          "raw": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1",
-            "collection": "LANDSAT/LT05/C02/T1"
-          },
-          "toa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_TOA",
-            "collection": "LANDSAT/LT05/C02/T1_TOA"
-          },
-          "boa": {
-            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2",
-            "collection": "LANDSAT/LT05/C02/T1_L2"
-          }
-        },
-        "planetary_computer": {
-          "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
-          "primary": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
-          },
-          "boa": {
-            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
-            "collection": "landsat-c2-l2"
+          "planetary_computer": {
+            "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+            "primary": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            },
+            "boa": {
+              "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+              "collection": "landsat-c2-l2"
+            }
           }
         }
       }

@@ -24,25 +24,26 @@ extensions:
     bands: TIRS89_BANDS.csv
     spectral_response_function: TIRS2_L9_SRF.csv
     
-  ee:
-    primary:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2"
-      collection: "LANDSAT/LC09/C02/T1_L2"      
-    raw:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1"
-      collection: "LANDSAT/LC09/C02/T1"
-    toa:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA"
-      collection: "LANDSAT/LC09/C02/T1_TOA"
-    boa:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2"
-      collection: "LANDSAT/LC09/C02/T1_L2"
+  data_access:
+    ee:
+      primary:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2"
+        collection: "LANDSAT/LC09/C02/T1_L2"      
+      raw:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1"
+        collection: "LANDSAT/LC09/C02/T1"
+      toa:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA"
+        collection: "LANDSAT/LC09/C02/T1_TOA"
+      boa:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2"
+        collection: "LANDSAT/LC09/C02/T1_L2"
 
-  planetary_computer:
-    stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
-    primary:
-      docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
-      collection: "landsat-c2-l2"
-    boa:
-      docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
-      collection: "landsat-c2-l2"
+    planetary_computer:
+      stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
+      primary:
+        docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
+        collection: "landsat-c2-l2"
+      boa:
+        docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
+        collection: "landsat-c2-l2"

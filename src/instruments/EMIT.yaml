@@ -37,13 +37,14 @@ extensions:
     entrance_pupil: 110
     gsd: 60
     
-  ee:
-    primary:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
-      collection: "NASA/EMIT/L2A/RFL"
-    raw:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD"
-      collection: "NASA/EMIT/L1B/RAD"
-    boa:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
-      collection: "NASA/EMIT/L2A/RFL"
+  data_access:
+    ee:
+      primary:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
+        collection: "NASA/EMIT/L2A/RFL"
+      raw:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD"
+        collection: "NASA/EMIT/L1B/RAD"
+      boa:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
+        collection: "NASA/EMIT/L2A/RFL"

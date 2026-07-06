@@ -25,19 +25,20 @@ extensions:
     bands: MSS123_BANDS.csv
     spectral_response_function: MSS_L2_SRF.csv
     
-  ee:
-    primary:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
-      collection: "LANDSAT/LM02/C02/T1"      
-    raw:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
-      collection: "LANDSAT/LM02/C02/T1"
+  data_access:
+    ee:
+      primary:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
+        collection: "LANDSAT/LM02/C02/T1"      
+      raw:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
+        collection: "LANDSAT/LM02/C02/T1"
 
-  planetary_computer:
-    stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
-    primary:
-      docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1"
-      collection: "landsat-c2-l1"
-    raw:
-      docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1"
-      collection: "landsat-c2-l1"
+    planetary_computer:
+      stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
+      primary:
+        docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1"
+        collection: "landsat-c2-l1"
+      raw:
+        docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1"
+        collection: "landsat-c2-l1"

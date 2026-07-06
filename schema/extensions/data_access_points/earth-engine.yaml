@@ -1,5 +1,5 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/earth-engine.yaml
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/data_access_points/earth-engine.yaml
 title: Earth Engine Extension
 type: object
 

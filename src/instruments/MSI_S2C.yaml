@@ -28,22 +28,23 @@ extensions:
     bands: MSI_S2C_BANDS.csv
     spectral_response_function: MSI_S2C_SRF.csv
     
-  ee:
-    primary:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED"
-      collection: "COPERNICUS/S2_SR_HARMONIZED"      
-    boa:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED"
-      collection: "COPERNICUS/S2_SR_HARMONIZED"
-    toa:
-      docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED"
-      collection: "COPERNICUS/S2_HARMONIZED"
+  data_access:
+    ee:
+      primary:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED"
+        collection: "COPERNICUS/S2_SR_HARMONIZED"      
+      boa:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED"
+        collection: "COPERNICUS/S2_SR_HARMONIZED"
+      toa:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED"
+        collection: "COPERNICUS/S2_HARMONIZED"
 
-  planetary_computer:
-    stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
-    primary:
-      docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
-      collection: "sentinel-2-l2a"
-    boa:
-      docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
-      collection: "sentinel-2-l2a"
+    planetary_computer:
+      stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
+      primary:
+        docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
+        collection: "sentinel-2-l2a"
+      boa:
+        docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
+        collection: "sentinel-2-l2a"

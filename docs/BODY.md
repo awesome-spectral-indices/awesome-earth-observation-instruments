@@ -19,8 +19,7 @@ In practical terms, the core schema makes data exchange more reliable:
 Additionally, we added some extensions to the core schema. They add domain-specific details without changing the core model:
 - `spectral` for band and wavelength information,
 - `imaging` for optical and geometric parameters,
-- `earth-engine` for Google Earth Engine access metadata,
-- `planetary-computer` for Microsoft Planetary Computer access metadata.
+- `data_access` for data access metadata, with access points such as Google Earth Engine and Microsoft Planetary Computer.
 
 This modular design keeps the catalogue flexible.
 Simple instruments can use only the core fields, while advanced instruments can provide richer spectral and platform access details.

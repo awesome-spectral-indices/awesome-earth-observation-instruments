@@ -1,0 +1,17 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/data-access.yaml
+title: Data Access Extension
+type: object
+description: Data access metadata grouped by provider or platform
+
+properties:
+
+  ee:
+    description: Google Earth Engine access metadata
+    $ref: data_access_points/earth-engine.yaml
+
+  planetary_computer:
+    description: Microsoft Planetary Computer access metadata
+    $ref: data_access_points/planetary-computer.yaml
+
+additionalProperties: false

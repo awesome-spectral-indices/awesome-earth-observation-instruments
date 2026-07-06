@@ -8,7 +8,8 @@ machine-readable catalogue of Earth Observation (EO) instruments.
 | Path | Purpose |
 | --- | --- |
 | `schema/core/core.yaml` | Core instrument schema |
-| `schema/extensions/*.yaml` | Spectral, imaging, Earth Engine, and Planetary Computer extensions |
+| `schema/extensions/*.yaml` | Spectral, imaging, and data access extensions |
+| `schema/extensions/data_access_points/*.yaml` | Provider-specific data access schemas |
 | `src/instruments/*.yaml` | One source record per instrument |
 | `src/bands/*.csv` | Optional external spectral-band definitions |
 | `src/srf/*.csv` | Optional spectral response functions (SRFs) |
@@ -90,10 +91,11 @@ documentation fragments in this order:
    `radar`, `lidar`, `rgb`, `other`). Omit empty groups.
 5. `docs/FOOTER.md`
 
-The same script generates root `SCHEMA.md` with one table for the core schema
-and one for each extension. Each table title links to its YAML source. Columns:
-`Property`, `Required`, `Type`, `Description`. Bold required property names and
-`Yes` values. `docs/BODY.md` should link readers to `SCHEMA.md`.
+The same script generates root `SCHEMA.md` with one table for the core schema,
+one for each extension, and one for each data access point schema. Each table
+title links to its YAML source. Columns: `Property`, `Required`, `Type`,
+`Description`. Bold required property names and `Yes` values. `docs/BODY.md`
+should link readers to `SCHEMA.md`.
 
 Instrument table columns:
 
@@ -103,8 +105,8 @@ Instrument table columns:
 | `Name` | Instrument name |
 | `Platforms` | Comma-separated platforms |
 | `Status` | Bold status with emoji: `operational :white_check_mark:`, `planned :stars:`, `experimental :warning:`, `retired :no_entry:` |
-| `Earth Engine` | `[:link: link](docs-url)` for `extensions.ee.primary.docs`, otherwise blank |
-| `Planetary Computer` | `[:link: link](docs-url)` for `extensions.planetary_computer.primary.docs`, otherwise blank |
+| `Earth Engine` | `[:link: link](docs-url)` for `extensions.data_access.ee.primary.docs`, otherwise blank |
+| `Planetary Computer` | `[:link: link](docs-url)` for `extensions.data_access.planetary_computer.primary.docs`, otherwise blank |
 
 ## Completion Checklist
 
