@@ -1,0 +1,21 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/cross-links.yaml
+title: Cross Links Extension
+type: object
+description: Links to the same instrument in external repositories, catalogues, or indexes
+
+properties:
+
+  idb:
+    type: string
+    description: URL of the instrument in the Index DataBase (IDB)
+
+  ceos:
+    type: string
+    description: URL of the instrument in the CEOS EO Handbook Instrument Index
+
+  earthdata:
+    type: string
+    description: URL of the instrument in the Earthdata catalogue of platforms
+
+additionalProperties: false

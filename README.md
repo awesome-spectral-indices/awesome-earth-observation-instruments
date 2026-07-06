@@ -56,6 +56,7 @@ Additionally, we added some extensions to the core schema. They add domain-speci
 - `spectral` for band and wavelength information,
 - `imaging` for optical and geometric parameters,
 - `data_access` for data access metadata, with access points such as Google Earth Engine and Microsoft Planetary Computer.
+- `cross_links` for links to matching instrument records in external catalogues and indexes.
 
 This modular design keeps the catalogue flexible.
 Simple instruments can use only the core fields, while advanced instruments can provide richer spectral and platform access details.

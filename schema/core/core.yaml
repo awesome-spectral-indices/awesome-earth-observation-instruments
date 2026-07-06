@@ -127,5 +127,8 @@ properties:
       data_access:
         description: Data access metadata extension
         $ref: ../extensions/data-access.yaml
+      cross_links:
+        description: Cross-links to external instrument catalogue records
+        $ref: ../extensions/cross-links.yaml
 
 additionalProperties: false

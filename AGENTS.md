@@ -8,7 +8,7 @@ machine-readable catalogue of Earth Observation (EO) instruments.
 | Path | Purpose |
 | --- | --- |
 | `schema/core/core.yaml` | Core instrument schema |
-| `schema/extensions/*.yaml` | Spectral, imaging, and data access extensions |
+| `schema/extensions/*.yaml` | Spectral, imaging, data access, and cross-link extensions |
 | `schema/extensions/data_access_points/*.yaml` | Provider-specific data access schemas |
 | `src/instruments/*.yaml` | One source record per instrument |
 | `src/bands/*.csv` | Optional external spectral-band definitions |

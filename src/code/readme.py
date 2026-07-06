@@ -16,6 +16,7 @@ SCHEMA_TABLES = [
     ("Spectral Extension", REPO_ROOT / "schema" / "extensions" / "spectral.yaml"),
     ("Imaging Extension", REPO_ROOT / "schema" / "extensions" / "imaging.yaml"),
     ("Data Access Extension", REPO_ROOT / "schema" / "extensions" / "data-access.yaml"),
+    ("Cross Links Extension", REPO_ROOT / "schema" / "extensions" / "cross-links.yaml"),
     (
         "Earth Engine Access Point",
         REPO_ROOT / "schema" / "extensions" / "data_access_points" / "earth-engine.yaml",

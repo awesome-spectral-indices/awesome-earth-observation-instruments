@@ -55,6 +55,14 @@ The tables below summarize the properties defined by the core schema and its ext
 | cdse | No | ref: data_access_points/copernicus-data-space-ecosystem.yaml | Copernicus Data Space Ecosystem access metadata |
 | eopf | No | ref: data_access_points/eopf-sentinel-zarr-samples.yaml | EOPF Sentinel Zarr Samples access metadata |
 
+## Cross Links Extension ([`schema/extensions/cross-links.yaml`](schema/extensions/cross-links.yaml))
+
+| Property | Required | Type | Description |
+| --- | --- | --- | --- |
+| idb | No | string | URL of the instrument in the Index DataBase (IDB) |
+| ceos | No | string | URL of the instrument in the CEOS EO Handbook Instrument Index |
+| earthdata | No | string | URL of the instrument in the Earthdata catalogue of platforms |
+
 ## Earth Engine Access Point ([`schema/extensions/data_access_points/earth-engine.yaml`](schema/extensions/data_access_points/earth-engine.yaml))
 
 | Property | Required | Type | Description |
