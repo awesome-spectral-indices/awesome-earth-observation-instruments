@@ -1,0 +1,77 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/data_access_points/eopf-sentinel-zarr-samples.yaml
+title: EOPF Sentinel Zarr Samples Extension
+type: object
+
+required:
+  - stac_endpoint
+  - primary
+
+properties:
+
+  stac_endpoint:
+    type: string
+    description: EOPF Sentinel Zarr Samples STAC API endpoint
+    const: "https://stac.core.eopf.eodc.eu/"
+
+  primary:
+    type: object
+    description: Primary EOPF Sentinel Zarr Samples dataset metadata for this instrument
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of the primary data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
+  raw:
+    type: object
+    description: Optional EOPF Sentinel Zarr Samples metadata for raw (unprocessed) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of raw data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
+  boa:
+    type: object
+    description: Optional EOPF Sentinel Zarr Samples metadata for bottom-of-atmosphere (BOA) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of BOA data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
+  toa:
+    type: object
+    description: Optional EOPF Sentinel Zarr Samples metadata for top-of-atmosphere (TOA) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of TOA data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
+additionalProperties: false

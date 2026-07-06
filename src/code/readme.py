@@ -36,6 +36,14 @@ SCHEMA_TABLES = [
         / "data_access_points"
         / "copernicus-data-space-ecosystem.yaml",
     ),
+    (
+        "EOPF Sentinel Zarr Samples Access Point",
+        REPO_ROOT
+        / "schema"
+        / "extensions"
+        / "data_access_points"
+        / "eopf-sentinel-zarr-samples.yaml",
+    ),
 ]
 PLATFORM_CATEGORIES = ["satellite", "airborne", "uav", "terrestrial"]
 INSTRUMENT_TYPES = ["multispectral", "hyperspectral", "radar", "lidar", "rgb", "other"]

@@ -18,4 +18,8 @@ properties:
     description: Copernicus Data Space Ecosystem access metadata
     $ref: data_access_points/copernicus-data-space-ecosystem.yaml
 
+  eopf:
+    description: EOPF Sentinel Zarr Samples access metadata
+    $ref: data_access_points/eopf-sentinel-zarr-samples.yaml
+
 additionalProperties: false
