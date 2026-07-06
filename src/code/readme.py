@@ -28,6 +28,14 @@ SCHEMA_TABLES = [
         / "data_access_points"
         / "planetary-computer.yaml",
     ),
+    (
+        "Copernicus Data Space Ecosystem Access Point",
+        REPO_ROOT
+        / "schema"
+        / "extensions"
+        / "data_access_points"
+        / "copernicus-data-space-ecosystem.yaml",
+    ),
 ]
 PLATFORM_CATEGORIES = ["satellite", "airborne", "uav", "terrestrial"]
 INSTRUMENT_TYPES = ["multispectral", "hyperspectral", "radar", "lidar", "rgb", "other"]

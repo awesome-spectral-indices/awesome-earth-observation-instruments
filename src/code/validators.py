@@ -57,6 +57,7 @@ def _schema_registry() -> tuple[Registry, dict[str, Any], dict[str, Any]]:
         "extensions/data-access.yaml",
         "extensions/data_access_points/earth-engine.yaml",
         "extensions/data_access_points/planetary-computer.yaml",
+        "extensions/data_access_points/copernicus-data-space-ecosystem.yaml",
     ]
     spectral_schema: dict[str, Any] | None = None
     for rel in extension_files:

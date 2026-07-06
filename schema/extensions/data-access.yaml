@@ -14,4 +14,8 @@ properties:
     description: Microsoft Planetary Computer access metadata
     $ref: data_access_points/planetary-computer.yaml
 
+  cdse:
+    description: Copernicus Data Space Ecosystem access metadata
+    $ref: data_access_points/copernicus-data-space-ecosystem.yaml
+
 additionalProperties: false

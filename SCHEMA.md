@@ -52,6 +52,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | --- | --- | --- | --- |
 | ee | No | ref: data_access_points/earth-engine.yaml | Google Earth Engine access metadata |
 | planetary_computer | No | ref: data_access_points/planetary-computer.yaml | Microsoft Planetary Computer access metadata |
+| cdse | No | ref: data_access_points/copernicus-data-space-ecosystem.yaml | Copernicus Data Space Ecosystem access metadata |
 
 ## Earth Engine Access Point ([`schema/extensions/data_access_points/earth-engine.yaml`](schema/extensions/data_access_points/earth-engine.yaml))
 
@@ -71,3 +72,13 @@ The tables below summarize the properties defined by the core schema and its ext
 | raw | No | object | Optional Planetary Computer metadata for raw (unprocessed) products |
 | boa | No | object | Optional Planetary Computer metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional Planetary Computer metadata for top-of-atmosphere (TOA) products |
+
+## Copernicus Data Space Ecosystem Access Point ([`schema/extensions/data_access_points/copernicus-data-space-ecosystem.yaml`](schema/extensions/data_access_points/copernicus-data-space-ecosystem.yaml))
+
+| Property | Required | Type | Description |
+| --- | --- | --- | --- |
+| **stac_endpoint** | **Yes** | string | Copernicus Data Space Ecosystem STAC API endpoint |
+| **primary** | **Yes** | object | Primary Copernicus Data Space Ecosystem dataset metadata for this instrument |
+| raw | No | object | Optional Copernicus Data Space Ecosystem metadata for raw (unprocessed) products |
+| boa | No | object | Optional Copernicus Data Space Ecosystem metadata for bottom-of-atmosphere (BOA) products |
+| toa | No | object | Optional Copernicus Data Space Ecosystem metadata for top-of-atmosphere (TOA) products |

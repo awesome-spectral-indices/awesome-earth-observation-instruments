@@ -1,0 +1,77 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/schema/extensions/data_access_points/copernicus-data-space-ecosystem.yaml
+title: Copernicus Data Space Ecosystem Extension
+type: object
+
+required:
+  - stac_endpoint
+  - primary
+
+properties:
+
+  stac_endpoint:
+    type: string
+    description: Copernicus Data Space Ecosystem STAC API endpoint
+    const: "https://stac.dataspace.copernicus.eu/v1"
+
+  primary:
+    type: object
+    description: Primary Copernicus Data Space Ecosystem dataset metadata for this instrument
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of the primary data
+      collection:
+        type: string
+        description: Copernicus Data Space Ecosystem STAC collection name
+
+  raw:
+    type: object
+    description: Optional Copernicus Data Space Ecosystem metadata for raw (unprocessed) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of raw data
+      collection:
+        type: string
+        description: Copernicus Data Space Ecosystem STAC collection name
+
+  boa:
+    type: object
+    description: Optional Copernicus Data Space Ecosystem metadata for bottom-of-atmosphere (BOA) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of BOA data
+      collection:
+        type: string
+        description: Copernicus Data Space Ecosystem STAC collection name
+
+  toa:
+    type: object
+    description: Optional Copernicus Data Space Ecosystem metadata for top-of-atmosphere (TOA) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of TOA data
+      collection:
+        type: string
+        description: Copernicus Data Space Ecosystem STAC collection name
+
+additionalProperties: false
