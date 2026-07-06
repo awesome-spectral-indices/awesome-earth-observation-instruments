@@ -43143,7 +43143,41 @@
               "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
               "collection": "sentinel-2-l2a"
             }
+          },
+          "cdse": {
+            "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+            "primary": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "toa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l1c",
+              "collection": "sentinel-2-l1c"
+            }
+          },
+          "eopf": {
+            "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+            "primary": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "toa": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l1c",
+              "collection": "sentinel-2-l1c"
+            }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=96",
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
         }
       }
     },
@@ -71324,7 +71358,40 @@
               "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
               "collection": "sentinel-2-l2a"
             }
+          },
+          "cdse": {
+            "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+            "primary": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "toa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l1c",
+              "collection": "sentinel-2-l1c"
+            }
+          },
+          "eopf": {
+            "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+            "primary": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "toa": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l1c",
+              "collection": "sentinel-2-l1c"
+            }
           }
+        },
+        "cross_links": {
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
         }
       }
     },
@@ -99505,7 +99572,40 @@
               "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
               "collection": "sentinel-2-l2a"
             }
+          },
+          "cdse": {
+            "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+            "primary": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "toa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l1c",
+              "collection": "sentinel-2-l1c"
+            }
+          },
+          "eopf": {
+            "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+            "primary": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "boa": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+              "collection": "sentinel-2-l2a"
+            },
+            "toa": {
+              "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l1c",
+              "collection": "sentinel-2-l1c"
+            }
           }
+        },
+        "cross_links": {
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
         }
       }
     },
