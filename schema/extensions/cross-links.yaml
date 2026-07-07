@@ -16,6 +16,6 @@ properties:
 
   earthdata:
     type: string
-    description: URL of the instrument in the Earthdata catalogue of platforms
+    description: URL of the instrument in the Earthdata catalogue of instruments
 
 additionalProperties: false
