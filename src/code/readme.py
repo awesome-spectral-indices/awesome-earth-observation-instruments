@@ -7,7 +7,7 @@ import yaml
 
 from validators import REPO_ROOT
 
-DOCS_DIR = REPO_ROOT / "docs"
+README_SOURCE_DIR = REPO_ROOT / "readme"
 CATALOGUE_PATH = REPO_ROOT / "catalogue" / "catalogue.json"
 README_PATH = REPO_ROOT / "README.md"
 SCHEMA_PATH = REPO_ROOT / "SCHEMA.md"
@@ -274,9 +274,9 @@ def generate_readme(
             f"{catalogue_path.as_posix()} not found. Run catalogue generation first."
         )
 
-    header = _read_text(DOCS_DIR / "HEADER.md")
-    body = _read_text(DOCS_DIR / "BODY.md")
-    footer = _read_text(DOCS_DIR / "FOOTER.md")
+    header = _read_text(README_SOURCE_DIR / "HEADER.md")
+    body = _read_text(README_SOURCE_DIR / "BODY.md")
+    footer = _read_text(README_SOURCE_DIR / "FOOTER.md")
 
     catalogue_doc = json.loads(catalogue_path.read_text(encoding="utf-8"))
     catalogue = catalogue_doc.get("instruments", catalogue_doc)

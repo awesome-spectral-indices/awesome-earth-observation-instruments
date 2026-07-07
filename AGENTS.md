@@ -19,7 +19,7 @@ machine-readable catalogue of Earth Observation (EO) instruments.
 | `tests/` | Pytest checks for validation and generated outputs |
 | `catalogue/catalogue.json` | Generated catalogue output |
 | `SCHEMA.md` | Generated schema specification tables |
-| `docs/HEADER.md`, `docs/BODY.md`, `docs/FOOTER.md` | README source sections |
+| `readme/HEADER.md`, `readme/BODY.md`, `readme/FOOTER.md` | README source sections |
 | `pyproject.toml` | Project metadata, version, and runtime dependencies |
 
 ## Editing Rules
@@ -82,19 +82,19 @@ Transformation rules:
 `src/code/readme.py` generates the root `README.md` from the catalogue and
 documentation fragments in this order:
 
-1. `docs/HEADER.md`
-2. `docs/BODY.md`
+1. `readme/HEADER.md`
+2. `readme/BODY.md`
 3. A first-level `# Catalogue` section with a short introduction and a table of
    contents containing only existing platform/type groupings.
 4. Instrument tables grouped by platform type (`satellite`, `airborne`, `uav`,
    `terrestrial`) and then instrument type (`multispectral`, `hyperspectral`,
    `radar`, `lidar`, `rgb`, `other`). Omit empty groups.
-5. `docs/FOOTER.md`
+5. `readme/FOOTER.md`
 
 The same script generates root `SCHEMA.md` with one table for the core schema,
 one for each extension, and one for each data access point schema. Each table
 title links to its YAML source. Columns: `Property`, `Required`, `Type`,
-`Description`. Bold required property names and `Yes` values. `docs/BODY.md`
+`Description`. Bold required property names and `Yes` values. `readme/BODY.md`
 should link readers to `SCHEMA.md`.
 
 Instrument table columns:

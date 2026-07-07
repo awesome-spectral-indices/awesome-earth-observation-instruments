@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments"><img src="docs/cover-picture.png" alt="Awesome Earth Observation Instruments"></a>
+  <a href="https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments"><img src="readme/cover-picture.png" alt="Awesome Earth Observation Instruments"></a>
 </p>
 <p align="center">
     <em>A machine-readable catalogue of Earth observation instruments with spectral, spatial, temporal, and operational characteristics</em>
@@ -33,4 +33,3 @@
 **GitHub**: <a href="https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments" target="_blank">https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments</a>
 
 ---
-
