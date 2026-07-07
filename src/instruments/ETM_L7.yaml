@@ -51,6 +51,6 @@ extensions:
   cross_links:
     idb: "https://www.indexdatabase.de/db/s-single.php?id=8"
     ceos: "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=322"
-    earthdata: "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-7"
+    earthdata: "https://www.earthdata.nasa.gov/data/instruments/etm"
 
 
