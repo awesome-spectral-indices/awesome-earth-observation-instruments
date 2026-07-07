@@ -47,3 +47,17 @@ extensions:
       boa:
         docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
         collection: "landsat-c2-l2"
+    
+    cdse:
+      stac_endpoint: "https://stac.dataspace.copernicus.eu/v1"
+      primary:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs"
+        collection: "landsat-c2-l1-oli-tirs"      
+      toa:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs"
+        collection: "landsat-c2-l1-oli-tirs"
+
+  cross_links:
+    idb: "https://www.indexdatabase.de/db/s-single.php?id=168"
+    ceos: "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1524"
+    earthdata: "https://www.earthdata.nasa.gov/data/instruments/tirs"
