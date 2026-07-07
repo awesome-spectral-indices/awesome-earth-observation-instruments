@@ -48,3 +48,8 @@ extensions:
       boa:
         docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2"
         collection: "landsat-c2-l2"
+
+  cross_links:
+    idb: "https://www.indexdatabase.de/db/s-single.php?id=7"
+    ceos: "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=327"
+    earthdata: "https://www.earthdata.nasa.gov/data/instruments/thematic-mapper"
