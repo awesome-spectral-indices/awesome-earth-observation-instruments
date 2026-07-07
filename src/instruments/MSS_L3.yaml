@@ -41,3 +41,7 @@ extensions:
       raw:
         docs: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1"
         collection: "landsat-c2-l1"
+
+  cross_links:
+    idb: "https://www.indexdatabase.de/db/s-single.php?id=6"
+    earthdata: "https://www.earthdata.nasa.gov/data/instruments/mss"
