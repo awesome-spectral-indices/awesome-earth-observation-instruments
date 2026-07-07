@@ -48,3 +48,7 @@ extensions:
       boa:
         docs: "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
         collection: "NASA/EMIT/L2A/RFL"
+  
+  cross_links:
+    ceos: "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1901"
+
