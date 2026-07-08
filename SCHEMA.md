@@ -61,7 +61,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | --- | --- | --- | --- |
 | idb | No | string | URL of the instrument in the Index DataBase (IDB) |
 | ceos | No | string | URL of the instrument in the CEOS EO Handbook Instrument Index |
-| earthdata | No | string | URL of the instrument in the Earthdata catalogue of platforms |
+| earthdata | No | string | URL of the instrument in the Earthdata catalogue of instruments |
 
 ## Earth Engine Access Point ([`schema/extensions/data_access_points/earth-engine.yaml`](schema/extensions/data_access_points/earth-engine.yaml))
 

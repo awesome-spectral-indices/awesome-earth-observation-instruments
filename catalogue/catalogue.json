@@ -1202,6 +1202,10 @@
               "collection": "NASA/EMIT/L2A/RFL"
             }
           }
+        },
+        "cross_links": {
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1901",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer"
         }
       }
     },
@@ -10735,6 +10739,11 @@
               "collection": "landsat-c2-l2"
             }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=8",
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=322",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/etm"
         }
       }
     },
@@ -43177,7 +43186,8 @@
         },
         "cross_links": {
           "idb": "https://www.indexdatabase.de/db/s-single.php?id=96",
-          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
         }
       }
     },
@@ -71391,7 +71401,8 @@
           }
         },
         "cross_links": {
-          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
         }
       }
     },
@@ -99605,7 +99616,8 @@
           }
         },
         "cross_links": {
-          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
         }
       }
     },
@@ -103430,6 +103442,10 @@
               "collection": "landsat-c2-l1"
             }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=6",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
       }
     },
@@ -107115,6 +107131,10 @@
               "collection": "landsat-c2-l1"
             }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=6",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
       }
     },
@@ -110824,6 +110844,10 @@
               "collection": "landsat-c2-l1"
             }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=6",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
       }
     },
@@ -114114,6 +114138,10 @@
               "collection": "landsat-c2-l1"
             }
           }
+        },
+        "cross_links": {
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=326",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
       }
     },
@@ -117379,6 +117407,10 @@
               "collection": "landsat-c2-l1"
             }
           }
+        },
+        "cross_links": {
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=326",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
       }
     },
@@ -126624,7 +126656,22 @@
               "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
               "collection": "landsat-c2-l2"
             }
+          },
+          "cdse": {
+            "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+            "primary": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            },
+            "toa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            }
           }
+        },
+        "cross_links": {
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1769",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/oli"
         }
       }
     },
@@ -135870,7 +135917,23 @@
               "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
               "collection": "landsat-c2-l2"
             }
+          },
+          "cdse": {
+            "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+            "primary": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            },
+            "toa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=168",
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=897",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/oli"
         }
       }
     },
@@ -136148,7 +136211,22 @@
               "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
               "collection": "landsat-c2-l2"
             }
+          },
+          "cdse": {
+            "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+            "primary": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            },
+            "toa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            }
           }
+        },
+        "cross_links": {
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1746",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/tirs-2"
         }
       }
     },
@@ -136534,7 +136612,23 @@
               "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
               "collection": "landsat-c2-l2"
             }
+          },
+          "cdse": {
+            "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+            "primary": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            },
+            "toa": {
+              "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+              "collection": "landsat-c2-l1-oli-tirs"
+            }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=168",
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1524",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/tirs"
         }
       }
     },
@@ -144864,6 +144958,11 @@
               "collection": "landsat-c2-l2"
             }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=7",
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=327",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/thematic-mapper"
         }
       }
     },
@@ -153121,6 +153220,11 @@
               "collection": "landsat-c2-l2"
             }
           }
+        },
+        "cross_links": {
+          "idb": "https://www.indexdatabase.de/db/s-single.php?id=7",
+          "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=327",
+          "earthdata": "https://www.earthdata.nasa.gov/data/instruments/thematic-mapper"
         }
       }
     }
