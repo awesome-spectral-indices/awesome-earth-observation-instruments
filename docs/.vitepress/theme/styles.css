@@ -38,6 +38,13 @@
   max-width: 100% !important;
 }
 
+.VPHero .image-src {
+  width: min(300px, 62vw) !important;
+  height: min(300px, 62vw) !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+}
+
 .landing-page {
   --vp-c-bg: #000;
   --vp-c-bg-alt: #000;
