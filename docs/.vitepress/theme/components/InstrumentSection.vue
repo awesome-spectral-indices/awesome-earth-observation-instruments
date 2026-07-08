@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { withBase } from 'vitepress'
 import instrumentDetails from '../../data/instrument-details.json'
 
 type Fact = {
@@ -254,7 +255,7 @@ function valueClass(prefix: string, value: string) {
         v-for="related in instrument.related"
         :key="related.id"
         class="info-card link-card"
-        :href="related.href"
+        :href="withBase(related.href || '')"
       >
         <span>{{ related.id }}: {{ related.name }}</span>
         <small>{{ related.platform }} · {{ related.reason }}</small>

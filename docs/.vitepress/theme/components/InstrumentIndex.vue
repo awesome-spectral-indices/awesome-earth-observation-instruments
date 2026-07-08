@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { withBase } from 'vitepress'
 import instrumentData from '../../data/instruments.json'
 
 type InstrumentRecord = {
@@ -143,7 +144,7 @@ function valueClass(prefix: string, value: string) {
             :key="instrument.id"
             class="instrument-card"
           >
-            <a class="instrument-link" :href="instrument.href">
+            <a class="instrument-link" :href="withBase(instrument.href)">
               <span class="instrument-id">{{ instrument.id }}</span>
               <span class="instrument-name">{{ instrument.name }}</span>
               <span class="instrument-platform">({{ instrument.platform }})</span>
