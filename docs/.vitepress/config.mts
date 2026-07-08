@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Awesome Earth Observation Instruments",
   description: "Awesome Earth Observation Instruments",
+  base: '/aeoi/'
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
