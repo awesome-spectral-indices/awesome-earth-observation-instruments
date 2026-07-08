@@ -14,3 +14,8 @@ dist/
 
 # Test artefacts
 .pytest_cache/
+
+# VitePress artefacts
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/

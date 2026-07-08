@@ -16,9 +16,11 @@ machine-readable catalogue of Earth Observation (EO) instruments.
 | `src/code/validators.py` | Source input validation |
 | `src/code/catalogue.py` | JSON catalogue generation |
 | `src/code/readme.py` | Root `README.md` and `SCHEMA.md` generation |
+| `src/code/vitepress.py` | VitePress instrument page generation |
 | `tests/` | Pytest checks for validation and generated outputs |
 | `catalogue/catalogue.json` | Generated catalogue output |
 | `SCHEMA.md` | Generated schema specification tables |
+| `docs/` | VitePress website source |
 | `readme/HEADER.md`, `readme/BODY.md`, `readme/FOOTER.md` | README source sections |
 | `pyproject.toml` | Project metadata, version, and runtime dependencies |
 
@@ -72,10 +74,15 @@ Transformation rules:
   `schema/extensions/spectral.yaml`.
 - Convert `spectral.spectral_response_function` CSV content to an object keyed
   by column name, with each column represented as an array. All arrays must have
-  equal length.
+  equal length. Preserve the original SRF CSV filename in
+  `spectral.spectral_response_function_file`.
 - When `spectral.range` is supplied instead of `spectral.bands`, create
   `spectral.bands` as `B1` through `Bn`, using `min`, `max`, and `total_bands`
   to calculate `center_wavelength` and `bandwidth`.
+- Add generated relationship fields to each catalogue instrument:
+  `family` contains instruments with the same name or acronym, and
+  `platform_companions` contains instruments on the same platform excluding
+  family matches.
 
 ## Documentation Generation
 
@@ -108,6 +115,13 @@ Instrument table columns:
 | `Earth Engine` | `[:link: link](docs-url)` for `extensions.data_access.ee.primary.docs`, otherwise blank |
 | `Planetary Computer` | `[:link: link](docs-url)` for `extensions.data_access.planetary_computer.primary.docs`, otherwise blank |
 
+`src/code/vitepress.py` generates `docs/instruments/index.md`, searchable
+instrument index data in `docs/.vitepress/data/instruments.json`, rich
+instrument page data in `docs/.vitepress/data/instrument-details.json`,
+`docs/schema.md`, `docs/contributing.md`, and one `docs/instruments/<instrument
+id>.md` page per catalogue instrument. It reads from `catalogue/catalogue.json`
+and root `CONTRIBUTING.md`, so regenerate the catalogue first.
+
 ## Completion Checklist
 
 After changes that affect source inputs, schemas, or generators:
@@ -115,5 +129,6 @@ After changes that affect source inputs, schemas, or generators:
 1. Run validation for all instrument source files.
 2. Regenerate `catalogue/catalogue.json`.
 3. Regenerate `README.md` and `SCHEMA.md`.
-4. Run `python -m pytest tests`.
-5. Confirm generated output reflects the requested change.
+4. Regenerate VitePress instrument pages when catalogue content changes.
+5. Run `python -m pytest tests`.
+6. Confirm generated output reflects the requested change.

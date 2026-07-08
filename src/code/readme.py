@@ -79,14 +79,15 @@ def _schema_type(schema_property: dict[str, Any]) -> str:
     return "unspecified"
 
 
-def _build_schema_table(title: str, schema_path: Path) -> str:
+def _build_schema_table(title: str, schema_path: Path, link_base: str = "") -> str:
     data = yaml.safe_load(schema_path.read_text(encoding="utf-8"))
     properties: dict[str, dict[str, Any]] = data.get("properties", {})
     required = set(data.get("required", []))
     rel_path = schema_path.relative_to(REPO_ROOT).as_posix()
+    link_target = f"{link_base}{rel_path}" if link_base else rel_path
 
     rows = [
-        f"## {title} ([`{rel_path}`]({rel_path}))",
+        f"## {title} ([`{rel_path}`]({link_target}))",
         "",
         "| Property | Required | Type | Description |",
         "| --- | --- | --- | --- |",
@@ -108,15 +109,17 @@ def _build_schema_table(title: str, schema_path: Path) -> str:
     return "\n".join(rows)
 
 
-def _build_schema_sections() -> str:
-    return "\n\n".join(_build_schema_table(title, path) for title, path in SCHEMA_TABLES)
+def _build_schema_sections(link_base: str = "") -> str:
+    return "\n\n".join(
+        _build_schema_table(title, path, link_base=link_base) for title, path in SCHEMA_TABLES
+    )
 
 
-def generate_schema_document(schema_path: Path = SCHEMA_PATH) -> str:
+def generate_schema_document(schema_path: Path = SCHEMA_PATH, link_base: str = "") -> str:
     parts = [
         "# Schema Specification",
         "The tables below summarize the properties defined by the core schema and its extensions.",
-        _build_schema_sections(),
+        _build_schema_sections(link_base=link_base),
     ]
     content = "\n\n".join(parts).rstrip() + "\n"
     schema_path.write_text(content, encoding="utf-8")

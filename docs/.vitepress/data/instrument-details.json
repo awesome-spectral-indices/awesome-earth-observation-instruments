@@ -1,0 +1,6673 @@
+{
+  "EMIT": {
+    "id": "EMIT",
+    "summary": "EMIT (Earth Surface Mineral Dust Source Investigation) is an operational hyperspectral instrument operated by NASA on ISS. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "EMIT"
+      },
+      {
+        "label": "Name",
+        "value": "Earth Surface Mineral Dust Source Investigation"
+      },
+      {
+        "label": "Acronym",
+        "value": "EMIT"
+      },
+      {
+        "label": "Type",
+        "value": "hyperspectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "ISS"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA"
+      },
+      {
+        "label": "Start date",
+        "value": "2022-08-09"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "285"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "384.705-2489.29 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "7.41053 nm"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      },
+      {
+        "label": "Declared spectral range",
+        "value": "381-2493 nm"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "384.705",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b1 384.705 7.41053    "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "392.116",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b2 392.116 7.41053    "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "399.526",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b3 399.526 7.41053    "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "406.937",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b4 406.937 7.41053    "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "414.347",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b5 414.347 7.41053    "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "421.758",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b6 421.758 7.41053    "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "429.168",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b7 429.168 7.41053    "
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "436.579",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b8 436.579 7.41053    "
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "443.989",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b9 443.989 7.41053    "
+      },
+      {
+        "id": "B10",
+        "center_wavelength": "451.4",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b10 451.4 7.41053    "
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "458.811",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b11 458.811 7.41053    "
+      },
+      {
+        "id": "B12",
+        "center_wavelength": "466.221",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b12 466.221 7.41053    "
+      },
+      {
+        "id": "B13",
+        "center_wavelength": "473.632",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b13 473.632 7.41053    "
+      },
+      {
+        "id": "B14",
+        "center_wavelength": "481.042",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b14 481.042 7.41053    "
+      },
+      {
+        "id": "B15",
+        "center_wavelength": "488.453",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b15 488.453 7.41053    "
+      },
+      {
+        "id": "B16",
+        "center_wavelength": "495.863",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b16 495.863 7.41053    "
+      },
+      {
+        "id": "B17",
+        "center_wavelength": "503.274",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b17 503.274 7.41053    "
+      },
+      {
+        "id": "B18",
+        "center_wavelength": "510.684",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b18 510.684 7.41053    "
+      },
+      {
+        "id": "B19",
+        "center_wavelength": "518.095",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b19 518.095 7.41053    "
+      },
+      {
+        "id": "B20",
+        "center_wavelength": "525.505",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b20 525.505 7.41053    "
+      },
+      {
+        "id": "B21",
+        "center_wavelength": "532.916",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b21 532.916 7.41053    "
+      },
+      {
+        "id": "B22",
+        "center_wavelength": "540.326",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b22 540.326 7.41053    "
+      },
+      {
+        "id": "B23",
+        "center_wavelength": "547.737",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b23 547.737 7.41053    "
+      },
+      {
+        "id": "B24",
+        "center_wavelength": "555.147",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b24 555.147 7.41053    "
+      },
+      {
+        "id": "B25",
+        "center_wavelength": "562.558",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b25 562.558 7.41053    "
+      },
+      {
+        "id": "B26",
+        "center_wavelength": "569.968",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b26 569.968 7.41053    "
+      },
+      {
+        "id": "B27",
+        "center_wavelength": "577.379",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b27 577.379 7.41053    "
+      },
+      {
+        "id": "B28",
+        "center_wavelength": "584.789",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b28 584.789 7.41053    "
+      },
+      {
+        "id": "B29",
+        "center_wavelength": "592.2",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b29 592.2 7.41053    "
+      },
+      {
+        "id": "B30",
+        "center_wavelength": "599.611",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b30 599.611 7.41053    "
+      },
+      {
+        "id": "B31",
+        "center_wavelength": "607.021",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b31 607.021 7.41053    "
+      },
+      {
+        "id": "B32",
+        "center_wavelength": "614.432",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b32 614.432 7.41053    "
+      },
+      {
+        "id": "B33",
+        "center_wavelength": "621.842",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b33 621.842 7.41053    "
+      },
+      {
+        "id": "B34",
+        "center_wavelength": "629.253",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b34 629.253 7.41053    "
+      },
+      {
+        "id": "B35",
+        "center_wavelength": "636.663",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b35 636.663 7.41053    "
+      },
+      {
+        "id": "B36",
+        "center_wavelength": "644.074",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b36 644.074 7.41053    "
+      },
+      {
+        "id": "B37",
+        "center_wavelength": "651.484",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b37 651.484 7.41053    "
+      },
+      {
+        "id": "B38",
+        "center_wavelength": "658.895",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b38 658.895 7.41053    "
+      },
+      {
+        "id": "B39",
+        "center_wavelength": "666.305",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b39 666.305 7.41053    "
+      },
+      {
+        "id": "B40",
+        "center_wavelength": "673.716",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b40 673.716 7.41053    "
+      },
+      {
+        "id": "B41",
+        "center_wavelength": "681.126",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b41 681.126 7.41053    "
+      },
+      {
+        "id": "B42",
+        "center_wavelength": "688.537",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b42 688.537 7.41053    "
+      },
+      {
+        "id": "B43",
+        "center_wavelength": "695.947",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b43 695.947 7.41053    "
+      },
+      {
+        "id": "B44",
+        "center_wavelength": "703.358",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b44 703.358 7.41053    "
+      },
+      {
+        "id": "B45",
+        "center_wavelength": "710.768",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b45 710.768 7.41053    "
+      },
+      {
+        "id": "B46",
+        "center_wavelength": "718.179",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b46 718.179 7.41053    "
+      },
+      {
+        "id": "B47",
+        "center_wavelength": "725.589",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b47 725.589 7.41053    "
+      },
+      {
+        "id": "B48",
+        "center_wavelength": "733",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b48 733 7.41053    "
+      },
+      {
+        "id": "B49",
+        "center_wavelength": "740.411",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b49 740.411 7.41053    "
+      },
+      {
+        "id": "B50",
+        "center_wavelength": "747.821",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b50 747.821 7.41053    "
+      },
+      {
+        "id": "B51",
+        "center_wavelength": "755.232",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b51 755.232 7.41053    "
+      },
+      {
+        "id": "B52",
+        "center_wavelength": "762.642",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b52 762.642 7.41053    "
+      },
+      {
+        "id": "B53",
+        "center_wavelength": "770.053",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b53 770.053 7.41053    "
+      },
+      {
+        "id": "B54",
+        "center_wavelength": "777.463",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b54 777.463 7.41053    "
+      },
+      {
+        "id": "B55",
+        "center_wavelength": "784.874",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b55 784.874 7.41053    "
+      },
+      {
+        "id": "B56",
+        "center_wavelength": "792.284",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b56 792.284 7.41053    "
+      },
+      {
+        "id": "B57",
+        "center_wavelength": "799.695",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b57 799.695 7.41053    "
+      },
+      {
+        "id": "B58",
+        "center_wavelength": "807.105",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b58 807.105 7.41053    "
+      },
+      {
+        "id": "B59",
+        "center_wavelength": "814.516",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b59 814.516 7.41053    "
+      },
+      {
+        "id": "B60",
+        "center_wavelength": "821.926",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b60 821.926 7.41053    "
+      },
+      {
+        "id": "B61",
+        "center_wavelength": "829.337",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b61 829.337 7.41053    "
+      },
+      {
+        "id": "B62",
+        "center_wavelength": "836.747",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b62 836.747 7.41053    "
+      },
+      {
+        "id": "B63",
+        "center_wavelength": "844.158",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b63 844.158 7.41053    "
+      },
+      {
+        "id": "B64",
+        "center_wavelength": "851.568",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b64 851.568 7.41053    "
+      },
+      {
+        "id": "B65",
+        "center_wavelength": "858.979",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b65 858.979 7.41053    "
+      },
+      {
+        "id": "B66",
+        "center_wavelength": "866.389",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b66 866.389 7.41053    "
+      },
+      {
+        "id": "B67",
+        "center_wavelength": "873.8",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b67 873.8 7.41053    "
+      },
+      {
+        "id": "B68",
+        "center_wavelength": "881.211",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b68 881.211 7.41053    "
+      },
+      {
+        "id": "B69",
+        "center_wavelength": "888.621",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b69 888.621 7.41053    "
+      },
+      {
+        "id": "B70",
+        "center_wavelength": "896.032",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b70 896.032 7.41053    "
+      },
+      {
+        "id": "B71",
+        "center_wavelength": "903.442",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b71 903.442 7.41053    "
+      },
+      {
+        "id": "B72",
+        "center_wavelength": "910.853",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b72 910.853 7.41053    "
+      },
+      {
+        "id": "B73",
+        "center_wavelength": "918.263",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b73 918.263 7.41053    "
+      },
+      {
+        "id": "B74",
+        "center_wavelength": "925.674",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b74 925.674 7.41053    "
+      },
+      {
+        "id": "B75",
+        "center_wavelength": "933.084",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b75 933.084 7.41053    "
+      },
+      {
+        "id": "B76",
+        "center_wavelength": "940.495",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b76 940.495 7.41053    "
+      },
+      {
+        "id": "B77",
+        "center_wavelength": "947.905",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b77 947.905 7.41053    "
+      },
+      {
+        "id": "B78",
+        "center_wavelength": "955.316",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b78 955.316 7.41053    "
+      },
+      {
+        "id": "B79",
+        "center_wavelength": "962.726",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b79 962.726 7.41053    "
+      },
+      {
+        "id": "B80",
+        "center_wavelength": "970.137",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b80 970.137 7.41053    "
+      },
+      {
+        "id": "B81",
+        "center_wavelength": "977.547",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b81 977.547 7.41053    "
+      },
+      {
+        "id": "B82",
+        "center_wavelength": "984.958",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b82 984.958 7.41053    "
+      },
+      {
+        "id": "B83",
+        "center_wavelength": "992.368",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b83 992.368 7.41053    "
+      },
+      {
+        "id": "B84",
+        "center_wavelength": "999.779",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b84 999.779 7.41053    "
+      },
+      {
+        "id": "B85",
+        "center_wavelength": "1007.19",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b85 1007.19 7.41053    "
+      },
+      {
+        "id": "B86",
+        "center_wavelength": "1014.6",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b86 1014.6 7.41053    "
+      },
+      {
+        "id": "B87",
+        "center_wavelength": "1022.01",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b87 1022.01 7.41053    "
+      },
+      {
+        "id": "B88",
+        "center_wavelength": "1029.42",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b88 1029.42 7.41053    "
+      },
+      {
+        "id": "B89",
+        "center_wavelength": "1036.83",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b89 1036.83 7.41053    "
+      },
+      {
+        "id": "B90",
+        "center_wavelength": "1044.24",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b90 1044.24 7.41053    "
+      },
+      {
+        "id": "B91",
+        "center_wavelength": "1051.65",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b91 1051.65 7.41053    "
+      },
+      {
+        "id": "B92",
+        "center_wavelength": "1059.06",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b92 1059.06 7.41053    "
+      },
+      {
+        "id": "B93",
+        "center_wavelength": "1066.47",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b93 1066.47 7.41053    "
+      },
+      {
+        "id": "B94",
+        "center_wavelength": "1073.88",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b94 1073.88 7.41053    "
+      },
+      {
+        "id": "B95",
+        "center_wavelength": "1081.29",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b95 1081.29 7.41053    "
+      },
+      {
+        "id": "B96",
+        "center_wavelength": "1088.71",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b96 1088.71 7.41053    "
+      },
+      {
+        "id": "B97",
+        "center_wavelength": "1096.12",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b97 1096.12 7.41053    "
+      },
+      {
+        "id": "B98",
+        "center_wavelength": "1103.53",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b98 1103.53 7.41053    "
+      },
+      {
+        "id": "B99",
+        "center_wavelength": "1110.94",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b99 1110.94 7.41053    "
+      },
+      {
+        "id": "B100",
+        "center_wavelength": "1118.35",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b100 1118.35 7.41053    "
+      },
+      {
+        "id": "B101",
+        "center_wavelength": "1125.76",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b101 1125.76 7.41053    "
+      },
+      {
+        "id": "B102",
+        "center_wavelength": "1133.17",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b102 1133.17 7.41053    "
+      },
+      {
+        "id": "B103",
+        "center_wavelength": "1140.58",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b103 1140.58 7.41053    "
+      },
+      {
+        "id": "B104",
+        "center_wavelength": "1147.99",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b104 1147.99 7.41053    "
+      },
+      {
+        "id": "B105",
+        "center_wavelength": "1155.4",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b105 1155.4 7.41053    "
+      },
+      {
+        "id": "B106",
+        "center_wavelength": "1162.81",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b106 1162.81 7.41053    "
+      },
+      {
+        "id": "B107",
+        "center_wavelength": "1170.22",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b107 1170.22 7.41053    "
+      },
+      {
+        "id": "B108",
+        "center_wavelength": "1177.63",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b108 1177.63 7.41053    "
+      },
+      {
+        "id": "B109",
+        "center_wavelength": "1185.04",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b109 1185.04 7.41053    "
+      },
+      {
+        "id": "B110",
+        "center_wavelength": "1192.45",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b110 1192.45 7.41053    "
+      },
+      {
+        "id": "B111",
+        "center_wavelength": "1199.86",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b111 1199.86 7.41053    "
+      },
+      {
+        "id": "B112",
+        "center_wavelength": "1207.27",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b112 1207.27 7.41053    "
+      },
+      {
+        "id": "B113",
+        "center_wavelength": "1214.68",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b113 1214.68 7.41053    "
+      },
+      {
+        "id": "B114",
+        "center_wavelength": "1222.09",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b114 1222.09 7.41053    "
+      },
+      {
+        "id": "B115",
+        "center_wavelength": "1229.51",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b115 1229.51 7.41053    "
+      },
+      {
+        "id": "B116",
+        "center_wavelength": "1236.92",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b116 1236.92 7.41053    "
+      },
+      {
+        "id": "B117",
+        "center_wavelength": "1244.33",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b117 1244.33 7.41053    "
+      },
+      {
+        "id": "B118",
+        "center_wavelength": "1251.74",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b118 1251.74 7.41053    "
+      },
+      {
+        "id": "B119",
+        "center_wavelength": "1259.15",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b119 1259.15 7.41053    "
+      },
+      {
+        "id": "B120",
+        "center_wavelength": "1266.56",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b120 1266.56 7.41053    "
+      },
+      {
+        "id": "B121",
+        "center_wavelength": "1273.97",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b121 1273.97 7.41053    "
+      },
+      {
+        "id": "B122",
+        "center_wavelength": "1281.38",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b122 1281.38 7.41053    "
+      },
+      {
+        "id": "B123",
+        "center_wavelength": "1288.79",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b123 1288.79 7.41053    "
+      },
+      {
+        "id": "B124",
+        "center_wavelength": "1296.2",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b124 1296.2 7.41053    "
+      },
+      {
+        "id": "B125",
+        "center_wavelength": "1303.61",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b125 1303.61 7.41053    "
+      },
+      {
+        "id": "B126",
+        "center_wavelength": "1311.02",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b126 1311.02 7.41053    "
+      },
+      {
+        "id": "B127",
+        "center_wavelength": "1318.43",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b127 1318.43 7.41053    "
+      },
+      {
+        "id": "B128",
+        "center_wavelength": "1325.84",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b128 1325.84 7.41053    "
+      },
+      {
+        "id": "B129",
+        "center_wavelength": "1333.25",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b129 1333.25 7.41053    "
+      },
+      {
+        "id": "B130",
+        "center_wavelength": "1340.66",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b130 1340.66 7.41053    "
+      },
+      {
+        "id": "B131",
+        "center_wavelength": "1348.07",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b131 1348.07 7.41053    "
+      },
+      {
+        "id": "B132",
+        "center_wavelength": "1355.48",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b132 1355.48 7.41053    "
+      },
+      {
+        "id": "B133",
+        "center_wavelength": "1362.89",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b133 1362.89 7.41053    "
+      },
+      {
+        "id": "B134",
+        "center_wavelength": "1370.31",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b134 1370.31 7.41053    "
+      },
+      {
+        "id": "B135",
+        "center_wavelength": "1377.72",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b135 1377.72 7.41053    "
+      },
+      {
+        "id": "B136",
+        "center_wavelength": "1385.13",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b136 1385.13 7.41053    "
+      },
+      {
+        "id": "B137",
+        "center_wavelength": "1392.54",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b137 1392.54 7.41053    "
+      },
+      {
+        "id": "B138",
+        "center_wavelength": "1399.95",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b138 1399.95 7.41053    "
+      },
+      {
+        "id": "B139",
+        "center_wavelength": "1407.36",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b139 1407.36 7.41053    "
+      },
+      {
+        "id": "B140",
+        "center_wavelength": "1414.77",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b140 1414.77 7.41053    "
+      },
+      {
+        "id": "B141",
+        "center_wavelength": "1422.18",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b141 1422.18 7.41053    "
+      },
+      {
+        "id": "B142",
+        "center_wavelength": "1429.59",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b142 1429.59 7.41053    "
+      },
+      {
+        "id": "B143",
+        "center_wavelength": "1437",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b143 1437 7.41053    "
+      },
+      {
+        "id": "B144",
+        "center_wavelength": "1444.41",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b144 1444.41 7.41053    "
+      },
+      {
+        "id": "B145",
+        "center_wavelength": "1451.82",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b145 1451.82 7.41053    "
+      },
+      {
+        "id": "B146",
+        "center_wavelength": "1459.23",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b146 1459.23 7.41053    "
+      },
+      {
+        "id": "B147",
+        "center_wavelength": "1466.64",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b147 1466.64 7.41053    "
+      },
+      {
+        "id": "B148",
+        "center_wavelength": "1474.05",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b148 1474.05 7.41053    "
+      },
+      {
+        "id": "B149",
+        "center_wavelength": "1481.46",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b149 1481.46 7.41053    "
+      },
+      {
+        "id": "B150",
+        "center_wavelength": "1488.87",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b150 1488.87 7.41053    "
+      },
+      {
+        "id": "B151",
+        "center_wavelength": "1496.28",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b151 1496.28 7.41053    "
+      },
+      {
+        "id": "B152",
+        "center_wavelength": "1503.69",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b152 1503.69 7.41053    "
+      },
+      {
+        "id": "B153",
+        "center_wavelength": "1511.11",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b153 1511.11 7.41053    "
+      },
+      {
+        "id": "B154",
+        "center_wavelength": "1518.52",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b154 1518.52 7.41053    "
+      },
+      {
+        "id": "B155",
+        "center_wavelength": "1525.93",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b155 1525.93 7.41053    "
+      },
+      {
+        "id": "B156",
+        "center_wavelength": "1533.34",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b156 1533.34 7.41053    "
+      },
+      {
+        "id": "B157",
+        "center_wavelength": "1540.75",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b157 1540.75 7.41053    "
+      },
+      {
+        "id": "B158",
+        "center_wavelength": "1548.16",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b158 1548.16 7.41053    "
+      },
+      {
+        "id": "B159",
+        "center_wavelength": "1555.57",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b159 1555.57 7.41053    "
+      },
+      {
+        "id": "B160",
+        "center_wavelength": "1562.98",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b160 1562.98 7.41053    "
+      },
+      {
+        "id": "B161",
+        "center_wavelength": "1570.39",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b161 1570.39 7.41053    "
+      },
+      {
+        "id": "B162",
+        "center_wavelength": "1577.8",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b162 1577.8 7.41053    "
+      },
+      {
+        "id": "B163",
+        "center_wavelength": "1585.21",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b163 1585.21 7.41053    "
+      },
+      {
+        "id": "B164",
+        "center_wavelength": "1592.62",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b164 1592.62 7.41053    "
+      },
+      {
+        "id": "B165",
+        "center_wavelength": "1600.03",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b165 1600.03 7.41053    "
+      },
+      {
+        "id": "B166",
+        "center_wavelength": "1607.44",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b166 1607.44 7.41053    "
+      },
+      {
+        "id": "B167",
+        "center_wavelength": "1614.85",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b167 1614.85 7.41053    "
+      },
+      {
+        "id": "B168",
+        "center_wavelength": "1622.26",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b168 1622.26 7.41053    "
+      },
+      {
+        "id": "B169",
+        "center_wavelength": "1629.67",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b169 1629.67 7.41053    "
+      },
+      {
+        "id": "B170",
+        "center_wavelength": "1637.08",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b170 1637.08 7.41053    "
+      },
+      {
+        "id": "B171",
+        "center_wavelength": "1644.49",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b171 1644.49 7.41053    "
+      },
+      {
+        "id": "B172",
+        "center_wavelength": "1651.91",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b172 1651.91 7.41053    "
+      },
+      {
+        "id": "B173",
+        "center_wavelength": "1659.32",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b173 1659.32 7.41053    "
+      },
+      {
+        "id": "B174",
+        "center_wavelength": "1666.73",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b174 1666.73 7.41053    "
+      },
+      {
+        "id": "B175",
+        "center_wavelength": "1674.14",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b175 1674.14 7.41053    "
+      },
+      {
+        "id": "B176",
+        "center_wavelength": "1681.55",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b176 1681.55 7.41053    "
+      },
+      {
+        "id": "B177",
+        "center_wavelength": "1688.96",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b177 1688.96 7.41053    "
+      },
+      {
+        "id": "B178",
+        "center_wavelength": "1696.37",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b178 1696.37 7.41053    "
+      },
+      {
+        "id": "B179",
+        "center_wavelength": "1703.78",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b179 1703.78 7.41053    "
+      },
+      {
+        "id": "B180",
+        "center_wavelength": "1711.19",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b180 1711.19 7.41053    "
+      },
+      {
+        "id": "B181",
+        "center_wavelength": "1718.6",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b181 1718.6 7.41053    "
+      },
+      {
+        "id": "B182",
+        "center_wavelength": "1726.01",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b182 1726.01 7.41053    "
+      },
+      {
+        "id": "B183",
+        "center_wavelength": "1733.42",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b183 1733.42 7.41053    "
+      },
+      {
+        "id": "B184",
+        "center_wavelength": "1740.83",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b184 1740.83 7.41053    "
+      },
+      {
+        "id": "B185",
+        "center_wavelength": "1748.24",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b185 1748.24 7.41053    "
+      },
+      {
+        "id": "B186",
+        "center_wavelength": "1755.65",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b186 1755.65 7.41053    "
+      },
+      {
+        "id": "B187",
+        "center_wavelength": "1763.06",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b187 1763.06 7.41053    "
+      },
+      {
+        "id": "B188",
+        "center_wavelength": "1770.47",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b188 1770.47 7.41053    "
+      },
+      {
+        "id": "B189",
+        "center_wavelength": "1777.88",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b189 1777.88 7.41053    "
+      },
+      {
+        "id": "B190",
+        "center_wavelength": "1785.29",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b190 1785.29 7.41053    "
+      },
+      {
+        "id": "B191",
+        "center_wavelength": "1792.71",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b191 1792.71 7.41053    "
+      },
+      {
+        "id": "B192",
+        "center_wavelength": "1800.12",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b192 1800.12 7.41053    "
+      },
+      {
+        "id": "B193",
+        "center_wavelength": "1807.53",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b193 1807.53 7.41053    "
+      },
+      {
+        "id": "B194",
+        "center_wavelength": "1814.94",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b194 1814.94 7.41053    "
+      },
+      {
+        "id": "B195",
+        "center_wavelength": "1822.35",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b195 1822.35 7.41053    "
+      },
+      {
+        "id": "B196",
+        "center_wavelength": "1829.76",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b196 1829.76 7.41053    "
+      },
+      {
+        "id": "B197",
+        "center_wavelength": "1837.17",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b197 1837.17 7.41053    "
+      },
+      {
+        "id": "B198",
+        "center_wavelength": "1844.58",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b198 1844.58 7.41053    "
+      },
+      {
+        "id": "B199",
+        "center_wavelength": "1851.99",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b199 1851.99 7.41053    "
+      },
+      {
+        "id": "B200",
+        "center_wavelength": "1859.4",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b200 1859.4 7.41053    "
+      },
+      {
+        "id": "B201",
+        "center_wavelength": "1866.81",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b201 1866.81 7.41053    "
+      },
+      {
+        "id": "B202",
+        "center_wavelength": "1874.22",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b202 1874.22 7.41053    "
+      },
+      {
+        "id": "B203",
+        "center_wavelength": "1881.63",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b203 1881.63 7.41053    "
+      },
+      {
+        "id": "B204",
+        "center_wavelength": "1889.04",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b204 1889.04 7.41053    "
+      },
+      {
+        "id": "B205",
+        "center_wavelength": "1896.45",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b205 1896.45 7.41053    "
+      },
+      {
+        "id": "B206",
+        "center_wavelength": "1903.86",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b206 1903.86 7.41053    "
+      },
+      {
+        "id": "B207",
+        "center_wavelength": "1911.27",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b207 1911.27 7.41053    "
+      },
+      {
+        "id": "B208",
+        "center_wavelength": "1918.68",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b208 1918.68 7.41053    "
+      },
+      {
+        "id": "B209",
+        "center_wavelength": "1926.09",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b209 1926.09 7.41053    "
+      },
+      {
+        "id": "B210",
+        "center_wavelength": "1933.51",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b210 1933.51 7.41053    "
+      },
+      {
+        "id": "B211",
+        "center_wavelength": "1940.92",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b211 1940.92 7.41053    "
+      },
+      {
+        "id": "B212",
+        "center_wavelength": "1948.33",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b212 1948.33 7.41053    "
+      },
+      {
+        "id": "B213",
+        "center_wavelength": "1955.74",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b213 1955.74 7.41053    "
+      },
+      {
+        "id": "B214",
+        "center_wavelength": "1963.15",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b214 1963.15 7.41053    "
+      },
+      {
+        "id": "B215",
+        "center_wavelength": "1970.56",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b215 1970.56 7.41053    "
+      },
+      {
+        "id": "B216",
+        "center_wavelength": "1977.97",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b216 1977.97 7.41053    "
+      },
+      {
+        "id": "B217",
+        "center_wavelength": "1985.38",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b217 1985.38 7.41053    "
+      },
+      {
+        "id": "B218",
+        "center_wavelength": "1992.79",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b218 1992.79 7.41053    "
+      },
+      {
+        "id": "B219",
+        "center_wavelength": "2000.2",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b219 2000.2 7.41053    "
+      },
+      {
+        "id": "B220",
+        "center_wavelength": "2007.61",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b220 2007.61 7.41053    "
+      },
+      {
+        "id": "B221",
+        "center_wavelength": "2015.02",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b221 2015.02 7.41053    "
+      },
+      {
+        "id": "B222",
+        "center_wavelength": "2022.43",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b222 2022.43 7.41053    "
+      },
+      {
+        "id": "B223",
+        "center_wavelength": "2029.84",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b223 2029.84 7.41053    "
+      },
+      {
+        "id": "B224",
+        "center_wavelength": "2037.25",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b224 2037.25 7.41053    "
+      },
+      {
+        "id": "B225",
+        "center_wavelength": "2044.66",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b225 2044.66 7.41053    "
+      },
+      {
+        "id": "B226",
+        "center_wavelength": "2052.07",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b226 2052.07 7.41053    "
+      },
+      {
+        "id": "B227",
+        "center_wavelength": "2059.48",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b227 2059.48 7.41053    "
+      },
+      {
+        "id": "B228",
+        "center_wavelength": "2066.89",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b228 2066.89 7.41053    "
+      },
+      {
+        "id": "B229",
+        "center_wavelength": "2074.31",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b229 2074.31 7.41053    "
+      },
+      {
+        "id": "B230",
+        "center_wavelength": "2081.72",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b230 2081.72 7.41053    "
+      },
+      {
+        "id": "B231",
+        "center_wavelength": "2089.13",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b231 2089.13 7.41053    "
+      },
+      {
+        "id": "B232",
+        "center_wavelength": "2096.54",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b232 2096.54 7.41053    "
+      },
+      {
+        "id": "B233",
+        "center_wavelength": "2103.95",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b233 2103.95 7.41053    "
+      },
+      {
+        "id": "B234",
+        "center_wavelength": "2111.36",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b234 2111.36 7.41053    "
+      },
+      {
+        "id": "B235",
+        "center_wavelength": "2118.77",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b235 2118.77 7.41053    "
+      },
+      {
+        "id": "B236",
+        "center_wavelength": "2126.18",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b236 2126.18 7.41053    "
+      },
+      {
+        "id": "B237",
+        "center_wavelength": "2133.59",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b237 2133.59 7.41053    "
+      },
+      {
+        "id": "B238",
+        "center_wavelength": "2141",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b238 2141 7.41053    "
+      },
+      {
+        "id": "B239",
+        "center_wavelength": "2148.41",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b239 2148.41 7.41053    "
+      },
+      {
+        "id": "B240",
+        "center_wavelength": "2155.82",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b240 2155.82 7.41053    "
+      },
+      {
+        "id": "B241",
+        "center_wavelength": "2163.23",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b241 2163.23 7.41053    "
+      },
+      {
+        "id": "B242",
+        "center_wavelength": "2170.64",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b242 2170.64 7.41053    "
+      },
+      {
+        "id": "B243",
+        "center_wavelength": "2178.05",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b243 2178.05 7.41053    "
+      },
+      {
+        "id": "B244",
+        "center_wavelength": "2185.46",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b244 2185.46 7.41053    "
+      },
+      {
+        "id": "B245",
+        "center_wavelength": "2192.87",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b245 2192.87 7.41053    "
+      },
+      {
+        "id": "B246",
+        "center_wavelength": "2200.28",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b246 2200.28 7.41053    "
+      },
+      {
+        "id": "B247",
+        "center_wavelength": "2207.69",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b247 2207.69 7.41053    "
+      },
+      {
+        "id": "B248",
+        "center_wavelength": "2215.11",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b248 2215.11 7.41053    "
+      },
+      {
+        "id": "B249",
+        "center_wavelength": "2222.52",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b249 2222.52 7.41053    "
+      },
+      {
+        "id": "B250",
+        "center_wavelength": "2229.93",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b250 2229.93 7.41053    "
+      },
+      {
+        "id": "B251",
+        "center_wavelength": "2237.34",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b251 2237.34 7.41053    "
+      },
+      {
+        "id": "B252",
+        "center_wavelength": "2244.75",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b252 2244.75 7.41053    "
+      },
+      {
+        "id": "B253",
+        "center_wavelength": "2252.16",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b253 2252.16 7.41053    "
+      },
+      {
+        "id": "B254",
+        "center_wavelength": "2259.57",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b254 2259.57 7.41053    "
+      },
+      {
+        "id": "B255",
+        "center_wavelength": "2266.98",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b255 2266.98 7.41053    "
+      },
+      {
+        "id": "B256",
+        "center_wavelength": "2274.39",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b256 2274.39 7.41053    "
+      },
+      {
+        "id": "B257",
+        "center_wavelength": "2281.8",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b257 2281.8 7.41053    "
+      },
+      {
+        "id": "B258",
+        "center_wavelength": "2289.21",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b258 2289.21 7.41053    "
+      },
+      {
+        "id": "B259",
+        "center_wavelength": "2296.62",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b259 2296.62 7.41053    "
+      },
+      {
+        "id": "B260",
+        "center_wavelength": "2304.03",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b260 2304.03 7.41053    "
+      },
+      {
+        "id": "B261",
+        "center_wavelength": "2311.44",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b261 2311.44 7.41053    "
+      },
+      {
+        "id": "B262",
+        "center_wavelength": "2318.85",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b262 2318.85 7.41053    "
+      },
+      {
+        "id": "B263",
+        "center_wavelength": "2326.26",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b263 2326.26 7.41053    "
+      },
+      {
+        "id": "B264",
+        "center_wavelength": "2333.67",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b264 2333.67 7.41053    "
+      },
+      {
+        "id": "B265",
+        "center_wavelength": "2341.08",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b265 2341.08 7.41053    "
+      },
+      {
+        "id": "B266",
+        "center_wavelength": "2348.49",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b266 2348.49 7.41053    "
+      },
+      {
+        "id": "B267",
+        "center_wavelength": "2355.91",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b267 2355.91 7.41053    "
+      },
+      {
+        "id": "B268",
+        "center_wavelength": "2363.32",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b268 2363.32 7.41053    "
+      },
+      {
+        "id": "B269",
+        "center_wavelength": "2370.73",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b269 2370.73 7.41053    "
+      },
+      {
+        "id": "B270",
+        "center_wavelength": "2378.14",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b270 2378.14 7.41053    "
+      },
+      {
+        "id": "B271",
+        "center_wavelength": "2385.55",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b271 2385.55 7.41053    "
+      },
+      {
+        "id": "B272",
+        "center_wavelength": "2392.96",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b272 2392.96 7.41053    "
+      },
+      {
+        "id": "B273",
+        "center_wavelength": "2400.37",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b273 2400.37 7.41053    "
+      },
+      {
+        "id": "B274",
+        "center_wavelength": "2407.78",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b274 2407.78 7.41053    "
+      },
+      {
+        "id": "B275",
+        "center_wavelength": "2415.19",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b275 2415.19 7.41053    "
+      },
+      {
+        "id": "B276",
+        "center_wavelength": "2422.6",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b276 2422.6 7.41053    "
+      },
+      {
+        "id": "B277",
+        "center_wavelength": "2430.01",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b277 2430.01 7.41053    "
+      },
+      {
+        "id": "B278",
+        "center_wavelength": "2437.42",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b278 2437.42 7.41053    "
+      },
+      {
+        "id": "B279",
+        "center_wavelength": "2444.83",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b279 2444.83 7.41053    "
+      },
+      {
+        "id": "B280",
+        "center_wavelength": "2452.24",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b280 2452.24 7.41053    "
+      },
+      {
+        "id": "B281",
+        "center_wavelength": "2459.65",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b281 2459.65 7.41053    "
+      },
+      {
+        "id": "B282",
+        "center_wavelength": "2467.06",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b282 2467.06 7.41053    "
+      },
+      {
+        "id": "B283",
+        "center_wavelength": "2474.47",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b283 2474.47 7.41053    "
+      },
+      {
+        "id": "B284",
+        "center_wavelength": "2481.88",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b284 2481.88 7.41053    "
+      },
+      {
+        "id": "B285",
+        "center_wavelength": "2489.29",
+        "bandwidth": "7.41053",
+        "common_name": "",
+        "gsd": "",
+        "description": "",
+        "snr": "",
+        "search_text": "b285 2489.29 7.41053    "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Across Fov",
+        "value": "11"
+      },
+      {
+        "label": "Across Ifov",
+        "value": "155"
+      },
+      {
+        "label": "Along Ifov",
+        "value": "71"
+      },
+      {
+        "label": "Entrance Pupil",
+        "value": "110"
+      },
+      {
+        "label": "Fnumber",
+        "value": "1.8"
+      },
+      {
+        "label": "Focal Length",
+        "value": "193.5"
+      },
+      {
+        "label": "Gsd",
+        "value": "60"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
+            "collection": "NASA/EMIT/L2A/RFL"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD",
+            "collection": "NASA/EMIT/L1B/RAD"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL",
+            "collection": "NASA/EMIT/L2A/RFL"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1901"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer"
+      }
+    ],
+    "related": [],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-emitl1brad-001"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://earth.jpl.nasa.gov/emit/"
+      },
+      {
+        "url": "https://earth.jpl.nasa.gov/emit/instrument/overview/"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer/spectral-bands"
+      }
+    ]
+  },
+  "ETM_L7": {
+    "id": "ETM_L7",
+    "summary": "ETM_L7 (Enhanced Thematic Mapper Plus) is an operational multispectral instrument operated by NASA, USGS on Landsat 7. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "ETM_L7"
+      },
+      {
+        "label": "Name",
+        "value": "Enhanced Thematic Mapper Plus"
+      },
+      {
+        "label": "Acronym",
+        "value": "ETM+"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 7"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "1999-04-15"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "8"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "482.5-11450 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "60-2100 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "15-30 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/ETM_L7_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "482.5",
+        "bandwidth": "65",
+        "common_name": "blue",
+        "gsd": "30",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 482.5 65 blue 30 blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "565",
+        "bandwidth": "80",
+        "common_name": "green",
+        "gsd": "30",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 565 80 green 30 green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "660",
+        "bandwidth": "60",
+        "common_name": "red",
+        "gsd": "30",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 660 60 red 30 red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "837.5",
+        "bandwidth": "125",
+        "common_name": "nir",
+        "gsd": "30",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b4 837.5 125 nir 30 nir "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "1650",
+        "bandwidth": "200",
+        "common_name": "swir16",
+        "gsd": "30",
+        "description": "SWIR",
+        "snr": "",
+        "search_text": "b5 1650 200 swir16 30 swir "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "11450",
+        "bandwidth": "2100",
+        "common_name": "lwir",
+        "gsd": "30",
+        "description": "TIR",
+        "snr": "",
+        "search_text": "b6 11450 2100 lwir 30 tir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2215",
+        "bandwidth": "270",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR 2",
+        "snr": "",
+        "search_text": "b7 2215 270 swir22 30 swir 2 "
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "710",
+        "bandwidth": "380",
+        "common_name": "pan",
+        "gsd": "15",
+        "description": "Panchromatic",
+        "snr": "",
+        "search_text": "b8 710 380 pan 15 panchromatic "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2",
+            "collection": "LANDSAT/LE07/C02/T1_L2"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1",
+            "collection": "LANDSAT/LE07/C02/T1"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_TOA",
+            "collection": "LANDSAT/LE07/C02/T1_TOA"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2",
+            "collection": "LANDSAT/LE07/C02/T1_L2"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=8"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=322"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/etm"
+      }
+    ],
+    "related": [],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-7/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/landsat-7"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/etm-plus/"
+      }
+    ]
+  },
+  "MSI_S2A": {
+    "id": "MSI_S2A",
+    "summary": "MSI_S2A (MultiSpectral Instrument) is an operational multispectral instrument operated by ESA, Copernicus on Sentinel-2A. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSI_S2A"
+      },
+      {
+        "label": "Name",
+        "value": "MultiSpectral Instrument"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSI"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Sentinel-2A"
+      },
+      {
+        "label": "Operator",
+        "value": "ESA, Copernicus"
+      },
+      {
+        "label": "Start date",
+        "value": "2015-06-23"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "13"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "442.7-2202.4 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "14-179 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "10-60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSI_S2A_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "442.7",
+        "bandwidth": "20",
+        "common_name": "coastal",
+        "gsd": "60",
+        "description": "Aerosols",
+        "snr": "129",
+        "search_text": "b1 442.7 20 coastal 60 aerosols 129"
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "492.7",
+        "bandwidth": "64",
+        "common_name": "blue",
+        "gsd": "10",
+        "description": "Blue",
+        "snr": "154",
+        "search_text": "b2 492.7 64 blue 10 blue 154"
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "559.8",
+        "bandwidth": "35",
+        "common_name": "green",
+        "gsd": "10",
+        "description": "Green",
+        "snr": "168",
+        "search_text": "b3 559.8 35 green 10 green 168"
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "664.6",
+        "bandwidth": "30",
+        "common_name": "red",
+        "gsd": "10",
+        "description": "Red",
+        "snr": "142",
+        "search_text": "b4 664.6 30 red 10 red 142"
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "704.1",
+        "bandwidth": "14",
+        "common_name": "rededge071",
+        "gsd": "20",
+        "description": "Red Edge 1",
+        "snr": "117",
+        "search_text": "b5 704.1 14 rededge071 20 red edge 1 117"
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "740.5",
+        "bandwidth": "14",
+        "common_name": "rededge075",
+        "gsd": "20",
+        "description": "Red Edge 2",
+        "snr": "89",
+        "search_text": "b6 740.5 14 rededge075 20 red edge 2 89"
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "782.8",
+        "bandwidth": "20",
+        "common_name": "rededge078",
+        "gsd": "20",
+        "description": "Red Edge 3",
+        "snr": "105",
+        "search_text": "b7 782.8 20 rededge078 20 red edge 3 105"
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "832.8",
+        "bandwidth": "118",
+        "common_name": "nir",
+        "gsd": "10",
+        "description": "NIR",
+        "snr": "174",
+        "search_text": "b8 832.8 118 nir 10 nir 174"
+      },
+      {
+        "id": "B8A",
+        "center_wavelength": "864.7",
+        "bandwidth": "20",
+        "common_name": "nir08",
+        "gsd": "20",
+        "description": "Narrow NIR",
+        "snr": "72",
+        "search_text": "b8a 864.7 20 nir08 20 narrow nir 72"
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "945.1",
+        "bandwidth": "20",
+        "common_name": "nir09",
+        "gsd": "60",
+        "description": "Water Vapour",
+        "snr": "114",
+        "search_text": "b9 945.1 20 nir09 60 water vapour 114"
+      },
+      {
+        "id": "B10",
+        "center_wavelength": "1373.5",
+        "bandwidth": "30",
+        "common_name": "cirrus",
+        "gsd": "60",
+        "description": "Cirrus",
+        "snr": "50",
+        "search_text": "b10 1373.5 30 cirrus 60 cirrus 50"
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "1613.7",
+        "bandwidth": "88",
+        "common_name": "swir16",
+        "gsd": "20",
+        "description": "SWIR 1",
+        "snr": "100",
+        "search_text": "b11 1613.7 88 swir16 20 swir 1 100"
+      },
+      {
+        "id": "B12",
+        "center_wavelength": "2202.4",
+        "bandwidth": "179",
+        "common_name": "swir22",
+        "gsd": "20",
+        "description": "SWIR 2",
+        "snr": "100",
+        "search_text": "b12 2202.4 179 swir22 20 swir 2 100"
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
+            "collection": "COPERNICUS/S2_HARMONIZED"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l1c",
+            "collection": "sentinel-2-l1c"
+          }
+        ]
+      },
+      {
+        "key": "eopf",
+        "title": "EOPF Sentinel Zarr Samples",
+        "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l1c",
+            "collection": "sentinel-2-l1c"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=96"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSI_S2B",
+        "name": "MultiSpectral Instrument",
+        "platform": "Sentinel-2B",
+        "href": "/instruments/MSI_S2B",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSI_S2C",
+        "name": "MultiSpectral Instrument",
+        "platform": "Sentinel-2C",
+        "href": "/instruments/MSI_S2C",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/sentinel-2"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
+      },
+      {
+        "url": "https://registry.opendata.aws/sentinel-2-l2a-cogs/"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/s2-mission#S2-Mission-MSI-Instrument"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.rse.2011.11.026"
+      },
+      {
+        "url": "https://doi.org/10.5194/isprs-annals-V-1-2022-57-2022"
+      }
+    ]
+  },
+  "MSI_S2B": {
+    "id": "MSI_S2B",
+    "summary": "MSI_S2B (MultiSpectral Instrument) is an operational multispectral instrument operated by ESA, Copernicus on Sentinel-2B. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSI_S2B"
+      },
+      {
+        "label": "Name",
+        "value": "MultiSpectral Instrument"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSI"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Sentinel-2B"
+      },
+      {
+        "label": "Operator",
+        "value": "ESA, Copernicus"
+      },
+      {
+        "label": "Start date",
+        "value": "2017-03-07"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "13"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "442.2-2185.7 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "14-181 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "10-60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSI_S2B_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "442.2",
+        "bandwidth": "20",
+        "common_name": "coastal",
+        "gsd": "60",
+        "description": "Aerosols",
+        "snr": "129",
+        "search_text": "b1 442.2 20 coastal 60 aerosols 129"
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "492.3",
+        "bandwidth": "65",
+        "common_name": "blue",
+        "gsd": "10",
+        "description": "Blue",
+        "snr": "154",
+        "search_text": "b2 492.3 65 blue 10 blue 154"
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "558.9",
+        "bandwidth": "35",
+        "common_name": "green",
+        "gsd": "10",
+        "description": "Green",
+        "snr": "168",
+        "search_text": "b3 558.9 35 green 10 green 168"
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "664.9",
+        "bandwidth": "31",
+        "common_name": "red",
+        "gsd": "10",
+        "description": "Red",
+        "snr": "142",
+        "search_text": "b4 664.9 31 red 10 red 142"
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "703.8",
+        "bandwidth": "15",
+        "common_name": "rededge071",
+        "gsd": "20",
+        "description": "Red Edge 1",
+        "snr": "117",
+        "search_text": "b5 703.8 15 rededge071 20 red edge 1 117"
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "739.1",
+        "bandwidth": "14",
+        "common_name": "rededge075",
+        "gsd": "20",
+        "description": "Red Edge 2",
+        "snr": "89",
+        "search_text": "b6 739.1 14 rededge075 20 red edge 2 89"
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "779.7",
+        "bandwidth": "20",
+        "common_name": "rededge078",
+        "gsd": "20",
+        "description": "Red Edge 3",
+        "snr": "105",
+        "search_text": "b7 779.7 20 rededge078 20 red edge 3 105"
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "832.9",
+        "bandwidth": "115",
+        "common_name": "nir",
+        "gsd": "10",
+        "description": "NIR",
+        "snr": "174",
+        "search_text": "b8 832.9 115 nir 10 nir 174"
+      },
+      {
+        "id": "B8A",
+        "center_wavelength": "864",
+        "bandwidth": "20",
+        "common_name": "nir08",
+        "gsd": "20",
+        "description": "Narrow NIR",
+        "snr": "72",
+        "search_text": "b8a 864 20 nir08 20 narrow nir 72"
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "943.2",
+        "bandwidth": "20",
+        "common_name": "nir09",
+        "gsd": "60",
+        "description": "Water Vapour",
+        "snr": "114",
+        "search_text": "b9 943.2 20 nir09 60 water vapour 114"
+      },
+      {
+        "id": "B10",
+        "center_wavelength": "1376.9",
+        "bandwidth": "30",
+        "common_name": "cirrus",
+        "gsd": "60",
+        "description": "Cirrus",
+        "snr": "50",
+        "search_text": "b10 1376.9 30 cirrus 60 cirrus 50"
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "1610.4",
+        "bandwidth": "93",
+        "common_name": "swir16",
+        "gsd": "20",
+        "description": "SWIR 1",
+        "snr": "100",
+        "search_text": "b11 1610.4 93 swir16 20 swir 1 100"
+      },
+      {
+        "id": "B12",
+        "center_wavelength": "2185.7",
+        "bandwidth": "181",
+        "common_name": "swir22",
+        "gsd": "20",
+        "description": "SWIR 2",
+        "snr": "100",
+        "search_text": "b12 2185.7 181 swir22 20 swir 2 100"
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
+            "collection": "COPERNICUS/S2_HARMONIZED"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l1c",
+            "collection": "sentinel-2-l1c"
+          }
+        ]
+      },
+      {
+        "key": "eopf",
+        "title": "EOPF Sentinel Zarr Samples",
+        "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l1c",
+            "collection": "sentinel-2-l1c"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSI_S2A",
+        "name": "MultiSpectral Instrument",
+        "platform": "Sentinel-2A",
+        "href": "/instruments/MSI_S2A",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSI_S2C",
+        "name": "MultiSpectral Instrument",
+        "platform": "Sentinel-2C",
+        "href": "/instruments/MSI_S2C",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/sentinel-2"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
+      },
+      {
+        "url": "https://registry.opendata.aws/sentinel-2-l2a-cogs/"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/s2-mission#S2-Mission-MSI-Instrument"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.rse.2011.11.026"
+      },
+      {
+        "url": "https://doi.org/10.5194/isprs-annals-V-1-2022-57-2022"
+      }
+    ]
+  },
+  "MSI_S2C": {
+    "id": "MSI_S2C",
+    "summary": "MSI_S2C (MultiSpectral Instrument) is an operational multispectral instrument operated by ESA, Copernicus on Sentinel-2C. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSI_S2C"
+      },
+      {
+        "label": "Name",
+        "value": "MultiSpectral Instrument"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSI"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Sentinel-2C"
+      },
+      {
+        "label": "Operator",
+        "value": "ESA, Copernicus"
+      },
+      {
+        "label": "Start date",
+        "value": "2024-09-05"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "13"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "444.2-2191.3 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "15-182 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "10-60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSI_S2C_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "444.2",
+        "bandwidth": "21",
+        "common_name": "coastal",
+        "gsd": "60",
+        "description": "Aerosols",
+        "snr": "894",
+        "search_text": "b1 444.2 21 coastal 60 aerosols 894"
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "489",
+        "bandwidth": "65",
+        "common_name": "blue",
+        "gsd": "10",
+        "description": "Blue",
+        "snr": "162",
+        "search_text": "b2 489 65 blue 10 blue 162"
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "560.6",
+        "bandwidth": "36",
+        "common_name": "green",
+        "gsd": "10",
+        "description": "Green",
+        "snr": "189",
+        "search_text": "b3 560.6 36 green 10 green 189"
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "666.5",
+        "bandwidth": "30",
+        "common_name": "red",
+        "gsd": "10",
+        "description": "Red",
+        "snr": "175",
+        "search_text": "b4 666.5 30 red 10 red 175"
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "707.1",
+        "bandwidth": "15",
+        "common_name": "rededge071",
+        "gsd": "20",
+        "description": "Red Edge 1",
+        "snr": "192",
+        "search_text": "b5 707.1 15 rededge071 20 red edge 1 192"
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "741.1",
+        "bandwidth": "15",
+        "common_name": "rededge075",
+        "gsd": "20",
+        "description": "Red Edge 2",
+        "snr": "169",
+        "search_text": "b6 741.1 15 rededge075 20 red edge 2 169"
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "784.7",
+        "bandwidth": "21",
+        "common_name": "rededge078",
+        "gsd": "20",
+        "description": "Red Edge 3",
+        "snr": "161",
+        "search_text": "b7 784.7 21 rededge078 20 red edge 3 161"
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "834.6",
+        "bandwidth": "114",
+        "common_name": "nir",
+        "gsd": "10",
+        "description": "NIR",
+        "snr": "174",
+        "search_text": "b8 834.6 114 nir 10 nir 174"
+      },
+      {
+        "id": "B8A",
+        "center_wavelength": "865.6",
+        "bandwidth": "20",
+        "common_name": "nir08",
+        "gsd": "20",
+        "description": "Narrow NIR",
+        "snr": "117",
+        "search_text": "b8a 865.6 20 nir08 20 narrow nir 117"
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "947.2",
+        "bandwidth": "20",
+        "common_name": "nir09",
+        "gsd": "60",
+        "description": "Water Vapour",
+        "snr": "135",
+        "search_text": "b9 947.2 20 nir09 60 water vapour 135"
+      },
+      {
+        "id": "B10",
+        "center_wavelength": "1372.2",
+        "bandwidth": "33",
+        "common_name": "cirrus",
+        "gsd": "60",
+        "description": "Cirrus",
+        "snr": "301",
+        "search_text": "b10 1372.2 33 cirrus 60 cirrus 301"
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "1612",
+        "bandwidth": "89",
+        "common_name": "swir16",
+        "gsd": "20",
+        "description": "SWIR 1",
+        "snr": "133",
+        "search_text": "b11 1612 89 swir16 20 swir 1 133"
+      },
+      {
+        "id": "B12",
+        "center_wavelength": "2191.3",
+        "bandwidth": "182",
+        "common_name": "swir22",
+        "gsd": "20",
+        "description": "SWIR 2",
+        "snr": "141",
+        "search_text": "b12 2191.3 182 swir22 20 swir 2 141"
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED",
+            "collection": "COPERNICUS/S2_SR_HARMONIZED"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED",
+            "collection": "COPERNICUS/S2_HARMONIZED"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l1c",
+            "collection": "sentinel-2-l1c"
+          }
+        ]
+      },
+      {
+        "key": "eopf",
+        "title": "EOPF Sentinel Zarr Samples",
+        "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l2a",
+            "collection": "sentinel-2-l2a"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-2-l1c",
+            "collection": "sentinel-2-l1c"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSI_S2A",
+        "name": "MultiSpectral Instrument",
+        "platform": "Sentinel-2A",
+        "href": "/instruments/MSI_S2A",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSI_S2B",
+        "name": "MultiSpectral Instrument",
+        "platform": "Sentinel-2B",
+        "href": "/instruments/MSI_S2B",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-2-l2a"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/sentinel-2"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
+      },
+      {
+        "url": "https://registry.opendata.aws/sentinel-2-l2a-cogs/"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/s2-mission#S2-Mission-MSI-Instrument"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.rse.2011.11.026"
+      },
+      {
+        "url": "https://doi.org/10.5194/isprs-annals-V-1-2022-57-2022"
+      }
+    ]
+  },
+  "MSS_L1": {
+    "id": "MSS_L1",
+    "summary": "MSS_L1 (Multispectral Scanner System) is a retired multispectral instrument operated by NASA on Landsat 1. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSS_L1"
+      },
+      {
+        "label": "Name",
+        "value": "Multispectral Scanner System"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 1"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA"
+      },
+      {
+        "label": "Start date",
+        "value": "1972-07-23"
+      },
+      {
+        "label": "End date",
+        "value": "1978-01-06"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "4"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "550-950 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "100-300 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSS_L1_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B4",
+        "center_wavelength": "550",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b4 550 100  60 green "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "650",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b5 650 100  60 red "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "750",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b6 750 100  60 nir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "950",
+        "bandwidth": "300",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR 2",
+        "snr": "",
+        "search_text": "b7 950 300  60 nir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
+            "collection": "LANDSAT/LM01/C02/T1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1",
+            "collection": "LANDSAT/LM01/C02/T1"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=6"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/mss"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSS_L2",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 2",
+        "href": "/instruments/MSS_L2",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L3",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 3",
+        "href": "/instruments/MSS_L3",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L4",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 4",
+        "href": "/instruments/MSS_L4",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L5",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 5",
+        "href": "/instruments/MSS_L5",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-1/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM01_C02_T1"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/mss/"
+      }
+    ]
+  },
+  "MSS_L2": {
+    "id": "MSS_L2",
+    "summary": "MSS_L2 (Multispectral Scanner System) is a retired multispectral instrument operated by NASA, NOAA on Landsat 2. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSS_L2"
+      },
+      {
+        "label": "Name",
+        "value": "Multispectral Scanner System"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 2"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, NOAA"
+      },
+      {
+        "label": "Start date",
+        "value": "1975-01-22"
+      },
+      {
+        "label": "End date",
+        "value": "1982-02-25"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "4"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "550-950 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "100-300 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSS_L2_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B4",
+        "center_wavelength": "550",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b4 550 100  60 green "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "650",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b5 650 100  60 red "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "750",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b6 750 100  60 nir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "950",
+        "bandwidth": "300",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR 2",
+        "snr": "",
+        "search_text": "b7 950 300  60 nir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
+            "collection": "LANDSAT/LM02/C02/T1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1",
+            "collection": "LANDSAT/LM02/C02/T1"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=6"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/mss"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSS_L1",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 1",
+        "href": "/instruments/MSS_L1",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L3",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 3",
+        "href": "/instruments/MSS_L3",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L4",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 4",
+        "href": "/instruments/MSS_L4",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L5",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 5",
+        "href": "/instruments/MSS_L5",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-2/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM02_C02_T1"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/mss/"
+      }
+    ]
+  },
+  "MSS_L3": {
+    "id": "MSS_L3",
+    "summary": "MSS_L3 (Multispectral Scanner System) is a retired multispectral instrument operated by NASA on Landsat 3. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSS_L3"
+      },
+      {
+        "label": "Name",
+        "value": "Multispectral Scanner System"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 3"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA"
+      },
+      {
+        "label": "Start date",
+        "value": "1978-03-05"
+      },
+      {
+        "label": "End date",
+        "value": "1983-09-07"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "4"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "550-950 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "100-300 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSS_L3_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B4",
+        "center_wavelength": "550",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b4 550 100  60 green "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "650",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b5 650 100  60 red "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "750",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b6 750 100  60 nir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "950",
+        "bandwidth": "300",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR 2",
+        "snr": "",
+        "search_text": "b7 950 300  60 nir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
+            "collection": "LANDSAT/LM03/C02/T1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1",
+            "collection": "LANDSAT/LM03/C02/T1"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=6"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/mss"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSS_L1",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 1",
+        "href": "/instruments/MSS_L1",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L2",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 2",
+        "href": "/instruments/MSS_L2",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L4",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 4",
+        "href": "/instruments/MSS_L4",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L5",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 5",
+        "href": "/instruments/MSS_L5",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-3/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM03_C02_T1"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/mss/"
+      }
+    ]
+  },
+  "MSS_L4": {
+    "id": "MSS_L4",
+    "summary": "MSS_L4 (Multispectral Scanner System) is a retired multispectral instrument operated by NASA, USGS on Landsat 4. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSS_L4"
+      },
+      {
+        "label": "Name",
+        "value": "Multispectral Scanner System"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 4"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "1982-07-16"
+      },
+      {
+        "label": "End date",
+        "value": "2001-06-15"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "4"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "550-950 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "100-300 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSS_L4_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "550",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b1 550 100  60 green "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "650",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b2 650 100  60 red "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "750",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b3 750 100  60 nir "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "950",
+        "bandwidth": "300",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR 2",
+        "snr": "",
+        "search_text": "b4 950 300  60 nir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
+            "collection": "LANDSAT/LM04/C02/T1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1",
+            "collection": "LANDSAT/LM04/C02/T1"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=326"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/mss"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSS_L1",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 1",
+        "href": "/instruments/MSS_L1",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L2",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 2",
+        "href": "/instruments/MSS_L2",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L3",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 3",
+        "href": "/instruments/MSS_L3",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L5",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 5",
+        "href": "/instruments/MSS_L5",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "TM_L4",
+        "name": "Thematic Mapper",
+        "platform": "Landsat 4",
+        "href": "/instruments/TM_L4",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-4/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM04_C02_T1"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/mss/"
+      }
+    ]
+  },
+  "MSS_L5": {
+    "id": "MSS_L5",
+    "summary": "MSS_L5 (Multispectral Scanner System) is a retired multispectral instrument operated by NASA, USGS on Landsat 5. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MSS_L5"
+      },
+      {
+        "label": "Name",
+        "value": "Multispectral Scanner System"
+      },
+      {
+        "label": "Acronym",
+        "value": "MSS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 5"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "1984-03-01"
+      },
+      {
+        "label": "End date",
+        "value": "2013-06-05"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "4"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "550-950 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "100-300 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "60 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MSS_L5_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "550",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b1 550 100  60 green "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "650",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b2 650 100  60 red "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "750",
+        "bandwidth": "100",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b3 750 100  60 nir "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "950",
+        "bandwidth": "300",
+        "common_name": "",
+        "gsd": "60",
+        "description": "NIR 2",
+        "snr": "",
+        "search_text": "b4 950 300  60 nir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
+            "collection": "LANDSAT/LM05/C02/T1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1",
+            "collection": "LANDSAT/LM05/C02/T1"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1",
+            "collection": "landsat-c2-l1"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=326"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/mss"
+      }
+    ],
+    "related": [
+      {
+        "id": "MSS_L1",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 1",
+        "href": "/instruments/MSS_L1",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L2",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 2",
+        "href": "/instruments/MSS_L2",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L3",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 3",
+        "href": "/instruments/MSS_L3",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L4",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 4",
+        "href": "/instruments/MSS_L4",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "TM_L5",
+        "name": "Thematic Mapper",
+        "platform": "Landsat 5",
+        "href": "/instruments/TM_L5",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-5/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LM05_C02_T1"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/mss/"
+      }
+    ]
+  },
+  "OLI2_L9": {
+    "id": "OLI2_L9",
+    "summary": "OLI2_L9 (Operational Land Imager 2) is an operational multispectral instrument operated by NASA, USGS on Landsat 9. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "OLI2_L9"
+      },
+      {
+        "label": "Name",
+        "value": "Operational Land Imager 2"
+      },
+      {
+        "label": "Acronym",
+        "value": "OLI2"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 9"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "2021-09-27"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "9"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "440-2200 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "20-180 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "15-30 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/OLI2_L9_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "440",
+        "bandwidth": "20",
+        "common_name": "coastal",
+        "gsd": "30",
+        "description": "Aerosol",
+        "snr": "",
+        "search_text": "b1 440 20 coastal 30 aerosol "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "480",
+        "bandwidth": "60",
+        "common_name": "blue",
+        "gsd": "30",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b2 480 60 blue 30 blue "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "560",
+        "bandwidth": "60",
+        "common_name": "green",
+        "gsd": "30",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b3 560 60 green 30 green "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "655",
+        "bandwidth": "30",
+        "common_name": "red",
+        "gsd": "30",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b4 655 30 red 30 red "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "865",
+        "bandwidth": "30",
+        "common_name": "nir08",
+        "gsd": "30",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b5 865 30 nir08 30 nir "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "1610",
+        "bandwidth": "80",
+        "common_name": "swir16",
+        "gsd": "30",
+        "description": "SWIR",
+        "snr": "",
+        "search_text": "b6 1610 80 swir16 30 swir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2200",
+        "bandwidth": "180",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR 2",
+        "snr": "",
+        "search_text": "b7 2200 180 swir22 30 swir 2 "
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "590",
+        "bandwidth": "180",
+        "common_name": "pan",
+        "gsd": "15",
+        "description": "Panchromatic",
+        "snr": "",
+        "search_text": "b8 590 180 pan 15 panchromatic "
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "1370",
+        "bandwidth": "20",
+        "common_name": "cirrus",
+        "gsd": "30",
+        "description": "Cirrus",
+        "snr": "",
+        "search_text": "b9 1370 20 cirrus 30 cirrus "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+            "collection": "LANDSAT/LC09/C02/T1_L2"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1",
+            "collection": "LANDSAT/LC09/C02/T1"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA",
+            "collection": "LANDSAT/LC09/C02/T1_TOA"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+            "collection": "LANDSAT/LC09/C02/T1_L2"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1769"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/oli"
+      }
+    ],
+    "related": [
+      {
+        "id": "TIRS2_L9",
+        "name": "Thermal Infrared Sensor 2",
+        "platform": "Landsat 9",
+        "href": "/instruments/TIRS2_L9",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-9/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/landsat-9"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/oli/"
+      }
+    ]
+  },
+  "OLI_L8": {
+    "id": "OLI_L8",
+    "summary": "OLI_L8 (Operational Land Imager) is an operational multispectral instrument operated by NASA, USGS on Landsat 8. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "OLI_L8"
+      },
+      {
+        "label": "Name",
+        "value": "Operational Land Imager"
+      },
+      {
+        "label": "Acronym",
+        "value": "OLI"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 8"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "2013-02-11"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "9"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "440-2200 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "20-180 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "15-30 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/OLI_L8_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "440",
+        "bandwidth": "20",
+        "common_name": "coastal",
+        "gsd": "30",
+        "description": "Aerosol",
+        "snr": "",
+        "search_text": "b1 440 20 coastal 30 aerosol "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "480",
+        "bandwidth": "60",
+        "common_name": "blue",
+        "gsd": "30",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b2 480 60 blue 30 blue "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "560",
+        "bandwidth": "60",
+        "common_name": "green",
+        "gsd": "30",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b3 560 60 green 30 green "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "655",
+        "bandwidth": "30",
+        "common_name": "red",
+        "gsd": "30",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b4 655 30 red 30 red "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "865",
+        "bandwidth": "30",
+        "common_name": "nir08",
+        "gsd": "30",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b5 865 30 nir08 30 nir "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "1610",
+        "bandwidth": "80",
+        "common_name": "swir16",
+        "gsd": "30",
+        "description": "SWIR",
+        "snr": "",
+        "search_text": "b6 1610 80 swir16 30 swir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2200",
+        "bandwidth": "180",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR 2",
+        "snr": "",
+        "search_text": "b7 2200 180 swir22 30 swir 2 "
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "590",
+        "bandwidth": "180",
+        "common_name": "pan",
+        "gsd": "15",
+        "description": "Panchromatic",
+        "snr": "",
+        "search_text": "b8 590 180 pan 15 panchromatic "
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "1370",
+        "bandwidth": "20",
+        "common_name": "cirrus",
+        "gsd": "30",
+        "description": "Cirrus",
+        "snr": "",
+        "search_text": "b9 1370 20 cirrus 30 cirrus "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+            "collection": "LANDSAT/LC08/C02/T1_L2"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1",
+            "collection": "LANDSAT/LC08/C02/T1"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA",
+            "collection": "LANDSAT/LC08/C02/T1_TOA"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+            "collection": "LANDSAT/LC08/C02/T1_L2"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=168"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=897"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/oli"
+      }
+    ],
+    "related": [
+      {
+        "id": "TIRS_L8",
+        "name": "Thermal Infrared Sensor",
+        "platform": "Landsat 8",
+        "href": "/instruments/TIRS_L8",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-8/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/landsat-8"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/oli/"
+      }
+    ]
+  },
+  "TIRS2_L9": {
+    "id": "TIRS2_L9",
+    "summary": "TIRS2_L9 (Thermal Infrared Sensor 2) is an operational multispectral instrument operated by NASA, USGS on Landsat 9. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "TIRS2_L9"
+      },
+      {
+        "label": "Name",
+        "value": "Thermal Infrared Sensor 2"
+      },
+      {
+        "label": "Acronym",
+        "value": "TIRS2"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 9"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "2021-09-27"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "2"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "10900-12000 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "600-1000 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "30 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/TIRS2_L9_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B10",
+        "center_wavelength": "10900",
+        "bandwidth": "600",
+        "common_name": "lwir11",
+        "gsd": "30",
+        "description": "TIR 1",
+        "snr": "",
+        "search_text": "b10 10900 600 lwir11 30 tir 1 "
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "12000",
+        "bandwidth": "1000",
+        "common_name": "lwir12",
+        "gsd": "30",
+        "description": "TIR 2",
+        "snr": "",
+        "search_text": "b11 12000 1000 lwir12 30 tir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+            "collection": "LANDSAT/LC09/C02/T1_L2"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1",
+            "collection": "LANDSAT/LC09/C02/T1"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA",
+            "collection": "LANDSAT/LC09/C02/T1_TOA"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2",
+            "collection": "LANDSAT/LC09/C02/T1_L2"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1746"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/tirs-2"
+      }
+    ],
+    "related": [
+      {
+        "id": "OLI2_L9",
+        "name": "Operational Land Imager 2",
+        "platform": "Landsat 9",
+        "href": "/instruments/OLI2_L9",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-9/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/landsat-9"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/tirs/"
+      }
+    ]
+  },
+  "TIRS_L8": {
+    "id": "TIRS_L8",
+    "summary": "TIRS_L8 (Thermal Infrared Sensor) is an operational multispectral instrument operated by NASA, USGS on Landsat 8. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "TIRS_L8"
+      },
+      {
+        "label": "Name",
+        "value": "Thermal Infrared Sensor"
+      },
+      {
+        "label": "Acronym",
+        "value": "TIRS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 8"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "2013-02-11"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "2"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "10900-12000 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "600-1000 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "30 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/TIRS_L8_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B10",
+        "center_wavelength": "10900",
+        "bandwidth": "600",
+        "common_name": "lwir11",
+        "gsd": "30",
+        "description": "TIR 1",
+        "snr": "",
+        "search_text": "b10 10900 600 lwir11 30 tir 1 "
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "12000",
+        "bandwidth": "1000",
+        "common_name": "lwir12",
+        "gsd": "30",
+        "description": "TIR 2",
+        "snr": "",
+        "search_text": "b11 12000 1000 lwir12 30 tir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+            "collection": "LANDSAT/LC08/C02/T1_L2"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1",
+            "collection": "LANDSAT/LC08/C02/T1"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA",
+            "collection": "LANDSAT/LC08/C02/T1_TOA"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2",
+            "collection": "LANDSAT/LC08/C02/T1_L2"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/landsat-c2-l1-oli-tirs",
+            "collection": "landsat-c2-l1-oli-tirs"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=168"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1524"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/tirs"
+      }
+    ],
+    "related": [
+      {
+        "id": "OLI_L8",
+        "name": "Operational Land Imager",
+        "platform": "Landsat 8",
+        "href": "/instruments/OLI_L8",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-8/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/landsat-8"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/tirs/"
+      }
+    ]
+  },
+  "TM_L4": {
+    "id": "TM_L4",
+    "summary": "TM_L4 (Thematic Mapper) is a retired multispectral instrument operated by NASA, USGS on Landsat 4. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "TM_L4"
+      },
+      {
+        "label": "Name",
+        "value": "Thematic Mapper"
+      },
+      {
+        "label": "Acronym",
+        "value": "TM"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 4"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "1982-07-16"
+      },
+      {
+        "label": "End date",
+        "value": "2001-06-15"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "7"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "485-11455 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "60-2090 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "30-120 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/TM_L4_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "485",
+        "bandwidth": "70",
+        "common_name": "blue",
+        "gsd": "30",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 485 70 blue 30 blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "80",
+        "common_name": "green",
+        "gsd": "30",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 80 green 30 green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "660",
+        "bandwidth": "60",
+        "common_name": "red",
+        "gsd": "30",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 660 60 red 30 red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "830",
+        "bandwidth": "140",
+        "common_name": "nir",
+        "gsd": "30",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b4 830 140 nir 30 nir "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "1650",
+        "bandwidth": "200",
+        "common_name": "swir16",
+        "gsd": "30",
+        "description": "SWIR",
+        "snr": "",
+        "search_text": "b5 1650 200 swir16 30 swir "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "11455",
+        "bandwidth": "2090",
+        "common_name": "lwir",
+        "gsd": "120",
+        "description": "TIR",
+        "snr": "",
+        "search_text": "b6 11455 2090 lwir 120 tir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2215",
+        "bandwidth": "270",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR 2",
+        "snr": "",
+        "search_text": "b7 2215 270 swir22 30 swir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2",
+            "collection": "LANDSAT/LT04/C02/T1_L2"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1",
+            "collection": "LANDSAT/LT04/C02/T1"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_TOA",
+            "collection": "LANDSAT/LT04/C02/T1_TOA"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT04_C02_T1_L2",
+            "collection": "LANDSAT/LT04/C02/T1_L2"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=7"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=327"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/thematic-mapper"
+      }
+    ],
+    "related": [
+      {
+        "id": "TM_L5",
+        "name": "Thematic Mapper",
+        "platform": "Landsat 5",
+        "href": "/instruments/TM_L5",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L4",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 4",
+        "href": "/instruments/MSS_L4",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-4/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/landsat-4"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/tm/"
+      }
+    ]
+  },
+  "TM_L5": {
+    "id": "TM_L5",
+    "summary": "TM_L5 (Thematic Mapper) is a retired multispectral instrument operated by NASA, USGS on Landsat 5. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "TM_L5"
+      },
+      {
+        "label": "Name",
+        "value": "Thematic Mapper"
+      },
+      {
+        "label": "Acronym",
+        "value": "TM"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Landsat 5"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, USGS"
+      },
+      {
+        "label": "Start date",
+        "value": "1984-03-01"
+      },
+      {
+        "label": "End date",
+        "value": "2013-06-05"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "7"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "485-11455 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "60-2090 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "30-120 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/TM_L5_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "485",
+        "bandwidth": "70",
+        "common_name": "blue",
+        "gsd": "30",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 485 70 blue 30 blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "80",
+        "common_name": "green",
+        "gsd": "30",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 80 green 30 green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "660",
+        "bandwidth": "60",
+        "common_name": "red",
+        "gsd": "30",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 660 60 red 30 red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "830",
+        "bandwidth": "140",
+        "common_name": "nir",
+        "gsd": "30",
+        "description": "NIR",
+        "snr": "",
+        "search_text": "b4 830 140 nir 30 nir "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "1650",
+        "bandwidth": "200",
+        "common_name": "swir16",
+        "gsd": "30",
+        "description": "SWIR",
+        "snr": "",
+        "search_text": "b5 1650 200 swir16 30 swir "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "11455",
+        "bandwidth": "2090",
+        "common_name": "lwir",
+        "gsd": "120",
+        "description": "TIR",
+        "snr": "",
+        "search_text": "b6 11455 2090 lwir 120 tir "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2215",
+        "bandwidth": "270",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR 2",
+        "snr": "",
+        "search_text": "b7 2215 270 swir22 30 swir 2 "
+      }
+    ],
+    "imaging": [],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2",
+            "collection": "LANDSAT/LT05/C02/T1_L2"
+          },
+          {
+            "label": "Raw",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1",
+            "collection": "LANDSAT/LT05/C02/T1"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_TOA",
+            "collection": "LANDSAT/LT05/C02/T1_TOA"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2",
+            "collection": "LANDSAT/LT05/C02/T1_L2"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2",
+            "collection": "landsat-c2-l2"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=7"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=327"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/thematic-mapper"
+      }
+    ],
+    "related": [
+      {
+        "id": "TM_L4",
+        "name": "Thematic Mapper",
+        "platform": "Landsat 4",
+        "href": "/instruments/TM_L4",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "MSS_L5",
+        "name": "Multispectral Scanner System",
+        "platform": "Landsat 5",
+        "href": "/instruments/MSS_L5",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-5/data-access-tools"
+      },
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/landsat-5"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://science.nasa.gov/mission/landsat/tm/"
+      }
+    ]
+  }
+}

@@ -90,6 +90,7 @@ def _materialize_spectral_csvs(instrument: dict[str, Any]) -> dict[str, Any]:
 
     srf_value = spectral.get("spectral_response_function")
     if isinstance(srf_value, str):
+        spectral["spectral_response_function_file"] = srf_value
         spectral["spectral_response_function"] = _srf_csv_to_object(srf_value)
     return result
 
@@ -112,6 +113,50 @@ def _project_version(pyproject_path: Path = PYPROJECT_PATH) -> str:
     raise ValueError("Could not find [project].version in pyproject.toml.")
 
 
+def _platform_set(instrument: dict[str, Any]) -> set[str]:
+    platforms = instrument.get("platform", [])
+    if isinstance(platforms, list):
+        return {str(platform) for platform in platforms}
+    if platforms:
+        return {str(platforms)}
+    return set()
+
+
+def _same_family(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_name = left.get("name")
+    right_name = right.get("name")
+    left_acronym = left.get("acronym")
+    right_acronym = right.get("acronym")
+
+    return bool(
+        (left_name and left_name == right_name)
+        or (left_acronym and left_acronym == right_acronym)
+    )
+
+
+def _add_generated_relationships(instruments: dict[str, dict[str, Any]]) -> None:
+    """Add catalogue-derived relationship fields to each instrument."""
+
+    for instrument_id, instrument in instruments.items():
+        platform = _platform_set(instrument)
+        family: list[str] = []
+        platform_companions: list[str] = []
+
+        for other_id, other in instruments.items():
+            if other_id == instrument_id:
+                continue
+
+            if _same_family(instrument, other):
+                family.append(other_id)
+                continue
+
+            if platform and platform.intersection(_platform_set(other)):
+                platform_companions.append(other_id)
+
+        instrument["family"] = sorted(family)
+        instrument["platform_companions"] = sorted(platform_companions)
+
+
 def generate_catalogue(
     instruments_dir: Path = INSTRUMENTS_DIR,
     output_path: Path = CATALOGUE_PATH,
@@ -121,6 +166,8 @@ def generate_catalogue(
         validated = validate_instrument(instrument_path)
         materialized = _materialize_spectral_csvs(validated)
         instruments[materialized["id"]] = materialized
+
+    _add_generated_relationships(instruments)
 
     catalogue = {
         "name": CATALOGUE_NAME,

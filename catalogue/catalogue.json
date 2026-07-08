@@ -1207,7 +1207,9 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1901",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer"
         }
-      }
+      },
+      "family": [],
+      "platform_companions": []
     },
     "ETM_L7": {
       "id": "ETM_L7",
@@ -10707,7 +10709,8 @@
               NaN,
               NaN
             ]
-          }
+          },
+          "spectral_response_function_file": "ETM_L7_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -10745,7 +10748,9 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=322",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/etm"
         }
-      }
+      },
+      "family": [],
+      "platform_companions": []
     },
     "MSI_S2A": {
       "id": "MSI_S2A",
@@ -43125,7 +43130,8 @@
               0.0,
               0.0
             ]
-          }
+          },
+          "spectral_response_function_file": "MSI_S2A_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -43189,7 +43195,12 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
         }
-      }
+      },
+      "family": [
+        "MSI_S2B",
+        "MSI_S2C"
+      ],
+      "platform_companions": []
     },
     "MSI_S2B": {
       "id": "MSI_S2B",
@@ -71341,7 +71352,8 @@
               0.02900748,
               0.0251013
             ]
-          }
+          },
+          "spectral_response_function_file": "MSI_S2B_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -71404,7 +71416,12 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
         }
-      }
+      },
+      "family": [
+        "MSI_S2A",
+        "MSI_S2C"
+      ],
+      "platform_companions": []
     },
     "MSI_S2C": {
       "id": "MSI_S2C",
@@ -99556,7 +99573,8 @@
               0.06489148,
               0.0564927
             ]
-          }
+          },
+          "spectral_response_function_file": "MSI_S2C_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -99619,7 +99637,12 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=940",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/sentinel-2-msi"
         }
-      }
+      },
+      "family": [
+        "MSI_S2A",
+        "MSI_S2B"
+      ],
+      "platform_companions": []
     },
     "MSS_L1": {
       "id": "MSS_L1",
@@ -103418,7 +103441,8 @@
               0.0,
               0.0
             ]
-          }
+          },
+          "spectral_response_function_file": "MSS_L1_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -103447,7 +103471,14 @@
           "idb": "https://www.indexdatabase.de/db/s-single.php?id=6",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
-      }
+      },
+      "family": [
+        "MSS_L2",
+        "MSS_L3",
+        "MSS_L4",
+        "MSS_L5"
+      ],
+      "platform_companions": []
     },
     "MSS_L2": {
       "id": "MSS_L2",
@@ -107107,7 +107138,8 @@
               0.0,
               0.0
             ]
-          }
+          },
+          "spectral_response_function_file": "MSS_L2_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -107136,7 +107168,14 @@
           "idb": "https://www.indexdatabase.de/db/s-single.php?id=6",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
-      }
+      },
+      "family": [
+        "MSS_L1",
+        "MSS_L3",
+        "MSS_L4",
+        "MSS_L5"
+      ],
+      "platform_companions": []
     },
     "MSS_L3": {
       "id": "MSS_L3",
@@ -110820,7 +110859,8 @@
               0.0,
               0.0
             ]
-          }
+          },
+          "spectral_response_function_file": "MSS_L3_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -110849,7 +110889,14 @@
           "idb": "https://www.indexdatabase.de/db/s-single.php?id=6",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
-      }
+      },
+      "family": [
+        "MSS_L1",
+        "MSS_L2",
+        "MSS_L4",
+        "MSS_L5"
+      ],
+      "platform_companions": []
     },
     "MSS_L4": {
       "id": "MSS_L4",
@@ -114114,7 +114161,8 @@
               0.0,
               0.0
             ]
-          }
+          },
+          "spectral_response_function_file": "MSS_L4_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -114143,7 +114191,16 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=326",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
-      }
+      },
+      "family": [
+        "MSS_L1",
+        "MSS_L2",
+        "MSS_L3",
+        "MSS_L5"
+      ],
+      "platform_companions": [
+        "TM_L4"
+      ]
     },
     "MSS_L5": {
       "id": "MSS_L5",
@@ -117383,7 +117440,8 @@
               0.0,
               0.0
             ]
-          }
+          },
+          "spectral_response_function_file": "MSS_L5_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -117412,7 +117470,16 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=326",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/mss"
         }
-      }
+      },
+      "family": [
+        "MSS_L1",
+        "MSS_L2",
+        "MSS_L3",
+        "MSS_L4"
+      ],
+      "platform_companions": [
+        "TM_L5"
+      ]
     },
     "OLI2_L9": {
       "id": "OLI2_L9",
@@ -126625,7 +126692,8 @@
               NaN,
               NaN
             ]
-          }
+          },
+          "spectral_response_function_file": "OLI2_L9_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -126673,7 +126741,11 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1769",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/oli"
         }
-      }
+      },
+      "family": [],
+      "platform_companions": [
+        "TIRS2_L9"
+      ]
     },
     "OLI_L8": {
       "id": "OLI_L8",
@@ -135886,7 +135958,8 @@
               NaN,
               NaN
             ]
-          }
+          },
+          "spectral_response_function_file": "OLI_L8_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -135935,7 +136008,11 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=897",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/oli"
         }
-      }
+      },
+      "family": [],
+      "platform_companions": [
+        "TIRS_L8"
+      ]
     },
     "TIRS2_L9": {
       "id": "TIRS2_L9",
@@ -136180,7 +136257,8 @@
               0.001,
               0.0004
             ]
-          }
+          },
+          "spectral_response_function_file": "TIRS2_L9_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -136228,7 +136306,11 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1746",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/tirs-2"
         }
-      }
+      },
+      "family": [],
+      "platform_companions": [
+        "OLI2_L9"
+      ]
     },
     "TIRS_L8": {
       "id": "TIRS_L8",
@@ -136581,7 +136663,8 @@
               0.0018345405892383,
               0.0017632269642151
             ]
-          }
+          },
+          "spectral_response_function_file": "TIRS_L8_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -136630,7 +136713,11 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=1524",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/tirs"
         }
-      }
+      },
+      "family": [],
+      "platform_companions": [
+        "OLI_L8"
+      ]
     },
     "TM_L4": {
       "id": "TM_L4",
@@ -144926,7 +145013,8 @@
               NaN,
               NaN
             ]
-          }
+          },
+          "spectral_response_function_file": "TM_L4_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -144964,7 +145052,13 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=327",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/thematic-mapper"
         }
-      }
+      },
+      "family": [
+        "TM_L5"
+      ],
+      "platform_companions": [
+        "MSS_L4"
+      ]
     },
     "TM_L5": {
       "id": "TM_L5",
@@ -153188,7 +153282,8 @@
               NaN,
               NaN
             ]
-          }
+          },
+          "spectral_response_function_file": "TM_L5_SRF.csv"
         },
         "data_access": {
           "ee": {
@@ -153226,7 +153321,13 @@
           "ceos": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=327",
           "earthdata": "https://www.earthdata.nasa.gov/data/instruments/thematic-mapper"
         }
-      }
+      },
+      "family": [
+        "TM_L4"
+      ],
+      "platform_companions": [
+        "MSS_L5"
+      ]
     }
   }
 }
