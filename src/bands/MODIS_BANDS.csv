@@ -1,0 +1,37 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd,snr
+B1,645,50,Land cloud aerosols boundaries - Shortwave VIS,red,250,128
+B2,858.5,35,Land cloud aerosols boundaries - Shortwave NIR,nir08,250,201
+B3,469,20,Land cloud aerosols properties - Shortwave VIS,blue,500,243
+B4,555,20,Land cloud aerosols properties - Shortwave VIS,green,500,228
+B5,1240,20,Land cloud aerosols properties - Shortwave NIR,,500,74
+B6,1640,24,Land cloud aerosols properties - Shortwave infrared SWIR,swir16,500,275
+B7,2130,50,Land cloud aerosols properties - Shortwave infrared SWIR,swir22,500,110
+B8,412.5,15,Ocean color phytoplankton biogeochemistry - Shortwave VIS,coastal,1000,880
+B9,443,10,Ocean color phytoplankton biogeochemistry - Shortwave VIS,coastal,1000,838
+B10,488,10,Ocean color phytoplankton biogeochemistry - Shortwave VIS,blue,1000,802
+B11,531,10,Ocean color phytoplankton biogeochemistry - Shortwave VIS,green,1000,754
+B12,551,10,Ocean color phytoplankton biogeochemistry - Shortwave VIS,green,1000,750
+B13,667,10,Ocean color phytoplankton biogeochemistry - Shortwave VIS,red,1000,910
+B14,678,10,Ocean color phytoplankton biogeochemistry - Shortwave VIS,red,1000,1087
+B15,748,10,Ocean color phytoplankton biogeochemistry - Shortwave VIS,rededge075,1000,586
+B16,869.5,15,Ocean color phytoplankton biogeochemistry - Shortwave NIR,nir08,1000,516
+B17,905,30,Atmospheric water vapor - Shortwave NIR,nir09,1000,167
+B18,936,10,Atmospheric water vapor - Shortwave NIR,nir09,1000,57
+B19,940,50,Atmospheric water vapor - Shortwave NIR,nir09,1000,250
+B20,3750,180,Surface cloud temperature - Longwave thermal infrared TIR,,1000,
+B21,3959,60,Surface cloud temperature - Longwave thermal infrared TIR,,1000,
+B22,3959,60,Surface cloud temperature - Longwave thermal infrared TIR,,1000,
+B23,4050,60,Surface cloud temperature - Longwave thermal infrared TIR,,1000,
+B24,4465.5,65,Atmospheric temperature - Longwave thermal infrared TIR,,1000,
+B25,4515.5,67,Atmospheric temperature - Longwave thermal infrared TIR,,1000,
+B26,1375,30,Cirrus clouds water vapor - Shortwave NIR,cirrus,1000,150
+B27,6715,360,Cirrus clouds water vapor - Longwave thermal infrared TIR,,1000,
+B28,7325,300,Cirrus clouds water vapor - Longwave thermal infrared TIR,,1000,
+B29,8550,300,Cloud properties - Longwave thermal infrared TIR,lwir,1000,
+B30,9730,300,Ozone - Longwave thermal infrared TIR,lwir,1000,
+B31,11030,500,Surface cloud temperature - Longwave thermal infrared TIR,lwir11,1000,
+B32,12020,500,Surface cloud temperature - Longwave thermal infrared TIR,lwir12,1000,
+B33,13335,300,Cloud top altitude - Longwave thermal infrared TIR,lwir,1000,
+B34,13635,300,Cloud top altitude - Longwave thermal infrared TIR,lwir,1000,
+B35,13935,300,Cloud top altitude - Longwave thermal infrared TIR,lwir,1000,
+B36,14235,300,Cloud top altitude - Longwave thermal infrared TIR,lwir,1000,

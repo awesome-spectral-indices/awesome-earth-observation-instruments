@@ -26,6 +26,32 @@
     "search_text": "etm_l7 enhanced thematic mapper plus etm+ landsat 7 satellite multispectral nasa, usgs operational public /instruments/etm_l7"
   },
   {
+    "id": "MODIS_AQUA",
+    "name": "Moderate Resolution Imaging Spectroradiometer",
+    "acronym": "MODIS",
+    "platform": "Aqua",
+    "platform_type": "satellite",
+    "type": "multispectral",
+    "operator": "NASA",
+    "status": "operational",
+    "availability": "public",
+    "href": "/instruments/MODIS_AQUA",
+    "search_text": "modis_aqua moderate resolution imaging spectroradiometer modis aqua satellite multispectral nasa operational public /instruments/modis_aqua"
+  },
+  {
+    "id": "MODIS_TERRA",
+    "name": "Moderate Resolution Imaging Spectroradiometer",
+    "acronym": "MODIS",
+    "platform": "Terra",
+    "platform_type": "satellite",
+    "type": "multispectral",
+    "operator": "NASA",
+    "status": "operational",
+    "availability": "public",
+    "href": "/instruments/MODIS_TERRA",
+    "search_text": "modis_terra moderate resolution imaging spectroradiometer modis terra satellite multispectral nasa operational public /instruments/modis_terra"
+  },
+  {
     "id": "MSI_S2A",
     "name": "MultiSpectral Instrument",
     "acronym": "MSI",

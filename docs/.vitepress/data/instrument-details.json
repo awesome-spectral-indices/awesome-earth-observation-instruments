@@ -3233,6 +3233,1036 @@
       }
     ]
   },
+  "MODIS_AQUA": {
+    "id": "MODIS_AQUA",
+    "summary": "MODIS_AQUA (Moderate Resolution Imaging Spectroradiometer) is an operational multispectral instrument operated by NASA on Aqua. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MODIS_AQUA"
+      },
+      {
+        "label": "Name",
+        "value": "Moderate Resolution Imaging Spectroradiometer"
+      },
+      {
+        "label": "Acronym",
+        "value": "MODIS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Aqua"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA"
+      },
+      {
+        "label": "Start date",
+        "value": "2002-05-04"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "36"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "412.5-14235 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "10-500 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "250-1000 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MODIS_AQUA_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "645",
+        "bandwidth": "50",
+        "common_name": "red",
+        "gsd": "250",
+        "description": "Land cloud aerosols boundaries - Shortwave VIS",
+        "snr": "128",
+        "search_text": "b1 645 50 red 250 land cloud aerosols boundaries - shortwave vis 128"
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "858.5",
+        "bandwidth": "35",
+        "common_name": "nir08",
+        "gsd": "250",
+        "description": "Land cloud aerosols boundaries - Shortwave NIR",
+        "snr": "201",
+        "search_text": "b2 858.5 35 nir08 250 land cloud aerosols boundaries - shortwave nir 201"
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "469",
+        "bandwidth": "20",
+        "common_name": "blue",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave VIS",
+        "snr": "243",
+        "search_text": "b3 469 20 blue 500 land cloud aerosols properties - shortwave vis 243"
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "555",
+        "bandwidth": "20",
+        "common_name": "green",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave VIS",
+        "snr": "228",
+        "search_text": "b4 555 20 green 500 land cloud aerosols properties - shortwave vis 228"
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "1240",
+        "bandwidth": "20",
+        "common_name": "",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave NIR",
+        "snr": "74",
+        "search_text": "b5 1240 20  500 land cloud aerosols properties - shortwave nir 74"
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "1640",
+        "bandwidth": "24",
+        "common_name": "swir16",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
+        "snr": "275",
+        "search_text": "b6 1640 24 swir16 500 land cloud aerosols properties - shortwave infrared swir 275"
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2130",
+        "bandwidth": "50",
+        "common_name": "swir22",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
+        "snr": "110",
+        "search_text": "b7 2130 50 swir22 500 land cloud aerosols properties - shortwave infrared swir 110"
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "412.5",
+        "bandwidth": "15",
+        "common_name": "coastal",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "880",
+        "search_text": "b8 412.5 15 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 880"
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "443",
+        "bandwidth": "10",
+        "common_name": "coastal",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "838",
+        "search_text": "b9 443 10 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 838"
+      },
+      {
+        "id": "B10",
+        "center_wavelength": "488",
+        "bandwidth": "10",
+        "common_name": "blue",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "802",
+        "search_text": "b10 488 10 blue 1000 ocean color phytoplankton biogeochemistry - shortwave vis 802"
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "531",
+        "bandwidth": "10",
+        "common_name": "green",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "754",
+        "search_text": "b11 531 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 754"
+      },
+      {
+        "id": "B12",
+        "center_wavelength": "551",
+        "bandwidth": "10",
+        "common_name": "green",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "750",
+        "search_text": "b12 551 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 750"
+      },
+      {
+        "id": "B13",
+        "center_wavelength": "667",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "910",
+        "search_text": "b13 667 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 910"
+      },
+      {
+        "id": "B14",
+        "center_wavelength": "678",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "1087",
+        "search_text": "b14 678 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 1087"
+      },
+      {
+        "id": "B15",
+        "center_wavelength": "748",
+        "bandwidth": "10",
+        "common_name": "rededge075",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "586",
+        "search_text": "b15 748 10 rededge075 1000 ocean color phytoplankton biogeochemistry - shortwave vis 586"
+      },
+      {
+        "id": "B16",
+        "center_wavelength": "869.5",
+        "bandwidth": "15",
+        "common_name": "nir08",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave NIR",
+        "snr": "516",
+        "search_text": "b16 869.5 15 nir08 1000 ocean color phytoplankton biogeochemistry - shortwave nir 516"
+      },
+      {
+        "id": "B17",
+        "center_wavelength": "905",
+        "bandwidth": "30",
+        "common_name": "nir09",
+        "gsd": "1000",
+        "description": "Atmospheric water vapor - Shortwave NIR",
+        "snr": "167",
+        "search_text": "b17 905 30 nir09 1000 atmospheric water vapor - shortwave nir 167"
+      },
+      {
+        "id": "B18",
+        "center_wavelength": "936",
+        "bandwidth": "10",
+        "common_name": "nir09",
+        "gsd": "1000",
+        "description": "Atmospheric water vapor - Shortwave NIR",
+        "snr": "57",
+        "search_text": "b18 936 10 nir09 1000 atmospheric water vapor - shortwave nir 57"
+      },
+      {
+        "id": "B19",
+        "center_wavelength": "940",
+        "bandwidth": "50",
+        "common_name": "nir09",
+        "gsd": "1000",
+        "description": "Atmospheric water vapor - Shortwave NIR",
+        "snr": "250",
+        "search_text": "b19 940 50 nir09 1000 atmospheric water vapor - shortwave nir 250"
+      },
+      {
+        "id": "B20",
+        "center_wavelength": "3750",
+        "bandwidth": "180",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b20 3750 180  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B21",
+        "center_wavelength": "3959",
+        "bandwidth": "60",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b21 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B22",
+        "center_wavelength": "3959",
+        "bandwidth": "60",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b22 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B23",
+        "center_wavelength": "4050",
+        "bandwidth": "60",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b23 4050 60  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B24",
+        "center_wavelength": "4465.5",
+        "bandwidth": "65",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Atmospheric temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b24 4465.5 65  1000 atmospheric temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B25",
+        "center_wavelength": "4515.5",
+        "bandwidth": "67",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Atmospheric temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b25 4515.5 67  1000 atmospheric temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B26",
+        "center_wavelength": "1375",
+        "bandwidth": "30",
+        "common_name": "cirrus",
+        "gsd": "1000",
+        "description": "Cirrus clouds water vapor - Shortwave NIR",
+        "snr": "150",
+        "search_text": "b26 1375 30 cirrus 1000 cirrus clouds water vapor - shortwave nir 150"
+      },
+      {
+        "id": "B27",
+        "center_wavelength": "6715",
+        "bandwidth": "360",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b27 6715 360  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+      },
+      {
+        "id": "B28",
+        "center_wavelength": "7325",
+        "bandwidth": "300",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b28 7325 300  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+      },
+      {
+        "id": "B29",
+        "center_wavelength": "8550",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud properties - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b29 8550 300 lwir 1000 cloud properties - longwave thermal infrared tir "
+      },
+      {
+        "id": "B30",
+        "center_wavelength": "9730",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Ozone - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b30 9730 300 lwir 1000 ozone - longwave thermal infrared tir "
+      },
+      {
+        "id": "B31",
+        "center_wavelength": "11030",
+        "bandwidth": "500",
+        "common_name": "lwir11",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b31 11030 500 lwir11 1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B32",
+        "center_wavelength": "12020",
+        "bandwidth": "500",
+        "common_name": "lwir12",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b32 12020 500 lwir12 1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B33",
+        "center_wavelength": "13335",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b33 13335 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      },
+      {
+        "id": "B34",
+        "center_wavelength": "13635",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b34 13635 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      },
+      {
+        "id": "B35",
+        "center_wavelength": "13935",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b35 13935 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      },
+      {
+        "id": "B36",
+        "center_wavelength": "14235",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b36 14235 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Swath Width",
+        "value": "2330"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A4",
+            "collection": "MODIS/061/MCD43A4"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/modis-43A4-061",
+            "collection": "modis-43A4-061"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=14"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=395"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/modis"
+      }
+    ],
+    "related": [
+      {
+        "id": "MODIS_TERRA",
+        "name": "Moderate Resolution Imaging Spectroradiometer",
+        "platform": "Terra",
+        "href": "/instruments/MODIS_TERRA",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A4"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/modis-43A4-061"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/modis"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://modis.gsfc.nasa.gov/about/"
+      },
+      {
+        "url": "https://modis.gsfc.nasa.gov/about/specifications.php"
+      },
+      {
+        "url": "https://mcst.gsfc.nasa.gov/calibration/information"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/modis"
+      },
+      {
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=395"
+      }
+    ]
+  },
+  "MODIS_TERRA": {
+    "id": "MODIS_TERRA",
+    "summary": "MODIS_TERRA (Moderate Resolution Imaging Spectroradiometer) is an operational multispectral instrument operated by NASA on Terra. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "MODIS_TERRA"
+      },
+      {
+        "label": "Name",
+        "value": "Moderate Resolution Imaging Spectroradiometer"
+      },
+      {
+        "label": "Acronym",
+        "value": "MODIS"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Terra"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA"
+      },
+      {
+        "label": "Start date",
+        "value": "1999-12-18"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "36"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "412.5-14235 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "10-500 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "250-1000 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/MODIS_TERRA_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "645",
+        "bandwidth": "50",
+        "common_name": "red",
+        "gsd": "250",
+        "description": "Land cloud aerosols boundaries - Shortwave VIS",
+        "snr": "128",
+        "search_text": "b1 645 50 red 250 land cloud aerosols boundaries - shortwave vis 128"
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "858.5",
+        "bandwidth": "35",
+        "common_name": "nir08",
+        "gsd": "250",
+        "description": "Land cloud aerosols boundaries - Shortwave NIR",
+        "snr": "201",
+        "search_text": "b2 858.5 35 nir08 250 land cloud aerosols boundaries - shortwave nir 201"
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "469",
+        "bandwidth": "20",
+        "common_name": "blue",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave VIS",
+        "snr": "243",
+        "search_text": "b3 469 20 blue 500 land cloud aerosols properties - shortwave vis 243"
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "555",
+        "bandwidth": "20",
+        "common_name": "green",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave VIS",
+        "snr": "228",
+        "search_text": "b4 555 20 green 500 land cloud aerosols properties - shortwave vis 228"
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "1240",
+        "bandwidth": "20",
+        "common_name": "",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave NIR",
+        "snr": "74",
+        "search_text": "b5 1240 20  500 land cloud aerosols properties - shortwave nir 74"
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "1640",
+        "bandwidth": "24",
+        "common_name": "swir16",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
+        "snr": "275",
+        "search_text": "b6 1640 24 swir16 500 land cloud aerosols properties - shortwave infrared swir 275"
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2130",
+        "bandwidth": "50",
+        "common_name": "swir22",
+        "gsd": "500",
+        "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
+        "snr": "110",
+        "search_text": "b7 2130 50 swir22 500 land cloud aerosols properties - shortwave infrared swir 110"
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "412.5",
+        "bandwidth": "15",
+        "common_name": "coastal",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "880",
+        "search_text": "b8 412.5 15 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 880"
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "443",
+        "bandwidth": "10",
+        "common_name": "coastal",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "838",
+        "search_text": "b9 443 10 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 838"
+      },
+      {
+        "id": "B10",
+        "center_wavelength": "488",
+        "bandwidth": "10",
+        "common_name": "blue",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "802",
+        "search_text": "b10 488 10 blue 1000 ocean color phytoplankton biogeochemistry - shortwave vis 802"
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "531",
+        "bandwidth": "10",
+        "common_name": "green",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "754",
+        "search_text": "b11 531 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 754"
+      },
+      {
+        "id": "B12",
+        "center_wavelength": "551",
+        "bandwidth": "10",
+        "common_name": "green",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "750",
+        "search_text": "b12 551 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 750"
+      },
+      {
+        "id": "B13",
+        "center_wavelength": "667",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "910",
+        "search_text": "b13 667 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 910"
+      },
+      {
+        "id": "B14",
+        "center_wavelength": "678",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "1087",
+        "search_text": "b14 678 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 1087"
+      },
+      {
+        "id": "B15",
+        "center_wavelength": "748",
+        "bandwidth": "10",
+        "common_name": "rededge075",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
+        "snr": "586",
+        "search_text": "b15 748 10 rededge075 1000 ocean color phytoplankton biogeochemistry - shortwave vis 586"
+      },
+      {
+        "id": "B16",
+        "center_wavelength": "869.5",
+        "bandwidth": "15",
+        "common_name": "nir08",
+        "gsd": "1000",
+        "description": "Ocean color phytoplankton biogeochemistry - Shortwave NIR",
+        "snr": "516",
+        "search_text": "b16 869.5 15 nir08 1000 ocean color phytoplankton biogeochemistry - shortwave nir 516"
+      },
+      {
+        "id": "B17",
+        "center_wavelength": "905",
+        "bandwidth": "30",
+        "common_name": "nir09",
+        "gsd": "1000",
+        "description": "Atmospheric water vapor - Shortwave NIR",
+        "snr": "167",
+        "search_text": "b17 905 30 nir09 1000 atmospheric water vapor - shortwave nir 167"
+      },
+      {
+        "id": "B18",
+        "center_wavelength": "936",
+        "bandwidth": "10",
+        "common_name": "nir09",
+        "gsd": "1000",
+        "description": "Atmospheric water vapor - Shortwave NIR",
+        "snr": "57",
+        "search_text": "b18 936 10 nir09 1000 atmospheric water vapor - shortwave nir 57"
+      },
+      {
+        "id": "B19",
+        "center_wavelength": "940",
+        "bandwidth": "50",
+        "common_name": "nir09",
+        "gsd": "1000",
+        "description": "Atmospheric water vapor - Shortwave NIR",
+        "snr": "250",
+        "search_text": "b19 940 50 nir09 1000 atmospheric water vapor - shortwave nir 250"
+      },
+      {
+        "id": "B20",
+        "center_wavelength": "3750",
+        "bandwidth": "180",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b20 3750 180  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B21",
+        "center_wavelength": "3959",
+        "bandwidth": "60",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b21 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B22",
+        "center_wavelength": "3959",
+        "bandwidth": "60",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b22 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B23",
+        "center_wavelength": "4050",
+        "bandwidth": "60",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b23 4050 60  1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B24",
+        "center_wavelength": "4465.5",
+        "bandwidth": "65",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Atmospheric temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b24 4465.5 65  1000 atmospheric temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B25",
+        "center_wavelength": "4515.5",
+        "bandwidth": "67",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Atmospheric temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b25 4515.5 67  1000 atmospheric temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B26",
+        "center_wavelength": "1375",
+        "bandwidth": "30",
+        "common_name": "cirrus",
+        "gsd": "1000",
+        "description": "Cirrus clouds water vapor - Shortwave NIR",
+        "snr": "150",
+        "search_text": "b26 1375 30 cirrus 1000 cirrus clouds water vapor - shortwave nir 150"
+      },
+      {
+        "id": "B27",
+        "center_wavelength": "6715",
+        "bandwidth": "360",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b27 6715 360  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+      },
+      {
+        "id": "B28",
+        "center_wavelength": "7325",
+        "bandwidth": "300",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b28 7325 300  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+      },
+      {
+        "id": "B29",
+        "center_wavelength": "8550",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud properties - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b29 8550 300 lwir 1000 cloud properties - longwave thermal infrared tir "
+      },
+      {
+        "id": "B30",
+        "center_wavelength": "9730",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Ozone - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b30 9730 300 lwir 1000 ozone - longwave thermal infrared tir "
+      },
+      {
+        "id": "B31",
+        "center_wavelength": "11030",
+        "bandwidth": "500",
+        "common_name": "lwir11",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b31 11030 500 lwir11 1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B32",
+        "center_wavelength": "12020",
+        "bandwidth": "500",
+        "common_name": "lwir12",
+        "gsd": "1000",
+        "description": "Surface cloud temperature - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b32 12020 500 lwir12 1000 surface cloud temperature - longwave thermal infrared tir "
+      },
+      {
+        "id": "B33",
+        "center_wavelength": "13335",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b33 13335 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      },
+      {
+        "id": "B34",
+        "center_wavelength": "13635",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b34 13635 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      },
+      {
+        "id": "B35",
+        "center_wavelength": "13935",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b35 13935 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      },
+      {
+        "id": "B36",
+        "center_wavelength": "14235",
+        "bandwidth": "300",
+        "common_name": "lwir",
+        "gsd": "1000",
+        "description": "Cloud top altitude - Longwave thermal infrared TIR",
+        "snr": "",
+        "search_text": "b36 14235 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Swath Width",
+        "value": "2330"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A4",
+            "collection": "MODIS/061/MCD43A4"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/modis-43A4-061",
+            "collection": "modis-43A4-061"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=14"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=395"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/modis"
+      }
+    ],
+    "related": [
+      {
+        "id": "MODIS_AQUA",
+        "name": "Moderate Resolution Imaging Spectroradiometer",
+        "platform": "Aqua",
+        "href": "/instruments/MODIS_AQUA",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A4"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/modis-43A4-061"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/modis"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://modis.gsfc.nasa.gov/about/"
+      },
+      {
+        "url": "https://modis.gsfc.nasa.gov/about/specifications.php"
+      },
+      {
+        "url": "https://mcst.gsfc.nasa.gov/calibration/information"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/modis"
+      },
+      {
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=395"
+      }
+    ]
+  },
   "MSI_S2A": {
     "id": "MSI_S2A",
     "summary": "MSI_S2A (MultiSpectral Instrument) is an operational multispectral instrument operated by ESA, Copernicus on Sentinel-2A. It is associated with a satellite platform and has public data availability.",
