@@ -34,6 +34,10 @@ jobs:
         run: |
           python src/code/readme.py
 
+      - name: generate vitepress site pages
+        run: |
+          python src/code/vitepress.py
+
       - name: commit changes
         run: |
           today=$(date -u +"%Y-%m-%d %H:%M:%S")
