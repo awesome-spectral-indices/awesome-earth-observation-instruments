@@ -13,6 +13,10 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 - Preserved the original SRF CSV filename in
   `spectral.spectral_response_function_file` while still materializing SRF CSV
   content into the catalogue.
+- Added generated spectral bands for range-based instruments using either
+  `total_bands` or `sampling`.
+- Added support for assigning an optional range-level `bandwidth` to every
+  generated spectral band.
 - Added Copernicus Data Space Ecosystem data access support.
 - Added EOPF Sentinel Zarr Samples data access support.
 
@@ -22,11 +26,19 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 - Added the consolidated `data-access.yaml` extension.
 - Moved provider-specific access schemas into
   `schema/extensions/data_access_points/`.
+- Added the optional `spectral.range.bandwidth` property for declaring a common
+  bandwidth across generated bands.
 - Updated schema identifiers and references to raw GitHub URLs.
 - Improved schema property descriptions.
 
 ### Instruments And Metadata
 
+- Added MODIS instrument records for the Terra and Aqua platforms.
+- Added shared MODIS band definitions and platform-specific Terra and Aqua
+  spectral response functions.
+- Added Google Earth Engine and Microsoft Planetary Computer access metadata
+  for the MODIS MCD43A4 NBAR product.
+- Added EarthData, CEOS EO Handbook, and IndexDataBase cross-links for MODIS.
 - Added cross-links for EMIT, ETM+, MSS, MSI, OLI, TIRS, and TM records where
   available.
 - Added EarthData, CEOS EO Handbook, and IndexDataBase links where available.
@@ -42,6 +54,9 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 - Added richer single-instrument pages with quick facts, spectral summaries,
   searchable band tables, data access cards, external catalogue cards, related
   instruments, and separated source/reference links.
+- Grouped single-instrument metadata into responsive, keyboard-accessible tabs
+  for quick facts, spectral and imaging characteristics, data access, external
+  catalogues, and references.
 - Added generated VitePress schema and contributing pages.
 
 ### Project Infrastructure
