@@ -18,42 +18,8 @@ hero:
 
 ---
 
-## Table of Contents
-
-[[toc]]
-
 ## Summary
 
 <InstrumentSection instrument-id="OLI_L8" section="summary" />
 
-## Quick Facts
-
-<InstrumentSection instrument-id="OLI_L8" section="quick-facts" />
-
-## Spectral Characteristics
-
-<InstrumentSection instrument-id="OLI_L8" section="spectral-summary" />
-
-## Bands
-
-<InstrumentSection instrument-id="OLI_L8" section="bands" />
-
-## Imaging
-
-<InstrumentSection instrument-id="OLI_L8" section="imaging" />
-
-## Data Access
-
-<InstrumentSection instrument-id="OLI_L8" section="data-access" />
-
-## External Catalogues
-
-<InstrumentSection instrument-id="OLI_L8" section="external-catalogues" />
-
-## Related Instruments
-
-<InstrumentSection instrument-id="OLI_L8" section="related" />
-
-## Sources and References
-
-<InstrumentSection instrument-id="OLI_L8" section="sources" />
+<InstrumentTabs instrument-id="OLI_L8" />

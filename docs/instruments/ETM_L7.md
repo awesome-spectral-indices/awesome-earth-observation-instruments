@@ -18,42 +18,8 @@ hero:
 
 ---
 
-## Table of Contents
-
-[[toc]]
-
 ## Summary
 
 <InstrumentSection instrument-id="ETM_L7" section="summary" />
 
-## Quick Facts
-
-<InstrumentSection instrument-id="ETM_L7" section="quick-facts" />
-
-## Spectral Characteristics
-
-<InstrumentSection instrument-id="ETM_L7" section="spectral-summary" />
-
-## Bands
-
-<InstrumentSection instrument-id="ETM_L7" section="bands" />
-
-## Imaging
-
-<InstrumentSection instrument-id="ETM_L7" section="imaging" />
-
-## Data Access
-
-<InstrumentSection instrument-id="ETM_L7" section="data-access" />
-
-## External Catalogues
-
-<InstrumentSection instrument-id="ETM_L7" section="external-catalogues" />
-
-## Related Instruments
-
-<InstrumentSection instrument-id="ETM_L7" section="related" />
-
-## Sources and References
-
-<InstrumentSection instrument-id="ETM_L7" section="sources" />
+<InstrumentTabs instrument-id="ETM_L7" />

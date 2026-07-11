@@ -18,42 +18,8 @@ hero:
 
 ---
 
-## Table of Contents
-
-[[toc]]
-
 ## Summary
 
 <InstrumentSection instrument-id="MSI_S2B" section="summary" />
 
-## Quick Facts
-
-<InstrumentSection instrument-id="MSI_S2B" section="quick-facts" />
-
-## Spectral Characteristics
-
-<InstrumentSection instrument-id="MSI_S2B" section="spectral-summary" />
-
-## Bands
-
-<InstrumentSection instrument-id="MSI_S2B" section="bands" />
-
-## Imaging
-
-<InstrumentSection instrument-id="MSI_S2B" section="imaging" />
-
-## Data Access
-
-<InstrumentSection instrument-id="MSI_S2B" section="data-access" />
-
-## External Catalogues
-
-<InstrumentSection instrument-id="MSI_S2B" section="external-catalogues" />
-
-## Related Instruments
-
-<InstrumentSection instrument-id="MSI_S2B" section="related" />
-
-## Sources and References
-
-<InstrumentSection instrument-id="MSI_S2B" section="sources" />
+<InstrumentTabs instrument-id="MSI_S2B" />

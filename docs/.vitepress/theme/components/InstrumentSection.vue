@@ -262,6 +262,34 @@ function valueClass(prefix: string, value: string) {
       </a>
     </div>
 
+    <div v-else-if="section === 'data-links'" class="source-grid">
+      <div>
+        <h3>Data links</h3>
+        <p v-if="!instrument.data_links.length" class="empty-state">
+          No data links are available.
+        </p>
+        <ul v-else>
+          <li v-for="link in instrument.data_links" :key="link.url">
+            <a :href="link.url">{{ link.url }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div v-else-if="section === 'references'" class="source-grid">
+      <div>
+        <h3>References</h3>
+        <p v-if="!instrument.references.length" class="empty-state">
+          No references are available.
+        </p>
+        <ul v-else>
+          <li v-for="link in instrument.references" :key="link.url">
+            <a :href="link.url">{{ link.url }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <div v-else-if="section === 'sources'" class="source-grid">
       <div>
         <h3>Data links</h3>

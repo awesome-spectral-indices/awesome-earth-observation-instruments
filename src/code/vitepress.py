@@ -307,25 +307,9 @@ def render_instrument_page(instrument: dict[str, Any]) -> str:
     return "\n\n".join(
         [
             render_frontmatter(instrument),
-            "## Table of Contents\n\n[[toc]]",
             "## Summary",
             f'<InstrumentSection instrument-id="{instrument_id}" section="summary" />',
-            "## Quick Facts",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="quick-facts" />',
-            "## Spectral Characteristics",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="spectral-summary" />',
-            "## Bands",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="bands" />',
-            "## Imaging",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="imaging" />',
-            "## Data Access",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="data-access" />',
-            "## External Catalogues",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="external-catalogues" />',
-            "## Related Instruments",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="related" />',
-            "## Sources and References",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="sources" />',
+            f'<InstrumentTabs instrument-id="{instrument_id}" />',
         ]
     ).rstrip() + "\n"
 
