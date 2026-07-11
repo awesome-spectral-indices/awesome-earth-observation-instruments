@@ -77,8 +77,10 @@ Transformation rules:
   equal length. Preserve the original SRF CSV filename in
   `spectral.spectral_response_function_file`.
 - When `spectral.range` is supplied instead of `spectral.bands`, create
-  `spectral.bands` as `B1` through `Bn`, using `min`, `max`, and `total_bands`
-  to calculate `center_wavelength` and `bandwidth`.
+  `spectral.bands` as `B1` through `Bn`, using `min`, `max`, and either
+  `total_bands` or `sampling` to calculate center wavelengths. Use the optional
+  range `bandwidth` for every band; otherwise derive it from the generation
+  interval.
 - Add generated relationship fields to each catalogue instrument:
   `family` contains instruments with the same name or acronym, and
   `platform_companions` contains instruments on the same platform excluding

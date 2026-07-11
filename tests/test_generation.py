@@ -5,12 +5,13 @@ import sys
 from pathlib import Path
 
 import pytest
+import yaml
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src" / "code"))
 
-from catalogue import CATALOGUE_NAME, generate_catalogue
-from validators import validate_all_instruments
+from catalogue import CATALOGUE_NAME, _bands_from_range, generate_catalogue
+from validators import ValidationError, _validate_range, validate_all_instruments
 
 
 @pytest.fixture(scope="session")
@@ -71,3 +72,97 @@ def test_catalogue_structure_and_spectral_transforms(
         srf_lengths = {len(values) for values in spectral["spectral_response_function"].values()}
         assert len(srf_lengths) == 1
 
+
+def test_range_bandwidth_overrides_generated_bandwidth() -> None:
+    # An explicit range bandwidth applies uniformly without changing band centers.
+    total_band_range = {
+        "min": 400,
+        "max": 500,
+        "total_bands": 4,
+        "bandwidth": 12,
+    }
+    total_band_result = _bands_from_range(total_band_range)
+
+    assert [band["center_wavelength"] for band in total_band_result.values()] == [
+        412.5,
+        437.5,
+        462.5,
+        487.5,
+    ]
+    assert {band["bandwidth"] for band in total_band_result.values()} == {12.0}
+
+    sampling_range = {
+        "min": 400,
+        "max": 410,
+        "sampling": 3,
+        "bandwidth": 1.5,
+    }
+    sampling_result = _bands_from_range(sampling_range)
+
+    assert [band["center_wavelength"] for band in sampling_result.values()] == [
+        400.0,
+        403.0,
+        406.0,
+        409.0,
+    ]
+    assert {band["bandwidth"] for band in sampling_result.values()} == {1.5}
+
+
+def test_range_defaults_bandwidth_to_generation_interval() -> None:
+    total_band_result = _bands_from_range(
+        {"min": 400, "max": 500, "total_bands": 4}
+    )
+    sampling_result = _bands_from_range({"min": 400, "max": 410, "sampling": 3})
+
+    assert {band["bandwidth"] for band in total_band_result.values()} == {25.0}
+    assert {band["bandwidth"] for band in sampling_result.values()} == {3.0}
+
+
+def test_sampling_range_bandwidth_is_materialized_end_to_end(tmp_path: Path) -> None:
+    # Exercise schema validation and catalogue generation with a sampling-based range.
+    instrument = yaml.safe_load(
+        (REPO_ROOT / "src" / "instruments" / "EMIT.yaml").read_text(encoding="utf-8")
+    )
+    instrument["id"] = "TEST_SAMPLING_RANGE"
+    instrument["extensions"]["spectral"]["range"] = {
+        "min": 400,
+        "max": 410,
+        "sampling": 3,
+        "bandwidth": 1.5,
+    }
+
+    instrument_path = tmp_path / "TEST_SAMPLING_RANGE.yaml"
+    instrument_path.write_text(yaml.safe_dump(instrument), encoding="utf-8")
+    catalogue = generate_catalogue(
+        instruments_dir=tmp_path,
+        output_path=tmp_path / "catalogue.json",
+    )
+    bands = catalogue["instruments"]["TEST_SAMPLING_RANGE"]["extensions"][
+        "spectral"
+    ]["bands"]
+
+    assert list(bands) == ["B1", "B2", "B3", "B4"]
+    assert [band["center_wavelength"] for band in bands.values()] == [
+        400.0,
+        403.0,
+        406.0,
+        409.0,
+    ]
+    assert {band["bandwidth"] for band in bands.values()} == {1.5}
+
+
+@pytest.mark.parametrize(
+    "range_data",
+    [
+        {"min": 400, "max": 400, "total_bands": 1},
+        {"min": 400, "max": 500, "sampling": 0},
+        {"min": 400, "max": 500, "total_bands": 0},
+        {"min": 400, "max": 500, "sampling": 5, "bandwidth": 0},
+        {"min": 400, "max": 500, "sampling": 5, "total_bands": 20},
+    ],
+)
+def test_invalid_range_generation_parameters_are_rejected(
+    range_data: dict[str, float | int],
+) -> None:
+    with pytest.raises(ValidationError):
+        _validate_range(range_data, "TEST")

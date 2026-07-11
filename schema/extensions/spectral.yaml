@@ -78,19 +78,28 @@ properties:
     properties:
       min:
         type: number
+        minimum: 0
         description: Minimum wavelength (nm)
 
       max:
         type: number
+        minimum: 0
         description: Maximum wavelength (nm)
 
       sampling:
         type: number
+        exclusiveMinimum: 0
         description: Spectral sampling interval (nm)
 
       total_bands:
         type: integer
+        minimum: 1
         description: Number of bands
+
+      bandwidth:
+        type: number
+        exclusiveMinimum: 0
+        description: Bandwidth assigned to every generated band (nm)
 
     oneOf:
       - required: [sampling]

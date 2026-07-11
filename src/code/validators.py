@@ -173,9 +173,32 @@ def _validate_range(range_data: dict[str, Any], instrument_id: str) -> None:
         return
     if minimum < 0 or maximum < 0:
         raise ValidationError(f"[{instrument_id}] spectral.range values cannot be negative.")
-    if minimum > maximum:
+    if minimum >= maximum:
         raise ValidationError(
             f"[{instrument_id}] spectral.range.min must be lower than spectral.range.max."
+        )
+
+    has_sampling = "sampling" in range_data
+    has_total_bands = "total_bands" in range_data
+    if has_sampling == has_total_bands:
+        raise ValidationError(
+            f"[{instrument_id}] spectral.range must define exactly one of sampling or "
+            "total_bands."
+        )
+
+    if has_sampling and range_data["sampling"] <= 0:
+        raise ValidationError(
+            f"[{instrument_id}] spectral.range.sampling must be greater than 0."
+        )
+    if has_total_bands and range_data["total_bands"] <= 0:
+        raise ValidationError(
+            f"[{instrument_id}] spectral.range.total_bands must be greater than 0."
+        )
+
+    bandwidth = range_data.get("bandwidth")
+    if bandwidth is not None and bandwidth <= 0:
+        raise ValidationError(
+            f"[{instrument_id}] spectral.range.bandwidth must be greater than 0."
         )
 
 

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 from typing import Any
 
@@ -56,17 +57,36 @@ def _srf_csv_to_object(filename: str) -> dict[str, list[Any]]:
 def _bands_from_range(range_payload: dict[str, Any]) -> dict[str, dict[str, Any]]:
     minimum = float(range_payload["min"])
     maximum = float(range_payload["max"])
-    total_bands = int(range_payload["total_bands"])
-    if total_bands <= 0:
-        raise ValueError("spectral.range.total_bands must be greater than 0.")
     if maximum <= minimum:
         raise ValueError("spectral.range.max must be greater than spectral.range.min.")
 
-    bandwidth = (maximum - minimum) / total_bands
+    if "total_bands" in range_payload:
+        total_bands = int(range_payload["total_bands"])
+        if total_bands <= 0:
+            raise ValueError("spectral.range.total_bands must be greater than 0.")
+
+        sampling = (maximum - minimum) / total_bands
+        center_wavelengths = [
+            minimum + (idx + 0.5) * sampling for idx in range(total_bands)
+        ]
+    elif "sampling" in range_payload:
+        sampling = float(range_payload["sampling"])
+        if sampling <= 0:
+            raise ValueError("spectral.range.sampling must be greater than 0.")
+
+        # Treat min and max as sampled wavelength bounds and retain points up to max.
+        total_bands = math.floor((maximum - minimum) / sampling + 1e-12) + 1
+        center_wavelengths = [minimum + idx * sampling for idx in range(total_bands)]
+    else:
+        raise ValueError("spectral.range must define total_bands or sampling.")
+
+    bandwidth = float(range_payload.get("bandwidth", sampling))
+    if bandwidth <= 0:
+        raise ValueError("spectral.range.bandwidth must be greater than 0.")
+
     bands: dict[str, dict[str, Any]] = {}
-    for idx in range(total_bands):
+    for idx, center_wavelength in enumerate(center_wavelengths):
         band_name = f"B{idx + 1}"
-        center_wavelength = minimum + (idx + 0.5) * bandwidth
         bands[band_name] = {
             "center_wavelength": center_wavelength,
             "bandwidth": bandwidth,
@@ -85,7 +105,10 @@ def _materialize_spectral_csvs(instrument: dict[str, Any]) -> dict[str, Any]:
         spectral["bands"] = _bands_csv_to_object(bands_value)
     elif "bands" not in spectral and isinstance(spectral.get("range"), dict):
         range_payload = spectral["range"]
-        if "total_bands" in range_payload and "min" in range_payload and "max" in range_payload:
+        if (
+            {"min", "max"}.issubset(range_payload)
+            and ("total_bands" in range_payload or "sampling" in range_payload)
+        ):
             spectral["bands"] = _bands_from_range(range_payload)
 
     srf_value = spectral.get("spectral_response_function")
