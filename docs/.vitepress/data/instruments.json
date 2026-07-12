@@ -234,6 +234,32 @@
     "search_text": "oli_l8 operational land imager oli landsat 8 satellite multispectral nasa, usgs operational public /instruments/oli_l8"
   },
   {
+    "id": "REDEDGEMX_RX01_MICASENSE",
+    "name": "RedEdge-MX RX01 Series",
+    "acronym": "RedEdge-MX",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "retired",
+    "availability": "private",
+    "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+    "search_text": "rededgemx_rx01_micasense rededge-mx rx01 series rededge-mx uav uav multispectral micasense retired private /instruments/rededgemx_rx01_micasense"
+  },
+  {
+    "id": "REDEDGEMX_RX02_gte_MICASENSE",
+    "name": "RedEdge-MX RX02 (or greater) Series",
+    "acronym": "RedEdge-MX",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "retired",
+    "availability": "private",
+    "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
+    "search_text": "rededgemx_rx02_gte_micasense rededge-mx rx02 (or greater) series rededge-mx uav uav multispectral micasense retired private /instruments/rededgemx_rx02_gte_micasense"
+  },
+  {
     "id": "REDEDGEP_MICASENSE",
     "name": "RedEdge-P",
     "acronym": "RedEdge-P",

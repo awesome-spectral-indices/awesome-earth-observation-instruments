@@ -1,0 +1,6 @@
+band,center_wavelength,bandwidth,band_description,common_name
+B1,475,32,Blue,blue
+B2,560,27,Green,green
+B3,668,16,Red,red
+B4,842,57,Near infrared,nir
+B5,717,12,Red edge,rededge

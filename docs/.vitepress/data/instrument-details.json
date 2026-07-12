@@ -167,6 +167,20 @@
         "reason": "same platform"
       },
       {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
         "id": "REDEDGEP_MICASENSE",
         "name": "RedEdge-P",
         "platform": "UAV",
@@ -355,6 +369,20 @@
         "reason": "same platform"
       },
       {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
         "id": "REDEDGEP_MICASENSE",
         "name": "RedEdge-P",
         "platform": "UAV",
@@ -540,6 +568,20 @@
         "name": "Altum-PT",
         "platform": "UAV",
         "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
         "reason": "same platform"
       },
       {
@@ -738,6 +780,20 @@
         "name": "Altum AL06 (or greater) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
         "reason": "same platform"
       },
       {
@@ -7607,6 +7663,390 @@
       }
     ]
   },
+  "REDEDGEMX_RX01_MICASENSE": {
+    "id": "REDEDGEMX_RX01_MICASENSE",
+    "summary": "REDEDGEMX_RX01_MICASENSE (RedEdge-MX RX01 Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "REDEDGEMX_RX01_MICASENSE"
+      },
+      {
+        "label": "Name",
+        "value": "RedEdge-MX RX01 Series"
+      },
+      {
+        "label": "Acronym",
+        "value": "RedEdge-MX"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "MicaSense"
+      },
+      {
+        "label": "Start date",
+        "value": "2018-10-02"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "5"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "475-840 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "10-40 nm"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "475",
+        "bandwidth": "20",
+        "common_name": "blue",
+        "gsd": "",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 475 20 blue  blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "20",
+        "common_name": "green",
+        "gsd": "",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 20 green  green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "668",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 668 10 red  red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "840",
+        "bandwidth": "40",
+        "common_name": "nir",
+        "gsd": "",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 840 40 nir  near infrared "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "717",
+        "bandwidth": "10",
+        "common_name": "rededge",
+        "gsd": "",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b5 717 10 rededge  red edge "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Focal Length",
+        "value": "5.4"
+      },
+      {
+        "label": "Gsd",
+        "value": "0.08"
+      },
+      {
+        "label": "Hfov",
+        "value": "47.2"
+      },
+      {
+        "label": "Vfov",
+        "value": "35.4"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum AL04 (or lower) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum AL05 Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum AL06 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide"
+      },
+      {
+        "url": "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"
+      },
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+      }
+    ]
+  },
+  "REDEDGEMX_RX02_gte_MICASENSE": {
+    "id": "REDEDGEMX_RX02_gte_MICASENSE",
+    "summary": "REDEDGEMX_RX02_gte_MICASENSE (RedEdge-MX RX02 (or greater) Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "REDEDGEMX_RX02_gte_MICASENSE"
+      },
+      {
+        "label": "Name",
+        "value": "RedEdge-MX RX02 (or greater) Series"
+      },
+      {
+        "label": "Acronym",
+        "value": "RedEdge-MX"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "MicaSense"
+      },
+      {
+        "label": "Start date",
+        "value": "2020-11-01"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "5"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "475-842 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "12-57 nm"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "475",
+        "bandwidth": "32",
+        "common_name": "blue",
+        "gsd": "",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 475 32 blue  blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "27",
+        "common_name": "green",
+        "gsd": "",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 27 green  green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "668",
+        "bandwidth": "16",
+        "common_name": "red",
+        "gsd": "",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 668 16 red  red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "842",
+        "bandwidth": "57",
+        "common_name": "nir",
+        "gsd": "",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 842 57 nir  near infrared "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "717",
+        "bandwidth": "12",
+        "common_name": "rededge",
+        "gsd": "",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b5 717 12 rededge  red edge "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Focal Length",
+        "value": "5.4"
+      },
+      {
+        "label": "Gsd",
+        "value": "0.08"
+      },
+      {
+        "label": "Hfov",
+        "value": "47.2"
+      },
+      {
+        "label": "Vfov",
+        "value": "35.4"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum AL04 (or lower) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum AL05 Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum AL06 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide"
+      },
+      {
+        "url": "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"
+      },
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+      }
+    ]
+  },
   "REDEDGEP_MICASENSE": {
     "id": "REDEDGEP_MICASENSE",
     "summary": "REDEDGEP_MICASENSE (RedEdge-P) is an operational multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
@@ -7779,6 +8219,20 @@
         "name": "Altum-PT",
         "platform": "UAV",
         "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
         "reason": "same platform"
       }
     ],

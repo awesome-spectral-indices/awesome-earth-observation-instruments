@@ -37,6 +37,8 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 - Added the MicaSense RedEdge-P, Altum-PT, and three Altum serial-number UAV
   instrument configurations with their corresponding spectral band
   definitions.
+- Added MicaSense RedEdge-MX RX01 and RX02-or-higher UAV configurations with
+  their serial-dependent spectral band definitions.
 - Added shared MODIS band definitions and platform-specific Terra and Aqua
   spectral response functions.
 - Added Google Earth Engine and Microsoft Planetary Computer access metadata

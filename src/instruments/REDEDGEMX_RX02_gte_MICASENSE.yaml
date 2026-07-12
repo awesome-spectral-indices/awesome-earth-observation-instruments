@@ -1,0 +1,35 @@
+id: REDEDGEMX_RX02_gte_MICASENSE
+name: RedEdge-MX RX02 (or greater) Series
+acronym: RedEdge-MX
+type: multispectral
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - MicaSense
+start_date: 2020-11-01
+status: retired
+availability: private
+references:
+  - "https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide"
+  - "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"
+  - "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+notes: >-
+  This configuration applies to RedEdge-MX cameras with serial numbers
+  beginning with RX02 or higher. The start date uses the month of the guide
+  revision that documented this spectral configuration because its exact
+  production date is not specified. Imaging extension values describe the
+  multispectral imagers, with GSD specified at 120 m above ground level.
+  MicaSense identifies RedEdge-MX as no longer in production but does not
+  provide an exact retirement date.
+
+extensions:
+
+  spectral:
+    bands: REDEDGEMX_RX02_gte_MICASENSE_BANDS.csv
+
+  imaging:
+    hfov: 47.2
+    vfov: 35.4
+    focal_length: 5.4
+    gsd: 0.08

@@ -125,6 +125,8 @@ Use the table of contents below to jump directly to available categories and sub
 | [ALTUMAL05_MICASENSE](https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide) | Altum AL05 Series | UAV | **retired :no_entry:** |  |  |
 | [ALTUMAL06_gte_MICASENSE](https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide) | Altum AL06 (or greater) Series | UAV | **retired :no_entry:** |  |  |
 | [ALTUMPT_MICASENSE](https://support.micasense.com/hc/en-us/articles/4419868608407-Altum-PT-Integration-Guide) | Altum-PT | UAV | **operational :white_check_mark:** |  |  |
+| [REDEDGEMX_RX01_MICASENSE](https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide) | RedEdge-MX RX01 Series | UAV | **retired :no_entry:** |  |  |
+| [REDEDGEMX_RX02_gte_MICASENSE](https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide) | RedEdge-MX RX02 (or greater) Series | UAV | **retired :no_entry:** |  |  |
 | [REDEDGEP_MICASENSE](https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide) | RedEdge-P | UAV | **operational :white_check_mark:** |  |  |
 
 ---
