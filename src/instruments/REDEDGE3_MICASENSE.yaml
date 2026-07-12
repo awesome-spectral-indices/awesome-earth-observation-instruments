@@ -1,0 +1,30 @@
+id: REDEDGE3_MICASENSE
+name: RedEdge-3
+acronym: RedEdge-3
+type: multispectral
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - MicaSense
+start_date: 2015-03-16
+status: retired
+availability: private
+references:
+  - "https://support.micasense.com/hc/en-us/article_attachments/204648307"
+  - "https://www.prweb.com/releases/2015/03/prweb12584473.htm"
+  - "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+notes: >-
+  Imaging extension values describe the multispectral imagers, with GSD
+  specified at 120 m above ground level. MicaSense identifies RedEdge 3 as
+  discontinued but does not provide an exact retirement date.
+
+extensions:
+
+  spectral:
+    bands: REDEDGE3_MICASENSE_BANDS.csv
+
+  imaging:
+    hfov: 47.2
+    focal_length: 5.5
+    gsd: 0.082

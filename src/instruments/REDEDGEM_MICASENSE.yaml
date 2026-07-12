@@ -1,0 +1,31 @@
+id: REDEDGEM_MICASENSE
+name: RedEdge-M
+acronym: RedEdge-M
+type: multispectral
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - MicaSense
+start_date: 2017-11-13
+status: retired
+availability: private
+references:
+  - "https://support.micasense.com/hc/en-us/article_attachments/115004168274"
+  - "https://www.prweb.com/releases/micasense_unveils_the_next_sensor_in_the_rededge_product_line/prweb14910472.htm"
+  - "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+notes: >-
+  Imaging extension values describe the multispectral imagers, with GSD
+  specified at 120 m above ground level. MicaSense identifies RedEdge-M as a
+  legacy product that is no longer supported but does not provide an exact
+  retirement date.
+
+extensions:
+
+  spectral:
+    bands: REDEDGEM_MICASENSE_BANDS.csv
+
+  imaging:
+    hfov: 46
+    focal_length: 5.4
+    gsd: 0.082

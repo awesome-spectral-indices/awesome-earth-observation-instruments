@@ -234,6 +234,19 @@
     "search_text": "oli_l8 operational land imager oli landsat 8 satellite multispectral nasa, usgs operational public /instruments/oli_l8"
   },
   {
+    "id": "REDEDGE3_MICASENSE",
+    "name": "RedEdge-3",
+    "acronym": "RedEdge-3",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "retired",
+    "availability": "private",
+    "href": "/instruments/REDEDGE3_MICASENSE",
+    "search_text": "rededge3_micasense rededge-3 rededge-3 uav uav multispectral micasense retired private /instruments/rededge3_micasense"
+  },
+  {
     "id": "REDEDGEMX_RX01_MICASENSE",
     "name": "RedEdge-MX RX01 Series",
     "acronym": "RedEdge-MX",
@@ -258,6 +271,19 @@
     "availability": "private",
     "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
     "search_text": "rededgemx_rx02_gte_micasense rededge-mx rx02 (or greater) series rededge-mx uav uav multispectral micasense retired private /instruments/rededgemx_rx02_gte_micasense"
+  },
+  {
+    "id": "REDEDGEM_MICASENSE",
+    "name": "RedEdge-M",
+    "acronym": "RedEdge-M",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "retired",
+    "availability": "private",
+    "href": "/instruments/REDEDGEM_MICASENSE",
+    "search_text": "rededgem_micasense rededge-m rededge-m uav uav multispectral micasense retired private /instruments/rededgem_micasense"
   },
   {
     "id": "REDEDGEP_MICASENSE",
