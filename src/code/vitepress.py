@@ -299,19 +299,32 @@ def render_links(instrument: dict[str, Any]) -> str:
     return "\n".join(lines).rstrip()
 
 
+def render_notes(instrument: dict[str, Any]) -> str:
+    """Render optional instrument notes as a GitHub-style Markdown alert."""
+
+    notes = instrument.get("notes")
+    if not isinstance(notes, str) or not notes.strip():
+        return ""
+
+    lines = ["> [!NOTE]"]
+    for line in notes.strip().splitlines():
+        lines.append(f"> {line}" if line else ">")
+    return "\n".join(lines)
+
+
 def render_instrument_page(instrument: dict[str, Any]) -> str:
     """Render a single VitePress instrument page."""
 
     instrument_id = instrument.get("id", "")
 
-    return "\n\n".join(
-        [
-            render_frontmatter(instrument),
-            "## Summary",
-            f'<InstrumentSection instrument-id="{instrument_id}" section="summary" />',
-            f'<InstrumentTabs instrument-id="{instrument_id}" />',
-        ]
-    ).rstrip() + "\n"
+    sections = [
+        render_frontmatter(instrument),
+        "## Summary",
+        f'<InstrumentSection instrument-id="{instrument_id}" section="summary" />',
+        render_notes(instrument),
+        f'<InstrumentTabs instrument-id="{instrument_id}" />',
+    ]
+    return "\n\n".join(section for section in sections if section).rstrip() + "\n"
 
 
 def render_index(instruments: dict[str, dict[str, Any]]) -> str:
