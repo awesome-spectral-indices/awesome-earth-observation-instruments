@@ -1,0 +1,16 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd
+B1,560,80,VNIR visible green-yellow channel,green,15
+B2,660,60,VNIR visible red channel,red,15
+B3N,810,100,VNIR near-infrared nadir-looking channel,nir,15
+B3B,810,100,VNIR near-infrared backward-looking stereo channel,nir,15
+B4,1650,100,SWIR channel 4,swir16,30
+B5,2165,40,SWIR channel 5,swir22,30
+B6,2205,40,SWIR channel 6,swir22,30
+B7,2260,50,SWIR channel 7,swir22,30
+B8,2330,70,SWIR channel 8,swir22,30
+B9,2395,70,SWIR channel 9,swir22,30
+B10,8300,350,TIR channel 10,lwir,90
+B11,8650,350,TIR channel 11,lwir,90
+B12,9100,350,TIR channel 12,lwir,90
+B13,10600,700,TIR channel 13,lwir11,90
+B14,11300,700,TIR channel 14,lwir11,90

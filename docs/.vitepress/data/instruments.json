@@ -52,6 +52,19 @@
     "search_text": "altumpt_micasense altum-pt altum-pt uav uav multispectral micasense operational private /instruments/altumpt_micasense"
   },
   {
+    "id": "ASTER",
+    "name": "Advanced Spaceborne Thermal Emission and Reflection Radiometer",
+    "acronym": "ASTER",
+    "platform": "Terra",
+    "platform_type": "satellite",
+    "type": "multispectral",
+    "operator": "NASA, METI, Japan Space Systems",
+    "status": "operational",
+    "availability": "public",
+    "href": "/instruments/ASTER",
+    "search_text": "aster advanced spaceborne thermal emission and reflection radiometer aster terra satellite multispectral nasa, meti, japan space systems operational public /instruments/aster"
+  },
+  {
     "id": "EMIT",
     "name": "Earth Surface Mineral Dust Source Investigation",
     "acronym": "EMIT",

@@ -870,6 +870,314 @@
       }
     ]
   },
+  "ASTER": {
+    "id": "ASTER",
+    "summary": "ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer) is an operational multispectral instrument operated by NASA, METI, Japan Space Systems on Terra. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "ASTER"
+      },
+      {
+        "label": "Name",
+        "value": "Advanced Spaceborne Thermal Emission and Reflection Radiometer"
+      },
+      {
+        "label": "Acronym",
+        "value": "ASTER"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Terra"
+      },
+      {
+        "label": "Operator",
+        "value": "NASA, METI, Japan Space Systems"
+      },
+      {
+        "label": "Start date",
+        "value": "1999-12-18"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "15"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "560-11300 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "40-700 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "15-90 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/ASTER_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "560",
+        "bandwidth": "80",
+        "common_name": "green",
+        "gsd": "15",
+        "description": "VNIR visible green-yellow channel",
+        "snr": "",
+        "search_text": "b1 560 80 green 15 vnir visible green-yellow channel "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "660",
+        "bandwidth": "60",
+        "common_name": "red",
+        "gsd": "15",
+        "description": "VNIR visible red channel",
+        "snr": "",
+        "search_text": "b2 660 60 red 15 vnir visible red channel "
+      },
+      {
+        "id": "B3N",
+        "center_wavelength": "810",
+        "bandwidth": "100",
+        "common_name": "nir",
+        "gsd": "15",
+        "description": "VNIR near-infrared nadir-looking channel",
+        "snr": "",
+        "search_text": "b3n 810 100 nir 15 vnir near-infrared nadir-looking channel "
+      },
+      {
+        "id": "B3B",
+        "center_wavelength": "810",
+        "bandwidth": "100",
+        "common_name": "nir",
+        "gsd": "15",
+        "description": "VNIR near-infrared backward-looking stereo channel",
+        "snr": "",
+        "search_text": "b3b 810 100 nir 15 vnir near-infrared backward-looking stereo channel "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "1650",
+        "bandwidth": "100",
+        "common_name": "swir16",
+        "gsd": "30",
+        "description": "SWIR channel 4",
+        "snr": "",
+        "search_text": "b4 1650 100 swir16 30 swir channel 4 "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "2165",
+        "bandwidth": "40",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR channel 5",
+        "snr": "",
+        "search_text": "b5 2165 40 swir22 30 swir channel 5 "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "2205",
+        "bandwidth": "40",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR channel 6",
+        "snr": "",
+        "search_text": "b6 2205 40 swir22 30 swir channel 6 "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "2260",
+        "bandwidth": "50",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR channel 7",
+        "snr": "",
+        "search_text": "b7 2260 50 swir22 30 swir channel 7 "
+      },
+      {
+        "id": "B8",
+        "center_wavelength": "2330",
+        "bandwidth": "70",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR channel 8",
+        "snr": "",
+        "search_text": "b8 2330 70 swir22 30 swir channel 8 "
+      },
+      {
+        "id": "B9",
+        "center_wavelength": "2395",
+        "bandwidth": "70",
+        "common_name": "swir22",
+        "gsd": "30",
+        "description": "SWIR channel 9",
+        "snr": "",
+        "search_text": "b9 2395 70 swir22 30 swir channel 9 "
+      },
+      {
+        "id": "B10",
+        "center_wavelength": "8300",
+        "bandwidth": "350",
+        "common_name": "lwir",
+        "gsd": "90",
+        "description": "TIR channel 10",
+        "snr": "",
+        "search_text": "b10 8300 350 lwir 90 tir channel 10 "
+      },
+      {
+        "id": "B11",
+        "center_wavelength": "8650",
+        "bandwidth": "350",
+        "common_name": "lwir",
+        "gsd": "90",
+        "description": "TIR channel 11",
+        "snr": "",
+        "search_text": "b11 8650 350 lwir 90 tir channel 11 "
+      },
+      {
+        "id": "B12",
+        "center_wavelength": "9100",
+        "bandwidth": "350",
+        "common_name": "lwir",
+        "gsd": "90",
+        "description": "TIR channel 12",
+        "snr": "",
+        "search_text": "b12 9100 350 lwir 90 tir channel 12 "
+      },
+      {
+        "id": "B13",
+        "center_wavelength": "10600",
+        "bandwidth": "700",
+        "common_name": "lwir11",
+        "gsd": "90",
+        "description": "TIR channel 13",
+        "snr": "",
+        "search_text": "b13 10600 700 lwir11 90 tir channel 13 "
+      },
+      {
+        "id": "B14",
+        "center_wavelength": "11300",
+        "bandwidth": "700",
+        "common_name": "lwir11",
+        "gsd": "90",
+        "description": "TIR channel 14",
+        "snr": "",
+        "search_text": "b14 11300 700 lwir11 90 tir channel 14 "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Swath Width",
+        "value": "60"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003",
+            "collection": "ASTER/AST_L1T_003"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/aster-l1t",
+            "collection": "aster-l1t"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "IndexDataBase",
+        "url": "https://www.indexdatabase.de/db/s-single.php?id=9"
+      },
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=416"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/aster"
+      }
+    ],
+    "related": [
+      {
+        "id": "MODIS_TERRA",
+        "name": "Moderate Resolution Imaging Spectroradiometer",
+        "platform": "Terra",
+        "href": "/instruments/MODIS_TERRA",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/aster-l1t"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/aster"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://asterweb.jpl.nasa.gov/index.asp"
+      },
+      {
+        "url": "https://asterweb.jpl.nasa.gov/characteristics.asp"
+      },
+      {
+        "url": "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt"
+      },
+      {
+        "url": "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt"
+      },
+      {
+        "url": "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt"
+      },
+      {
+        "url": "https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
+      }
+    ]
+  },
   "EMIT": {
     "id": "EMIT",
     "summary": "EMIT (Earth Surface Mineral Dust Source Investigation) is an operational hyperspectral instrument operated by NASA on ISS. It is associated with a satellite platform and has public data availability.",
@@ -5103,6 +5411,13 @@
         "platform": "Aqua",
         "href": "/instruments/MODIS_AQUA",
         "reason": "same instrument family"
+      },
+      {
+        "id": "ASTER",
+        "name": "Advanced Spaceborne Thermal Emission and Reflection Radiometer",
+        "platform": "Terra",
+        "href": "/instruments/ASTER",
+        "reason": "same platform"
       }
     ],
     "data_links": [

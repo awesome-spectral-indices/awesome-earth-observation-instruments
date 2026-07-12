@@ -1,0 +1,58 @@
+id: ASTER
+name: Advanced Spaceborne Thermal Emission and Reflection Radiometer
+acronym: ASTER
+type: multispectral
+platform_type: satellite
+platform:
+  - Terra
+operator:
+  - NASA
+  - METI
+  - Japan Space Systems
+start_date: 1999-12-18
+status: operational
+availability: public
+references:
+  - "https://asterweb.jpl.nasa.gov/index.asp"
+  - "https://asterweb.jpl.nasa.gov/characteristics.asp"
+  - "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt"
+  - "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt"
+  - "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt"
+  - "https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
+notes: >-
+  ASTER includes separate VNIR, SWIR, and TIR subsystems. B3N is nadir-looking
+  and B3B is backward-looking for along-track stereoscopic observations. The
+  SWIR subsystem is unavailable. The TIR subsystem was permanently turned off
+  on 2026-01-16 because of Terra power limitations. VNIR operations resumed on
+  2026-02-09 and remain active, which is reflected by the operational status.
+
+data_links:
+  - "https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003"
+  - "https://planetarycomputer.microsoft.com/dataset/aster-l1t"
+  - "https://www.earthdata.nasa.gov/data/instruments/aster"
+
+extensions:
+
+  spectral:
+    bands: ASTER_BANDS.csv
+    spectral_response_function: ASTER_SRF.csv
+
+  imaging:
+    swath_width: 60
+
+  data_access:
+    ee:
+      primary:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003"
+        collection: "ASTER/AST_L1T_003"
+
+    planetary_computer:
+      stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
+      primary:
+        docs: "https://planetarycomputer.microsoft.com/dataset/aster-l1t"
+        collection: "aster-l1t"
+
+  cross_links:
+    idb: "https://www.indexdatabase.de/db/s-single.php?id=9"
+    ceos: "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=416"
+    earthdata: "https://www.earthdata.nasa.gov/data/instruments/aster"

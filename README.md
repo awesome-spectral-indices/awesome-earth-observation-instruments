@@ -85,6 +85,7 @@ Use the table of contents below to jump directly to available categories and sub
 
 | Id | Name | Platforms | Status | Earth Engine | Planetary Computer |
 | --- | --- | --- | --- | --- | --- |
+| [ASTER](https://asterweb.jpl.nasa.gov/index.asp) | Advanced Spaceborne Thermal Emission and Reflection Radiometer | Terra | **operational :white_check_mark:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003) | [:link: link](https://planetarycomputer.microsoft.com/dataset/aster-l1t) |
 | [ETM_L7](https://science.nasa.gov/mission/landsat/etm-plus/) | Enhanced Thematic Mapper Plus | Landsat 7 | **operational :white_check_mark:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2) | [:link: link](https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2) |
 | [MODIS_AQUA](https://modis.gsfc.nasa.gov/about/) | Moderate Resolution Imaging Spectroradiometer | Aqua | **operational :white_check_mark:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A4) | [:link: link](https://planetarycomputer.microsoft.com/dataset/modis-43A4-061) |
 | [MODIS_TERRA](https://modis.gsfc.nasa.gov/about/) | Moderate Resolution Imaging Spectroradiometer | Terra | **operational :white_check_mark:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A4) | [:link: link](https://planetarycomputer.microsoft.com/dataset/modis-43A4-061) |

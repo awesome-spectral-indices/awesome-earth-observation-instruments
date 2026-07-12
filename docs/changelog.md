@@ -33,6 +33,8 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 
 ### Instruments And Metadata
 
+- Added ASTER with VNIR, SWIR, and TIR band definitions, system response
+  functions, data-access metadata, and external catalogue links.
 - Added MODIS instrument records for the Terra and Aqua platforms.
 - Added the MicaSense RedEdge-P, Altum-PT, and three Altum serial-number UAV
   instrument configurations with their corresponding spectral band
