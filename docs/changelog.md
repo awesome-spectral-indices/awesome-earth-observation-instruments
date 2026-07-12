@@ -34,6 +34,8 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 ### Instruments And Metadata
 
 - Added MODIS instrument records for the Terra and Aqua platforms.
+- Added the MicaSense RedEdge-P UAV instrument record and spectral band
+  definitions.
 - Added shared MODIS band definitions and platform-specific Terra and Aqua
   spectral response functions.
 - Added Google Earth Engine and Microsoft Planetary Computer access metadata

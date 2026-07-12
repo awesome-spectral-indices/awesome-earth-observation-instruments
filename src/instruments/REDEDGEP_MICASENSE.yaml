@@ -1,0 +1,29 @@
+id: REDEDGEP_MICASENSE
+name: RedEdge-P
+acronym: RedEdge-P
+type: multispectral
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - MicaSense
+start_date: 2021-10-26
+status: operational
+availability: private
+references:
+  - "https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide"
+  - "https://www.globenewswire.com/news-release/2021/10/26/2320660/0/en/ageagle-unveils-the-micasense-rededge-p-drone-sensor.html"
+notes: >-
+  Imaging extension values describe the multispectral imagers. The
+  panchromatic imager has a 44.5 degree HFOV, 37.7 degree VFOV, and 10.0 mm
+  focal length. Band GSD values are specified at 120 m above ground level.
+
+extensions:
+
+  spectral:
+    bands: REDEDGEP_MICASENSE_BANDS.csv
+
+  imaging:
+    hfov: 49.6
+    vfov: 38.3
+    focal_length: 5.5

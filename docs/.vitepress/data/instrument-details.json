@@ -6848,6 +6848,162 @@
       }
     ]
   },
+  "REDEDGEP_MICASENSE": {
+    "id": "REDEDGEP_MICASENSE",
+    "summary": "REDEDGEP_MICASENSE (RedEdge-P) is an operational multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "REDEDGEP_MICASENSE"
+      },
+      {
+        "label": "Name",
+        "value": "RedEdge-P"
+      },
+      {
+        "label": "Acronym",
+        "value": "RedEdge-P"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "MicaSense"
+      },
+      {
+        "label": "Start date",
+        "value": "2021-10-26"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "6"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "475-842 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "12-463 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "0.0398-0.077 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "475",
+        "bandwidth": "32",
+        "common_name": "blue",
+        "gsd": "0.077",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 475 32 blue 0.077 blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "27",
+        "common_name": "green",
+        "gsd": "0.077",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 27 green 0.077 green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "668",
+        "bandwidth": "16",
+        "common_name": "red",
+        "gsd": "0.077",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 668 16 red 0.077 red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "842",
+        "bandwidth": "57",
+        "common_name": "nir",
+        "gsd": "0.077",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 842 57 nir 0.077 near infrared "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "717",
+        "bandwidth": "12",
+        "common_name": "rededge",
+        "gsd": "0.077",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b5 717 12 rededge 0.077 red edge "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "634.5",
+        "bandwidth": "463",
+        "common_name": "pan",
+        "gsd": "0.0398",
+        "description": "Panchromatic",
+        "snr": "",
+        "search_text": "b6 634.5 463 pan 0.0398 panchromatic "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Focal Length",
+        "value": "5.5"
+      },
+      {
+        "label": "Hfov",
+        "value": "49.6"
+      },
+      {
+        "label": "Vfov",
+        "value": "38.3"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2021/10/26/2320660/0/en/ageagle-unveils-the-micasense-rededge-p-drone-sensor.html"
+      }
+    ]
+  },
   "TIRS2_L9": {
     "id": "TIRS2_L9",
     "summary": "TIRS2_L9 (Thermal Infrared Sensor 2) is an operational multispectral instrument operated by NASA, USGS on Landsat 9. It is associated with a satellite platform and has public data availability.",

@@ -182,6 +182,19 @@
     "search_text": "oli_l8 operational land imager oli landsat 8 satellite multispectral nasa, usgs operational public /instruments/oli_l8"
   },
   {
+    "id": "REDEDGEP_MICASENSE",
+    "name": "RedEdge-P",
+    "acronym": "RedEdge-P",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "operational",
+    "availability": "private",
+    "href": "/instruments/REDEDGEP_MICASENSE",
+    "search_text": "rededgep_micasense rededge-p rededge-p uav uav multispectral micasense operational private /instruments/rededgep_micasense"
+  },
+  {
     "id": "TIRS2_L9",
     "name": "Thermal Infrared Sensor 2",
     "acronym": "TIRS2",

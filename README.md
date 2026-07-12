@@ -72,6 +72,8 @@ Use the table of contents below to jump directly to available categories and sub
 - [Satellite Instruments](#catalogue-satellite-instruments)
   - [Multispectral](#catalogue-satellite-multispectral)
   - [Hyperspectral](#catalogue-satellite-hyperspectral)
+- [Uav Instruments](#catalogue-uav-instruments)
+  - [Multispectral](#catalogue-uav-multispectral)
 
 <a id="catalogue-satellite-instruments"></a>
 
@@ -108,6 +110,18 @@ Use the table of contents below to jump directly to available categories and sub
 | Id | Name | Platforms | Status | Earth Engine | Planetary Computer |
 | --- | --- | --- | --- | --- | --- |
 | [EMIT](https://earth.jpl.nasa.gov/emit/) | Earth Surface Mineral Dust Source Investigation | ISS | **operational :white_check_mark:** | [:link: link](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL) |  |
+
+<a id="catalogue-uav-instruments"></a>
+
+## Uav Instruments
+
+<a id="catalogue-uav-multispectral"></a>
+
+### Multispectral
+
+| Id | Name | Platforms | Status | Earth Engine | Planetary Computer |
+| --- | --- | --- | --- | --- | --- |
+| [REDEDGEP_MICASENSE](https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide) | RedEdge-P | UAV | **operational :white_check_mark:** |  |  |
 
 ---
 
