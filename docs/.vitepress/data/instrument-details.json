@@ -1,4 +1,568 @@
 {
+  "ALTUMAL04_lte_MICASENSE": {
+    "id": "ALTUMAL04_lte_MICASENSE",
+    "summary": "ALTUMAL04_lte_MICASENSE (Altum) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "ALTUMAL04_lte_MICASENSE"
+      },
+      {
+        "label": "Name",
+        "value": "Altum"
+      },
+      {
+        "label": "Acronym",
+        "value": "Altum"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "MicaSense"
+      },
+      {
+        "label": "Start date",
+        "value": "2018-10-02"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "6"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "475-11000 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "10-6000 nm"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "475",
+        "bandwidth": "20",
+        "common_name": "blue",
+        "gsd": "",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 475 20 blue  blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "20",
+        "common_name": "green",
+        "gsd": "",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 20 green  green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "668",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 668 10 red  red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "840",
+        "bandwidth": "40",
+        "common_name": "nir",
+        "gsd": "",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 840 40 nir  near infrared "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "717",
+        "bandwidth": "10",
+        "common_name": "rededge",
+        "gsd": "",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b5 717 10 rededge  red edge "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "11000",
+        "bandwidth": "6000",
+        "common_name": "lwir",
+        "gsd": "",
+        "description": "Thermal infrared",
+        "snr": "",
+        "search_text": "b6 11000 6000 lwir  thermal infrared "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Focal Length",
+        "value": "8"
+      },
+      {
+        "label": "Gsd",
+        "value": "0.052"
+      },
+      {
+        "label": "Hfov",
+        "value": "48"
+      },
+      {
+        "label": "Vfov",
+        "value": "36.8"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide"
+      },
+      {
+        "url": "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"
+      },
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+      }
+    ]
+  },
+  "ALTUMAL05_MICASENSE": {
+    "id": "ALTUMAL05_MICASENSE",
+    "summary": "ALTUMAL05_MICASENSE (Altum) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "ALTUMAL05_MICASENSE"
+      },
+      {
+        "label": "Name",
+        "value": "Altum"
+      },
+      {
+        "label": "Acronym",
+        "value": "Altum"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "MicaSense"
+      },
+      {
+        "label": "Start date",
+        "value": "2020-06-02"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "6"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "475-11000 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "12-6000 nm"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "475",
+        "bandwidth": "32",
+        "common_name": "blue",
+        "gsd": "",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 475 32 blue  blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "27",
+        "common_name": "green",
+        "gsd": "",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 27 green  green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "668",
+        "bandwidth": "14",
+        "common_name": "red",
+        "gsd": "",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 668 14 red  red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "842",
+        "bandwidth": "57",
+        "common_name": "nir",
+        "gsd": "",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 842 57 nir  near infrared "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "717",
+        "bandwidth": "12",
+        "common_name": "rededge",
+        "gsd": "",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b5 717 12 rededge  red edge "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "11000",
+        "bandwidth": "6000",
+        "common_name": "lwir",
+        "gsd": "",
+        "description": "Thermal infrared",
+        "snr": "",
+        "search_text": "b6 11000 6000 lwir  thermal infrared "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Focal Length",
+        "value": "8"
+      },
+      {
+        "label": "Gsd",
+        "value": "0.052"
+      },
+      {
+        "label": "Hfov",
+        "value": "48"
+      },
+      {
+        "label": "Vfov",
+        "value": "36.8"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide"
+      },
+      {
+        "url": "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"
+      },
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+      }
+    ]
+  },
+  "ALTUMAL06_gte_MICASENSE": {
+    "id": "ALTUMAL06_gte_MICASENSE",
+    "summary": "ALTUMAL06_gte_MICASENSE (Altum) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "ALTUMAL06_gte_MICASENSE"
+      },
+      {
+        "label": "Name",
+        "value": "Altum"
+      },
+      {
+        "label": "Acronym",
+        "value": "Altum"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "MicaSense"
+      },
+      {
+        "label": "Start date",
+        "value": "2021-06-12"
+      },
+      {
+        "label": "Status",
+        "value": "retired"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "6"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "475-11000 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "12-6000 nm"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "475",
+        "bandwidth": "32",
+        "common_name": "blue",
+        "gsd": "",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 475 32 blue  blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "27",
+        "common_name": "green",
+        "gsd": "",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 27 green  green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "668",
+        "bandwidth": "14",
+        "common_name": "red",
+        "gsd": "",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 668 14 red  red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "842",
+        "bandwidth": "57",
+        "common_name": "nir",
+        "gsd": "",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 842 57 nir  near infrared "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "717",
+        "bandwidth": "12",
+        "common_name": "rededge",
+        "gsd": "",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b5 717 12 rededge  red edge "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "11000",
+        "bandwidth": "6000",
+        "common_name": "lwir",
+        "gsd": "",
+        "description": "Thermal infrared",
+        "snr": "",
+        "search_text": "b6 11000 6000 lwir  thermal infrared "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Focal Length",
+        "value": "7.84"
+      },
+      {
+        "label": "Gsd",
+        "value": "0.0528"
+      },
+      {
+        "label": "Hfov",
+        "value": "50.2"
+      },
+      {
+        "label": "Vfov",
+        "value": "38.4"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide"
+      },
+      {
+        "url": "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"
+      },
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+      }
+    ]
+  },
   "ALTUMPT_MICASENSE": {
     "id": "ALTUMPT_MICASENSE",
     "summary": "ALTUMPT_MICASENSE (Altum-PT) is an operational multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
@@ -155,6 +719,27 @@
     "data_access": [],
     "external_catalogues": [],
     "related": [
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same platform"
+      },
       {
         "id": "REDEDGEP_MICASENSE",
         "name": "RedEdge-P",
@@ -7168,6 +7753,27 @@
     "data_access": [],
     "external_catalogues": [],
     "related": [
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same platform"
+      },
       {
         "id": "ALTUMPT_MICASENSE",
         "name": "Altum-PT",

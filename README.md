@@ -121,6 +121,9 @@ Use the table of contents below to jump directly to available categories and sub
 
 | Id | Name | Platforms | Status | Earth Engine | Planetary Computer |
 | --- | --- | --- | --- | --- | --- |
+| [ALTUMAL04_lte_MICASENSE](https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide) | Altum | UAV | **retired :no_entry:** |  |  |
+| [ALTUMAL05_MICASENSE](https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide) | Altum | UAV | **retired :no_entry:** |  |  |
+| [ALTUMAL06_gte_MICASENSE](https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide) | Altum | UAV | **retired :no_entry:** |  |  |
 | [ALTUMPT_MICASENSE](https://support.micasense.com/hc/en-us/articles/4419868608407-Altum-PT-Integration-Guide) | Altum-PT | UAV | **operational :white_check_mark:** |  |  |
 | [REDEDGEP_MICASENSE](https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide) | RedEdge-P | UAV | **operational :white_check_mark:** |  |  |
 

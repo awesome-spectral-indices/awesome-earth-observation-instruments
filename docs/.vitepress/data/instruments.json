@@ -1,5 +1,44 @@
 [
   {
+    "id": "ALTUMAL04_lte_MICASENSE",
+    "name": "Altum",
+    "acronym": "Altum",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "retired",
+    "availability": "private",
+    "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+    "search_text": "altumal04_lte_micasense altum altum uav uav multispectral micasense retired private /instruments/altumal04_lte_micasense"
+  },
+  {
+    "id": "ALTUMAL05_MICASENSE",
+    "name": "Altum",
+    "acronym": "Altum",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "retired",
+    "availability": "private",
+    "href": "/instruments/ALTUMAL05_MICASENSE",
+    "search_text": "altumal05_micasense altum altum uav uav multispectral micasense retired private /instruments/altumal05_micasense"
+  },
+  {
+    "id": "ALTUMAL06_gte_MICASENSE",
+    "name": "Altum",
+    "acronym": "Altum",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "retired",
+    "availability": "private",
+    "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+    "search_text": "altumal06_gte_micasense altum altum uav uav multispectral micasense retired private /instruments/altumal06_gte_micasense"
+  },
+  {
     "id": "ALTUMPT_MICASENSE",
     "name": "Altum-PT",
     "acronym": "Altum-PT",

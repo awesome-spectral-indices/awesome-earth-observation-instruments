@@ -1,0 +1,35 @@
+id: ALTUMAL06_gte_MICASENSE
+name: Altum
+acronym: Altum
+type: multispectral
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - MicaSense
+start_date: 2021-06-12
+status: retired
+availability: private
+references:
+  - "https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide"
+  - "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"
+  - "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+notes: >-
+  This configuration applies to Altum cameras with serial numbers beginning
+  with AL06 or higher. The start date uses the guide revision that documented
+  the AL06 configuration because its exact production date is not specified.
+  Imaging extension values and GSD describe the multispectral imagers at 120 m
+  above ground level. The thermal imager has a 57 degree HFOV, 44.3 degree
+  VFOV, 1.77 mm focal length, and 0.81 m GSD at 120 m. MicaSense identifies
+  Altum as discontinued but does not provide an exact retirement date.
+
+extensions:
+
+  spectral:
+    bands: ALTUMAL05_gte_MICASENSE_BANDS.csv
+
+  imaging:
+    hfov: 50.2
+    vfov: 38.4
+    focal_length: 7.84
+    gsd: 0.0528
