@@ -1,4 +1,178 @@
 {
+  "ALTUMPT_MICASENSE": {
+    "id": "ALTUMPT_MICASENSE",
+    "summary": "ALTUMPT_MICASENSE (Altum-PT) is an operational multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "ALTUMPT_MICASENSE"
+      },
+      {
+        "label": "Name",
+        "value": "Altum-PT"
+      },
+      {
+        "label": "Acronym",
+        "value": "Altum-PT"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "MicaSense"
+      },
+      {
+        "label": "Start date",
+        "value": "2021-11-08"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "7"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "475-10500 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "12-6000 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "0.0249-0.335 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "475",
+        "bandwidth": "32",
+        "common_name": "blue",
+        "gsd": "0.0528",
+        "description": "Blue",
+        "snr": "",
+        "search_text": "b1 475 32 blue 0.0528 blue "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "560",
+        "bandwidth": "27",
+        "common_name": "green",
+        "gsd": "0.0528",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b2 560 27 green 0.0528 green "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "668",
+        "bandwidth": "16",
+        "common_name": "red",
+        "gsd": "0.0528",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b3 668 16 red 0.0528 red "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "842",
+        "bandwidth": "57",
+        "common_name": "nir",
+        "gsd": "0.0528",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 842 57 nir 0.0528 near infrared "
+      },
+      {
+        "id": "B5",
+        "center_wavelength": "717",
+        "bandwidth": "12",
+        "common_name": "rededge",
+        "gsd": "0.0528",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b5 717 12 rededge 0.0528 red edge "
+      },
+      {
+        "id": "B6",
+        "center_wavelength": "634.5",
+        "bandwidth": "463",
+        "common_name": "pan",
+        "gsd": "0.0249",
+        "description": "Panchromatic",
+        "snr": "",
+        "search_text": "b6 634.5 463 pan 0.0249 panchromatic "
+      },
+      {
+        "id": "B7",
+        "center_wavelength": "10500",
+        "bandwidth": "6000",
+        "common_name": "lwir",
+        "gsd": "0.335",
+        "description": "Thermal infrared",
+        "snr": "",
+        "search_text": "b7 10500 6000 lwir 0.335 thermal infrared "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Focal Length",
+        "value": "8"
+      },
+      {
+        "label": "Hfov",
+        "value": "48"
+      },
+      {
+        "label": "Vfov",
+        "value": "36.8"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://support.micasense.com/hc/en-us/articles/4419868608407-Altum-PT-Integration-Guide"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2021/11/08/2329305/0/en/ageagle-announces-launch-of-micasense-s-altum-pt.html"
+      }
+    ]
+  },
   "EMIT": {
     "id": "EMIT",
     "summary": "EMIT (Earth Surface Mineral Dust Source Investigation) is an operational hyperspectral instrument operated by NASA on ISS. It is associated with a satellite platform and has public data availability.",
@@ -6993,7 +7167,15 @@
     ],
     "data_access": [],
     "external_catalogues": [],
-    "related": [],
+    "related": [
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
     "data_links": [],
     "references": [
       {

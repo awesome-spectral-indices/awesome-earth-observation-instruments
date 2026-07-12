@@ -1,5 +1,18 @@
 [
   {
+    "id": "ALTUMPT_MICASENSE",
+    "name": "Altum-PT",
+    "acronym": "Altum-PT",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "MicaSense",
+    "status": "operational",
+    "availability": "private",
+    "href": "/instruments/ALTUMPT_MICASENSE",
+    "search_text": "altumpt_micasense altum-pt altum-pt uav uav multispectral micasense operational private /instruments/altumpt_micasense"
+  },
+  {
     "id": "EMIT",
     "name": "Earth Surface Mineral Dust Source Investigation",
     "acronym": "EMIT",

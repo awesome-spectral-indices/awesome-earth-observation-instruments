@@ -1,0 +1,31 @@
+id: ALTUMPT_MICASENSE
+name: Altum-PT
+acronym: Altum-PT
+type: multispectral
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - MicaSense
+start_date: 2021-11-08
+status: operational
+availability: private
+references:
+  - "https://support.micasense.com/hc/en-us/articles/4419868608407-Altum-PT-Integration-Guide"
+  - "https://www.globenewswire.com/news-release/2021/11/08/2329305/0/en/ageagle-announces-launch-of-micasense-s-altum-pt.html"
+notes: >-
+  Imaging extension values describe the multispectral imagers. The
+  panchromatic imager has a 46 degree HFOV, 35 degree VFOV, and 16.3 mm focal
+  length, while the thermal imager has a 48 degree HFOV, 39 degree VFOV, and
+  4.5 mm focal length. Band GSD values are specified at 120 m above ground
+  level.
+
+extensions:
+
+  spectral:
+    bands: ALTUMPT_MICASENSE_BANDS.csv
+
+  imaging:
+    hfov: 48
+    vfov: 36.8
+    focal_length: 8
