@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from html import escape
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -184,6 +185,7 @@ def render_frontmatter(instrument: dict[str, Any]) -> str:
     """Render the VitePress home layout frontmatter for an instrument page."""
 
     instrument_id = instrument.get("id", "")
+    acronym = instrument.get("acronym") or instrument_id
     name = instrument.get("name", "")
     platform = platforms_text(instrument)
     platform_type = css_class(instrument.get("platform_type"))
@@ -196,7 +198,7 @@ def render_frontmatter(instrument: dict[str, Any]) -> str:
         "layout: home",
         "",
         "hero:",
-        f"  name: {yaml_quote(instrument_id)}",
+        f"  name: {yaml_quote(acronym)}",
         f"  text: {yaml_quote(name)}",
         f"  tagline: {yaml_quote(platform)}",
         "  image:",
@@ -312,6 +314,20 @@ def render_notes(instrument: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def render_instrument_identity(instrument_id: Any) -> str:
+    """Render a compact visual callout for the catalogue instrument ID."""
+
+    safe_id = escape(text_value(instrument_id), quote=True)
+    return "\n".join(
+        [
+            '<div class="instrument-identity" aria-label="Instrument identifier">',
+            '  <span class="instrument-identity-label">Instrument ID</span>',
+            f'  <code class="instrument-identity-value">{safe_id}</code>',
+            "</div>",
+        ]
+    )
+
+
 def render_instrument_page(instrument: dict[str, Any]) -> str:
     """Render a single VitePress instrument page."""
 
@@ -319,6 +335,7 @@ def render_instrument_page(instrument: dict[str, Any]) -> str:
 
     sections = [
         render_frontmatter(instrument),
+        render_instrument_identity(instrument_id),
         "## Summary",
         f'<InstrumentSection instrument-id="{instrument_id}" section="summary" />',
         render_notes(instrument),

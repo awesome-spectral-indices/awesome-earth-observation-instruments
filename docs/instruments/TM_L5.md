@@ -5,7 +5,7 @@ isHome: true
 layout: home
 
 hero:
-  name: "TM_L5"
+  name: "TM"
   text: "Thematic Mapper"
   tagline: "Landsat 5"
   image:
@@ -17,6 +17,11 @@ hero:
       link: /instruments/
 
 ---
+
+<div class="instrument-identity" aria-label="Instrument identifier">
+  <span class="instrument-identity-label">Instrument ID</span>
+  <code class="instrument-identity-value">TM_L5</code>
+</div>
 
 ## Summary
 

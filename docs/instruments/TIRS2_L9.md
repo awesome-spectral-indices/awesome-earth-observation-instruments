@@ -5,7 +5,7 @@ isHome: true
 layout: home
 
 hero:
-  name: "TIRS2_L9"
+  name: "TIRS2"
   text: "Thermal Infrared Sensor 2"
   tagline: "Landsat 9"
   image:
@@ -17,6 +17,11 @@ hero:
       link: /instruments/
 
 ---
+
+<div class="instrument-identity" aria-label="Instrument identifier">
+  <span class="instrument-identity-label">Instrument ID</span>
+  <code class="instrument-identity-value">TIRS2_L9</code>
+</div>
 
 ## Summary
 

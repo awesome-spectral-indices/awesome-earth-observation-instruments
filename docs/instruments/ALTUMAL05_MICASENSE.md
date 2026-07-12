@@ -5,8 +5,8 @@ isHome: true
 layout: home
 
 hero:
-  name: "ALTUMAL05_MICASENSE"
-  text: "Altum"
+  name: "Altum"
+  text: "Altum AL05 Series"
   tagline: "UAV"
   image:
     src: /uav.png
@@ -17,6 +17,11 @@ hero:
       link: /instruments/
 
 ---
+
+<div class="instrument-identity" aria-label="Instrument identifier">
+  <span class="instrument-identity-label">Instrument ID</span>
+  <code class="instrument-identity-value">ALTUMAL05_MICASENSE</code>
+</div>
 
 ## Summary
 

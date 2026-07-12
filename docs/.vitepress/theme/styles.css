@@ -45,6 +45,47 @@
   object-fit: contain !important;
 }
 
+.instrument-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0.5rem 0 1.75rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 32%, var(--vp-c-divider));
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--vp-c-brand-1) 8%, var(--vp-c-bg-soft));
+}
+
+.instrument-identity-label {
+  flex: 0 0 auto;
+  color: var(--vp-c-text-2);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.vp-doc .instrument-identity-value {
+  min-width: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--vp-c-text-1);
+  font-size: 0.9rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  .instrument-identity {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+
 .landing-page {
   --vp-c-bg: #000;
   --vp-c-bg-alt: #000;

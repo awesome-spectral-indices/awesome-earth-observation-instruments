@@ -5,7 +5,7 @@ isHome: true
 layout: home
 
 hero:
-  name: "MODIS_AQUA"
+  name: "MODIS"
   text: "Moderate Resolution Imaging Spectroradiometer"
   tagline: "Aqua"
   image:
@@ -17,6 +17,11 @@ hero:
       link: /instruments/
 
 ---
+
+<div class="instrument-identity" aria-label="Instrument identifier">
+  <span class="instrument-identity-label">Instrument ID</span>
+  <code class="instrument-identity-value">MODIS_AQUA</code>
+</div>
 
 ## Summary
 

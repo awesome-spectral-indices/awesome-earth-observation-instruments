@@ -5,7 +5,7 @@ isHome: true
 layout: home
 
 hero:
-  name: "MSS_L2"
+  name: "MSS"
   text: "Multispectral Scanner System"
   tagline: "Landsat 2"
   image:
@@ -17,6 +17,11 @@ hero:
       link: /instruments/
 
 ---
+
+<div class="instrument-identity" aria-label="Instrument identifier">
+  <span class="instrument-identity-label">Instrument ID</span>
+  <code class="instrument-identity-value">MSS_L2</code>
+</div>
 
 ## Summary
 

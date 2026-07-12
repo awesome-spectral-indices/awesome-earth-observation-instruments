@@ -1,7 +1,7 @@
 {
   "ALTUMAL04_lte_MICASENSE": {
     "id": "ALTUMAL04_lte_MICASENSE",
-    "summary": "ALTUMAL04_lte_MICASENSE (Altum) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "ALTUMAL04_lte_MICASENSE (Altum AL04 (or lower) Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -9,7 +9,7 @@
       },
       {
         "label": "Name",
-        "value": "Altum"
+        "value": "Altum AL04 (or lower) Series"
       },
       {
         "label": "Acronym",
@@ -147,14 +147,14 @@
     "related": [
       {
         "id": "ALTUMAL05_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL05 Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL05_MICASENSE",
         "reason": "same instrument family"
       },
       {
         "id": "ALTUMAL06_gte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL06 (or greater) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL06_gte_MICASENSE",
         "reason": "same instrument family"
@@ -189,7 +189,7 @@
   },
   "ALTUMAL05_MICASENSE": {
     "id": "ALTUMAL05_MICASENSE",
-    "summary": "ALTUMAL05_MICASENSE (Altum) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "ALTUMAL05_MICASENSE (Altum AL05 Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -197,7 +197,7 @@
       },
       {
         "label": "Name",
-        "value": "Altum"
+        "value": "Altum AL05 Series"
       },
       {
         "label": "Acronym",
@@ -335,14 +335,14 @@
     "related": [
       {
         "id": "ALTUMAL04_lte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL04 (or lower) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL04_lte_MICASENSE",
         "reason": "same instrument family"
       },
       {
         "id": "ALTUMAL06_gte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL06 (or greater) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL06_gte_MICASENSE",
         "reason": "same instrument family"
@@ -377,7 +377,7 @@
   },
   "ALTUMAL06_gte_MICASENSE": {
     "id": "ALTUMAL06_gte_MICASENSE",
-    "summary": "ALTUMAL06_gte_MICASENSE (Altum) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "ALTUMAL06_gte_MICASENSE (Altum AL06 (or greater) Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -385,7 +385,7 @@
       },
       {
         "label": "Name",
-        "value": "Altum"
+        "value": "Altum AL06 (or greater) Series"
       },
       {
         "label": "Acronym",
@@ -523,14 +523,14 @@
     "related": [
       {
         "id": "ALTUMAL04_lte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL04 (or lower) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL04_lte_MICASENSE",
         "reason": "same instrument family"
       },
       {
         "id": "ALTUMAL05_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL05 Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL05_MICASENSE",
         "reason": "same instrument family"
@@ -721,21 +721,21 @@
     "related": [
       {
         "id": "ALTUMAL04_lte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL04 (or lower) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL04_lte_MICASENSE",
         "reason": "same platform"
       },
       {
         "id": "ALTUMAL05_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL05 Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL05_MICASENSE",
         "reason": "same platform"
       },
       {
         "id": "ALTUMAL06_gte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL06 (or greater) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL06_gte_MICASENSE",
         "reason": "same platform"
@@ -7755,21 +7755,21 @@
     "related": [
       {
         "id": "ALTUMAL04_lte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL04 (or lower) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL04_lte_MICASENSE",
         "reason": "same platform"
       },
       {
         "id": "ALTUMAL05_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL05 Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL05_MICASENSE",
         "reason": "same platform"
       },
       {
         "id": "ALTUMAL06_gte_MICASENSE",
-        "name": "Altum",
+        "name": "Altum AL06 (or greater) Series",
         "platform": "UAV",
         "href": "/instruments/ALTUMAL06_gte_MICASENSE",
         "reason": "same platform"
