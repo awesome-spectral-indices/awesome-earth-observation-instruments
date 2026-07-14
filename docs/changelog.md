@@ -2,7 +2,7 @@
 
 All notable changes to Awesome Earth Observation Instruments are summarized here.
 
-## 0.2.0 - Upcoming
+## 0.2.0
 
 ### Catalogue
 
