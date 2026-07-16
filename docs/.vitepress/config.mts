@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Awesome Earth Observation Instruments",
+  title: "AEOI",
   description: "Awesome Earth Observation Instruments",
   base: '/awesome-earth-observation-instruments/',
   themeConfig: {
