@@ -70,6 +70,7 @@ function handleKeydown(event: KeyboardEvent, index: number) {
     >
       <h2>Quick Facts</h2>
       <InstrumentSection :instrument-id="props.instrumentId" section="quick-facts" />
+      <InstrumentTimeline :instrument-id="props.instrumentId" />
     </section>
 
     <section

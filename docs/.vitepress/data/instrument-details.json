@@ -44,6 +44,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "Altum AL04 (or lower) Series",
+      "acronym": "Altum",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "2018-10-02",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -260,6 +268,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "Altum AL05 Series",
+      "acronym": "Altum",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "2020-06-02",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -476,6 +492,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "Altum AL06 (or greater) Series",
+      "acronym": "Altum",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "2021-06-12",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -692,6 +716,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "Altum-PT",
+      "acronym": "Altum-PT",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2021-11-08",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -915,6 +947,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Advanced Spaceborne Thermal Emission and Reflection Radiometer",
+      "acronym": "ASTER",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "1999-12-18",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -1223,6 +1263,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Earth Surface Mineral Dust Source Investigation",
+      "acronym": "EMIT",
+      "type": "hyperspectral",
+      "status": "operational",
+      "start_date": "2022-08-09",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -4230,6 +4278,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Enhanced Thematic Mapper Plus",
+      "acronym": "ETM+",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "1999-04-15",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -4457,6 +4513,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Moderate Resolution Imaging Spectroradiometer",
+      "acronym": "MODIS",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2002-05-04",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -4972,6 +5036,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Moderate Resolution Imaging Spectroradiometer",
+      "acronym": "MODIS",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "1999-12-18",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -5494,6 +5566,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "MultiSpectral Instrument",
+      "acronym": "MSI",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2015-06-23",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -5837,6 +5917,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "MultiSpectral Instrument",
+      "acronym": "MSI",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2017-03-07",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -6176,6 +6264,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "MultiSpectral Instrument",
+      "acronym": "MSI",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2024-09-05",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -6519,6 +6615,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Multispectral Scanner System",
+      "acronym": "MSS",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "1972-07-23",
+      "end_date": "1978-01-06"
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -6725,6 +6829,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Multispectral Scanner System",
+      "acronym": "MSS",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "1975-01-22",
+      "end_date": "1982-02-25"
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -6931,6 +7043,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Multispectral Scanner System",
+      "acronym": "MSS",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "1978-03-05",
+      "end_date": "1983-09-07"
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -7137,6 +7257,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Multispectral Scanner System",
+      "acronym": "MSS",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "1982-07-16",
+      "end_date": "2001-06-15"
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -7350,6 +7478,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Multispectral Scanner System",
+      "acronym": "MSS",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "1984-03-01",
+      "end_date": "2013-06-05"
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -7559,6 +7695,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Operational Land Imager 2",
+      "acronym": "OLI2",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2021-09-27",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -7817,6 +7961,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Operational Land Imager",
+      "acronym": "OLI",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2013-02-11",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -8079,6 +8231,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "RedEdge-3",
+      "acronym": "RedEdge-3",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "2015-03-16",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -8281,6 +8441,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "RedEdge-MX RX01 Series",
+      "acronym": "RedEdge-MX",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "2018-10-02",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -8487,6 +8655,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "RedEdge-MX RX02 (or greater) Series",
+      "acronym": "RedEdge-MX",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "2020-11-01",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -8693,6 +8869,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "RedEdge-M",
+      "acronym": "RedEdge-M",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "2017-11-13",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -8895,6 +9079,14 @@
         "value": "private"
       }
     ],
+    "timeline": {
+      "name": "RedEdge-P",
+      "acronym": "RedEdge-P",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2021-10-26",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -9108,6 +9300,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Thermal Infrared Sensor 2",
+      "acronym": "TIRS2",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2021-09-27",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -9296,6 +9496,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Thermal Infrared Sensor",
+      "acronym": "TIRS",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2013-02-11",
+      "end_date": ""
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -9492,6 +9700,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Thematic Mapper",
+      "acronym": "TM",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "1982-07-16",
+      "end_date": "2001-06-15"
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
@@ -9728,6 +9944,14 @@
         "value": "public"
       }
     ],
+    "timeline": {
+      "name": "Thematic Mapper",
+      "acronym": "TM",
+      "type": "multispectral",
+      "status": "retired",
+      "start_date": "1984-03-01",
+      "end_date": "2013-06-05"
+    },
     "spectral_summary": [
       {
         "label": "Total bands",
