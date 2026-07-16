@@ -4,6 +4,7 @@ import InstrumentIndex from './components/InstrumentIndex.vue'
 import InstrumentSection from './components/InstrumentSection.vue'
 import InstrumentTabs from './components/InstrumentTabs.vue'
 import InstrumentTimeline from './components/InstrumentTimeline.vue'
+import SpectralComparison from './components/SpectralComparison.vue'
 import './styles.css'
 import './custom.css'
 
@@ -14,5 +15,6 @@ export default {
     app.component('InstrumentSection', InstrumentSection)
     app.component('InstrumentTabs', InstrumentTabs)
     app.component('InstrumentTimeline', InstrumentTimeline)
+    app.component('SpectralComparison', SpectralComparison)
   }
 } satisfies Theme

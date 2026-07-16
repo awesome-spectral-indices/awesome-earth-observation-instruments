@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import math
 import re
 from html import escape
 from pathlib import Path
@@ -17,6 +18,8 @@ CATALOGUE_PATH = REPO_ROOT / "catalogue" / "catalogue.json"
 DOCS_DIR = REPO_ROOT / "docs"
 INSTRUMENTS_DIR = REPO_ROOT / "docs" / "instruments"
 VITEPRESS_DATA_DIR = REPO_ROOT / "docs" / ".vitepress" / "data"
+SPECTRAL_COMPARISON_PATH = VITEPRESS_DATA_DIR / "spectral-comparison.json"
+SPECTRAL_RESPONSE_PATH = VITEPRESS_DATA_DIR / "spectral-response-functions.json"
 CONTRIBUTING_PATH = REPO_ROOT / "CONTRIBUTING.md"
 DOCS_CONTRIBUTING_PATH = DOCS_DIR / "contributing.md"
 DOCS_SCHEMA_PATH = DOCS_DIR / "schema.md"
@@ -457,6 +460,98 @@ def render_instrument_details(instruments: dict[str, dict[str, Any]]) -> str:
     return json.dumps(details, indent=2) + "\n"
 
 
+def render_spectral_comparison_data(
+    instruments: dict[str, dict[str, Any]],
+) -> str:
+    """Render compact band coverage data for interactive plots."""
+
+    records = {}
+    for instrument_id in sorted(instruments):
+        instrument = instruments[instrument_id]
+        extensions = instrument.get("extensions", {})
+        spectral = extensions.get("spectral", {}) if isinstance(extensions, dict) else {}
+        bands = spectral.get("bands", {}) if isinstance(spectral, dict) else {}
+        band_intervals = []
+        if isinstance(bands, dict):
+            for band_id, band in bands.items():
+                if not isinstance(band, dict):
+                    continue
+
+                center = number_value(band.get("center_wavelength"))
+                bandwidth = number_value(band.get("bandwidth"))
+                if center is None or bandwidth is None:
+                    continue
+
+                band_intervals.append(
+                    {
+                        "id": text_value(band_id),
+                        "start": max(0.0, center - bandwidth / 2),
+                        "end": center + bandwidth / 2,
+                        "center": center,
+                    }
+                )
+
+        records[instrument_id] = {
+            "id": instrument_id,
+            "name": text_value(instrument.get("name")),
+            "acronym": text_value(instrument.get("acronym")),
+            "bands": band_intervals,
+        }
+
+    return json.dumps(records, separators=(",", ":"), allow_nan=False) + "\n"
+
+
+def render_spectral_response_data(
+    instruments: dict[str, dict[str, Any]],
+) -> str:
+    """Render full-resolution finite SRF points for on-demand plotting."""
+
+    records = {}
+    for instrument_id in sorted(instruments):
+        instrument = instruments[instrument_id]
+        extensions = instrument.get("extensions", {})
+        spectral = extensions.get("spectral", {}) if isinstance(extensions, dict) else {}
+        bands = spectral.get("bands", {}) if isinstance(spectral, dict) else {}
+        srf = (
+            spectral.get("spectral_response_function", {})
+            if isinstance(spectral, dict)
+            else {}
+        )
+        wavelengths = srf.get("wavelength", []) if isinstance(srf, dict) else []
+        response_curves = []
+
+        if isinstance(wavelengths, list) and isinstance(bands, dict):
+            for band_id in bands:
+                responses = srf.get(band_id, [])
+                if not isinstance(responses, list) or len(responses) != len(wavelengths):
+                    continue
+
+                points = []
+                for wavelength, response in zip(wavelengths, responses):
+                    if isinstance(wavelength, bool) or isinstance(response, bool):
+                        continue
+                    if not isinstance(wavelength, (int, float)) or not isinstance(
+                        response, (int, float)
+                    ):
+                        continue
+                    if not math.isfinite(wavelength) or not math.isfinite(response):
+                        continue
+                    points.append((float(wavelength), float(response)))
+
+                if points:
+                    response_curves.append(
+                        {
+                            "id": text_value(band_id),
+                            "points": points,
+                            "peak": max(points, key=lambda point: point[1]),
+                        }
+                    )
+
+        records[instrument_id] = response_curves
+
+    return json.dumps(records, separators=(",", ":"), allow_nan=False) + "\n"
+
+
 def summary_text(instrument: dict[str, Any]) -> str:
     """Return a short human-readable mission context summary."""
 
@@ -730,6 +825,12 @@ def generate_pages() -> None:
     )
     (VITEPRESS_DATA_DIR / "instrument-details.json").write_text(
         render_instrument_details(instruments), encoding="utf-8"
+    )
+    SPECTRAL_COMPARISON_PATH.write_text(
+        render_spectral_comparison_data(instruments), encoding="utf-8"
+    )
+    SPECTRAL_RESPONSE_PATH.write_text(
+        render_spectral_response_data(instruments), encoding="utf-8"
     )
 
     for instrument_id, instrument in instruments.items():

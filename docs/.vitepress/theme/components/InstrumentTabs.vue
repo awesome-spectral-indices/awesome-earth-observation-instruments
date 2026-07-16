@@ -82,6 +82,7 @@ function handleKeydown(event: KeyboardEvent, index: number) {
     >
       <h2>Spectral Characteristics</h2>
       <InstrumentSection :instrument-id="props.instrumentId" section="spectral-summary" />
+      <SpectralComparison :instrument-id="props.instrumentId" />
 
       <h2>Bands</h2>
       <InstrumentSection :instrument-id="props.instrumentId" section="bands" />
