@@ -328,6 +328,48 @@ def render_instrument_identity(instrument_id: Any) -> str:
     )
 
 
+def render_xeo_example(instrument_id: Any) -> str:
+    """Render a Python example for exploring the instrument with xeo."""
+
+    return "\n".join(
+        [
+            "## Explore it with `xeo`",
+            "",
+            "```python",
+            "import xeo",
+            "",
+            f"instrument = xeo.instruments.{text_value(instrument_id)}",
+            "",
+            "# Extract metadata",
+            "metadata = {",
+            '    "id": instrument.id,',
+            '    "name": instrument.name,',
+            '    "acronym": instrument.acronym,',
+            '    "type": instrument.type,',
+            '    "platform_type": instrument.platform_type,',
+            '    "platform": instrument.platform,',
+            '    "operator": instrument.operator,',
+            '    "start_date": instrument.start_date,',
+            '    "end_date": instrument.end_date,',
+            '    "status": instrument.status,',
+            '    "availability": instrument.availability,',
+            "}",
+            "",
+            "# Get the bands as a pandas DataFrame (returns None if it is not available)",
+            "instrument.bands()",
+            "",
+            "# Get the Spectral Response Function as a pandas DataFrame (returns None if it is not available)",
+            "instrument.srf()",
+            "",
+            "# Check the available extensions",
+            "print(instrument.extension_names)",
+            "for name, extension in instrument.extensions.items():",
+            '    print(name, "->", list(extension))',
+            "```",
+        ]
+    )
+
+
 def render_instrument_page(instrument: dict[str, Any]) -> str:
     """Render a single VitePress instrument page."""
 
@@ -340,6 +382,7 @@ def render_instrument_page(instrument: dict[str, Any]) -> str:
         f'<InstrumentSection instrument-id="{instrument_id}" section="summary" />',
         render_notes(instrument),
         f'<InstrumentTabs instrument-id="{instrument_id}" />',
+        render_xeo_example(instrument_id),
     ]
     return "\n\n".join(section for section in sections if section).rstrip() + "\n"
 
