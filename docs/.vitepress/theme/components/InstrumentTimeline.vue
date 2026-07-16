@@ -310,10 +310,10 @@ function removeInstrument(instrumentId: string) {
             :y2="rowY(index) + 38"
             class="row-guide"
           />
-          <text x="4" :y="rowY(index) + 18" class="row-label">
+          <text x="18" :y="rowY(index) + 18" class="row-label">
             {{ row.id }}
           </text>
-          <text x="4" :y="rowY(index) + 38" class="row-dates">
+          <text x="18" :y="rowY(index) + 38" class="row-dates">
             {{ dateRangeLabel(row) }}
           </text>
           <rect
