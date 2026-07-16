@@ -15,6 +15,7 @@ export default defineConfig({
       { text: 'Contributing', link: '/contributing' },
       { text: 'Changelog', link: '/changelog' },
       { text: 'How to cite', link: '/publications' },
+      { text: 'Python API', link: 'https://awesome-spectral-indices.github.io/xeo/' },
     ],
 
     socialLinks: [
