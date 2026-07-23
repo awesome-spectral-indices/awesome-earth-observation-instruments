@@ -2,6 +2,13 @@
 
 All notable changes to Awesome Earth Observation Instruments are summarized here.
 
+## 0.3.0 (Upcoming)
+
+### Instruments And Metadata
+
+- Added separate Parrot Sequoia multispectral and RGB UAV instrument records,
+  including the four-band multispectral definition.
+
 ## 0.2.0
 
 ### Catalogue

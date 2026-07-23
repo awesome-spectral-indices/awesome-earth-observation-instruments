@@ -208,6 +208,20 @@
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
         "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
+        "reason": "same platform"
       }
     ],
     "data_links": [],
@@ -432,6 +446,20 @@
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
         "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
+        "reason": "same platform"
       }
     ],
     "data_links": [],
@@ -655,6 +683,20 @@
         "name": "RedEdge-P",
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
         "reason": "same platform"
       }
     ],
@@ -889,6 +931,20 @@
         "name": "RedEdge-P",
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
         "reason": "same platform"
       }
     ],
@@ -8381,6 +8437,20 @@
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
         "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
+        "reason": "same platform"
       }
     ],
     "data_links": [],
@@ -8594,6 +8664,20 @@
         "name": "RedEdge-P",
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
         "reason": "same platform"
       }
     ],
@@ -8809,6 +8893,20 @@
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
         "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
+        "reason": "same platform"
       }
     ],
     "data_links": [],
@@ -9018,6 +9116,20 @@
         "name": "RedEdge-P",
         "platform": "UAV",
         "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
         "reason": "same platform"
       }
     ],
@@ -9243,6 +9355,20 @@
         "platform": "UAV",
         "href": "/instruments/REDEDGEM_MICASENSE",
         "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same platform"
+      },
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
+        "reason": "same platform"
       }
     ],
     "data_links": [],
@@ -9252,6 +9378,373 @@
       },
       {
         "url": "https://www.globenewswire.com/news-release/2021/10/26/2320660/0/en/ageagle-unveils-the-micasense-rededge-p-drone-sensor.html"
+      }
+    ]
+  },
+  "SEQUOIA_MULTISPECTRAL_PARROT": {
+    "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+    "summary": "SEQUOIA_MULTISPECTRAL_PARROT (Sequoia Multispectral Sensor) is an operational multispectral instrument operated by Parrot on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "SEQUOIA_MULTISPECTRAL_PARROT"
+      },
+      {
+        "label": "Name",
+        "value": "Sequoia Multispectral Sensor"
+      },
+      {
+        "label": "Acronym",
+        "value": "Sequoia"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "Parrot"
+      },
+      {
+        "label": "Start date",
+        "value": "2016-02-09"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "timeline": {
+      "name": "Sequoia Multispectral Sensor",
+      "acronym": "Sequoia",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2016-02-09",
+      "end_date": ""
+    },
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "4"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "550-790 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "10-40 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "0.148 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [
+      {
+        "id": "B1",
+        "center_wavelength": "550",
+        "bandwidth": "40",
+        "common_name": "green",
+        "gsd": "0.148",
+        "description": "Green",
+        "snr": "",
+        "search_text": "b1 550 40 green 0.148 green "
+      },
+      {
+        "id": "B2",
+        "center_wavelength": "660",
+        "bandwidth": "40",
+        "common_name": "red",
+        "gsd": "0.148",
+        "description": "Red",
+        "snr": "",
+        "search_text": "b2 660 40 red 0.148 red "
+      },
+      {
+        "id": "B3",
+        "center_wavelength": "735",
+        "bandwidth": "10",
+        "common_name": "rededge",
+        "gsd": "0.148",
+        "description": "Red edge",
+        "snr": "",
+        "search_text": "b3 735 10 rededge 0.148 red edge "
+      },
+      {
+        "id": "B4",
+        "center_wavelength": "790",
+        "bandwidth": "40",
+        "common_name": "nir",
+        "gsd": "0.148",
+        "description": "Near infrared",
+        "snr": "",
+        "search_text": "b4 790 40 nir 0.148 near infrared "
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Gsd",
+        "value": "0.148"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "SEQUOIA_RGB_PARROT",
+        "name": "Sequoia RGB Camera",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_RGB_PARROT",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum AL04 (or lower) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum AL05 Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum AL06 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGE3_MICASENSE",
+        "name": "RedEdge-3",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGE3_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEM_MICASENSE",
+        "name": "RedEdge-M",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEM_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://www.parrot.com/en/support/documentation/sequoia"
+      },
+      {
+        "url": "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf"
+      },
+      {
+        "url": "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
+      }
+    ]
+  },
+  "SEQUOIA_RGB_PARROT": {
+    "id": "SEQUOIA_RGB_PARROT",
+    "summary": "SEQUOIA_RGB_PARROT (Sequoia RGB Camera) is an operational rgb instrument operated by Parrot on UAV. It is associated with a uav platform and has private data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "SEQUOIA_RGB_PARROT"
+      },
+      {
+        "label": "Name",
+        "value": "Sequoia RGB Camera"
+      },
+      {
+        "label": "Acronym",
+        "value": "Sequoia"
+      },
+      {
+        "label": "Type",
+        "value": "rgb"
+      },
+      {
+        "label": "Platform type",
+        "value": "uav"
+      },
+      {
+        "label": "Platform",
+        "value": "UAV"
+      },
+      {
+        "label": "Operator",
+        "value": "Parrot"
+      },
+      {
+        "label": "Start date",
+        "value": "2016-02-09"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "private"
+      }
+    ],
+    "timeline": {
+      "name": "Sequoia RGB Camera",
+      "acronym": "Sequoia",
+      "type": "rgb",
+      "status": "operational",
+      "start_date": "2016-02-09",
+      "end_date": ""
+    },
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "0"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Not available"
+      }
+    ],
+    "bands": [],
+    "imaging": [
+      {
+        "label": "Gsd",
+        "value": "0.033"
+      }
+    ],
+    "data_access": [],
+    "external_catalogues": [],
+    "related": [
+      {
+        "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+        "name": "Sequoia Multispectral Sensor",
+        "platform": "UAV",
+        "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "ALTUMAL04_lte_MICASENSE",
+        "name": "Altum AL04 (or lower) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL04_lte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL05_MICASENSE",
+        "name": "Altum AL05 Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL05_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMAL06_gte_MICASENSE",
+        "name": "Altum AL06 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMAL06_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "ALTUMPT_MICASENSE",
+        "name": "Altum-PT",
+        "platform": "UAV",
+        "href": "/instruments/ALTUMPT_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGE3_MICASENSE",
+        "name": "RedEdge-3",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGE3_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX01_MICASENSE",
+        "name": "RedEdge-MX RX01 Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEMX_RX02_gte_MICASENSE",
+        "name": "RedEdge-MX RX02 (or greater) Series",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEM_MICASENSE",
+        "name": "RedEdge-M",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEM_MICASENSE",
+        "reason": "same platform"
+      },
+      {
+        "id": "REDEDGEP_MICASENSE",
+        "name": "RedEdge-P",
+        "platform": "UAV",
+        "href": "/instruments/REDEDGEP_MICASENSE",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [],
+    "references": [
+      {
+        "url": "https://www.parrot.com/en/support/documentation/sequoia"
+      },
+      {
+        "url": "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf"
+      },
+      {
+        "url": "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
       }
     ]
   },

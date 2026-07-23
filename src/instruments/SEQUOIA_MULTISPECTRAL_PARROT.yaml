@@ -1,0 +1,30 @@
+id: SEQUOIA_MULTISPECTRAL_PARROT
+name: Sequoia Multispectral Sensor
+acronym: Sequoia
+type: multispectral
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - Parrot
+start_date: 2016-02-09
+status: operational
+availability: private
+references:
+  - "https://www.parrot.com/en/support/documentation/sequoia"
+  - "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf"
+  - "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
+notes: >-
+  This record describes Sequoia's four synchronized 1.2 MP monochrome
+  multispectral cameras; the integrated 16 MP RGB camera is represented by
+  SEQUOIA_RGB_PARROT. Band GSD values are specified at 120 m above ground
+  level. The sunshine sensor measures incident light to support radiometric
+  calibration.
+
+extensions:
+
+  spectral:
+    bands: SEQUOIA_MULTISPECTRAL_PARROT_BANDS.csv
+
+  imaging:
+    gsd: 0.148

@@ -312,6 +312,32 @@
     "search_text": "rededgep_micasense rededge-p rededge-p uav uav multispectral micasense operational private /instruments/rededgep_micasense"
   },
   {
+    "id": "SEQUOIA_MULTISPECTRAL_PARROT",
+    "name": "Sequoia Multispectral Sensor",
+    "acronym": "Sequoia",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "multispectral",
+    "operator": "Parrot",
+    "status": "operational",
+    "availability": "private",
+    "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
+    "search_text": "sequoia_multispectral_parrot sequoia multispectral sensor sequoia uav uav multispectral parrot operational private /instruments/sequoia_multispectral_parrot"
+  },
+  {
+    "id": "SEQUOIA_RGB_PARROT",
+    "name": "Sequoia RGB Camera",
+    "acronym": "Sequoia",
+    "platform": "UAV",
+    "platform_type": "uav",
+    "type": "rgb",
+    "operator": "Parrot",
+    "status": "operational",
+    "availability": "private",
+    "href": "/instruments/SEQUOIA_RGB_PARROT",
+    "search_text": "sequoia_rgb_parrot sequoia rgb camera sequoia uav uav rgb parrot operational private /instruments/sequoia_rgb_parrot"
+  },
+  {
     "id": "TIRS2_L9",
     "name": "Thermal Infrared Sensor 2",
     "acronym": "TIRS2",

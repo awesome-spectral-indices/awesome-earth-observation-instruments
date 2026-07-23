@@ -1,0 +1,27 @@
+id: SEQUOIA_RGB_PARROT
+name: Sequoia RGB Camera
+acronym: Sequoia
+type: rgb
+platform_type: uav
+platform:
+  - UAV
+operator:
+  - Parrot
+start_date: 2016-02-09
+status: operational
+availability: private
+references:
+  - "https://www.parrot.com/en/support/documentation/sequoia"
+  - "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf"
+  - "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
+notes: >-
+  This record describes the 16 MP RGB camera integrated into Sequoia; the four
+  synchronized multispectral cameras are represented by
+  SEQUOIA_MULTISPECTRAL_PARROT. Imaging GSD is specified at 120 m above ground
+  level. Parrot does not publish center wavelengths and bandwidths for the RGB
+  channels, so no spectral bands are declared.
+
+extensions:
+
+  imaging:
+    gsd: 0.033

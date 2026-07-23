@@ -74,6 +74,7 @@ Use the table of contents below to jump directly to available categories and sub
   - [Hyperspectral](#catalogue-satellite-hyperspectral)
 - [Uav Instruments](#catalogue-uav-instruments)
   - [Multispectral](#catalogue-uav-multispectral)
+  - [Rgb](#catalogue-uav-rgb)
 
 <a id="catalogue-satellite-instruments"></a>
 
@@ -131,6 +132,15 @@ Use the table of contents below to jump directly to available categories and sub
 | [REDEDGEMX_RX02_gte_MICASENSE](https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide) | RedEdge-MX RX02 (or greater) Series | UAV | **retired :no_entry:** |  |  |
 | [REDEDGEM_MICASENSE](https://support.micasense.com/hc/en-us/article_attachments/115004168274) | RedEdge-M | UAV | **retired :no_entry:** |  |  |
 | [REDEDGEP_MICASENSE](https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide) | RedEdge-P | UAV | **operational :white_check_mark:** |  |  |
+| [SEQUOIA_MULTISPECTRAL_PARROT](https://www.parrot.com/en/support/documentation/sequoia) | Sequoia Multispectral Sensor | UAV | **operational :white_check_mark:** |  |  |
+
+<a id="catalogue-uav-rgb"></a>
+
+### Rgb
+
+| Id | Name | Platforms | Status | Earth Engine | Planetary Computer |
+| --- | --- | --- | --- | --- | --- |
+| [SEQUOIA_RGB_PARROT](https://www.parrot.com/en/support/documentation/sequoia) | Sequoia RGB Camera | UAV | **operational :white_check_mark:** |  |  |
 
 ---
 

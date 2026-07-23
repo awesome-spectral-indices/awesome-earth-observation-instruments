@@ -1,0 +1,5 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd
+B1,550,40,Green,green,0.148
+B2,660,40,Red,red,0.148
+B3,735,10,Red edge,rededge,0.148
+B4,790,40,Near infrared,nir,0.148
