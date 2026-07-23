@@ -103,7 +103,7 @@ function valueClass(prefix: string, value: string) {
         v-model="query"
         class="search-input"
         type="search"
-        placeholder="Try Sentinel, Landsat, hyperspectral, ESA, operational..."
+        placeholder="Try Sentinel, hyperspectral, ESA, active..."
         autocomplete="off"
       >
       <button
@@ -299,7 +299,8 @@ function valueClass(prefix: string, value: string) {
   background: color-mix(in srgb, var(--vp-c-text-2) 8%, transparent);
 }
 
-.status-operational {
+.status-operational,
+.status-active {
   border-color: color-mix(in srgb, #1a7f37 50%, transparent);
   background: color-mix(in srgb, #1a7f37 14%, transparent);
   color: #1a7f37;
@@ -317,7 +318,8 @@ function valueClass(prefix: string, value: string) {
   color: #9a6700;
 }
 
-.status-retired {
+.status-retired,
+.status-legacy {
   border-color: color-mix(in srgb, #cf222e 50%, transparent);
   background: color-mix(in srgb, #cf222e 13%, transparent);
   color: #cf222e;
@@ -335,7 +337,8 @@ function valueClass(prefix: string, value: string) {
   color: #9a6700;
 }
 
-:global(.dark) .status-operational {
+:global(.dark) .status-operational,
+:global(.dark) .status-active {
   color: #7ee787;
 }
 
@@ -348,7 +351,8 @@ function valueClass(prefix: string, value: string) {
   color: #f2cc60;
 }
 
-:global(.dark) .status-retired {
+:global(.dark) .status-retired,
+:global(.dark) .status-legacy {
   color: #ffa198;
 }
 

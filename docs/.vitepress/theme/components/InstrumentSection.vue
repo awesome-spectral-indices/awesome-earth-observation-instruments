@@ -375,16 +375,19 @@ function valueClass(prefix: string, value: string) {
 }
 
 .status-operational,
+.status-active,
 .status-planned,
 .status-experimental,
 .status-retired,
+.status-legacy,
 .availability-public,
 .availability-private {
   border-radius: 999px;
   padding: 0.15rem 0.55rem;
 }
 
-.status-operational {
+.status-operational,
+.status-active {
   background: color-mix(in srgb, #1a7f37 14%, transparent);
   color: #1a7f37;
 }
@@ -400,7 +403,8 @@ function valueClass(prefix: string, value: string) {
   color: #9a6700;
 }
 
-.status-retired {
+.status-retired,
+.status-legacy {
   background: color-mix(in srgb, #cf222e 13%, transparent);
   color: #cf222e;
 }
@@ -516,7 +520,8 @@ function valueClass(prefix: string, value: string) {
   overflow-wrap: anywhere;
 }
 
-:global(.dark) .status-operational {
+:global(.dark) .status-operational,
+:global(.dark) .status-active {
   color: #7ee787;
 }
 
@@ -529,7 +534,8 @@ function valueClass(prefix: string, value: string) {
   color: #f2cc60;
 }
 
-:global(.dark) .status-retired {
+:global(.dark) .status-retired,
+:global(.dark) .status-legacy {
   color: #ffa198;
 }
 

@@ -113,7 +113,7 @@ Instrument table columns:
 | `Id` | Instrument id linked to its first `references` URL |
 | `Name` | Instrument name |
 | `Platforms` | Comma-separated platforms |
-| `Status` | Bold status with emoji: `operational :white_check_mark:`, `planned :stars:`, `experimental :warning:`, `retired :no_entry:` |
+| `Status` | Bold status with emoji: `operational` or `active` :white_check_mark:, `planned` :stars:, `experimental` :warning:, `retired` or `legacy` :no_entry: |
 | `Earth Engine` | `[:link: link](docs-url)` for `extensions.data_access.ee.primary.docs`, otherwise blank |
 | `Planetary Computer` | `[:link: link](docs-url)` for `extensions.data_access.planetary_computer.primary.docs`, otherwise blank |
 

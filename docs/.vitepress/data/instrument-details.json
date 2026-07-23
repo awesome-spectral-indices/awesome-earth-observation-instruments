@@ -1,7 +1,7 @@
 {
   "ALTUMAL04_lte_MICASENSE": {
     "id": "ALTUMAL04_lte_MICASENSE",
-    "summary": "ALTUMAL04_lte_MICASENSE (Altum AL04 (or lower) Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "ALTUMAL04_lte_MICASENSE (Altum AL04 (or lower) Series) is a legacy multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -37,7 +37,7 @@
       },
       {
         "label": "Status",
-        "value": "retired"
+        "value": "legacy"
       },
       {
         "label": "Availability",
@@ -48,7 +48,7 @@
       "name": "Altum AL04 (or lower) Series",
       "acronym": "Altum",
       "type": "multispectral",
-      "status": "retired",
+      "status": "legacy",
       "start_date": "2018-10-02",
       "end_date": ""
     },
@@ -239,7 +239,7 @@
   },
   "ALTUMAL05_MICASENSE": {
     "id": "ALTUMAL05_MICASENSE",
-    "summary": "ALTUMAL05_MICASENSE (Altum AL05 Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "ALTUMAL05_MICASENSE (Altum AL05 Series) is a legacy multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -275,7 +275,7 @@
       },
       {
         "label": "Status",
-        "value": "retired"
+        "value": "legacy"
       },
       {
         "label": "Availability",
@@ -286,7 +286,7 @@
       "name": "Altum AL05 Series",
       "acronym": "Altum",
       "type": "multispectral",
-      "status": "retired",
+      "status": "legacy",
       "start_date": "2020-06-02",
       "end_date": ""
     },
@@ -477,7 +477,7 @@
   },
   "ALTUMAL06_gte_MICASENSE": {
     "id": "ALTUMAL06_gte_MICASENSE",
-    "summary": "ALTUMAL06_gte_MICASENSE (Altum AL06 (or greater) Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "ALTUMAL06_gte_MICASENSE (Altum AL06 (or greater) Series) is a legacy multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -513,7 +513,7 @@
       },
       {
         "label": "Status",
-        "value": "retired"
+        "value": "legacy"
       },
       {
         "label": "Availability",
@@ -524,7 +524,7 @@
       "name": "Altum AL06 (or greater) Series",
       "acronym": "Altum",
       "type": "multispectral",
-      "status": "retired",
+      "status": "legacy",
       "start_date": "2021-06-12",
       "end_date": ""
     },
@@ -715,7 +715,7 @@
   },
   "ALTUMPT_MICASENSE": {
     "id": "ALTUMPT_MICASENSE",
-    "summary": "ALTUMPT_MICASENSE (Altum-PT) is an operational multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "ALTUMPT_MICASENSE (Altum-PT) is an active multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -751,7 +751,7 @@
       },
       {
         "label": "Status",
-        "value": "operational"
+        "value": "active"
       },
       {
         "label": "Availability",
@@ -762,7 +762,7 @@
       "name": "Altum-PT",
       "acronym": "Altum-PT",
       "type": "multispectral",
-      "status": "operational",
+      "status": "active",
       "start_date": "2021-11-08",
       "end_date": ""
     },
@@ -9110,7 +9110,7 @@
   },
   "REDEDGE3_MICASENSE": {
     "id": "REDEDGE3_MICASENSE",
-    "summary": "REDEDGE3_MICASENSE (RedEdge-3) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "REDEDGE3_MICASENSE (RedEdge-3) is a legacy multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -9146,7 +9146,7 @@
       },
       {
         "label": "Status",
-        "value": "retired"
+        "value": "legacy"
       },
       {
         "label": "Availability",
@@ -9157,7 +9157,7 @@
       "name": "RedEdge-3",
       "acronym": "RedEdge-3",
       "type": "multispectral",
-      "status": "retired",
+      "status": "legacy",
       "start_date": "2015-03-16",
       "end_date": ""
     },
@@ -9334,7 +9334,7 @@
   },
   "REDEDGEMX_RX01_MICASENSE": {
     "id": "REDEDGEMX_RX01_MICASENSE",
-    "summary": "REDEDGEMX_RX01_MICASENSE (RedEdge-MX RX01 Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "REDEDGEMX_RX01_MICASENSE (RedEdge-MX RX01 Series) is a legacy multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -9370,7 +9370,7 @@
       },
       {
         "label": "Status",
-        "value": "retired"
+        "value": "legacy"
       },
       {
         "label": "Availability",
@@ -9381,7 +9381,7 @@
       "name": "RedEdge-MX RX01 Series",
       "acronym": "RedEdge-MX",
       "type": "multispectral",
-      "status": "retired",
+      "status": "legacy",
       "start_date": "2018-10-02",
       "end_date": ""
     },
@@ -9562,7 +9562,7 @@
   },
   "REDEDGEMX_RX02_gte_MICASENSE": {
     "id": "REDEDGEMX_RX02_gte_MICASENSE",
-    "summary": "REDEDGEMX_RX02_gte_MICASENSE (RedEdge-MX RX02 (or greater) Series) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "REDEDGEMX_RX02_gte_MICASENSE (RedEdge-MX RX02 (or greater) Series) is a legacy multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -9598,7 +9598,7 @@
       },
       {
         "label": "Status",
-        "value": "retired"
+        "value": "legacy"
       },
       {
         "label": "Availability",
@@ -9609,7 +9609,7 @@
       "name": "RedEdge-MX RX02 (or greater) Series",
       "acronym": "RedEdge-MX",
       "type": "multispectral",
-      "status": "retired",
+      "status": "legacy",
       "start_date": "2020-11-01",
       "end_date": ""
     },
@@ -9790,7 +9790,7 @@
   },
   "REDEDGEM_MICASENSE": {
     "id": "REDEDGEM_MICASENSE",
-    "summary": "REDEDGEM_MICASENSE (RedEdge-M) is a retired multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "REDEDGEM_MICASENSE (RedEdge-M) is a legacy multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -9826,7 +9826,7 @@
       },
       {
         "label": "Status",
-        "value": "retired"
+        "value": "legacy"
       },
       {
         "label": "Availability",
@@ -9837,7 +9837,7 @@
       "name": "RedEdge-M",
       "acronym": "RedEdge-M",
       "type": "multispectral",
-      "status": "retired",
+      "status": "legacy",
       "start_date": "2017-11-13",
       "end_date": ""
     },
@@ -10014,7 +10014,7 @@
   },
   "REDEDGEP_MICASENSE": {
     "id": "REDEDGEP_MICASENSE",
-    "summary": "REDEDGEP_MICASENSE (RedEdge-P) is an operational multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "REDEDGEP_MICASENSE (RedEdge-P) is an active multispectral instrument operated by MicaSense on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -10050,7 +10050,7 @@
       },
       {
         "label": "Status",
-        "value": "operational"
+        "value": "active"
       },
       {
         "label": "Availability",
@@ -10061,7 +10061,7 @@
       "name": "RedEdge-P",
       "acronym": "RedEdge-P",
       "type": "multispectral",
-      "status": "operational",
+      "status": "active",
       "start_date": "2021-10-26",
       "end_date": ""
     },
@@ -10249,7 +10249,7 @@
   },
   "SEQUOIA_MULTISPECTRAL_PARROT": {
     "id": "SEQUOIA_MULTISPECTRAL_PARROT",
-    "summary": "SEQUOIA_MULTISPECTRAL_PARROT (Sequoia Multispectral Sensor) is an operational multispectral instrument operated by Parrot on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "SEQUOIA_MULTISPECTRAL_PARROT (Sequoia Multispectral Sensor) is an active multispectral instrument operated by Parrot on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -10285,7 +10285,7 @@
       },
       {
         "label": "Status",
-        "value": "operational"
+        "value": "active"
       },
       {
         "label": "Availability",
@@ -10296,7 +10296,7 @@
       "name": "Sequoia Multispectral Sensor",
       "acronym": "Sequoia",
       "type": "multispectral",
-      "status": "operational",
+      "status": "active",
       "start_date": "2016-02-09",
       "end_date": ""
     },
@@ -10459,7 +10459,7 @@
   },
   "SEQUOIA_RGB_PARROT": {
     "id": "SEQUOIA_RGB_PARROT",
-    "summary": "SEQUOIA_RGB_PARROT (Sequoia RGB Camera) is an operational rgb instrument operated by Parrot on UAV. It is associated with a uav platform and has private data availability.",
+    "summary": "SEQUOIA_RGB_PARROT (Sequoia RGB Camera) is an active rgb instrument operated by Parrot on UAV. It is associated with a uav platform and has private data availability.",
     "quick_facts": [
       {
         "label": "Instrument id",
@@ -10495,7 +10495,7 @@
       },
       {
         "label": "Status",
-        "value": "operational"
+        "value": "active"
       },
       {
         "label": "Availability",
@@ -10506,7 +10506,7 @@
       "name": "Sequoia RGB Camera",
       "acronym": "Sequoia",
       "type": "rgb",
-      "status": "operational",
+      "status": "active",
       "start_date": "2016-02-09",
       "end_date": ""
     },

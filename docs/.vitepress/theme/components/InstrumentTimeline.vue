@@ -159,9 +159,11 @@ function normalize(value: string): string {
 function statusColor(status: string): string {
   const colors: Record<string, string> = {
     operational: '#2da44e',
+    active: '#2da44e',
     planned: '#0969da',
     experimental: '#bf8700',
-    retired: '#cf222e'
+    retired: '#cf222e',
+    legacy: '#cf222e'
   }
   return colors[normalize(status)] ?? '#6e7781'
 }

@@ -8,7 +8,7 @@ platform:
 operator:
   - MicaSense
 start_date: 2021-10-26
-status: operational
+status: active
 availability: private
 references:
   - "https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide"

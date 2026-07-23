@@ -8,7 +8,7 @@ platform:
 operator:
   - Parrot
 start_date: 2016-02-09
-status: operational
+status: active
 availability: private
 references:
   - "https://www.parrot.com/en/support/documentation/sequoia"

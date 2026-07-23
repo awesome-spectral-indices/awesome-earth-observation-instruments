@@ -7,10 +7,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "retired",
+    "status": "legacy",
     "availability": "private",
     "href": "/instruments/ALTUMAL04_lte_MICASENSE",
-    "search_text": "altumal04_lte_micasense altum al04 (or lower) series altum uav uav multispectral micasense retired private /instruments/altumal04_lte_micasense"
+    "search_text": "altumal04_lte_micasense altum al04 (or lower) series altum uav uav multispectral micasense legacy private /instruments/altumal04_lte_micasense"
   },
   {
     "id": "ALTUMAL05_MICASENSE",
@@ -20,10 +20,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "retired",
+    "status": "legacy",
     "availability": "private",
     "href": "/instruments/ALTUMAL05_MICASENSE",
-    "search_text": "altumal05_micasense altum al05 series altum uav uav multispectral micasense retired private /instruments/altumal05_micasense"
+    "search_text": "altumal05_micasense altum al05 series altum uav uav multispectral micasense legacy private /instruments/altumal05_micasense"
   },
   {
     "id": "ALTUMAL06_gte_MICASENSE",
@@ -33,10 +33,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "retired",
+    "status": "legacy",
     "availability": "private",
     "href": "/instruments/ALTUMAL06_gte_MICASENSE",
-    "search_text": "altumal06_gte_micasense altum al06 (or greater) series altum uav uav multispectral micasense retired private /instruments/altumal06_gte_micasense"
+    "search_text": "altumal06_gte_micasense altum al06 (or greater) series altum uav uav multispectral micasense legacy private /instruments/altumal06_gte_micasense"
   },
   {
     "id": "ALTUMPT_MICASENSE",
@@ -46,10 +46,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "operational",
+    "status": "active",
     "availability": "private",
     "href": "/instruments/ALTUMPT_MICASENSE",
-    "search_text": "altumpt_micasense altum-pt altum-pt uav uav multispectral micasense operational private /instruments/altumpt_micasense"
+    "search_text": "altumpt_micasense altum-pt altum-pt uav uav multispectral micasense active private /instruments/altumpt_micasense"
   },
   {
     "id": "ASTER",
@@ -280,10 +280,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "retired",
+    "status": "legacy",
     "availability": "private",
     "href": "/instruments/REDEDGE3_MICASENSE",
-    "search_text": "rededge3_micasense rededge-3 rededge-3 uav uav multispectral micasense retired private /instruments/rededge3_micasense"
+    "search_text": "rededge3_micasense rededge-3 rededge-3 uav uav multispectral micasense legacy private /instruments/rededge3_micasense"
   },
   {
     "id": "REDEDGEMX_RX01_MICASENSE",
@@ -293,10 +293,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "retired",
+    "status": "legacy",
     "availability": "private",
     "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
-    "search_text": "rededgemx_rx01_micasense rededge-mx rx01 series rededge-mx uav uav multispectral micasense retired private /instruments/rededgemx_rx01_micasense"
+    "search_text": "rededgemx_rx01_micasense rededge-mx rx01 series rededge-mx uav uav multispectral micasense legacy private /instruments/rededgemx_rx01_micasense"
   },
   {
     "id": "REDEDGEMX_RX02_gte_MICASENSE",
@@ -306,10 +306,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "retired",
+    "status": "legacy",
     "availability": "private",
     "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
-    "search_text": "rededgemx_rx02_gte_micasense rededge-mx rx02 (or greater) series rededge-mx uav uav multispectral micasense retired private /instruments/rededgemx_rx02_gte_micasense"
+    "search_text": "rededgemx_rx02_gte_micasense rededge-mx rx02 (or greater) series rededge-mx uav uav multispectral micasense legacy private /instruments/rededgemx_rx02_gte_micasense"
   },
   {
     "id": "REDEDGEM_MICASENSE",
@@ -319,10 +319,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "retired",
+    "status": "legacy",
     "availability": "private",
     "href": "/instruments/REDEDGEM_MICASENSE",
-    "search_text": "rededgem_micasense rededge-m rededge-m uav uav multispectral micasense retired private /instruments/rededgem_micasense"
+    "search_text": "rededgem_micasense rededge-m rededge-m uav uav multispectral micasense legacy private /instruments/rededgem_micasense"
   },
   {
     "id": "REDEDGEP_MICASENSE",
@@ -332,10 +332,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
-    "status": "operational",
+    "status": "active",
     "availability": "private",
     "href": "/instruments/REDEDGEP_MICASENSE",
-    "search_text": "rededgep_micasense rededge-p rededge-p uav uav multispectral micasense operational private /instruments/rededgep_micasense"
+    "search_text": "rededgep_micasense rededge-p rededge-p uav uav multispectral micasense active private /instruments/rededgep_micasense"
   },
   {
     "id": "SEQUOIA_MULTISPECTRAL_PARROT",
@@ -345,10 +345,10 @@
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "Parrot",
-    "status": "operational",
+    "status": "active",
     "availability": "private",
     "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
-    "search_text": "sequoia_multispectral_parrot sequoia multispectral sensor sequoia uav uav multispectral parrot operational private /instruments/sequoia_multispectral_parrot"
+    "search_text": "sequoia_multispectral_parrot sequoia multispectral sensor sequoia uav uav multispectral parrot active private /instruments/sequoia_multispectral_parrot"
   },
   {
     "id": "SEQUOIA_RGB_PARROT",
@@ -358,10 +358,10 @@
     "platform_type": "uav",
     "type": "rgb",
     "operator": "Parrot",
-    "status": "operational",
+    "status": "active",
     "availability": "private",
     "href": "/instruments/SEQUOIA_RGB_PARROT",
-    "search_text": "sequoia_rgb_parrot sequoia rgb camera sequoia uav uav rgb parrot operational private /instruments/sequoia_rgb_parrot"
+    "search_text": "sequoia_rgb_parrot sequoia rgb camera sequoia uav uav rgb parrot active private /instruments/sequoia_rgb_parrot"
   },
   {
     "id": "TIRS2_L9",

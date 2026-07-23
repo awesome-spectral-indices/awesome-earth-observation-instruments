@@ -50,9 +50,11 @@ PLATFORM_CATEGORIES = ["satellite", "airborne", "uav", "terrestrial"]
 INSTRUMENT_TYPES = ["multispectral", "hyperspectral", "radar", "lidar", "rgb", "other"]
 STATUS_EMOJIS = {
     "operational": ":white_check_mark:",
+    "active": ":white_check_mark:",
     "planned": ":stars:",
     "experimental": ":warning:",
     "retired": ":no_entry:",
+    "legacy": ":no_entry:",
 }
 
 

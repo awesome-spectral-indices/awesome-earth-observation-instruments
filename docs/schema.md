@@ -14,7 +14,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | **platform** | **Yes** | array | Satellite name, UAV model, aircraft, or terrestrial platform |
 | **operator** | **Yes** | array | Organization operating the instrument |
 | **start_date** | **Yes** | string | Start of operation (YYYY-MM-DD) |
-| **status** | **Yes** | string | Operational lifecycle state of the instrument |
+| **status** | **Yes** | string | Instrument lifecycle state, using mission terms for satellite and airborne instruments and product terms for UAV and terrestrial instruments |
 | **availability** | **Yes** | string | Data accessibility level |
 | end_date | No | string | End of operation (YYYY-MM-DD) |
 | notes | No | string | Free-form additional notes |

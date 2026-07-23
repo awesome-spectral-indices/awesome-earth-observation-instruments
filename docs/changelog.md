@@ -10,12 +10,21 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
   of non-standard `NaN` constants.
 - Minified `catalogue.json` by removing non-semantic formatting whitespace.
 
+### Schema
+
+- Added platform-specific lifecycle validation: satellite and airborne
+  instruments use `operational` or `retired`, while UAV and terrestrial
+  instruments use `active` or `legacy`; all platforms retain `experimental`
+  and `planned`.
+
 ### Instruments And Metadata
 
 - Added separate Parrot Sequoia multispectral and RGB UAV instrument records,
   including the four-band multispectral definition.
 - Added Sentinel-3A and Sentinel-3B OLCI instrument records with shared nominal
   band definitions and platform-specific mean spectral response functions.
+- Migrated existing UAV instrument lifecycle statuses from `operational` and
+  `retired` to `active` and `legacy`.
 
 ## 0.2.0
 

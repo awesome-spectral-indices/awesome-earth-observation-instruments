@@ -79,10 +79,12 @@ properties:
 
   status:
     type: string
-    description: Operational lifecycle state of the instrument
+    description: Instrument lifecycle state, using mission terms for satellite and airborne instruments and product terms for UAV and terrestrial instruments
     enum:
       - operational
       - retired
+      - active
+      - legacy
       - experimental
       - planned
 
@@ -130,5 +132,31 @@ properties:
       cross_links:
         description: Cross-links to external instrument catalogue records
         $ref: ../extensions/cross-links.yaml
+
+allOf:
+  - if:
+      properties:
+        platform_type:
+          enum:
+            - uav
+            - terrestrial
+      required:
+        - platform_type
+    then:
+      properties:
+        status:
+          enum:
+            - active
+            - legacy
+            - experimental
+            - planned
+    else:
+      properties:
+        status:
+          enum:
+            - operational
+            - retired
+            - experimental
+            - planned
 
 additionalProperties: false

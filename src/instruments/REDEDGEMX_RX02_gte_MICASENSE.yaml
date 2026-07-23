@@ -8,7 +8,7 @@ platform:
 operator:
   - MicaSense
 start_date: 2020-11-01
-status: retired
+status: legacy
 availability: private
 references:
   - "https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide"

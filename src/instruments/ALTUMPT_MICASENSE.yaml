@@ -8,7 +8,7 @@ platform:
 operator:
   - MicaSense
 start_date: 2021-11-08
-status: operational
+status: active
 availability: private
 references:
   - "https://support.micasense.com/hc/en-us/articles/4419868608407-Altum-PT-Integration-Guide"

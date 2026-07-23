@@ -11,7 +11,12 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src" / "code"))
 
 from catalogue import CATALOGUE_NAME, _bands_from_range, generate_catalogue
-from validators import ValidationError, _validate_range, validate_all_instruments
+from validators import (
+    ValidationError,
+    _validate_range,
+    validate_all_instruments,
+    validate_instrument,
+)
 
 
 @pytest.fixture(scope="session")
@@ -34,6 +39,50 @@ def test_all_instruments_validate() -> None:
 
     assert len(instruments) == len(instrument_files)
     assert {instrument["id"] for instrument in instruments}
+
+
+@pytest.mark.parametrize(
+    ("platform_type", "status", "is_valid"),
+    [
+        ("satellite", "operational", True),
+        ("satellite", "active", False),
+        ("airborne", "retired", True),
+        ("airborne", "legacy", False),
+        ("uav", "active", True),
+        ("uav", "operational", False),
+        ("terrestrial", "legacy", True),
+        ("terrestrial", "retired", False),
+        ("uav", "experimental", True),
+        ("satellite", "planned", True),
+    ],
+)
+def test_status_matches_platform_lifecycle(
+    tmp_path: Path,
+    platform_type: str,
+    status: str,
+    is_valid: bool,
+) -> None:
+    instrument = {
+        "id": "TEST_STATUS",
+        "name": "Status Test Instrument",
+        "acronym": "TEST",
+        "type": "other",
+        "platform_type": platform_type,
+        "platform": ["Test platform"],
+        "operator": ["Test operator"],
+        "start_date": "2020-01-01",
+        "status": status,
+        "availability": "private",
+        "references": ["https://example.com"],
+    }
+    instrument_path = tmp_path / "TEST_STATUS.yaml"
+    instrument_path.write_text(yaml.safe_dump(instrument), encoding="utf-8")
+
+    if is_valid:
+        assert validate_instrument(instrument_path)["status"] == status
+    else:
+        with pytest.raises(ValidationError):
+            validate_instrument(instrument_path)
 
 
 def test_catalogue_structure_and_spectral_transforms(

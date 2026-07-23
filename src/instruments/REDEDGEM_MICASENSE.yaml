@@ -8,7 +8,7 @@ platform:
 operator:
   - MicaSense
 start_date: 2017-11-13
-status: retired
+status: legacy
 availability: private
 references:
   - "https://support.micasense.com/hc/en-us/article_attachments/115004168274"
