@@ -204,7 +204,13 @@ def generate_catalogue(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as handle:
-        json.dump(catalogue, handle, indent=2, ensure_ascii=False, allow_nan=False)
+        json.dump(
+            catalogue,
+            handle,
+            ensure_ascii=False,
+            allow_nan=False,
+            separators=(",", ":"),
+        )
     return catalogue
 
 

@@ -8133,6 +8133,9 @@
       },
       {
         "url": "https://www.earthdata.nasa.gov/data/instruments/olci"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.rse.2011.07.024"
       }
     ]
   },
@@ -8563,6 +8566,9 @@
       },
       {
         "url": "https://www.earthdata.nasa.gov/data/instruments/olci"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.rse.2011.07.024"
       }
     ]
   },

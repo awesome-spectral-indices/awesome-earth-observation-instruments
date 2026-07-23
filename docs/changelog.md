@@ -8,6 +8,7 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 
 - Serialized missing spectral response samples as JSON `null` values instead
   of non-standard `NaN` constants.
+- Minified `catalogue.json` by removing non-semantic formatting whitespace.
 
 ### Instruments And Metadata
 

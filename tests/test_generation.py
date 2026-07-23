@@ -47,6 +47,12 @@ def test_catalogue_structure_and_spectral_transforms(
             f"Catalogue contains non-standard JSON constant: {value}"
         ),
     )
+    assert catalogue_text == json.dumps(
+        catalogue,
+        ensure_ascii=False,
+        allow_nan=False,
+        separators=(",", ":"),
+    )
 
     assert list(catalogue.keys()) == ["name", "version", "link", "instruments"]
     assert catalogue["name"] == CATALOGUE_NAME
