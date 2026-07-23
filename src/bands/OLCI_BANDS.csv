@@ -1,0 +1,22 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd,snr
+Oa01,400,15,Aerosol correction and improved water constituent retrieval,coastal,300,2188
+Oa02,412.5,10,Yellow substances detrital pigments and turbidity,coastal,300,2061
+Oa03,442.5,10,Chlorophyll absorption biogeochemistry and vegetation,blue,300,1811
+Oa04,490,10,High chlorophyll concentrations and other pigments,blue,300,1541
+Oa05,510,10,Chlorophyll sediment turbidity and red tides,green05,300,1488
+Oa06,560,10,Chlorophyll reference at its reflectance minimum,green,300,1280
+Oa07,620,10,Sediment loading,red,300,997
+Oa08,665,10,Chlorophyll absorption sediment yellow substances and vegetation,red,300,883
+Oa09,673.75,7.5,Chlorophyll fluorescence and spectral smile correction,red,300,707
+Oa10,681.25,7.5,Chlorophyll fluorescence peak and red edge,red,300,745
+Oa11,708.75,10,Chlorophyll fluorescence baseline and red-edge transition,rededge071,300,785
+Oa12,753.75,7.5,Oxygen absorption clouds and vegetation,rededge075,300,605
+Oa13,761.25,2.5,Oxygen absorption and aerosol correction,,300,232
+Oa14,764.375,3.75,Atmospheric correction,,300,305
+Oa15,767.5,2.5,Oxygen A-band cloud-top pressure and land fluorescence,,300,330
+Oa16,778.75,15,Atmospheric and aerosol correction,rededge078,300,812
+Oa17,865,20,Atmospheric and aerosol correction clouds and pixel co-registration,nir08,300,666
+Oa18,885,10,Water-vapour reference and vegetation monitoring,nir09,300,395
+Oa19,900,10,Water-vapour absorption and vegetation monitoring,nir09,300,308
+Oa20,940,20,Water-vapour absorption and atmospheric correction,nir09,300,203
+Oa21,1020,40,Atmospheric and aerosol correction,nir09,300,152

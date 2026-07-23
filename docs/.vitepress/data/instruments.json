@@ -221,6 +221,32 @@
     "search_text": "mss_l5 multispectral scanner system mss landsat 5 satellite multispectral nasa, usgs retired public /instruments/mss_l5"
   },
   {
+    "id": "OLCI_S3A",
+    "name": "Ocean and Land Colour Instrument",
+    "acronym": "OLCI",
+    "platform": "Sentinel-3A",
+    "platform_type": "satellite",
+    "type": "multispectral",
+    "operator": "ESA, EUMETSAT, Copernicus",
+    "status": "operational",
+    "availability": "public",
+    "href": "/instruments/OLCI_S3A",
+    "search_text": "olci_s3a ocean and land colour instrument olci sentinel-3a satellite multispectral esa, eumetsat, copernicus operational public /instruments/olci_s3a"
+  },
+  {
+    "id": "OLCI_S3B",
+    "name": "Ocean and Land Colour Instrument",
+    "acronym": "OLCI",
+    "platform": "Sentinel-3B",
+    "platform_type": "satellite",
+    "type": "multispectral",
+    "operator": "ESA, EUMETSAT, Copernicus",
+    "status": "operational",
+    "availability": "public",
+    "href": "/instruments/OLCI_S3B",
+    "search_text": "olci_s3b ocean and land colour instrument olci sentinel-3b satellite multispectral esa, eumetsat, copernicus operational public /instruments/olci_s3b"
+  },
+  {
     "id": "OLI2_L9",
     "name": "Operational Land Imager 2",
     "acronym": "OLI2",

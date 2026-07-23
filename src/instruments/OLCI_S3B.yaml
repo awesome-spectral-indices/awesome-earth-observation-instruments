@@ -1,0 +1,89 @@
+id: OLCI_S3B
+name: Ocean and Land Colour Instrument
+acronym: OLCI
+type: multispectral
+platform_type: satellite
+platform:
+  - Sentinel-3B
+operator:
+  - ESA
+  - EUMETSAT
+  - Copernicus
+start_date: 2018-04-25
+status: operational
+availability: public
+references:
+  - "https://sentiwiki.copernicus.eu/web/s3-olci-instrument"
+  - "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Facts_and_figures"
+  - "https://www.earthdata.nasa.gov/data/instruments/olci"
+  - "https://doi.org/10.1016/j.rse.2011.07.024"
+notes: >-
+  The nominal band definitions are shared by OLCI-A and OLCI-B. The supplied
+  spectral response functions are representative mean responses derived from
+  preflight spectral characterization. Spectral characteristics vary across
+  CCD columns and can evolve during the mission; orbit-dependent spectral
+  characterization LUTs should be used when that variability matters.
+
+data_links:
+  - "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI"
+  - "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc"
+  - "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-2-lfr-ntc"
+  - "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf"
+  - "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr"
+  - "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l2-lfr"
+
+extensions:
+
+  spectral:
+    bands: OLCI_BANDS.csv
+    spectral_response_function: OLCI_S3B_SRF.csv
+
+  imaging:
+    swath_width: 1270
+    across_fov: 68.5
+
+  data_access:
+    ee:
+      primary:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI"
+        collection: "COPERNICUS/S3/OLCI"
+      toa:
+        docs: "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI"
+        collection: "COPERNICUS/S3/OLCI"
+
+    planetary_computer:
+      stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
+      primary:
+        docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf"
+        collection: "sentinel-3-olci-lfr-l2-netcdf"
+      boa:
+        docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf"
+        collection: "sentinel-3-olci-lfr-l2-netcdf"
+
+    cdse:
+      stac_endpoint: "https://stac.dataspace.copernicus.eu/v1"
+      primary:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc"
+        collection: "sentinel-3-olci-1-efr-ntc"
+      toa:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc"
+        collection: "sentinel-3-olci-1-efr-ntc"
+      boa:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-2-lfr-ntc"
+        collection: "sentinel-3-olci-2-lfr-ntc"
+
+    eopf:
+      stac_endpoint: "https://stac.core.eopf.eodc.eu/"
+      primary:
+        docs: "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr"
+        collection: "sentinel-3-olci-l1-efr"
+      toa:
+        docs: "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr"
+        collection: "sentinel-3-olci-l1-efr"
+      boa:
+        docs: "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l2-lfr"
+        collection: "sentinel-3-olci-l2-lfr"
+
+  cross_links:
+    ceos: "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=896"
+    earthdata: "https://www.earthdata.nasa.gov/data/instruments/olci"

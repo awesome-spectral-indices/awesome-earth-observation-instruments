@@ -7706,6 +7706,866 @@
       }
     ]
   },
+  "OLCI_S3A": {
+    "id": "OLCI_S3A",
+    "summary": "OLCI_S3A (Ocean and Land Colour Instrument) is an operational multispectral instrument operated by ESA, EUMETSAT, Copernicus on Sentinel-3A. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "OLCI_S3A"
+      },
+      {
+        "label": "Name",
+        "value": "Ocean and Land Colour Instrument"
+      },
+      {
+        "label": "Acronym",
+        "value": "OLCI"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Sentinel-3A"
+      },
+      {
+        "label": "Operator",
+        "value": "ESA, EUMETSAT, Copernicus"
+      },
+      {
+        "label": "Start date",
+        "value": "2016-02-16"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "timeline": {
+      "name": "Ocean and Land Colour Instrument",
+      "acronym": "OLCI",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2016-02-16",
+      "end_date": ""
+    },
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "21"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "400-1020 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "2.5-40 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "300 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/OLCI_S3A_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "Oa01",
+        "center_wavelength": "400",
+        "bandwidth": "15",
+        "common_name": "coastal",
+        "gsd": "300",
+        "description": "Aerosol correction and improved water constituent retrieval",
+        "snr": "2188",
+        "search_text": "oa01 400 15 coastal 300 aerosol correction and improved water constituent retrieval 2188"
+      },
+      {
+        "id": "Oa02",
+        "center_wavelength": "412.5",
+        "bandwidth": "10",
+        "common_name": "coastal",
+        "gsd": "300",
+        "description": "Yellow substances detrital pigments and turbidity",
+        "snr": "2061",
+        "search_text": "oa02 412.5 10 coastal 300 yellow substances detrital pigments and turbidity 2061"
+      },
+      {
+        "id": "Oa03",
+        "center_wavelength": "442.5",
+        "bandwidth": "10",
+        "common_name": "blue",
+        "gsd": "300",
+        "description": "Chlorophyll absorption biogeochemistry and vegetation",
+        "snr": "1811",
+        "search_text": "oa03 442.5 10 blue 300 chlorophyll absorption biogeochemistry and vegetation 1811"
+      },
+      {
+        "id": "Oa04",
+        "center_wavelength": "490",
+        "bandwidth": "10",
+        "common_name": "blue",
+        "gsd": "300",
+        "description": "High chlorophyll concentrations and other pigments",
+        "snr": "1541",
+        "search_text": "oa04 490 10 blue 300 high chlorophyll concentrations and other pigments 1541"
+      },
+      {
+        "id": "Oa05",
+        "center_wavelength": "510",
+        "bandwidth": "10",
+        "common_name": "green05",
+        "gsd": "300",
+        "description": "Chlorophyll sediment turbidity and red tides",
+        "snr": "1488",
+        "search_text": "oa05 510 10 green05 300 chlorophyll sediment turbidity and red tides 1488"
+      },
+      {
+        "id": "Oa06",
+        "center_wavelength": "560",
+        "bandwidth": "10",
+        "common_name": "green",
+        "gsd": "300",
+        "description": "Chlorophyll reference at its reflectance minimum",
+        "snr": "1280",
+        "search_text": "oa06 560 10 green 300 chlorophyll reference at its reflectance minimum 1280"
+      },
+      {
+        "id": "Oa07",
+        "center_wavelength": "620",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Sediment loading",
+        "snr": "997",
+        "search_text": "oa07 620 10 red 300 sediment loading 997"
+      },
+      {
+        "id": "Oa08",
+        "center_wavelength": "665",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Chlorophyll absorption sediment yellow substances and vegetation",
+        "snr": "883",
+        "search_text": "oa08 665 10 red 300 chlorophyll absorption sediment yellow substances and vegetation 883"
+      },
+      {
+        "id": "Oa09",
+        "center_wavelength": "673.75",
+        "bandwidth": "7.5",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Chlorophyll fluorescence and spectral smile correction",
+        "snr": "707",
+        "search_text": "oa09 673.75 7.5 red 300 chlorophyll fluorescence and spectral smile correction 707"
+      },
+      {
+        "id": "Oa10",
+        "center_wavelength": "681.25",
+        "bandwidth": "7.5",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Chlorophyll fluorescence peak and red edge",
+        "snr": "745",
+        "search_text": "oa10 681.25 7.5 red 300 chlorophyll fluorescence peak and red edge 745"
+      },
+      {
+        "id": "Oa11",
+        "center_wavelength": "708.75",
+        "bandwidth": "10",
+        "common_name": "rededge071",
+        "gsd": "300",
+        "description": "Chlorophyll fluorescence baseline and red-edge transition",
+        "snr": "785",
+        "search_text": "oa11 708.75 10 rededge071 300 chlorophyll fluorescence baseline and red-edge transition 785"
+      },
+      {
+        "id": "Oa12",
+        "center_wavelength": "753.75",
+        "bandwidth": "7.5",
+        "common_name": "rededge075",
+        "gsd": "300",
+        "description": "Oxygen absorption clouds and vegetation",
+        "snr": "605",
+        "search_text": "oa12 753.75 7.5 rededge075 300 oxygen absorption clouds and vegetation 605"
+      },
+      {
+        "id": "Oa13",
+        "center_wavelength": "761.25",
+        "bandwidth": "2.5",
+        "common_name": "",
+        "gsd": "300",
+        "description": "Oxygen absorption and aerosol correction",
+        "snr": "232",
+        "search_text": "oa13 761.25 2.5  300 oxygen absorption and aerosol correction 232"
+      },
+      {
+        "id": "Oa14",
+        "center_wavelength": "764.375",
+        "bandwidth": "3.75",
+        "common_name": "",
+        "gsd": "300",
+        "description": "Atmospheric correction",
+        "snr": "305",
+        "search_text": "oa14 764.375 3.75  300 atmospheric correction 305"
+      },
+      {
+        "id": "Oa15",
+        "center_wavelength": "767.5",
+        "bandwidth": "2.5",
+        "common_name": "",
+        "gsd": "300",
+        "description": "Oxygen A-band cloud-top pressure and land fluorescence",
+        "snr": "330",
+        "search_text": "oa15 767.5 2.5  300 oxygen a-band cloud-top pressure and land fluorescence 330"
+      },
+      {
+        "id": "Oa16",
+        "center_wavelength": "778.75",
+        "bandwidth": "15",
+        "common_name": "rededge078",
+        "gsd": "300",
+        "description": "Atmospheric and aerosol correction",
+        "snr": "812",
+        "search_text": "oa16 778.75 15 rededge078 300 atmospheric and aerosol correction 812"
+      },
+      {
+        "id": "Oa17",
+        "center_wavelength": "865",
+        "bandwidth": "20",
+        "common_name": "nir08",
+        "gsd": "300",
+        "description": "Atmospheric and aerosol correction clouds and pixel co-registration",
+        "snr": "666",
+        "search_text": "oa17 865 20 nir08 300 atmospheric and aerosol correction clouds and pixel co-registration 666"
+      },
+      {
+        "id": "Oa18",
+        "center_wavelength": "885",
+        "bandwidth": "10",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Water-vapour reference and vegetation monitoring",
+        "snr": "395",
+        "search_text": "oa18 885 10 nir09 300 water-vapour reference and vegetation monitoring 395"
+      },
+      {
+        "id": "Oa19",
+        "center_wavelength": "900",
+        "bandwidth": "10",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Water-vapour absorption and vegetation monitoring",
+        "snr": "308",
+        "search_text": "oa19 900 10 nir09 300 water-vapour absorption and vegetation monitoring 308"
+      },
+      {
+        "id": "Oa20",
+        "center_wavelength": "940",
+        "bandwidth": "20",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Water-vapour absorption and atmospheric correction",
+        "snr": "203",
+        "search_text": "oa20 940 20 nir09 300 water-vapour absorption and atmospheric correction 203"
+      },
+      {
+        "id": "Oa21",
+        "center_wavelength": "1020",
+        "bandwidth": "40",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Atmospheric and aerosol correction",
+        "snr": "152",
+        "search_text": "oa21 1020 40 nir09 300 atmospheric and aerosol correction 152"
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Across Fov",
+        "value": "68.5"
+      },
+      {
+        "label": "Swath Width",
+        "value": "1270"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI",
+            "collection": "COPERNICUS/S3/OLCI"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI",
+            "collection": "COPERNICUS/S3/OLCI"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf",
+            "collection": "sentinel-3-olci-lfr-l2-netcdf"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf",
+            "collection": "sentinel-3-olci-lfr-l2-netcdf"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc",
+            "collection": "sentinel-3-olci-1-efr-ntc"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc",
+            "collection": "sentinel-3-olci-1-efr-ntc"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-2-lfr-ntc",
+            "collection": "sentinel-3-olci-2-lfr-ntc"
+          }
+        ]
+      },
+      {
+        "key": "eopf",
+        "title": "EOPF Sentinel Zarr Samples",
+        "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr",
+            "collection": "sentinel-3-olci-l1-efr"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr",
+            "collection": "sentinel-3-olci-l1-efr"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l2-lfr",
+            "collection": "sentinel-3-olci-l2-lfr"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=896"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/olci"
+      }
+    ],
+    "related": [
+      {
+        "id": "OLCI_S3B",
+        "name": "Ocean and Land Colour Instrument",
+        "platform": "Sentinel-3B",
+        "href": "/instruments/OLCI_S3B",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-2-lfr-ntc"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l2-lfr"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/s3-olci-instrument"
+      },
+      {
+        "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Facts_and_figures"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/olci"
+      }
+    ]
+  },
+  "OLCI_S3B": {
+    "id": "OLCI_S3B",
+    "summary": "OLCI_S3B (Ocean and Land Colour Instrument) is an operational multispectral instrument operated by ESA, EUMETSAT, Copernicus on Sentinel-3B. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "OLCI_S3B"
+      },
+      {
+        "label": "Name",
+        "value": "Ocean and Land Colour Instrument"
+      },
+      {
+        "label": "Acronym",
+        "value": "OLCI"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Sentinel-3B"
+      },
+      {
+        "label": "Operator",
+        "value": "ESA, EUMETSAT, Copernicus"
+      },
+      {
+        "label": "Start date",
+        "value": "2018-04-25"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "timeline": {
+      "name": "Ocean and Land Colour Instrument",
+      "acronym": "OLCI",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2018-04-25",
+      "end_date": ""
+    },
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "21"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "400-1020 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "2.5-40 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "300 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/OLCI_S3B_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "Oa01",
+        "center_wavelength": "400",
+        "bandwidth": "15",
+        "common_name": "coastal",
+        "gsd": "300",
+        "description": "Aerosol correction and improved water constituent retrieval",
+        "snr": "2188",
+        "search_text": "oa01 400 15 coastal 300 aerosol correction and improved water constituent retrieval 2188"
+      },
+      {
+        "id": "Oa02",
+        "center_wavelength": "412.5",
+        "bandwidth": "10",
+        "common_name": "coastal",
+        "gsd": "300",
+        "description": "Yellow substances detrital pigments and turbidity",
+        "snr": "2061",
+        "search_text": "oa02 412.5 10 coastal 300 yellow substances detrital pigments and turbidity 2061"
+      },
+      {
+        "id": "Oa03",
+        "center_wavelength": "442.5",
+        "bandwidth": "10",
+        "common_name": "blue",
+        "gsd": "300",
+        "description": "Chlorophyll absorption biogeochemistry and vegetation",
+        "snr": "1811",
+        "search_text": "oa03 442.5 10 blue 300 chlorophyll absorption biogeochemistry and vegetation 1811"
+      },
+      {
+        "id": "Oa04",
+        "center_wavelength": "490",
+        "bandwidth": "10",
+        "common_name": "blue",
+        "gsd": "300",
+        "description": "High chlorophyll concentrations and other pigments",
+        "snr": "1541",
+        "search_text": "oa04 490 10 blue 300 high chlorophyll concentrations and other pigments 1541"
+      },
+      {
+        "id": "Oa05",
+        "center_wavelength": "510",
+        "bandwidth": "10",
+        "common_name": "green05",
+        "gsd": "300",
+        "description": "Chlorophyll sediment turbidity and red tides",
+        "snr": "1488",
+        "search_text": "oa05 510 10 green05 300 chlorophyll sediment turbidity and red tides 1488"
+      },
+      {
+        "id": "Oa06",
+        "center_wavelength": "560",
+        "bandwidth": "10",
+        "common_name": "green",
+        "gsd": "300",
+        "description": "Chlorophyll reference at its reflectance minimum",
+        "snr": "1280",
+        "search_text": "oa06 560 10 green 300 chlorophyll reference at its reflectance minimum 1280"
+      },
+      {
+        "id": "Oa07",
+        "center_wavelength": "620",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Sediment loading",
+        "snr": "997",
+        "search_text": "oa07 620 10 red 300 sediment loading 997"
+      },
+      {
+        "id": "Oa08",
+        "center_wavelength": "665",
+        "bandwidth": "10",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Chlorophyll absorption sediment yellow substances and vegetation",
+        "snr": "883",
+        "search_text": "oa08 665 10 red 300 chlorophyll absorption sediment yellow substances and vegetation 883"
+      },
+      {
+        "id": "Oa09",
+        "center_wavelength": "673.75",
+        "bandwidth": "7.5",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Chlorophyll fluorescence and spectral smile correction",
+        "snr": "707",
+        "search_text": "oa09 673.75 7.5 red 300 chlorophyll fluorescence and spectral smile correction 707"
+      },
+      {
+        "id": "Oa10",
+        "center_wavelength": "681.25",
+        "bandwidth": "7.5",
+        "common_name": "red",
+        "gsd": "300",
+        "description": "Chlorophyll fluorescence peak and red edge",
+        "snr": "745",
+        "search_text": "oa10 681.25 7.5 red 300 chlorophyll fluorescence peak and red edge 745"
+      },
+      {
+        "id": "Oa11",
+        "center_wavelength": "708.75",
+        "bandwidth": "10",
+        "common_name": "rededge071",
+        "gsd": "300",
+        "description": "Chlorophyll fluorescence baseline and red-edge transition",
+        "snr": "785",
+        "search_text": "oa11 708.75 10 rededge071 300 chlorophyll fluorescence baseline and red-edge transition 785"
+      },
+      {
+        "id": "Oa12",
+        "center_wavelength": "753.75",
+        "bandwidth": "7.5",
+        "common_name": "rededge075",
+        "gsd": "300",
+        "description": "Oxygen absorption clouds and vegetation",
+        "snr": "605",
+        "search_text": "oa12 753.75 7.5 rededge075 300 oxygen absorption clouds and vegetation 605"
+      },
+      {
+        "id": "Oa13",
+        "center_wavelength": "761.25",
+        "bandwidth": "2.5",
+        "common_name": "",
+        "gsd": "300",
+        "description": "Oxygen absorption and aerosol correction",
+        "snr": "232",
+        "search_text": "oa13 761.25 2.5  300 oxygen absorption and aerosol correction 232"
+      },
+      {
+        "id": "Oa14",
+        "center_wavelength": "764.375",
+        "bandwidth": "3.75",
+        "common_name": "",
+        "gsd": "300",
+        "description": "Atmospheric correction",
+        "snr": "305",
+        "search_text": "oa14 764.375 3.75  300 atmospheric correction 305"
+      },
+      {
+        "id": "Oa15",
+        "center_wavelength": "767.5",
+        "bandwidth": "2.5",
+        "common_name": "",
+        "gsd": "300",
+        "description": "Oxygen A-band cloud-top pressure and land fluorescence",
+        "snr": "330",
+        "search_text": "oa15 767.5 2.5  300 oxygen a-band cloud-top pressure and land fluorescence 330"
+      },
+      {
+        "id": "Oa16",
+        "center_wavelength": "778.75",
+        "bandwidth": "15",
+        "common_name": "rededge078",
+        "gsd": "300",
+        "description": "Atmospheric and aerosol correction",
+        "snr": "812",
+        "search_text": "oa16 778.75 15 rededge078 300 atmospheric and aerosol correction 812"
+      },
+      {
+        "id": "Oa17",
+        "center_wavelength": "865",
+        "bandwidth": "20",
+        "common_name": "nir08",
+        "gsd": "300",
+        "description": "Atmospheric and aerosol correction clouds and pixel co-registration",
+        "snr": "666",
+        "search_text": "oa17 865 20 nir08 300 atmospheric and aerosol correction clouds and pixel co-registration 666"
+      },
+      {
+        "id": "Oa18",
+        "center_wavelength": "885",
+        "bandwidth": "10",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Water-vapour reference and vegetation monitoring",
+        "snr": "395",
+        "search_text": "oa18 885 10 nir09 300 water-vapour reference and vegetation monitoring 395"
+      },
+      {
+        "id": "Oa19",
+        "center_wavelength": "900",
+        "bandwidth": "10",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Water-vapour absorption and vegetation monitoring",
+        "snr": "308",
+        "search_text": "oa19 900 10 nir09 300 water-vapour absorption and vegetation monitoring 308"
+      },
+      {
+        "id": "Oa20",
+        "center_wavelength": "940",
+        "bandwidth": "20",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Water-vapour absorption and atmospheric correction",
+        "snr": "203",
+        "search_text": "oa20 940 20 nir09 300 water-vapour absorption and atmospheric correction 203"
+      },
+      {
+        "id": "Oa21",
+        "center_wavelength": "1020",
+        "bandwidth": "40",
+        "common_name": "nir09",
+        "gsd": "300",
+        "description": "Atmospheric and aerosol correction",
+        "snr": "152",
+        "search_text": "oa21 1020 40 nir09 300 atmospheric and aerosol correction 152"
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Across Fov",
+        "value": "68.5"
+      },
+      {
+        "label": "Swath Width",
+        "value": "1270"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "ee",
+        "title": "Google Earth Engine",
+        "stac_endpoint": "",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI",
+            "collection": "COPERNICUS/S3/OLCI"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI",
+            "collection": "COPERNICUS/S3/OLCI"
+          }
+        ]
+      },
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf",
+            "collection": "sentinel-3-olci-lfr-l2-netcdf"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf",
+            "collection": "sentinel-3-olci-lfr-l2-netcdf"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc",
+            "collection": "sentinel-3-olci-1-efr-ntc"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc",
+            "collection": "sentinel-3-olci-1-efr-ntc"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-2-lfr-ntc",
+            "collection": "sentinel-3-olci-2-lfr-ntc"
+          }
+        ]
+      },
+      {
+        "key": "eopf",
+        "title": "EOPF Sentinel Zarr Samples",
+        "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr",
+            "collection": "sentinel-3-olci-l1-efr"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr",
+            "collection": "sentinel-3-olci-l1-efr"
+          },
+          {
+            "label": "Bottom of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l2-lfr",
+            "collection": "sentinel-3-olci-l2-lfr"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=896"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/olci"
+      }
+    ],
+    "related": [
+      {
+        "id": "OLCI_S3A",
+        "name": "Ocean and Land Colour Instrument",
+        "platform": "Sentinel-3A",
+        "href": "/instruments/OLCI_S3A",
+        "reason": "same instrument family"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-1-efr-ntc"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-olci-2-lfr-ntc"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-olci-lfr-l2-netcdf"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-olci-l2-lfr"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/s3-olci-instrument"
+      },
+      {
+        "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Facts_and_figures"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/olci"
+      }
+    ]
+  },
   "OLI2_L9": {
     "id": "OLI2_L9",
     "summary": "OLI2_L9 (Operational Land Imager 2) is an operational multispectral instrument operated by NASA, USGS on Landsat 9. It is associated with a satellite platform and has public data availability.",

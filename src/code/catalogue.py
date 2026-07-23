@@ -46,7 +46,10 @@ def _srf_csv_to_object(filename: str) -> dict[str, list[Any]]:
     frame = pd.read_csv(SRF_DIR / filename)
     output: dict[str, list[Any]] = {}
     for col in frame.columns:
-        output[col] = [_to_python_scalar(v) for v in frame[col].tolist()]
+        output[col] = [
+            None if pd.isna(value) else _to_python_scalar(value)
+            for value in frame[col].tolist()
+        ]
 
     lengths = {len(values) for values in output.values()}
     if len(lengths) > 1:
@@ -201,7 +204,7 @@ def generate_catalogue(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as handle:
-        json.dump(catalogue, handle, indent=2, ensure_ascii=False)
+        json.dump(catalogue, handle, indent=2, ensure_ascii=False, allow_nan=False)
     return catalogue
 
 

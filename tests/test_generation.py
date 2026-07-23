@@ -40,7 +40,13 @@ def test_catalogue_structure_and_spectral_transforms(
     generated_outputs: dict[str, Path],
 ) -> None:
     # The public catalogue contract is metadata plus an instruments object.
-    catalogue = json.loads(generated_outputs["catalogue"].read_text(encoding="utf-8"))
+    catalogue_text = generated_outputs["catalogue"].read_text(encoding="utf-8")
+    catalogue = json.loads(
+        catalogue_text,
+        parse_constant=lambda value: pytest.fail(
+            f"Catalogue contains non-standard JSON constant: {value}"
+        ),
+    )
 
     assert list(catalogue.keys()) == ["name", "version", "link", "instruments"]
     assert catalogue["name"] == CATALOGUE_NAME
@@ -71,6 +77,17 @@ def test_catalogue_structure_and_spectral_transforms(
         assert isinstance(spectral["spectral_response_function"], dict)
         srf_lengths = {len(values) for values in spectral["spectral_response_function"].values()}
         assert len(srf_lengths) == 1
+
+    # Empty cells in sparse SRF CSVs must be represented by valid JSON nulls.
+    assert "NaN" not in catalogue_text
+    assert any(
+        value is None
+        for instrument in csv_backed
+        for values in instrument["extensions"]["spectral"][
+            "spectral_response_function"
+        ].values()
+        for value in values
+    )
 
 
 def test_range_bandwidth_overrides_generated_bandwidth() -> None:

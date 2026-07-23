@@ -4,10 +4,17 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 
 ## 0.3.0 (Upcoming)
 
+### Catalogue
+
+- Serialized missing spectral response samples as JSON `null` values instead
+  of non-standard `NaN` constants.
+
 ### Instruments And Metadata
 
 - Added separate Parrot Sequoia multispectral and RGB UAV instrument records,
   including the four-band multispectral definition.
+- Added Sentinel-3A and Sentinel-3B OLCI instrument records with shared nominal
+  band definitions and platform-specific mean spectral response functions.
 
 ## 0.2.0
 
