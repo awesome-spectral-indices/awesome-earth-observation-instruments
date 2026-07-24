@@ -1,18 +1,29 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, reactive, ref } from 'vue'
 import { withBase } from 'vitepress'
 import instrumentData from '../../data/instruments.json'
+
+type PresenceFilter = 'any' | 'yes' | 'no'
+type DateFilterMode = 'exact' | 'range'
 
 type InstrumentRecord = {
   id: string
   name: string
   acronym: string
   platform: string
+  platforms: string[]
   platform_type: string
   type: string
   operator: string
+  operators: string[]
+  start_date: string
   status: string
   availability: string
+  contributors: string[]
+  references: string[]
+  has_bands: boolean
+  has_srf: boolean
+  data_access_points: string[]
   href: string
   search_text: string
 }
@@ -31,15 +42,131 @@ type PlatformTypeGroup = {
 
 const instruments = instrumentData as InstrumentRecord[]
 const query = ref('')
+const advancedOpen = ref(false)
+const selectedDataAccess = ref<string[]>([])
+const filters = reactive({
+  id: '',
+  name: '',
+  acronym: '',
+  type: '',
+  platformType: '',
+  platform: '',
+  operator: '',
+  status: '',
+  availability: '',
+  contributor: '',
+  reference: '',
+  dateMode: 'exact' as DateFilterMode,
+  exactDate: '',
+  fromDate: '',
+  toDate: '',
+  bands: 'any' as PresenceFilter,
+  srf: 'any' as PresenceFilter
+})
+
+const dataAccessOptions = [
+  { key: 'ee', label: 'Google Earth Engine' },
+  { key: 'planetary_computer', label: 'Planetary Computer' },
+  { key: 'cdse', label: 'Copernicus Data Space' },
+  { key: 'eopf', label: 'EOPF Sentinel Zarr Samples' }
+]
 
 const normalizedQuery = computed(() => query.value.trim().toLowerCase())
+const instrumentTypeOptions = computed(() =>
+  sortedUnique(instruments.map((instrument) => instrument.type))
+)
+const platformTypeOptions = computed(() =>
+  sortedUnique(instruments.map((instrument) => instrument.platform_type))
+)
+const statusOptions = computed(() =>
+  sortedUnique(instruments.map((instrument) => instrument.status))
+)
+const availabilityOptions = computed(() =>
+  sortedUnique(instruments.map((instrument) => instrument.availability))
+)
+
+const advancedFilterCount = computed(() => {
+  const textAndSelectFilters = [
+    filters.id,
+    filters.name,
+    filters.acronym,
+    filters.type,
+    filters.platformType,
+    filters.platform,
+    filters.operator,
+    filters.status,
+    filters.availability,
+    filters.contributor,
+    filters.reference
+  ].filter((value) => value.trim()).length
+
+  const dateFilters = filters.dateMode === 'exact'
+    ? Number(Boolean(filters.exactDate))
+    : Number(Boolean(filters.fromDate)) + Number(Boolean(filters.toDate))
+  const resourceFilters =
+    Number(filters.bands !== 'any') + Number(filters.srf !== 'any')
+
+  return (
+    textAndSelectFilters +
+    dateFilters +
+    resourceFilters +
+    selectedDataAccess.value.length
+  )
+})
 
 const filteredInstruments = computed(() => {
-  if (!normalizedQuery.value) return instruments
+  return instruments.filter((instrument) => {
+    if (
+      normalizedQuery.value &&
+      !instrument.search_text.includes(normalizedQuery.value)
+    ) {
+      return false
+    }
 
-  return instruments.filter((instrument) =>
-    instrument.search_text.includes(normalizedQuery.value)
-  )
+    if (!includesFilter(instrument.id, filters.id)) return false
+    if (!includesFilter(instrument.name, filters.name)) return false
+    if (!includesFilter(instrument.acronym, filters.acronym)) return false
+    if (filters.type && instrument.type !== filters.type) return false
+    if (
+      filters.platformType &&
+      instrument.platform_type !== filters.platformType
+    ) {
+      return false
+    }
+    if (!includesFilter(instrument.platforms.join(' '), filters.platform)) {
+      return false
+    }
+    if (!includesFilter(instrument.operators.join(' '), filters.operator)) {
+      return false
+    }
+    if (filters.status && instrument.status !== filters.status) return false
+    if (
+      filters.availability &&
+      instrument.availability !== filters.availability
+    ) {
+      return false
+    }
+    if (
+      !includesFilter(instrument.contributors.join(' '), filters.contributor)
+    ) {
+      return false
+    }
+    if (!includesFilter(instrument.references.join(' '), filters.reference)) {
+      return false
+    }
+    if (!matchesDateFilter(instrument.start_date)) return false
+    if (!matchesPresence(instrument.has_bands, filters.bands)) return false
+    if (!matchesPresence(instrument.has_srf, filters.srf)) return false
+    if (
+      !selectedDataAccess.value.every((provider) =>
+        instrument.data_access_points.includes(provider)
+      )
+    ) {
+      return false
+    }
+
+    return true
+  })
 })
 
 const groupedInstruments = computed<PlatformTypeGroup[]>(() => {
@@ -83,6 +210,53 @@ function headingText(value: string) {
     .replace(/\b\w/g, (character) => character.toUpperCase())
 }
 
+function sortedUnique(values: string[]) {
+  return Array.from(new Set(values.filter(Boolean))).sort((left, right) =>
+    left.localeCompare(right)
+  )
+}
+
+function includesFilter(value: string, filter: string) {
+  const normalizedFilter = filter.trim().toLowerCase()
+  return !normalizedFilter || value.toLowerCase().includes(normalizedFilter)
+}
+
+function matchesDateFilter(startDate: string) {
+  if (filters.dateMode === 'exact') {
+    return !filters.exactDate || startDate === filters.exactDate
+  }
+
+  if (filters.fromDate && startDate < filters.fromDate) return false
+  if (filters.toDate && startDate > filters.toDate) return false
+  return true
+}
+
+function matchesPresence(value: boolean, filter: PresenceFilter) {
+  if (filter === 'any') return true
+  return filter === 'yes' ? value : !value
+}
+
+function clearAdvancedFilters() {
+  filters.id = ''
+  filters.name = ''
+  filters.acronym = ''
+  filters.type = ''
+  filters.platformType = ''
+  filters.platform = ''
+  filters.operator = ''
+  filters.status = ''
+  filters.availability = ''
+  filters.contributor = ''
+  filters.reference = ''
+  filters.dateMode = 'exact'
+  filters.exactDate = ''
+  filters.fromDate = ''
+  filters.toDate = ''
+  filters.bands = 'any'
+  filters.srf = 'any'
+  selectedDataAccess.value = []
+}
+
 function valueClass(prefix: string, value: string) {
   const normalizedValue = value
     .trim()
@@ -106,22 +280,271 @@ function valueClass(prefix: string, value: string) {
         placeholder="Try Sentinel, hyperspectral, ESA, active..."
         autocomplete="off"
       >
-      <button
-        v-if="query"
-        class="clear-button"
-        type="button"
-        @click="query = ''"
-      >
-        Clear
-      </button>
+      <div class="search-actions">
+        <button
+          v-if="query"
+          class="clear-button"
+          type="button"
+          @click="query = ''"
+        >
+          Clear
+        </button>
+        <button
+          class="advanced-toggle"
+          :class="{ 'is-open': advancedOpen }"
+          type="button"
+          aria-controls="advanced-instrument-search"
+          :aria-expanded="advancedOpen"
+          @click="advancedOpen = !advancedOpen"
+        >
+          <span>{{ advancedOpen ? 'Hide advanced search' : 'Advanced search' }}</span>
+          <span v-if="advancedFilterCount" class="filter-count">
+            {{ advancedFilterCount }}
+          </span>
+        </button>
+      </div>
     </div>
+
+    <Transition name="advanced-panel">
+      <section
+        v-if="advancedOpen"
+        id="advanced-instrument-search"
+        class="advanced-search"
+        aria-label="Advanced instrument search"
+      >
+        <header class="advanced-header">
+          <div>
+            <span class="advanced-eyebrow">Structured filters</span>
+            <h2>Advanced search</h2>
+            <p>
+              Combine metadata, temporal, spectral, and data-access filters.
+            </p>
+          </div>
+          <button
+            v-if="advancedFilterCount"
+            class="reset-button"
+            type="button"
+            @click="clearAdvancedFilters"
+          >
+            Reset {{ advancedFilterCount }} filters
+          </button>
+        </header>
+
+        <div class="filter-section">
+          <h3>Instrument metadata</h3>
+          <div class="filter-grid">
+            <label class="filter-field">
+              <span>Instrument ID</span>
+              <input
+                v-model="filters.id"
+                class="filter-input"
+                type="search"
+                placeholder="e.g. MSI_S2A"
+              >
+            </label>
+            <label class="filter-field">
+              <span>Name</span>
+              <input
+                v-model="filters.name"
+                class="filter-input"
+                type="search"
+                placeholder="Name contains..."
+              >
+            </label>
+            <label class="filter-field">
+              <span>Acronym</span>
+              <input
+                v-model="filters.acronym"
+                class="filter-input"
+                type="search"
+                placeholder="e.g. OLCI"
+              >
+            </label>
+            <label class="filter-field">
+              <span>Instrument type</span>
+              <select v-model="filters.type" class="filter-input">
+                <option value="">Any type</option>
+                <option
+                  v-for="value in instrumentTypeOptions"
+                  :key="value"
+                  :value="value"
+                >
+                  {{ headingText(value) }}
+                </option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Platform type</span>
+              <select v-model="filters.platformType" class="filter-input">
+                <option value="">Any platform type</option>
+                <option
+                  v-for="value in platformTypeOptions"
+                  :key="value"
+                  :value="value"
+                >
+                  {{ headingText(value) }}
+                </option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Platform</span>
+              <input
+                v-model="filters.platform"
+                class="filter-input"
+                type="search"
+                placeholder="e.g. Sentinel-3"
+              >
+            </label>
+            <label class="filter-field">
+              <span>Operator</span>
+              <input
+                v-model="filters.operator"
+                class="filter-input"
+                type="search"
+                placeholder="e.g. ESA"
+              >
+            </label>
+            <label class="filter-field">
+              <span>Status</span>
+              <select v-model="filters.status" class="filter-input">
+                <option value="">Any status</option>
+                <option
+                  v-for="value in statusOptions"
+                  :key="value"
+                  :value="value"
+                >
+                  {{ headingText(value) }}
+                </option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Availability</span>
+              <select v-model="filters.availability" class="filter-input">
+                <option value="">Any availability</option>
+                <option
+                  v-for="value in availabilityOptions"
+                  :key="value"
+                  :value="value"
+                >
+                  {{ headingText(value) }}
+                </option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Contributor</span>
+              <input
+                v-model="filters.contributor"
+                class="filter-input"
+                type="search"
+                placeholder="GitHub username or URL"
+              >
+            </label>
+            <label class="filter-field filter-field-wide">
+              <span>Reference URL</span>
+              <input
+                v-model="filters.reference"
+                class="filter-input"
+                type="search"
+                placeholder="DOI, domain, or URL contains..."
+              >
+            </label>
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <h3>Start date</h3>
+          <div class="date-controls">
+            <label class="filter-field">
+              <span>Date filter</span>
+              <select v-model="filters.dateMode" class="filter-input">
+                <option value="exact">Exact date</option>
+                <option value="range">Date range</option>
+              </select>
+            </label>
+            <label v-if="filters.dateMode === 'exact'" class="filter-field">
+              <span>Started on</span>
+              <input
+                v-model="filters.exactDate"
+                class="filter-input"
+                type="date"
+              >
+            </label>
+            <template v-else>
+              <label class="filter-field">
+                <span>From</span>
+                <input
+                  v-model="filters.fromDate"
+                  class="filter-input"
+                  type="date"
+                >
+              </label>
+              <label class="filter-field">
+                <span>To</span>
+                <input
+                  v-model="filters.toDate"
+                  class="filter-input"
+                  type="date"
+                >
+              </label>
+            </template>
+          </div>
+        </div>
+
+        <div class="filter-section resource-section">
+          <div>
+            <h3>Spectral resources</h3>
+            <div class="resource-grid">
+              <label class="filter-field">
+                <span>Band definitions</span>
+                <select v-model="filters.bands" class="filter-input">
+                  <option value="any">Any</option>
+                  <option value="yes">Available</option>
+                  <option value="no">Not available</option>
+                </select>
+              </label>
+              <label class="filter-field">
+                <span>Spectral response function</span>
+                <select v-model="filters.srf" class="filter-input">
+                  <option value="any">Any</option>
+                  <option value="yes">Available</option>
+                  <option value="no">Not available</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <fieldset class="provider-fieldset">
+            <legend>Data access</legend>
+            <p>Selected providers must all be available.</p>
+            <div class="provider-grid">
+              <label
+                v-for="provider in dataAccessOptions"
+                :key="provider.key"
+                class="provider-option"
+              >
+                <input
+                  v-model="selectedDataAccess"
+                  type="checkbox"
+                  :value="provider.key"
+                >
+                <span>{{ provider.label }}</span>
+              </label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+    </Transition>
 
     <p class="search-count">
       Showing {{ filteredInstruments.length }} of {{ instruments.length }} instruments.
+      <span v-if="advancedFilterCount">
+        {{ advancedFilterCount }} advanced
+        {{ advancedFilterCount === 1 ? 'filter' : 'filters' }} applied.
+      </span>
     </p>
 
     <p v-if="!filteredInstruments.length" class="empty-state">
-      No instruments match this search.
+      No instruments match the current search and filters.
     </p>
 
     <section
@@ -192,6 +615,7 @@ function valueClass(prefix: string, value: string) {
 .search-row {
   display: flex;
   gap: 0.75rem;
+  align-items: stretch;
 }
 
 .search-input {
@@ -209,6 +633,12 @@ function valueClass(prefix: string, value: string) {
   outline: 2px solid color-mix(in srgb, var(--vp-c-brand-1) 30%, transparent);
 }
 
+.search-actions {
+  display: flex;
+  flex: none;
+  gap: 0.6rem;
+}
+
 .clear-button {
   border: 1px solid var(--vp-c-divider);
   border-radius: 999px;
@@ -222,6 +652,230 @@ function valueClass(prefix: string, value: string) {
 .clear-button:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
+}
+
+.advanced-toggle {
+  display: inline-flex;
+  gap: 0.55rem;
+  align-items: center;
+  justify-content: center;
+  min-width: 10.5rem;
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 45%, var(--vp-c-divider));
+  border-radius: 999px;
+  padding: 0 1rem;
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--vp-c-brand-1) 16%, transparent),
+      color-mix(in srgb, var(--vp-c-brand-2) 7%, transparent)
+    ),
+    var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  font-weight: 750;
+}
+
+.advanced-toggle:hover,
+.advanced-toggle.is-open {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.filter-count {
+  display: inline-grid;
+  min-width: 1.45rem;
+  min-height: 1.45rem;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-bg);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.advanced-search {
+  position: relative;
+  overflow: hidden;
+  margin-top: 1rem;
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 30%, var(--vp-c-divider));
+  border-radius: 24px;
+  padding: 1.25rem;
+  background:
+    radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--vp-c-brand-1) 13%, transparent),
+      transparent 34%
+    ),
+    var(--vp-c-bg-soft);
+}
+
+.advanced-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.advanced-header h2 {
+  margin: 0.15rem 0 0;
+  border: 0;
+  padding: 0;
+  font-size: 1.35rem;
+}
+
+.advanced-header p,
+.provider-fieldset p {
+  margin: 0.3rem 0 0;
+  color: var(--vp-c-text-2);
+  font-size: 0.88rem;
+}
+
+.advanced-eyebrow {
+  color: var(--vp-c-brand-1);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.reset-button {
+  flex: none;
+  border: 0;
+  padding: 0.35rem 0;
+  background: transparent;
+  color: var(--vp-c-brand-1);
+  cursor: pointer;
+  font-weight: 750;
+}
+
+.reset-button:hover {
+  text-decoration: underline;
+}
+
+.filter-section {
+  margin-top: 1.15rem;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 1rem;
+}
+
+.filter-section h3,
+.provider-fieldset legend {
+  margin: 0 0 0.75rem;
+  color: var(--vp-c-text-1);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.filter-field {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--vp-c-text-2);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.filter-field-wide {
+  grid-column: span 2;
+}
+
+.filter-input {
+  width: 100%;
+  min-height: 2.55rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 0.55rem 0.7rem;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.filter-input:focus {
+  border-color: var(--vp-c-brand-1);
+  outline: 2px solid color-mix(in srgb, var(--vp-c-brand-1) 25%, transparent);
+}
+
+.date-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.resource-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 1.5rem;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.provider-fieldset {
+  min-width: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.provider-fieldset legend {
+  padding: 0;
+}
+
+.provider-fieldset p {
+  margin: -0.55rem 0 0.75rem;
+}
+
+.provider-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.provider-option {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  min-width: 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 0.65rem 0.75rem;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.provider-option:has(input:checked) {
+  border-color: var(--vp-c-brand-1);
+  background: color-mix(in srgb, var(--vp-c-brand-1) 12%, var(--vp-c-bg));
+}
+
+.provider-option input {
+  flex: none;
+  accent-color: var(--vp-c-brand-1);
+}
+
+.advanced-panel-enter-active,
+.advanced-panel-leave-active {
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.advanced-panel-enter-from,
+.advanced-panel-leave-to {
+  opacity: 0;
+  transform: translateY(-6px);
 }
 
 .search-count,
@@ -365,8 +1019,31 @@ function valueClass(prefix: string, value: string) {
     flex-direction: column;
   }
 
-  .clear-button {
+  .search-actions,
+  .clear-button,
+  .advanced-toggle {
+    width: 100%;
+  }
+
+  .clear-button,
+  .advanced-toggle {
     min-height: 2.75rem;
+  }
+
+  .advanced-header {
+    flex-direction: column;
+  }
+
+  .filter-grid,
+  .date-controls,
+  .resource-section,
+  .resource-grid,
+  .provider-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-field-wide {
+    grid-column: auto;
   }
 }
 </style>

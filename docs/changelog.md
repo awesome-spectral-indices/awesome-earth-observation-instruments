@@ -28,6 +28,11 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
   `retired` to `active` and `legacy`.
 - Added the initial contributor attribution to every instrument record.
 
+### Documentation
+
+- Added advanced instrument-index filters for core metadata, start dates,
+  spectral resources, and data access providers.
+
 ## 0.2.0
 
 ### Catalogue

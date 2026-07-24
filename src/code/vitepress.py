@@ -410,20 +410,69 @@ def render_index_data(instruments: dict[str, dict[str, Any]]) -> str:
     records = []
     for instrument_id in sorted(instruments):
         instrument = instruments[instrument_id]
+        platforms = [
+            text_value(value)
+            for value in instrument.get("platform", [])
+            if text_value(value)
+        ]
+        operators = [
+            text_value(value)
+            for value in instrument.get("operator", [])
+            if text_value(value)
+        ]
+        contributors = [
+            text_value(value)
+            for value in instrument.get("contributors", [])
+            if text_value(value)
+        ]
+        references = [
+            text_value(value)
+            for value in instrument.get("references", [])
+            if text_value(value)
+        ]
+        extensions = instrument.get("extensions", {})
+        extensions = extensions if isinstance(extensions, dict) else {}
+        spectral = extensions.get("spectral", {})
+        spectral = spectral if isinstance(spectral, dict) else {}
+        data_access = extensions.get("data_access", {})
+        data_access = data_access if isinstance(data_access, dict) else {}
         platform = platforms_text(instrument)
         record = {
             "id": instrument_id,
             "name": text_value(instrument.get("name", "")),
             "acronym": text_value(instrument.get("acronym", "")),
             "platform": platform,
+            "platforms": platforms,
             "platform_type": text_value(instrument.get("platform_type", "other")),
             "type": text_value(instrument.get("type", "other")),
             "operator": text_value(instrument.get("operator", "")),
+            "operators": operators,
+            "start_date": text_value(instrument.get("start_date", "")),
             "status": text_value(instrument.get("status", "")),
             "availability": text_value(instrument.get("availability", "")),
+            "contributors": contributors,
+            "references": references,
+            "has_bands": bool(spectral.get("bands")),
+            "has_srf": bool(spectral.get("spectral_response_function")),
+            "data_access_points": sorted(data_access),
             "href": f"/instruments/{instrument_id}",
         }
-        record["search_text"] = " ".join(str(value) for value in record.values()).lower()
+        record["search_text"] = " ".join(
+            [
+                instrument_id,
+                record["name"],
+                record["acronym"],
+                *platforms,
+                record["platform_type"],
+                record["type"],
+                *operators,
+                record["start_date"],
+                record["status"],
+                record["availability"],
+                *contributors,
+                *references,
+            ]
+        ).lower()
         records.append(record)
 
     return json.dumps(records, indent=2) + "\n"

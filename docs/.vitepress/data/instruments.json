@@ -4,415 +4,1069 @@
     "name": "Altum AL04 (or lower) Series",
     "acronym": "Altum",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2018-10-02",
     "status": "legacy",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide",
+      "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html",
+      "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/ALTUMAL04_lte_MICASENSE",
-    "search_text": "altumal04_lte_micasense altum al04 (or lower) series altum uav uav multispectral micasense legacy private /instruments/altumal04_lte_micasense"
+    "search_text": "altumal04_lte_micasense altum al04 (or lower) series altum uav uav multispectral micasense 2018-10-02 legacy private https://github.com/davemlz https://support.micasense.com/hc/en-us/articles/360010025413-altum-integration-guide https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html https://support.micasense.com/hc/en-us/articles/1500007828482-comparison-of-micasense-cameras"
   },
   {
     "id": "ALTUMAL05_MICASENSE",
     "name": "Altum AL05 Series",
     "acronym": "Altum",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2020-06-02",
     "status": "legacy",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide",
+      "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html",
+      "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/ALTUMAL05_MICASENSE",
-    "search_text": "altumal05_micasense altum al05 series altum uav uav multispectral micasense legacy private /instruments/altumal05_micasense"
+    "search_text": "altumal05_micasense altum al05 series altum uav uav multispectral micasense 2020-06-02 legacy private https://github.com/davemlz https://support.micasense.com/hc/en-us/articles/360010025413-altum-integration-guide https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html https://support.micasense.com/hc/en-us/articles/1500007828482-comparison-of-micasense-cameras"
   },
   {
     "id": "ALTUMAL06_gte_MICASENSE",
     "name": "Altum AL06 (or greater) Series",
     "acronym": "Altum",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2021-06-12",
     "status": "legacy",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/articles/360010025413-Altum-Integration-Guide",
+      "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html",
+      "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/ALTUMAL06_gte_MICASENSE",
-    "search_text": "altumal06_gte_micasense altum al06 (or greater) series altum uav uav multispectral micasense legacy private /instruments/altumal06_gte_micasense"
+    "search_text": "altumal06_gte_micasense altum al06 (or greater) series altum uav uav multispectral micasense 2021-06-12 legacy private https://github.com/davemlz https://support.micasense.com/hc/en-us/articles/360010025413-altum-integration-guide https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html https://support.micasense.com/hc/en-us/articles/1500007828482-comparison-of-micasense-cameras"
   },
   {
     "id": "ALTUMPT_MICASENSE",
     "name": "Altum-PT",
     "acronym": "Altum-PT",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2021-11-08",
     "status": "active",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/articles/4419868608407-Altum-PT-Integration-Guide",
+      "https://www.globenewswire.com/news-release/2021/11/08/2329305/0/en/ageagle-announces-launch-of-micasense-s-altum-pt.html"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/ALTUMPT_MICASENSE",
-    "search_text": "altumpt_micasense altum-pt altum-pt uav uav multispectral micasense active private /instruments/altumpt_micasense"
+    "search_text": "altumpt_micasense altum-pt altum-pt uav uav multispectral micasense 2021-11-08 active private https://github.com/davemlz https://support.micasense.com/hc/en-us/articles/4419868608407-altum-pt-integration-guide https://www.globenewswire.com/news-release/2021/11/08/2329305/0/en/ageagle-announces-launch-of-micasense-s-altum-pt.html"
   },
   {
     "id": "ASTER",
     "name": "Advanced Spaceborne Thermal Emission and Reflection Radiometer",
     "acronym": "ASTER",
     "platform": "Terra",
+    "platforms": [
+      "Terra"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, METI, Japan Space Systems",
+    "operators": [
+      "NASA",
+      "METI",
+      "Japan Space Systems"
+    ],
+    "start_date": "1999-12-18",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://asterweb.jpl.nasa.gov/index.asp",
+      "https://asterweb.jpl.nasa.gov/characteristics.asp",
+      "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt",
+      "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt",
+      "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt",
+      "https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/ASTER",
-    "search_text": "aster advanced spaceborne thermal emission and reflection radiometer aster terra satellite multispectral nasa, meti, japan space systems operational public /instruments/aster"
+    "search_text": "aster advanced spaceborne thermal emission and reflection radiometer aster terra satellite multispectral nasa meti japan space systems 1999-12-18 operational public https://github.com/davemlz https://asterweb.jpl.nasa.gov/index.asp https://asterweb.jpl.nasa.gov/characteristics.asp https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
   },
   {
     "id": "EMIT",
     "name": "Earth Surface Mineral Dust Source Investigation",
     "acronym": "EMIT",
     "platform": "ISS",
+    "platforms": [
+      "ISS"
+    ],
     "platform_type": "satellite",
     "type": "hyperspectral",
     "operator": "NASA",
+    "operators": [
+      "NASA"
+    ],
+    "start_date": "2022-08-09",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://earth.jpl.nasa.gov/emit/",
+      "https://earth.jpl.nasa.gov/emit/instrument/overview/",
+      "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer/spectral-bands"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [
+      "ee"
+    ],
     "href": "/instruments/EMIT",
-    "search_text": "emit earth surface mineral dust source investigation emit iss satellite hyperspectral nasa operational public /instruments/emit"
+    "search_text": "emit earth surface mineral dust source investigation emit iss satellite hyperspectral nasa 2022-08-09 operational public https://github.com/davemlz https://earth.jpl.nasa.gov/emit/ https://earth.jpl.nasa.gov/emit/instrument/overview/ https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer/spectral-bands"
   },
   {
     "id": "ETM_L7",
     "name": "Enhanced Thematic Mapper Plus",
     "acronym": "ETM+",
     "platform": "Landsat 7",
+    "platforms": [
+      "Landsat 7"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "1999-04-15",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/etm-plus/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/ETM_L7",
-    "search_text": "etm_l7 enhanced thematic mapper plus etm+ landsat 7 satellite multispectral nasa, usgs operational public /instruments/etm_l7"
+    "search_text": "etm_l7 enhanced thematic mapper plus etm+ landsat 7 satellite multispectral nasa usgs 1999-04-15 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/etm-plus/"
   },
   {
     "id": "MODIS_AQUA",
     "name": "Moderate Resolution Imaging Spectroradiometer",
     "acronym": "MODIS",
     "platform": "Aqua",
+    "platforms": [
+      "Aqua"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA",
+    "operators": [
+      "NASA"
+    ],
+    "start_date": "2002-05-04",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://modis.gsfc.nasa.gov/about/",
+      "https://modis.gsfc.nasa.gov/about/specifications.php",
+      "https://mcst.gsfc.nasa.gov/calibration/information",
+      "https://www.earthdata.nasa.gov/data/instruments/modis",
+      "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=395"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/MODIS_AQUA",
-    "search_text": "modis_aqua moderate resolution imaging spectroradiometer modis aqua satellite multispectral nasa operational public /instruments/modis_aqua"
+    "search_text": "modis_aqua moderate resolution imaging spectroradiometer modis aqua satellite multispectral nasa 2002-05-04 operational public https://github.com/davemlz https://modis.gsfc.nasa.gov/about/ https://modis.gsfc.nasa.gov/about/specifications.php https://mcst.gsfc.nasa.gov/calibration/information https://www.earthdata.nasa.gov/data/instruments/modis https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentid=395"
   },
   {
     "id": "MODIS_TERRA",
     "name": "Moderate Resolution Imaging Spectroradiometer",
     "acronym": "MODIS",
     "platform": "Terra",
+    "platforms": [
+      "Terra"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA",
+    "operators": [
+      "NASA"
+    ],
+    "start_date": "1999-12-18",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://modis.gsfc.nasa.gov/about/",
+      "https://modis.gsfc.nasa.gov/about/specifications.php",
+      "https://mcst.gsfc.nasa.gov/calibration/information",
+      "https://www.earthdata.nasa.gov/data/instruments/modis",
+      "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=395"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/MODIS_TERRA",
-    "search_text": "modis_terra moderate resolution imaging spectroradiometer modis terra satellite multispectral nasa operational public /instruments/modis_terra"
+    "search_text": "modis_terra moderate resolution imaging spectroradiometer modis terra satellite multispectral nasa 1999-12-18 operational public https://github.com/davemlz https://modis.gsfc.nasa.gov/about/ https://modis.gsfc.nasa.gov/about/specifications.php https://mcst.gsfc.nasa.gov/calibration/information https://www.earthdata.nasa.gov/data/instruments/modis https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentid=395"
   },
   {
     "id": "MSI_S2A",
     "name": "MultiSpectral Instrument",
     "acronym": "MSI",
     "platform": "Sentinel-2A",
+    "platforms": [
+      "Sentinel-2A"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "ESA, Copernicus",
+    "operators": [
+      "ESA",
+      "Copernicus"
+    ],
+    "start_date": "2015-06-23",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://sentiwiki.copernicus.eu/web/s2-mission#S2-Mission-MSI-Instrument",
+      "https://doi.org/10.1016/j.rse.2011.11.026",
+      "https://doi.org/10.5194/isprs-annals-V-1-2022-57-2022"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "eopf",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSI_S2A",
-    "search_text": "msi_s2a multispectral instrument msi sentinel-2a satellite multispectral esa, copernicus operational public /instruments/msi_s2a"
+    "search_text": "msi_s2a multispectral instrument msi sentinel-2a satellite multispectral esa copernicus 2015-06-23 operational public https://github.com/davemlz https://sentiwiki.copernicus.eu/web/s2-mission#s2-mission-msi-instrument https://doi.org/10.1016/j.rse.2011.11.026 https://doi.org/10.5194/isprs-annals-v-1-2022-57-2022"
   },
   {
     "id": "MSI_S2B",
     "name": "MultiSpectral Instrument",
     "acronym": "MSI",
     "platform": "Sentinel-2B",
+    "platforms": [
+      "Sentinel-2B"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "ESA, Copernicus",
+    "operators": [
+      "ESA",
+      "Copernicus"
+    ],
+    "start_date": "2017-03-07",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://sentiwiki.copernicus.eu/web/s2-mission#S2-Mission-MSI-Instrument",
+      "https://doi.org/10.1016/j.rse.2011.11.026",
+      "https://doi.org/10.5194/isprs-annals-V-1-2022-57-2022"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "eopf",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSI_S2B",
-    "search_text": "msi_s2b multispectral instrument msi sentinel-2b satellite multispectral esa, copernicus operational public /instruments/msi_s2b"
+    "search_text": "msi_s2b multispectral instrument msi sentinel-2b satellite multispectral esa copernicus 2017-03-07 operational public https://github.com/davemlz https://sentiwiki.copernicus.eu/web/s2-mission#s2-mission-msi-instrument https://doi.org/10.1016/j.rse.2011.11.026 https://doi.org/10.5194/isprs-annals-v-1-2022-57-2022"
   },
   {
     "id": "MSI_S2C",
     "name": "MultiSpectral Instrument",
     "acronym": "MSI",
     "platform": "Sentinel-2C",
+    "platforms": [
+      "Sentinel-2C"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "ESA, Copernicus",
+    "operators": [
+      "ESA",
+      "Copernicus"
+    ],
+    "start_date": "2024-09-05",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://sentiwiki.copernicus.eu/web/s2-mission#S2-Mission-MSI-Instrument",
+      "https://doi.org/10.1016/j.rse.2011.11.026",
+      "https://doi.org/10.5194/isprs-annals-V-1-2022-57-2022"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "eopf",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSI_S2C",
-    "search_text": "msi_s2c multispectral instrument msi sentinel-2c satellite multispectral esa, copernicus operational public /instruments/msi_s2c"
+    "search_text": "msi_s2c multispectral instrument msi sentinel-2c satellite multispectral esa copernicus 2024-09-05 operational public https://github.com/davemlz https://sentiwiki.copernicus.eu/web/s2-mission#s2-mission-msi-instrument https://doi.org/10.1016/j.rse.2011.11.026 https://doi.org/10.5194/isprs-annals-v-1-2022-57-2022"
   },
   {
     "id": "MSS_L1",
     "name": "Multispectral Scanner System",
     "acronym": "MSS",
     "platform": "Landsat 1",
+    "platforms": [
+      "Landsat 1"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA",
+    "operators": [
+      "NASA"
+    ],
+    "start_date": "1972-07-23",
     "status": "retired",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSS_L1",
-    "search_text": "mss_l1 multispectral scanner system mss landsat 1 satellite multispectral nasa retired public /instruments/mss_l1"
+    "search_text": "mss_l1 multispectral scanner system mss landsat 1 satellite multispectral nasa 1972-07-23 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/mss/"
   },
   {
     "id": "MSS_L2",
     "name": "Multispectral Scanner System",
     "acronym": "MSS",
     "platform": "Landsat 2",
+    "platforms": [
+      "Landsat 2"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, NOAA",
+    "operators": [
+      "NASA",
+      "NOAA"
+    ],
+    "start_date": "1975-01-22",
     "status": "retired",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSS_L2",
-    "search_text": "mss_l2 multispectral scanner system mss landsat 2 satellite multispectral nasa, noaa retired public /instruments/mss_l2"
+    "search_text": "mss_l2 multispectral scanner system mss landsat 2 satellite multispectral nasa noaa 1975-01-22 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/mss/"
   },
   {
     "id": "MSS_L3",
     "name": "Multispectral Scanner System",
     "acronym": "MSS",
     "platform": "Landsat 3",
+    "platforms": [
+      "Landsat 3"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA",
+    "operators": [
+      "NASA"
+    ],
+    "start_date": "1978-03-05",
     "status": "retired",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSS_L3",
-    "search_text": "mss_l3 multispectral scanner system mss landsat 3 satellite multispectral nasa retired public /instruments/mss_l3"
+    "search_text": "mss_l3 multispectral scanner system mss landsat 3 satellite multispectral nasa 1978-03-05 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/mss/"
   },
   {
     "id": "MSS_L4",
     "name": "Multispectral Scanner System",
     "acronym": "MSS",
     "platform": "Landsat 4",
+    "platforms": [
+      "Landsat 4"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "1982-07-16",
     "status": "retired",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSS_L4",
-    "search_text": "mss_l4 multispectral scanner system mss landsat 4 satellite multispectral nasa, usgs retired public /instruments/mss_l4"
+    "search_text": "mss_l4 multispectral scanner system mss landsat 4 satellite multispectral nasa usgs 1982-07-16 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/mss/"
   },
   {
     "id": "MSS_L5",
     "name": "Multispectral Scanner System",
     "acronym": "MSS",
     "platform": "Landsat 5",
+    "platforms": [
+      "Landsat 5"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "1984-03-01",
     "status": "retired",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/mss/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/MSS_L5",
-    "search_text": "mss_l5 multispectral scanner system mss landsat 5 satellite multispectral nasa, usgs retired public /instruments/mss_l5"
+    "search_text": "mss_l5 multispectral scanner system mss landsat 5 satellite multispectral nasa usgs 1984-03-01 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/mss/"
   },
   {
     "id": "OLCI_S3A",
     "name": "Ocean and Land Colour Instrument",
     "acronym": "OLCI",
     "platform": "Sentinel-3A",
+    "platforms": [
+      "Sentinel-3A"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "ESA, EUMETSAT, Copernicus",
+    "operators": [
+      "ESA",
+      "EUMETSAT",
+      "Copernicus"
+    ],
+    "start_date": "2016-02-16",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://sentiwiki.copernicus.eu/web/s3-olci-instrument",
+      "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Facts_and_figures",
+      "https://www.earthdata.nasa.gov/data/instruments/olci",
+      "https://doi.org/10.1016/j.rse.2011.07.024"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "eopf",
+      "planetary_computer"
+    ],
     "href": "/instruments/OLCI_S3A",
-    "search_text": "olci_s3a ocean and land colour instrument olci sentinel-3a satellite multispectral esa, eumetsat, copernicus operational public /instruments/olci_s3a"
+    "search_text": "olci_s3a ocean and land colour instrument olci sentinel-3a satellite multispectral esa eumetsat copernicus 2016-02-16 operational public https://github.com/davemlz https://sentiwiki.copernicus.eu/web/s3-olci-instrument https://www.esa.int/applications/observing_the_earth/copernicus/sentinel-3/facts_and_figures https://www.earthdata.nasa.gov/data/instruments/olci https://doi.org/10.1016/j.rse.2011.07.024"
   },
   {
     "id": "OLCI_S3B",
     "name": "Ocean and Land Colour Instrument",
     "acronym": "OLCI",
     "platform": "Sentinel-3B",
+    "platforms": [
+      "Sentinel-3B"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "ESA, EUMETSAT, Copernicus",
+    "operators": [
+      "ESA",
+      "EUMETSAT",
+      "Copernicus"
+    ],
+    "start_date": "2018-04-25",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://sentiwiki.copernicus.eu/web/s3-olci-instrument",
+      "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Facts_and_figures",
+      "https://www.earthdata.nasa.gov/data/instruments/olci",
+      "https://doi.org/10.1016/j.rse.2011.07.024"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "eopf",
+      "planetary_computer"
+    ],
     "href": "/instruments/OLCI_S3B",
-    "search_text": "olci_s3b ocean and land colour instrument olci sentinel-3b satellite multispectral esa, eumetsat, copernicus operational public /instruments/olci_s3b"
+    "search_text": "olci_s3b ocean and land colour instrument olci sentinel-3b satellite multispectral esa eumetsat copernicus 2018-04-25 operational public https://github.com/davemlz https://sentiwiki.copernicus.eu/web/s3-olci-instrument https://www.esa.int/applications/observing_the_earth/copernicus/sentinel-3/facts_and_figures https://www.earthdata.nasa.gov/data/instruments/olci https://doi.org/10.1016/j.rse.2011.07.024"
   },
   {
     "id": "OLI2_L9",
     "name": "Operational Land Imager 2",
     "acronym": "OLI2",
     "platform": "Landsat 9",
+    "platforms": [
+      "Landsat 9"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "2021-09-27",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/oli/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/OLI2_L9",
-    "search_text": "oli2_l9 operational land imager 2 oli2 landsat 9 satellite multispectral nasa, usgs operational public /instruments/oli2_l9"
+    "search_text": "oli2_l9 operational land imager 2 oli2 landsat 9 satellite multispectral nasa usgs 2021-09-27 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/oli/"
   },
   {
     "id": "OLI_L8",
     "name": "Operational Land Imager",
     "acronym": "OLI",
     "platform": "Landsat 8",
+    "platforms": [
+      "Landsat 8"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "2013-02-11",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/oli/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/OLI_L8",
-    "search_text": "oli_l8 operational land imager oli landsat 8 satellite multispectral nasa, usgs operational public /instruments/oli_l8"
+    "search_text": "oli_l8 operational land imager oli landsat 8 satellite multispectral nasa usgs 2013-02-11 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/oli/"
   },
   {
     "id": "REDEDGE3_MICASENSE",
     "name": "RedEdge-3",
     "acronym": "RedEdge-3",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2015-03-16",
     "status": "legacy",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/article_attachments/204648307",
+      "https://www.prweb.com/releases/2015/03/prweb12584473.htm",
+      "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/REDEDGE3_MICASENSE",
-    "search_text": "rededge3_micasense rededge-3 rededge-3 uav uav multispectral micasense legacy private /instruments/rededge3_micasense"
+    "search_text": "rededge3_micasense rededge-3 rededge-3 uav uav multispectral micasense 2015-03-16 legacy private https://github.com/davemlz https://support.micasense.com/hc/en-us/article_attachments/204648307 https://www.prweb.com/releases/2015/03/prweb12584473.htm https://support.micasense.com/hc/en-us/articles/1500007828482-comparison-of-micasense-cameras"
   },
   {
     "id": "REDEDGEMX_RX01_MICASENSE",
     "name": "RedEdge-MX RX01 Series",
     "acronym": "RedEdge-MX",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2018-10-02",
     "status": "legacy",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide",
+      "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html",
+      "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/REDEDGEMX_RX01_MICASENSE",
-    "search_text": "rededgemx_rx01_micasense rededge-mx rx01 series rededge-mx uav uav multispectral micasense legacy private /instruments/rededgemx_rx01_micasense"
+    "search_text": "rededgemx_rx01_micasense rededge-mx rx01 series rededge-mx uav uav multispectral micasense 2018-10-02 legacy private https://github.com/davemlz https://support.micasense.com/hc/en-us/articles/360011389334-rededge-mx-integration-guide https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html https://support.micasense.com/hc/en-us/articles/1500007828482-comparison-of-micasense-cameras"
   },
   {
     "id": "REDEDGEMX_RX02_gte_MICASENSE",
     "name": "RedEdge-MX RX02 (or greater) Series",
     "acronym": "RedEdge-MX",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2020-11-01",
     "status": "legacy",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide",
+      "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html",
+      "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/REDEDGEMX_RX02_gte_MICASENSE",
-    "search_text": "rededgemx_rx02_gte_micasense rededge-mx rx02 (or greater) series rededge-mx uav uav multispectral micasense legacy private /instruments/rededgemx_rx02_gte_micasense"
+    "search_text": "rededgemx_rx02_gte_micasense rededge-mx rx02 (or greater) series rededge-mx uav uav multispectral micasense 2020-11-01 legacy private https://github.com/davemlz https://support.micasense.com/hc/en-us/articles/360011389334-rededge-mx-integration-guide https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html https://support.micasense.com/hc/en-us/articles/1500007828482-comparison-of-micasense-cameras"
   },
   {
     "id": "REDEDGEM_MICASENSE",
     "name": "RedEdge-M",
     "acronym": "RedEdge-M",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2017-11-13",
     "status": "legacy",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/article_attachments/115004168274",
+      "https://www.prweb.com/releases/micasense_unveils_the_next_sensor_in_the_rededge_product_line/prweb14910472.htm",
+      "https://support.micasense.com/hc/en-us/articles/1500007828482-Comparison-of-MicaSense-Cameras"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/REDEDGEM_MICASENSE",
-    "search_text": "rededgem_micasense rededge-m rededge-m uav uav multispectral micasense legacy private /instruments/rededgem_micasense"
+    "search_text": "rededgem_micasense rededge-m rededge-m uav uav multispectral micasense 2017-11-13 legacy private https://github.com/davemlz https://support.micasense.com/hc/en-us/article_attachments/115004168274 https://www.prweb.com/releases/micasense_unveils_the_next_sensor_in_the_rededge_product_line/prweb14910472.htm https://support.micasense.com/hc/en-us/articles/1500007828482-comparison-of-micasense-cameras"
   },
   {
     "id": "REDEDGEP_MICASENSE",
     "name": "RedEdge-P",
     "acronym": "RedEdge-P",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "MicaSense",
+    "operators": [
+      "MicaSense"
+    ],
+    "start_date": "2021-10-26",
     "status": "active",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide",
+      "https://www.globenewswire.com/news-release/2021/10/26/2320660/0/en/ageagle-unveils-the-micasense-rededge-p-drone-sensor.html"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/REDEDGEP_MICASENSE",
-    "search_text": "rededgep_micasense rededge-p rededge-p uav uav multispectral micasense active private /instruments/rededgep_micasense"
+    "search_text": "rededgep_micasense rededge-p rededge-p uav uav multispectral micasense 2021-10-26 active private https://github.com/davemlz https://support.micasense.com/hc/en-us/articles/4410824602903-rededge-p-integration-guide https://www.globenewswire.com/news-release/2021/10/26/2320660/0/en/ageagle-unveils-the-micasense-rededge-p-drone-sensor.html"
   },
   {
     "id": "SEQUOIA_MULTISPECTRAL_PARROT",
     "name": "Sequoia Multispectral Sensor",
     "acronym": "Sequoia",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "multispectral",
     "operator": "Parrot",
+    "operators": [
+      "Parrot"
+    ],
+    "start_date": "2016-02-09",
     "status": "active",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://www.parrot.com/en/support/documentation/sequoia",
+      "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf",
+      "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
+    ],
+    "has_bands": true,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/SEQUOIA_MULTISPECTRAL_PARROT",
-    "search_text": "sequoia_multispectral_parrot sequoia multispectral sensor sequoia uav uav multispectral parrot active private /instruments/sequoia_multispectral_parrot"
+    "search_text": "sequoia_multispectral_parrot sequoia multispectral sensor sequoia uav uav multispectral parrot 2016-02-09 active private https://github.com/davemlz https://www.parrot.com/en/support/documentation/sequoia https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
   },
   {
     "id": "SEQUOIA_RGB_PARROT",
     "name": "Sequoia RGB Camera",
     "acronym": "Sequoia",
     "platform": "UAV",
+    "platforms": [
+      "UAV"
+    ],
     "platform_type": "uav",
     "type": "rgb",
     "operator": "Parrot",
+    "operators": [
+      "Parrot"
+    ],
+    "start_date": "2016-02-09",
     "status": "active",
     "availability": "private",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://www.parrot.com/en/support/documentation/sequoia",
+      "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf",
+      "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
+    ],
+    "has_bands": false,
+    "has_srf": false,
+    "data_access_points": [],
     "href": "/instruments/SEQUOIA_RGB_PARROT",
-    "search_text": "sequoia_rgb_parrot sequoia rgb camera sequoia uav uav rgb parrot active private /instruments/sequoia_rgb_parrot"
+    "search_text": "sequoia_rgb_parrot sequoia rgb camera sequoia uav uav rgb parrot 2016-02-09 active private https://github.com/davemlz https://www.parrot.com/en/support/documentation/sequoia https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
   },
   {
     "id": "TIRS2_L9",
     "name": "Thermal Infrared Sensor 2",
     "acronym": "TIRS2",
     "platform": "Landsat 9",
+    "platforms": [
+      "Landsat 9"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "2021-09-27",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/tirs/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/TIRS2_L9",
-    "search_text": "tirs2_l9 thermal infrared sensor 2 tirs2 landsat 9 satellite multispectral nasa, usgs operational public /instruments/tirs2_l9"
+    "search_text": "tirs2_l9 thermal infrared sensor 2 tirs2 landsat 9 satellite multispectral nasa usgs 2021-09-27 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tirs/"
   },
   {
     "id": "TIRS_L8",
     "name": "Thermal Infrared Sensor",
     "acronym": "TIRS",
     "platform": "Landsat 8",
+    "platforms": [
+      "Landsat 8"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "2013-02-11",
     "status": "operational",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/tirs/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/TIRS_L8",
-    "search_text": "tirs_l8 thermal infrared sensor tirs landsat 8 satellite multispectral nasa, usgs operational public /instruments/tirs_l8"
+    "search_text": "tirs_l8 thermal infrared sensor tirs landsat 8 satellite multispectral nasa usgs 2013-02-11 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tirs/"
   },
   {
     "id": "TM_L4",
     "name": "Thematic Mapper",
     "acronym": "TM",
     "platform": "Landsat 4",
+    "platforms": [
+      "Landsat 4"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "1982-07-16",
     "status": "retired",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/tm/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/TM_L4",
-    "search_text": "tm_l4 thematic mapper tm landsat 4 satellite multispectral nasa, usgs retired public /instruments/tm_l4"
+    "search_text": "tm_l4 thematic mapper tm landsat 4 satellite multispectral nasa usgs 1982-07-16 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tm/"
   },
   {
     "id": "TM_L5",
     "name": "Thematic Mapper",
     "acronym": "TM",
     "platform": "Landsat 5",
+    "platforms": [
+      "Landsat 5"
+    ],
     "platform_type": "satellite",
     "type": "multispectral",
     "operator": "NASA, USGS",
+    "operators": [
+      "NASA",
+      "USGS"
+    ],
+    "start_date": "1984-03-01",
     "status": "retired",
     "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://science.nasa.gov/mission/landsat/tm/"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "ee",
+      "planetary_computer"
+    ],
     "href": "/instruments/TM_L5",
-    "search_text": "tm_l5 thematic mapper tm landsat 5 satellite multispectral nasa, usgs retired public /instruments/tm_l5"
+    "search_text": "tm_l5 thematic mapper tm landsat 5 satellite multispectral nasa usgs 1984-03-01 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tm/"
   }
 ]
