@@ -10,6 +10,8 @@ operator:
 start_date: 2020-11-01
 status: legacy
 availability: private
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://support.micasense.com/hc/en-us/articles/360011389334-RedEdge-MX-Integration-Guide"
   - "https://www.prweb.com/releases/micasense-releases-revolutionary-new-sensor-altum-introduces-sensors-powered-by-dji-skyport-835785835.html"

@@ -39,6 +39,7 @@ def test_all_instruments_validate() -> None:
 
     assert len(instruments) == len(instrument_files)
     assert {instrument["id"] for instrument in instruments}
+    assert all(instrument["contributors"] for instrument in instruments)
 
 
 @pytest.mark.parametrize(
@@ -70,6 +71,7 @@ def test_status_matches_platform_lifecycle(
         "platform_type": platform_type,
         "platform": ["Test platform"],
         "operator": ["Test operator"],
+        "contributors": ["https://github.com/davemlz"],
         "start_date": "2020-01-01",
         "status": status,
         "availability": "private",
@@ -80,6 +82,48 @@ def test_status_matches_platform_lifecycle(
 
     if is_valid:
         assert validate_instrument(instrument_path)["status"] == status
+    else:
+        with pytest.raises(ValidationError):
+            validate_instrument(instrument_path)
+
+
+@pytest.mark.parametrize(
+    ("contributors", "is_valid"),
+    [
+        (["https://github.com/davemlz"], True),
+        (None, False),
+        ([], False),
+        (["davemlz"], False),
+        (["https://example.com/davemlz"], False),
+        (["https://github.com/davemlz", "https://github.com/davemlz"], False),
+    ],
+)
+def test_contributors_are_required_github_profiles(
+    tmp_path: Path,
+    contributors: list[str] | None,
+    is_valid: bool,
+) -> None:
+    instrument = {
+        "id": "TEST_CONTRIBUTORS",
+        "name": "Contributor Test Instrument",
+        "acronym": "TEST",
+        "type": "other",
+        "platform_type": "uav",
+        "platform": ["Test platform"],
+        "operator": ["Test operator"],
+        "start_date": "2020-01-01",
+        "status": "active",
+        "availability": "private",
+        "references": ["https://example.com"],
+    }
+    if contributors is not None:
+        instrument["contributors"] = contributors
+
+    instrument_path = tmp_path / "TEST_CONTRIBUTORS.yaml"
+    instrument_path.write_text(yaml.safe_dump(instrument), encoding="utf-8")
+
+    if is_valid:
+        assert validate_instrument(instrument_path)["contributors"] == contributors
     else:
         with pytest.raises(ValidationError):
             validate_instrument(instrument_path)

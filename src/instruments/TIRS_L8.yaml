@@ -11,6 +11,8 @@ operator:
 start_date: 2013-02-11
 status: operational
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://science.nasa.gov/mission/landsat/tirs/"
 

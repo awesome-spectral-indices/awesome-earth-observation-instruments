@@ -10,6 +10,8 @@ operator:
 start_date: 2015-03-16
 status: legacy
 availability: private
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://support.micasense.com/hc/en-us/article_attachments/204648307"
   - "https://www.prweb.com/releases/2015/03/prweb12584473.htm"

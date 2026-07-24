@@ -12,6 +12,8 @@ start_date: 1975-01-22
 end_date: 1982-02-25
 status: retired
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://science.nasa.gov/mission/landsat/mss/"
 

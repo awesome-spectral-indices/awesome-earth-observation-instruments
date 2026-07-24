@@ -16,6 +16,7 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
   instruments use `operational` or `retired`, while UAV and terrestrial
   instruments use `active` or `legacy`; all platforms retain `experimental`
   and `planned`.
+- Added the required `contributors` property for unique GitHub profile URLs.
 
 ### Instruments And Metadata
 
@@ -25,6 +26,7 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
   band definitions and platform-specific mean spectral response functions.
 - Migrated existing UAV instrument lifecycle statuses from `operational` and
   `retired` to `active` and `legacy`.
+- Added the initial contributor attribution to every instrument record.
 
 ## 0.2.0
 

@@ -12,6 +12,8 @@ operator:
 start_date: 2016-02-16
 status: operational
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://sentiwiki.copernicus.eu/web/s3-olci-instrument"
   - "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Facts_and_figures"

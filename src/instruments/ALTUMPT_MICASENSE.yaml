@@ -10,6 +10,8 @@ operator:
 start_date: 2021-11-08
 status: active
 availability: private
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://support.micasense.com/hc/en-us/articles/4419868608407-Altum-PT-Integration-Guide"
   - "https://www.globenewswire.com/news-release/2021/11/08/2329305/0/en/ageagle-announces-launch-of-micasense-s-altum-pt.html"

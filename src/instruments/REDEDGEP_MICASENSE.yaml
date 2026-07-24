@@ -10,6 +10,8 @@ operator:
 start_date: 2021-10-26
 status: active
 availability: private
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide"
   - "https://www.globenewswire.com/news-release/2021/10/26/2320660/0/en/ageagle-unveils-the-micasense-rededge-p-drone-sensor.html"

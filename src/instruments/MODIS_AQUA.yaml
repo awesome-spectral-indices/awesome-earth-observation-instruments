@@ -10,6 +10,8 @@ operator:
 start_date: 2002-05-04
 status: operational
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://modis.gsfc.nasa.gov/about/"
   - "https://modis.gsfc.nasa.gov/about/specifications.php"

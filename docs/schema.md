@@ -13,6 +13,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | **platform_type** | **Yes** | string | Platform class carrying the instrument |
 | **platform** | **Yes** | array | Satellite name, UAV model, aircraft, or terrestrial platform |
 | **operator** | **Yes** | array | Organization operating the instrument |
+| **contributors** | **Yes** | array | GitHub profile URLs of contributors to the instrument record |
 | **start_date** | **Yes** | string | Start of operation (YYYY-MM-DD) |
 | **status** | **Yes** | string | Instrument lifecycle state, using mission terms for satellite and airborne instruments and product terms for UAV and terrestrial instruments |
 | **availability** | **Yes** | string | Data accessibility level |

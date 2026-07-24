@@ -10,6 +10,8 @@ operator:
 start_date: 2016-02-09
 status: active
 availability: private
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://www.parrot.com/en/support/documentation/sequoia"
   - "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf"

@@ -15,6 +15,7 @@ required:
   - references
   - availability
   - operator
+  - contributors
 
 properties:
 
@@ -72,6 +73,15 @@ properties:
             - ISRO
         - type: string
           description: Other operator (not yet standardized)
+
+  contributors:
+    type: array
+    description: GitHub profile URLs of contributors to the instrument record
+    minItems: 1
+    uniqueItems: true
+    items:
+      type: string
+      pattern: "^https://github\\.com/[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?/?$"
 
   start_date:
     type: string

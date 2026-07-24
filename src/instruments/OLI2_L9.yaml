@@ -11,6 +11,8 @@ operator:
 start_date: 2021-09-27
 status: operational
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://science.nasa.gov/mission/landsat/oli/"
 

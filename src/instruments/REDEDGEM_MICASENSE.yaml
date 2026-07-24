@@ -10,6 +10,8 @@ operator:
 start_date: 2017-11-13
 status: legacy
 availability: private
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://support.micasense.com/hc/en-us/article_attachments/115004168274"
   - "https://www.prweb.com/releases/micasense_unveils_the_next_sensor_in_the_rededge_product_line/prweb14910472.htm"

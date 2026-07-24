@@ -11,6 +11,8 @@ operator:
 start_date: 1999-04-15
 status: operational
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://science.nasa.gov/mission/landsat/etm-plus/"
 

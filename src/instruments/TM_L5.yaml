@@ -12,6 +12,8 @@ start_date: 1984-03-01
 end_date: 2013-06-05
 status: retired
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://science.nasa.gov/mission/landsat/tm/"
 

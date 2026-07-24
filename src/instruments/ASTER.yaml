@@ -12,6 +12,8 @@ operator:
 start_date: 1999-12-18
 status: operational
 availability: public
+contributors:
+  - "https://github.com/davemlz"
 references:
   - "https://asterweb.jpl.nasa.gov/index.asp"
   - "https://asterweb.jpl.nasa.gov/characteristics.asp"
