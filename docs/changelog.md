@@ -6,9 +6,9 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 
 ### Catalogue
 
-- Serialized missing spectral response samples as JSON `null` values instead
-  of non-standard `NaN` constants.
-- Minified `catalogue.json` by removing non-semantic formatting whitespace.
+- Replaced materialized spectral response arrays in `catalogue.json` with raw
+  GitHub CSV URLs while preserving the source filenames.
+- Changed `catalogue.json` to readable, four-space pretty-printed JSON.
 
 ### Schema
 
@@ -46,6 +46,8 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 - Added NE(Δ)T values to the instrument-page spectral band tables.
 - Linked instrument IDs in the generated repository README to their VitePress
   instrument pages instead of their first source reference.
+- Changed VitePress SRF plotting data generation to read the validated local
+  SRF CSV files directly.
 
 ## 0.2.0
 

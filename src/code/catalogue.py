@@ -4,10 +4,11 @@ import json
 import math
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 import pandas as pd
 
-from validators import BANDS_DIR, INSTRUMENTS_DIR, REPO_ROOT, SRF_DIR, validate_instrument
+from validators import BANDS_DIR, INSTRUMENTS_DIR, REPO_ROOT, validate_instrument
 
 CATALOGUE_DIR = REPO_ROOT / "catalogue"
 CATALOGUE_PATH = CATALOGUE_DIR / "catalogue.json"
@@ -16,6 +17,11 @@ CATALOGUE_NAME = "Awesome Earth Observation Instruments"
 CATALOGUE_LINK = (
     "https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/"
     "raw/refs/heads/main/catalogue/catalogue.json"
+)
+SRF_RAW_BASE_URL = (
+    "https://raw.githubusercontent.com/"
+    "awesome-spectral-indices/awesome-earth-observation-instruments/"
+    "refs/heads/main/src/srf"
 )
 
 
@@ -39,21 +45,6 @@ def _bands_csv_to_object(filename: str) -> dict[str, dict[str, Any]]:
                 continue
             band_payload[col] = _to_python_scalar(value)
         output[band_id] = band_payload
-    return output
-
-
-def _srf_csv_to_object(filename: str) -> dict[str, list[Any]]:
-    frame = pd.read_csv(SRF_DIR / filename)
-    output: dict[str, list[Any]] = {}
-    for col in frame.columns:
-        output[col] = [
-            None if pd.isna(value) else _to_python_scalar(value)
-            for value in frame[col].tolist()
-        ]
-
-    lengths = {len(values) for values in output.values()}
-    if len(lengths) > 1:
-        raise ValueError(f"SRF arrays must have identical lengths in {filename}.")
     return output
 
 
@@ -97,7 +88,7 @@ def _bands_from_range(range_payload: dict[str, Any]) -> dict[str, dict[str, Any]
     return bands
 
 
-def _materialize_spectral_csvs(instrument: dict[str, Any]) -> dict[str, Any]:
+def _transform_spectral_inputs(instrument: dict[str, Any]) -> dict[str, Any]:
     result = json.loads(json.dumps(instrument))
     spectral = result.get("extensions", {}).get("spectral")
     if not spectral:
@@ -117,7 +108,9 @@ def _materialize_spectral_csvs(instrument: dict[str, Any]) -> dict[str, Any]:
     srf_value = spectral.get("spectral_response_function")
     if isinstance(srf_value, str):
         spectral["spectral_response_function_file"] = srf_value
-        spectral["spectral_response_function"] = _srf_csv_to_object(srf_value)
+        spectral["spectral_response_function"] = (
+            f"{SRF_RAW_BASE_URL}/{quote(srf_value)}"
+        )
     return result
 
 
@@ -190,7 +183,7 @@ def generate_catalogue(
     instruments: dict[str, dict[str, Any]] = {}
     for instrument_path in sorted(instruments_dir.glob("*.yaml")):
         validated = validate_instrument(instrument_path)
-        materialized = _materialize_spectral_csvs(validated)
+        materialized = _transform_spectral_inputs(validated)
         instruments[materialized["id"]] = materialized
 
     _add_generated_relationships(instruments)
@@ -209,8 +202,9 @@ def generate_catalogue(
             handle,
             ensure_ascii=False,
             allow_nan=False,
-            separators=(",", ":"),
+            indent=4,
         )
+        handle.write("\n")
     return catalogue
 
 

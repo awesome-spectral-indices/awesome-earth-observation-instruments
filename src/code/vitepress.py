@@ -9,11 +9,14 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote
 
+import pandas as pd
+
 from readme import generate_schema_document
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CATALOGUE_PATH = REPO_ROOT / "catalogue" / "catalogue.json"
+SRF_DIR = REPO_ROOT / "src" / "srf"
 DOCS_DIR = REPO_ROOT / "docs"
 INSTRUMENTS_DIR = REPO_ROOT / "docs" / "instruments"
 VITEPRESS_DATA_DIR = REPO_ROOT / "docs" / ".vitepress" / "data"
@@ -551,31 +554,37 @@ def render_spectral_response_data(
         extensions = instrument.get("extensions", {})
         spectral = extensions.get("spectral", {}) if isinstance(extensions, dict) else {}
         bands = spectral.get("bands", {}) if isinstance(spectral, dict) else {}
-        srf = (
-            spectral.get("spectral_response_function", {})
+        srf_filename = (
+            spectral.get("spectral_response_function_file")
             if isinstance(spectral, dict)
-            else {}
+            else None
         )
-        wavelengths = srf.get("wavelength", []) if isinstance(srf, dict) else []
         response_curves = []
 
-        if isinstance(wavelengths, list) and isinstance(bands, dict):
+        if isinstance(srf_filename, str) and isinstance(bands, dict):
+            frame = pd.read_csv(SRF_DIR / srf_filename)
+            wavelengths = frame["wavelength"]
+
             for band_id in bands:
-                responses = srf.get(band_id, [])
-                if not isinstance(responses, list) or len(responses) != len(wavelengths):
+                if band_id not in frame.columns:
                     continue
 
                 points = []
-                for wavelength, response in zip(wavelengths, responses):
-                    if isinstance(wavelength, bool) or isinstance(response, bool):
+                for wavelength, response in zip(
+                    wavelengths,
+                    frame[band_id],
+                    strict=True,
+                ):
+                    if pd.isna(wavelength) or pd.isna(response):
                         continue
-                    if not isinstance(wavelength, (int, float)) or not isinstance(
-                        response, (int, float)
+                    wavelength_value = float(wavelength)
+                    response_value = float(response)
+                    if not (
+                        math.isfinite(wavelength_value)
+                        and math.isfinite(response_value)
                     ):
                         continue
-                    if not math.isfinite(wavelength) or not math.isfinite(response):
-                        continue
-                    points.append((float(wavelength), float(response)))
+                    points.append((wavelength_value, response_value))
 
                 if points:
                     response_curves.append(

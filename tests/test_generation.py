@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 import pytest
 import yaml
@@ -11,7 +12,12 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src" / "code"))
 
 import validators as validators_module
-from catalogue import CATALOGUE_NAME, _bands_from_range, generate_catalogue
+from catalogue import (
+    CATALOGUE_NAME,
+    SRF_RAW_BASE_URL,
+    _bands_from_range,
+    generate_catalogue,
+)
 from validators import (
     ValidationError,
     _validate_range,
@@ -368,8 +374,8 @@ def test_catalogue_structure_and_spectral_transforms(
         catalogue,
         ensure_ascii=False,
         allow_nan=False,
-        separators=(",", ":"),
-    )
+        indent=4,
+    ) + "\n"
 
     assert list(catalogue.keys()) == ["name", "version", "link", "instruments"]
     assert catalogue["name"] == CATALOGUE_NAME
@@ -385,31 +391,33 @@ def test_catalogue_structure_and_spectral_transforms(
     assert len(emit_bands) == instruments["EMIT"]["extensions"]["spectral"]["range"]["total_bands"]
     assert set(emit_bands["B1"]) == {"center_wavelength", "bandwidth"}
 
-    # CSV-backed spectral inputs should be materialized as dictionaries in the catalogue.
+    # Bands remain materialized, while SRFs are represented by their raw CSV URLs.
     csv_backed = [
         instrument
         for instrument in instruments.values()
         if isinstance(instrument.get("extensions", {}).get("spectral", {}).get("bands"), dict)
-        and "spectral_response_function" in instrument.get("extensions", {}).get("spectral", {})
+        and "spectral_response_function_file"
+        in instrument.get("extensions", {}).get("spectral", {})
     ]
     assert csv_backed
 
     for instrument in csv_backed:
         spectral = instrument["extensions"]["spectral"]
         assert isinstance(spectral["bands"], dict)
-        assert isinstance(spectral["spectral_response_function"], dict)
-        srf_lengths = {len(values) for values in spectral["spectral_response_function"].values()}
-        assert len(srf_lengths) == 1
+        filename = spectral["spectral_response_function_file"]
+        assert isinstance(filename, str)
+        assert spectral["spectral_response_function"] == (
+            f"{SRF_RAW_BASE_URL}/{quote(filename)}"
+        )
 
-    # Empty cells in sparse SRF CSVs must be represented by valid JSON nulls.
+    # Generated JSON must remain standards-compliant without embedded SRF samples.
     assert "NaN" not in catalogue_text
-    assert any(
-        value is None
+    assert all(
+        isinstance(
+            instrument["extensions"]["spectral"]["spectral_response_function"],
+            str,
+        )
         for instrument in csv_backed
-        for values in instrument["extensions"]["spectral"][
-            "spectral_response_function"
-        ].values()
-        for value in values
     )
 
     # Documented thermal noise values should be materialized without SNR.

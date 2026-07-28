@@ -74,10 +74,10 @@ Transformation rules:
 
 - Convert a CSV `spectral.bands` value to the inline dictionary form defined by
   `schema/extensions/spectral.yaml`.
-- Convert `spectral.spectral_response_function` CSV content to an object keyed
-  by column name, with each column represented as an array. All arrays must have
-  equal length. Preserve the original SRF CSV filename in
-  `spectral.spectral_response_function_file`.
+- Preserve the `spectral.spectral_response_function` CSV filename in
+  `spectral.spectral_response_function_file`, and replace the source value with
+  the raw GitHub URL for that CSV. Do not materialize SRF samples in the
+  catalogue.
 - When `spectral.range` is supplied instead of `spectral.bands`, create
   `spectral.bands` as `B1` through `Bn`, using `min`, `max`, and either
   `total_bands` or `sampling` to calculate center wavelengths. Use the optional
@@ -87,6 +87,7 @@ Transformation rules:
   `family` contains instruments with the same name or acronym, and
   `platform_companions` contains instruments on the same platform excluding
   family matches.
+- Serialize the catalogue as valid JSON with four-space indentation.
 
 ## Documentation Generation
 
@@ -136,3 +137,6 @@ After changes that affect source inputs, schemas, or generators:
 4. Regenerate VitePress instrument pages when catalogue content changes.
 5. Run `python -m pytest tests`.
 6. Confirm generated output reflects the requested change.
+
+VitePress SRF plotting data is generated from the validated local CSV files in
+`src/srf/`, not from materialized catalogue values.
