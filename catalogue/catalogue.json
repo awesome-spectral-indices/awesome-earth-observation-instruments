@@ -1,6 +1,6 @@
 {
     "name": "Awesome Earth Observation Instruments",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "link": "https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/raw/refs/heads/main/catalogue/catalogue.json",
     "instruments": {
         "ALTUMAL04_lte_MICASENSE": {
