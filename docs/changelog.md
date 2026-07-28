@@ -41,6 +41,8 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 - Added advanced instrument-index filters for core metadata, start dates,
   spectral resources, and data access providers.
 - Added NE(Δ)T values to the instrument-page spectral band tables.
+- Linked instrument IDs in the generated repository README to their VitePress
+  instrument pages instead of their first source reference.
 
 ## 0.2.0
 

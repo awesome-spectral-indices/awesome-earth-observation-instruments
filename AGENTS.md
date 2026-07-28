@@ -112,7 +112,7 @@ Instrument table columns:
 
 | Column | Content |
 | --- | --- |
-| `Id` | Instrument id linked to its first `references` URL |
+| `Id` | Instrument id linked to its generated VitePress instrument page |
 | `Name` | Instrument name |
 | `Platforms` | Comma-separated platforms |
 | `Status` | Bold status with emoji: `operational` or `active` :white_check_mark:, `planned` :stars:, `experimental` :warning:, `retired` or `legacy` :no_entry: |

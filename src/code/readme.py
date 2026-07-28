@@ -11,6 +11,10 @@ README_SOURCE_DIR = REPO_ROOT / "readme"
 CATALOGUE_PATH = REPO_ROOT / "catalogue" / "catalogue.json"
 README_PATH = REPO_ROOT / "README.md"
 SCHEMA_PATH = REPO_ROOT / "SCHEMA.md"
+INSTRUMENT_PAGES_BASE_URL = (
+    "https://awesome-spectral-indices.github.io/"
+    "awesome-earth-observation-instruments/instruments"
+)
 SCHEMA_TABLES = [
     ("Core Schema", REPO_ROOT / "schema" / "core" / "core.yaml"),
     ("Spectral Extension", REPO_ROOT / "schema" / "extensions" / "spectral.yaml"),
@@ -171,9 +175,8 @@ def _pc_primary_link(instrument: dict[str, Any]) -> str:
 
 
 def _instrument_row(instrument_id: str, instrument: dict[str, Any]) -> str:
-    references = instrument.get("references") or []
-    link = references[0] if references else ""
-    id_cell = f"[{instrument_id}]({link})" if link else instrument_id
+    instrument_url = f"{INSTRUMENT_PAGES_BASE_URL}/{instrument_id}"
+    id_cell = f"[{instrument_id}]({instrument_url})"
     name = str(instrument.get("name", ""))
     platforms = ", ".join(str(p) for p in (instrument.get("platform") or []))
     status = str(instrument.get("status", ""))
