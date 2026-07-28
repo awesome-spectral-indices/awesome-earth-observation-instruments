@@ -157,7 +157,7 @@ def test_data_access_supports_specialized_product_roles(
     provider_metadata: dict[str, str],
 ) -> None:
     # Every provider should accept the same optional specialized product roles.
-    product_roles = ("lst", "wst", "grd", "rtc")
+    product_roles = ("lst", "wst", "grd", "rtc", "slc")
     provider_data = {
         **provider_metadata,
         "primary": {
@@ -197,7 +197,7 @@ def test_data_access_supports_specialized_product_roles(
     assert all(role in validated_provider for role in product_roles)
 
 
-@pytest.mark.parametrize("role", ["lst", "wst", "grd", "rtc"])
+@pytest.mark.parametrize("role", ["lst", "wst", "grd", "rtc", "slc"])
 def test_specialized_data_access_roles_require_complete_metadata(
     tmp_path: Path,
     role: str,

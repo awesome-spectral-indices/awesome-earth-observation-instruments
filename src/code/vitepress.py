@@ -72,6 +72,7 @@ PRODUCT_LABELS = {
     "wst": "Water surface temperature",
     "grd": "Ground range detected",
     "rtc": "Radiometrically terrain corrected",
+    "slc": "Single look complex",
 }
 
 

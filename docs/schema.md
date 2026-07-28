@@ -76,6 +76,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | wst | No | object | Optional Earth Engine metadata for water surface temperature (WST) products |
 | grd | No | object | Optional Earth Engine metadata for ground range detected (GRD) products |
 | rtc | No | object | Optional Earth Engine metadata for radiometrically terrain corrected (RTC) products |
+| slc | No | object | Optional Earth Engine metadata for single look complex (SLC) products |
 
 ## Planetary Computer Access Point ([`schema/extensions/data_access_points/planetary-computer.yaml`](https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/blob/main/schema/extensions/data_access_points/planetary-computer.yaml))
 
@@ -90,6 +91,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | wst | No | object | Optional Planetary Computer metadata for water surface temperature (WST) products |
 | grd | No | object | Optional Planetary Computer metadata for ground range detected (GRD) products |
 | rtc | No | object | Optional Planetary Computer metadata for radiometrically terrain corrected (RTC) products |
+| slc | No | object | Optional Planetary Computer metadata for single look complex (SLC) products |
 
 ## Copernicus Data Space Ecosystem Access Point ([`schema/extensions/data_access_points/copernicus-data-space-ecosystem.yaml`](https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/blob/main/schema/extensions/data_access_points/copernicus-data-space-ecosystem.yaml))
 
@@ -104,6 +106,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | wst | No | object | Optional Copernicus Data Space Ecosystem metadata for water surface temperature (WST) products |
 | grd | No | object | Optional Copernicus Data Space Ecosystem metadata for ground range detected (GRD) products |
 | rtc | No | object | Optional Copernicus Data Space Ecosystem metadata for radiometrically terrain corrected (RTC) products |
+| slc | No | object | Optional Copernicus Data Space Ecosystem metadata for single look complex (SLC) products |
 
 ## EOPF Sentinel Zarr Samples Access Point ([`schema/extensions/data_access_points/eopf-sentinel-zarr-samples.yaml`](https://github.com/awesome-spectral-indices/awesome-earth-observation-instruments/blob/main/schema/extensions/data_access_points/eopf-sentinel-zarr-samples.yaml))
 
@@ -118,3 +121,4 @@ The tables below summarize the properties defined by the core schema and its ext
 | wst | No | object | Optional EOPF Sentinel Zarr Samples metadata for water surface temperature (WST) products |
 | grd | No | object | Optional EOPF Sentinel Zarr Samples metadata for ground range detected (GRD) products |
 | rtc | No | object | Optional EOPF Sentinel Zarr Samples metadata for radiometrically terrain corrected (RTC) products |
+| slc | No | object | Optional EOPF Sentinel Zarr Samples metadata for single look complex (SLC) products |

@@ -134,4 +134,19 @@ properties:
         type: string
         description: Copernicus Data Space Ecosystem STAC collection name
 
+  slc:
+    type: object
+    description: Optional Copernicus Data Space Ecosystem metadata for single look complex (SLC) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of SLC data
+      collection:
+        type: string
+        description: Copernicus Data Space Ecosystem STAC collection name
+
 additionalProperties: false
