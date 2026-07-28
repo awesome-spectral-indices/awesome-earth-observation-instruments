@@ -15,6 +15,7 @@ contributors:
   - "https://github.com/davemlz"
 references:
   - "https://science.nasa.gov/mission/landsat/tirs/"
+  - "https://pubs.usgs.gov/publication/ofr20231050"
 
 data_links:
   - "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-8/data-access-tools"

@@ -79,7 +79,8 @@
         "gsd": "",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 20 blue  blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 20 blue  blue  "
       },
       {
         "id": "B2",
@@ -89,7 +90,8 @@
         "gsd": "",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 20 green  green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 20 green  green  "
       },
       {
         "id": "B3",
@@ -99,7 +101,8 @@
         "gsd": "",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 10 red  red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 10 red  red  "
       },
       {
         "id": "B4",
@@ -109,7 +112,8 @@
         "gsd": "",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 840 40 nir  near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 840 40 nir  near infrared  "
       },
       {
         "id": "B5",
@@ -119,7 +123,8 @@
         "gsd": "",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 10 rededge  red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 10 rededge  red edge  "
       },
       {
         "id": "B6",
@@ -129,7 +134,8 @@
         "gsd": "",
         "description": "Thermal infrared",
         "snr": "",
-        "search_text": "b6 11000 6000 lwir  thermal infrared "
+        "ne_delta_t": "0.05",
+        "search_text": "b6 11000 6000 lwir  thermal infrared  0.05"
       }
     ],
     "imaging": [
@@ -317,7 +323,8 @@
         "gsd": "",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 32 blue  blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 32 blue  blue  "
       },
       {
         "id": "B2",
@@ -327,7 +334,8 @@
         "gsd": "",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 27 green  green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 27 green  green  "
       },
       {
         "id": "B3",
@@ -337,7 +345,8 @@
         "gsd": "",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 14 red  red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 14 red  red  "
       },
       {
         "id": "B4",
@@ -347,7 +356,8 @@
         "gsd": "",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 842 57 nir  near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 842 57 nir  near infrared  "
       },
       {
         "id": "B5",
@@ -357,7 +367,8 @@
         "gsd": "",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 12 rededge  red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 12 rededge  red edge  "
       },
       {
         "id": "B6",
@@ -367,7 +378,8 @@
         "gsd": "",
         "description": "Thermal infrared",
         "snr": "",
-        "search_text": "b6 11000 6000 lwir  thermal infrared "
+        "ne_delta_t": "0.05",
+        "search_text": "b6 11000 6000 lwir  thermal infrared  0.05"
       }
     ],
     "imaging": [
@@ -555,7 +567,8 @@
         "gsd": "",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 32 blue  blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 32 blue  blue  "
       },
       {
         "id": "B2",
@@ -565,7 +578,8 @@
         "gsd": "",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 27 green  green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 27 green  green  "
       },
       {
         "id": "B3",
@@ -575,7 +589,8 @@
         "gsd": "",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 14 red  red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 14 red  red  "
       },
       {
         "id": "B4",
@@ -585,7 +600,8 @@
         "gsd": "",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 842 57 nir  near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 842 57 nir  near infrared  "
       },
       {
         "id": "B5",
@@ -595,7 +611,8 @@
         "gsd": "",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 12 rededge  red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 12 rededge  red edge  "
       },
       {
         "id": "B6",
@@ -605,7 +622,8 @@
         "gsd": "",
         "description": "Thermal infrared",
         "snr": "",
-        "search_text": "b6 11000 6000 lwir  thermal infrared "
+        "ne_delta_t": "0.05",
+        "search_text": "b6 11000 6000 lwir  thermal infrared  0.05"
       }
     ],
     "imaging": [
@@ -797,7 +815,8 @@
         "gsd": "0.0528",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 32 blue 0.0528 blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 32 blue 0.0528 blue  "
       },
       {
         "id": "B2",
@@ -807,7 +826,8 @@
         "gsd": "0.0528",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 27 green 0.0528 green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 27 green 0.0528 green  "
       },
       {
         "id": "B3",
@@ -817,7 +837,8 @@
         "gsd": "0.0528",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 16 red 0.0528 red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 16 red 0.0528 red  "
       },
       {
         "id": "B4",
@@ -827,7 +848,8 @@
         "gsd": "0.0528",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 842 57 nir 0.0528 near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 842 57 nir 0.0528 near infrared  "
       },
       {
         "id": "B5",
@@ -837,7 +859,8 @@
         "gsd": "0.0528",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 12 rededge 0.0528 red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 12 rededge 0.0528 red edge  "
       },
       {
         "id": "B6",
@@ -847,7 +870,8 @@
         "gsd": "0.0249",
         "description": "Panchromatic",
         "snr": "",
-        "search_text": "b6 634.5 463 pan 0.0249 panchromatic "
+        "ne_delta_t": "",
+        "search_text": "b6 634.5 463 pan 0.0249 panchromatic  "
       },
       {
         "id": "B7",
@@ -857,7 +881,8 @@
         "gsd": "0.335",
         "description": "Thermal infrared",
         "snr": "",
-        "search_text": "b7 10500 6000 lwir 0.335 thermal infrared "
+        "ne_delta_t": "0.06",
+        "search_text": "b7 10500 6000 lwir 0.335 thermal infrared  0.06"
       }
     ],
     "imaging": [
@@ -1044,7 +1069,8 @@
         "gsd": "15",
         "description": "VNIR visible green-yellow channel",
         "snr": "",
-        "search_text": "b1 560 80 green 15 vnir visible green-yellow channel "
+        "ne_delta_t": "",
+        "search_text": "b1 560 80 green 15 vnir visible green-yellow channel  "
       },
       {
         "id": "B2",
@@ -1054,7 +1080,8 @@
         "gsd": "15",
         "description": "VNIR visible red channel",
         "snr": "",
-        "search_text": "b2 660 60 red 15 vnir visible red channel "
+        "ne_delta_t": "",
+        "search_text": "b2 660 60 red 15 vnir visible red channel  "
       },
       {
         "id": "B3N",
@@ -1064,7 +1091,8 @@
         "gsd": "15",
         "description": "VNIR near-infrared nadir-looking channel",
         "snr": "",
-        "search_text": "b3n 810 100 nir 15 vnir near-infrared nadir-looking channel "
+        "ne_delta_t": "",
+        "search_text": "b3n 810 100 nir 15 vnir near-infrared nadir-looking channel  "
       },
       {
         "id": "B3B",
@@ -1074,7 +1102,8 @@
         "gsd": "15",
         "description": "VNIR near-infrared backward-looking stereo channel",
         "snr": "",
-        "search_text": "b3b 810 100 nir 15 vnir near-infrared backward-looking stereo channel "
+        "ne_delta_t": "",
+        "search_text": "b3b 810 100 nir 15 vnir near-infrared backward-looking stereo channel  "
       },
       {
         "id": "B4",
@@ -1084,7 +1113,8 @@
         "gsd": "30",
         "description": "SWIR channel 4",
         "snr": "",
-        "search_text": "b4 1650 100 swir16 30 swir channel 4 "
+        "ne_delta_t": "",
+        "search_text": "b4 1650 100 swir16 30 swir channel 4  "
       },
       {
         "id": "B5",
@@ -1094,7 +1124,8 @@
         "gsd": "30",
         "description": "SWIR channel 5",
         "snr": "",
-        "search_text": "b5 2165 40 swir22 30 swir channel 5 "
+        "ne_delta_t": "",
+        "search_text": "b5 2165 40 swir22 30 swir channel 5  "
       },
       {
         "id": "B6",
@@ -1104,7 +1135,8 @@
         "gsd": "30",
         "description": "SWIR channel 6",
         "snr": "",
-        "search_text": "b6 2205 40 swir22 30 swir channel 6 "
+        "ne_delta_t": "",
+        "search_text": "b6 2205 40 swir22 30 swir channel 6  "
       },
       {
         "id": "B7",
@@ -1114,7 +1146,8 @@
         "gsd": "30",
         "description": "SWIR channel 7",
         "snr": "",
-        "search_text": "b7 2260 50 swir22 30 swir channel 7 "
+        "ne_delta_t": "",
+        "search_text": "b7 2260 50 swir22 30 swir channel 7  "
       },
       {
         "id": "B8",
@@ -1124,7 +1157,8 @@
         "gsd": "30",
         "description": "SWIR channel 8",
         "snr": "",
-        "search_text": "b8 2330 70 swir22 30 swir channel 8 "
+        "ne_delta_t": "",
+        "search_text": "b8 2330 70 swir22 30 swir channel 8  "
       },
       {
         "id": "B9",
@@ -1134,7 +1168,8 @@
         "gsd": "30",
         "description": "SWIR channel 9",
         "snr": "",
-        "search_text": "b9 2395 70 swir22 30 swir channel 9 "
+        "ne_delta_t": "",
+        "search_text": "b9 2395 70 swir22 30 swir channel 9  "
       },
       {
         "id": "B10",
@@ -1144,7 +1179,8 @@
         "gsd": "90",
         "description": "TIR channel 10",
         "snr": "",
-        "search_text": "b10 8300 350 lwir 90 tir channel 10 "
+        "ne_delta_t": "0.3",
+        "search_text": "b10 8300 350 lwir 90 tir channel 10  0.3"
       },
       {
         "id": "B11",
@@ -1154,7 +1190,8 @@
         "gsd": "90",
         "description": "TIR channel 11",
         "snr": "",
-        "search_text": "b11 8650 350 lwir 90 tir channel 11 "
+        "ne_delta_t": "0.3",
+        "search_text": "b11 8650 350 lwir 90 tir channel 11  0.3"
       },
       {
         "id": "B12",
@@ -1164,7 +1201,8 @@
         "gsd": "90",
         "description": "TIR channel 12",
         "snr": "",
-        "search_text": "b12 9100 350 lwir 90 tir channel 12 "
+        "ne_delta_t": "0.3",
+        "search_text": "b12 9100 350 lwir 90 tir channel 12  0.3"
       },
       {
         "id": "B13",
@@ -1174,7 +1212,8 @@
         "gsd": "90",
         "description": "TIR channel 13",
         "snr": "",
-        "search_text": "b13 10600 700 lwir11 90 tir channel 13 "
+        "ne_delta_t": "0.3",
+        "search_text": "b13 10600 700 lwir11 90 tir channel 13  0.3"
       },
       {
         "id": "B14",
@@ -1184,7 +1223,8 @@
         "gsd": "90",
         "description": "TIR channel 14",
         "snr": "",
-        "search_text": "b14 11300 700 lwir11 90 tir channel 14 "
+        "ne_delta_t": "0.3",
+        "search_text": "b14 11300 700 lwir11 90 tir channel 14  0.3"
       }
     ],
     "imaging": [
@@ -1268,6 +1308,9 @@
       },
       {
         "url": "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt"
+      },
+      {
+        "url": "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/04_TIR/tir-des.htm"
       },
       {
         "url": "https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
@@ -1358,7 +1401,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b1 384.705 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b1 384.705 7.41053     "
       },
       {
         "id": "B2",
@@ -1368,7 +1412,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b2 392.116 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b2 392.116 7.41053     "
       },
       {
         "id": "B3",
@@ -1378,7 +1423,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b3 399.526 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b3 399.526 7.41053     "
       },
       {
         "id": "B4",
@@ -1388,7 +1434,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b4 406.937 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b4 406.937 7.41053     "
       },
       {
         "id": "B5",
@@ -1398,7 +1445,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b5 414.347 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b5 414.347 7.41053     "
       },
       {
         "id": "B6",
@@ -1408,7 +1456,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b6 421.758 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b6 421.758 7.41053     "
       },
       {
         "id": "B7",
@@ -1418,7 +1467,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b7 429.168 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b7 429.168 7.41053     "
       },
       {
         "id": "B8",
@@ -1428,7 +1478,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b8 436.579 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b8 436.579 7.41053     "
       },
       {
         "id": "B9",
@@ -1438,7 +1489,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b9 443.989 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b9 443.989 7.41053     "
       },
       {
         "id": "B10",
@@ -1448,7 +1500,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b10 451.4 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b10 451.4 7.41053     "
       },
       {
         "id": "B11",
@@ -1458,7 +1511,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b11 458.811 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b11 458.811 7.41053     "
       },
       {
         "id": "B12",
@@ -1468,7 +1522,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b12 466.221 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b12 466.221 7.41053     "
       },
       {
         "id": "B13",
@@ -1478,7 +1533,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b13 473.632 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b13 473.632 7.41053     "
       },
       {
         "id": "B14",
@@ -1488,7 +1544,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b14 481.042 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b14 481.042 7.41053     "
       },
       {
         "id": "B15",
@@ -1498,7 +1555,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b15 488.453 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b15 488.453 7.41053     "
       },
       {
         "id": "B16",
@@ -1508,7 +1566,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b16 495.863 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b16 495.863 7.41053     "
       },
       {
         "id": "B17",
@@ -1518,7 +1577,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b17 503.274 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b17 503.274 7.41053     "
       },
       {
         "id": "B18",
@@ -1528,7 +1588,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b18 510.684 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b18 510.684 7.41053     "
       },
       {
         "id": "B19",
@@ -1538,7 +1599,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b19 518.095 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b19 518.095 7.41053     "
       },
       {
         "id": "B20",
@@ -1548,7 +1610,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b20 525.505 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b20 525.505 7.41053     "
       },
       {
         "id": "B21",
@@ -1558,7 +1621,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b21 532.916 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b21 532.916 7.41053     "
       },
       {
         "id": "B22",
@@ -1568,7 +1632,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b22 540.326 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b22 540.326 7.41053     "
       },
       {
         "id": "B23",
@@ -1578,7 +1643,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b23 547.737 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b23 547.737 7.41053     "
       },
       {
         "id": "B24",
@@ -1588,7 +1654,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b24 555.147 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b24 555.147 7.41053     "
       },
       {
         "id": "B25",
@@ -1598,7 +1665,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b25 562.558 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b25 562.558 7.41053     "
       },
       {
         "id": "B26",
@@ -1608,7 +1676,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b26 569.968 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b26 569.968 7.41053     "
       },
       {
         "id": "B27",
@@ -1618,7 +1687,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b27 577.379 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b27 577.379 7.41053     "
       },
       {
         "id": "B28",
@@ -1628,7 +1698,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b28 584.789 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b28 584.789 7.41053     "
       },
       {
         "id": "B29",
@@ -1638,7 +1709,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b29 592.2 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b29 592.2 7.41053     "
       },
       {
         "id": "B30",
@@ -1648,7 +1720,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b30 599.611 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b30 599.611 7.41053     "
       },
       {
         "id": "B31",
@@ -1658,7 +1731,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b31 607.021 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b31 607.021 7.41053     "
       },
       {
         "id": "B32",
@@ -1668,7 +1742,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b32 614.432 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b32 614.432 7.41053     "
       },
       {
         "id": "B33",
@@ -1678,7 +1753,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b33 621.842 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b33 621.842 7.41053     "
       },
       {
         "id": "B34",
@@ -1688,7 +1764,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b34 629.253 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b34 629.253 7.41053     "
       },
       {
         "id": "B35",
@@ -1698,7 +1775,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b35 636.663 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b35 636.663 7.41053     "
       },
       {
         "id": "B36",
@@ -1708,7 +1786,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b36 644.074 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b36 644.074 7.41053     "
       },
       {
         "id": "B37",
@@ -1718,7 +1797,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b37 651.484 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b37 651.484 7.41053     "
       },
       {
         "id": "B38",
@@ -1728,7 +1808,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b38 658.895 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b38 658.895 7.41053     "
       },
       {
         "id": "B39",
@@ -1738,7 +1819,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b39 666.305 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b39 666.305 7.41053     "
       },
       {
         "id": "B40",
@@ -1748,7 +1830,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b40 673.716 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b40 673.716 7.41053     "
       },
       {
         "id": "B41",
@@ -1758,7 +1841,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b41 681.126 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b41 681.126 7.41053     "
       },
       {
         "id": "B42",
@@ -1768,7 +1852,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b42 688.537 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b42 688.537 7.41053     "
       },
       {
         "id": "B43",
@@ -1778,7 +1863,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b43 695.947 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b43 695.947 7.41053     "
       },
       {
         "id": "B44",
@@ -1788,7 +1874,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b44 703.358 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b44 703.358 7.41053     "
       },
       {
         "id": "B45",
@@ -1798,7 +1885,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b45 710.768 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b45 710.768 7.41053     "
       },
       {
         "id": "B46",
@@ -1808,7 +1896,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b46 718.179 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b46 718.179 7.41053     "
       },
       {
         "id": "B47",
@@ -1818,7 +1907,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b47 725.589 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b47 725.589 7.41053     "
       },
       {
         "id": "B48",
@@ -1828,7 +1918,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b48 733 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b48 733 7.41053     "
       },
       {
         "id": "B49",
@@ -1838,7 +1929,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b49 740.411 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b49 740.411 7.41053     "
       },
       {
         "id": "B50",
@@ -1848,7 +1940,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b50 747.821 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b50 747.821 7.41053     "
       },
       {
         "id": "B51",
@@ -1858,7 +1951,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b51 755.232 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b51 755.232 7.41053     "
       },
       {
         "id": "B52",
@@ -1868,7 +1962,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b52 762.642 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b52 762.642 7.41053     "
       },
       {
         "id": "B53",
@@ -1878,7 +1973,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b53 770.053 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b53 770.053 7.41053     "
       },
       {
         "id": "B54",
@@ -1888,7 +1984,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b54 777.463 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b54 777.463 7.41053     "
       },
       {
         "id": "B55",
@@ -1898,7 +1995,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b55 784.874 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b55 784.874 7.41053     "
       },
       {
         "id": "B56",
@@ -1908,7 +2006,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b56 792.284 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b56 792.284 7.41053     "
       },
       {
         "id": "B57",
@@ -1918,7 +2017,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b57 799.695 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b57 799.695 7.41053     "
       },
       {
         "id": "B58",
@@ -1928,7 +2028,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b58 807.105 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b58 807.105 7.41053     "
       },
       {
         "id": "B59",
@@ -1938,7 +2039,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b59 814.516 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b59 814.516 7.41053     "
       },
       {
         "id": "B60",
@@ -1948,7 +2050,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b60 821.926 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b60 821.926 7.41053     "
       },
       {
         "id": "B61",
@@ -1958,7 +2061,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b61 829.337 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b61 829.337 7.41053     "
       },
       {
         "id": "B62",
@@ -1968,7 +2072,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b62 836.747 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b62 836.747 7.41053     "
       },
       {
         "id": "B63",
@@ -1978,7 +2083,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b63 844.158 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b63 844.158 7.41053     "
       },
       {
         "id": "B64",
@@ -1988,7 +2094,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b64 851.568 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b64 851.568 7.41053     "
       },
       {
         "id": "B65",
@@ -1998,7 +2105,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b65 858.979 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b65 858.979 7.41053     "
       },
       {
         "id": "B66",
@@ -2008,7 +2116,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b66 866.389 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b66 866.389 7.41053     "
       },
       {
         "id": "B67",
@@ -2018,7 +2127,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b67 873.8 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b67 873.8 7.41053     "
       },
       {
         "id": "B68",
@@ -2028,7 +2138,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b68 881.211 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b68 881.211 7.41053     "
       },
       {
         "id": "B69",
@@ -2038,7 +2149,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b69 888.621 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b69 888.621 7.41053     "
       },
       {
         "id": "B70",
@@ -2048,7 +2160,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b70 896.032 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b70 896.032 7.41053     "
       },
       {
         "id": "B71",
@@ -2058,7 +2171,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b71 903.442 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b71 903.442 7.41053     "
       },
       {
         "id": "B72",
@@ -2068,7 +2182,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b72 910.853 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b72 910.853 7.41053     "
       },
       {
         "id": "B73",
@@ -2078,7 +2193,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b73 918.263 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b73 918.263 7.41053     "
       },
       {
         "id": "B74",
@@ -2088,7 +2204,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b74 925.674 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b74 925.674 7.41053     "
       },
       {
         "id": "B75",
@@ -2098,7 +2215,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b75 933.084 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b75 933.084 7.41053     "
       },
       {
         "id": "B76",
@@ -2108,7 +2226,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b76 940.495 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b76 940.495 7.41053     "
       },
       {
         "id": "B77",
@@ -2118,7 +2237,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b77 947.905 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b77 947.905 7.41053     "
       },
       {
         "id": "B78",
@@ -2128,7 +2248,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b78 955.316 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b78 955.316 7.41053     "
       },
       {
         "id": "B79",
@@ -2138,7 +2259,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b79 962.726 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b79 962.726 7.41053     "
       },
       {
         "id": "B80",
@@ -2148,7 +2270,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b80 970.137 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b80 970.137 7.41053     "
       },
       {
         "id": "B81",
@@ -2158,7 +2281,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b81 977.547 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b81 977.547 7.41053     "
       },
       {
         "id": "B82",
@@ -2168,7 +2292,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b82 984.958 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b82 984.958 7.41053     "
       },
       {
         "id": "B83",
@@ -2178,7 +2303,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b83 992.368 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b83 992.368 7.41053     "
       },
       {
         "id": "B84",
@@ -2188,7 +2314,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b84 999.779 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b84 999.779 7.41053     "
       },
       {
         "id": "B85",
@@ -2198,7 +2325,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b85 1007.19 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b85 1007.19 7.41053     "
       },
       {
         "id": "B86",
@@ -2208,7 +2336,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b86 1014.6 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b86 1014.6 7.41053     "
       },
       {
         "id": "B87",
@@ -2218,7 +2347,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b87 1022.01 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b87 1022.01 7.41053     "
       },
       {
         "id": "B88",
@@ -2228,7 +2358,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b88 1029.42 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b88 1029.42 7.41053     "
       },
       {
         "id": "B89",
@@ -2238,7 +2369,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b89 1036.83 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b89 1036.83 7.41053     "
       },
       {
         "id": "B90",
@@ -2248,7 +2380,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b90 1044.24 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b90 1044.24 7.41053     "
       },
       {
         "id": "B91",
@@ -2258,7 +2391,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b91 1051.65 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b91 1051.65 7.41053     "
       },
       {
         "id": "B92",
@@ -2268,7 +2402,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b92 1059.06 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b92 1059.06 7.41053     "
       },
       {
         "id": "B93",
@@ -2278,7 +2413,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b93 1066.47 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b93 1066.47 7.41053     "
       },
       {
         "id": "B94",
@@ -2288,7 +2424,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b94 1073.88 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b94 1073.88 7.41053     "
       },
       {
         "id": "B95",
@@ -2298,7 +2435,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b95 1081.29 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b95 1081.29 7.41053     "
       },
       {
         "id": "B96",
@@ -2308,7 +2446,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b96 1088.71 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b96 1088.71 7.41053     "
       },
       {
         "id": "B97",
@@ -2318,7 +2457,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b97 1096.12 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b97 1096.12 7.41053     "
       },
       {
         "id": "B98",
@@ -2328,7 +2468,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b98 1103.53 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b98 1103.53 7.41053     "
       },
       {
         "id": "B99",
@@ -2338,7 +2479,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b99 1110.94 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b99 1110.94 7.41053     "
       },
       {
         "id": "B100",
@@ -2348,7 +2490,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b100 1118.35 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b100 1118.35 7.41053     "
       },
       {
         "id": "B101",
@@ -2358,7 +2501,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b101 1125.76 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b101 1125.76 7.41053     "
       },
       {
         "id": "B102",
@@ -2368,7 +2512,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b102 1133.17 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b102 1133.17 7.41053     "
       },
       {
         "id": "B103",
@@ -2378,7 +2523,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b103 1140.58 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b103 1140.58 7.41053     "
       },
       {
         "id": "B104",
@@ -2388,7 +2534,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b104 1147.99 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b104 1147.99 7.41053     "
       },
       {
         "id": "B105",
@@ -2398,7 +2545,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b105 1155.4 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b105 1155.4 7.41053     "
       },
       {
         "id": "B106",
@@ -2408,7 +2556,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b106 1162.81 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b106 1162.81 7.41053     "
       },
       {
         "id": "B107",
@@ -2418,7 +2567,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b107 1170.22 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b107 1170.22 7.41053     "
       },
       {
         "id": "B108",
@@ -2428,7 +2578,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b108 1177.63 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b108 1177.63 7.41053     "
       },
       {
         "id": "B109",
@@ -2438,7 +2589,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b109 1185.04 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b109 1185.04 7.41053     "
       },
       {
         "id": "B110",
@@ -2448,7 +2600,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b110 1192.45 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b110 1192.45 7.41053     "
       },
       {
         "id": "B111",
@@ -2458,7 +2611,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b111 1199.86 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b111 1199.86 7.41053     "
       },
       {
         "id": "B112",
@@ -2468,7 +2622,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b112 1207.27 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b112 1207.27 7.41053     "
       },
       {
         "id": "B113",
@@ -2478,7 +2633,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b113 1214.68 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b113 1214.68 7.41053     "
       },
       {
         "id": "B114",
@@ -2488,7 +2644,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b114 1222.09 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b114 1222.09 7.41053     "
       },
       {
         "id": "B115",
@@ -2498,7 +2655,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b115 1229.51 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b115 1229.51 7.41053     "
       },
       {
         "id": "B116",
@@ -2508,7 +2666,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b116 1236.92 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b116 1236.92 7.41053     "
       },
       {
         "id": "B117",
@@ -2518,7 +2677,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b117 1244.33 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b117 1244.33 7.41053     "
       },
       {
         "id": "B118",
@@ -2528,7 +2688,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b118 1251.74 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b118 1251.74 7.41053     "
       },
       {
         "id": "B119",
@@ -2538,7 +2699,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b119 1259.15 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b119 1259.15 7.41053     "
       },
       {
         "id": "B120",
@@ -2548,7 +2710,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b120 1266.56 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b120 1266.56 7.41053     "
       },
       {
         "id": "B121",
@@ -2558,7 +2721,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b121 1273.97 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b121 1273.97 7.41053     "
       },
       {
         "id": "B122",
@@ -2568,7 +2732,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b122 1281.38 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b122 1281.38 7.41053     "
       },
       {
         "id": "B123",
@@ -2578,7 +2743,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b123 1288.79 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b123 1288.79 7.41053     "
       },
       {
         "id": "B124",
@@ -2588,7 +2754,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b124 1296.2 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b124 1296.2 7.41053     "
       },
       {
         "id": "B125",
@@ -2598,7 +2765,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b125 1303.61 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b125 1303.61 7.41053     "
       },
       {
         "id": "B126",
@@ -2608,7 +2776,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b126 1311.02 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b126 1311.02 7.41053     "
       },
       {
         "id": "B127",
@@ -2618,7 +2787,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b127 1318.43 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b127 1318.43 7.41053     "
       },
       {
         "id": "B128",
@@ -2628,7 +2798,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b128 1325.84 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b128 1325.84 7.41053     "
       },
       {
         "id": "B129",
@@ -2638,7 +2809,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b129 1333.25 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b129 1333.25 7.41053     "
       },
       {
         "id": "B130",
@@ -2648,7 +2820,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b130 1340.66 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b130 1340.66 7.41053     "
       },
       {
         "id": "B131",
@@ -2658,7 +2831,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b131 1348.07 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b131 1348.07 7.41053     "
       },
       {
         "id": "B132",
@@ -2668,7 +2842,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b132 1355.48 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b132 1355.48 7.41053     "
       },
       {
         "id": "B133",
@@ -2678,7 +2853,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b133 1362.89 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b133 1362.89 7.41053     "
       },
       {
         "id": "B134",
@@ -2688,7 +2864,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b134 1370.31 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b134 1370.31 7.41053     "
       },
       {
         "id": "B135",
@@ -2698,7 +2875,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b135 1377.72 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b135 1377.72 7.41053     "
       },
       {
         "id": "B136",
@@ -2708,7 +2886,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b136 1385.13 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b136 1385.13 7.41053     "
       },
       {
         "id": "B137",
@@ -2718,7 +2897,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b137 1392.54 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b137 1392.54 7.41053     "
       },
       {
         "id": "B138",
@@ -2728,7 +2908,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b138 1399.95 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b138 1399.95 7.41053     "
       },
       {
         "id": "B139",
@@ -2738,7 +2919,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b139 1407.36 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b139 1407.36 7.41053     "
       },
       {
         "id": "B140",
@@ -2748,7 +2930,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b140 1414.77 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b140 1414.77 7.41053     "
       },
       {
         "id": "B141",
@@ -2758,7 +2941,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b141 1422.18 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b141 1422.18 7.41053     "
       },
       {
         "id": "B142",
@@ -2768,7 +2952,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b142 1429.59 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b142 1429.59 7.41053     "
       },
       {
         "id": "B143",
@@ -2778,7 +2963,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b143 1437 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b143 1437 7.41053     "
       },
       {
         "id": "B144",
@@ -2788,7 +2974,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b144 1444.41 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b144 1444.41 7.41053     "
       },
       {
         "id": "B145",
@@ -2798,7 +2985,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b145 1451.82 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b145 1451.82 7.41053     "
       },
       {
         "id": "B146",
@@ -2808,7 +2996,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b146 1459.23 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b146 1459.23 7.41053     "
       },
       {
         "id": "B147",
@@ -2818,7 +3007,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b147 1466.64 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b147 1466.64 7.41053     "
       },
       {
         "id": "B148",
@@ -2828,7 +3018,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b148 1474.05 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b148 1474.05 7.41053     "
       },
       {
         "id": "B149",
@@ -2838,7 +3029,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b149 1481.46 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b149 1481.46 7.41053     "
       },
       {
         "id": "B150",
@@ -2848,7 +3040,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b150 1488.87 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b150 1488.87 7.41053     "
       },
       {
         "id": "B151",
@@ -2858,7 +3051,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b151 1496.28 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b151 1496.28 7.41053     "
       },
       {
         "id": "B152",
@@ -2868,7 +3062,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b152 1503.69 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b152 1503.69 7.41053     "
       },
       {
         "id": "B153",
@@ -2878,7 +3073,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b153 1511.11 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b153 1511.11 7.41053     "
       },
       {
         "id": "B154",
@@ -2888,7 +3084,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b154 1518.52 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b154 1518.52 7.41053     "
       },
       {
         "id": "B155",
@@ -2898,7 +3095,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b155 1525.93 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b155 1525.93 7.41053     "
       },
       {
         "id": "B156",
@@ -2908,7 +3106,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b156 1533.34 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b156 1533.34 7.41053     "
       },
       {
         "id": "B157",
@@ -2918,7 +3117,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b157 1540.75 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b157 1540.75 7.41053     "
       },
       {
         "id": "B158",
@@ -2928,7 +3128,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b158 1548.16 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b158 1548.16 7.41053     "
       },
       {
         "id": "B159",
@@ -2938,7 +3139,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b159 1555.57 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b159 1555.57 7.41053     "
       },
       {
         "id": "B160",
@@ -2948,7 +3150,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b160 1562.98 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b160 1562.98 7.41053     "
       },
       {
         "id": "B161",
@@ -2958,7 +3161,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b161 1570.39 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b161 1570.39 7.41053     "
       },
       {
         "id": "B162",
@@ -2968,7 +3172,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b162 1577.8 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b162 1577.8 7.41053     "
       },
       {
         "id": "B163",
@@ -2978,7 +3183,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b163 1585.21 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b163 1585.21 7.41053     "
       },
       {
         "id": "B164",
@@ -2988,7 +3194,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b164 1592.62 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b164 1592.62 7.41053     "
       },
       {
         "id": "B165",
@@ -2998,7 +3205,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b165 1600.03 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b165 1600.03 7.41053     "
       },
       {
         "id": "B166",
@@ -3008,7 +3216,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b166 1607.44 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b166 1607.44 7.41053     "
       },
       {
         "id": "B167",
@@ -3018,7 +3227,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b167 1614.85 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b167 1614.85 7.41053     "
       },
       {
         "id": "B168",
@@ -3028,7 +3238,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b168 1622.26 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b168 1622.26 7.41053     "
       },
       {
         "id": "B169",
@@ -3038,7 +3249,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b169 1629.67 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b169 1629.67 7.41053     "
       },
       {
         "id": "B170",
@@ -3048,7 +3260,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b170 1637.08 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b170 1637.08 7.41053     "
       },
       {
         "id": "B171",
@@ -3058,7 +3271,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b171 1644.49 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b171 1644.49 7.41053     "
       },
       {
         "id": "B172",
@@ -3068,7 +3282,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b172 1651.91 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b172 1651.91 7.41053     "
       },
       {
         "id": "B173",
@@ -3078,7 +3293,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b173 1659.32 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b173 1659.32 7.41053     "
       },
       {
         "id": "B174",
@@ -3088,7 +3304,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b174 1666.73 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b174 1666.73 7.41053     "
       },
       {
         "id": "B175",
@@ -3098,7 +3315,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b175 1674.14 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b175 1674.14 7.41053     "
       },
       {
         "id": "B176",
@@ -3108,7 +3326,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b176 1681.55 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b176 1681.55 7.41053     "
       },
       {
         "id": "B177",
@@ -3118,7 +3337,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b177 1688.96 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b177 1688.96 7.41053     "
       },
       {
         "id": "B178",
@@ -3128,7 +3348,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b178 1696.37 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b178 1696.37 7.41053     "
       },
       {
         "id": "B179",
@@ -3138,7 +3359,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b179 1703.78 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b179 1703.78 7.41053     "
       },
       {
         "id": "B180",
@@ -3148,7 +3370,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b180 1711.19 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b180 1711.19 7.41053     "
       },
       {
         "id": "B181",
@@ -3158,7 +3381,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b181 1718.6 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b181 1718.6 7.41053     "
       },
       {
         "id": "B182",
@@ -3168,7 +3392,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b182 1726.01 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b182 1726.01 7.41053     "
       },
       {
         "id": "B183",
@@ -3178,7 +3403,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b183 1733.42 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b183 1733.42 7.41053     "
       },
       {
         "id": "B184",
@@ -3188,7 +3414,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b184 1740.83 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b184 1740.83 7.41053     "
       },
       {
         "id": "B185",
@@ -3198,7 +3425,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b185 1748.24 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b185 1748.24 7.41053     "
       },
       {
         "id": "B186",
@@ -3208,7 +3436,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b186 1755.65 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b186 1755.65 7.41053     "
       },
       {
         "id": "B187",
@@ -3218,7 +3447,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b187 1763.06 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b187 1763.06 7.41053     "
       },
       {
         "id": "B188",
@@ -3228,7 +3458,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b188 1770.47 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b188 1770.47 7.41053     "
       },
       {
         "id": "B189",
@@ -3238,7 +3469,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b189 1777.88 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b189 1777.88 7.41053     "
       },
       {
         "id": "B190",
@@ -3248,7 +3480,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b190 1785.29 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b190 1785.29 7.41053     "
       },
       {
         "id": "B191",
@@ -3258,7 +3491,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b191 1792.71 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b191 1792.71 7.41053     "
       },
       {
         "id": "B192",
@@ -3268,7 +3502,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b192 1800.12 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b192 1800.12 7.41053     "
       },
       {
         "id": "B193",
@@ -3278,7 +3513,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b193 1807.53 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b193 1807.53 7.41053     "
       },
       {
         "id": "B194",
@@ -3288,7 +3524,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b194 1814.94 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b194 1814.94 7.41053     "
       },
       {
         "id": "B195",
@@ -3298,7 +3535,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b195 1822.35 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b195 1822.35 7.41053     "
       },
       {
         "id": "B196",
@@ -3308,7 +3546,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b196 1829.76 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b196 1829.76 7.41053     "
       },
       {
         "id": "B197",
@@ -3318,7 +3557,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b197 1837.17 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b197 1837.17 7.41053     "
       },
       {
         "id": "B198",
@@ -3328,7 +3568,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b198 1844.58 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b198 1844.58 7.41053     "
       },
       {
         "id": "B199",
@@ -3338,7 +3579,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b199 1851.99 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b199 1851.99 7.41053     "
       },
       {
         "id": "B200",
@@ -3348,7 +3590,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b200 1859.4 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b200 1859.4 7.41053     "
       },
       {
         "id": "B201",
@@ -3358,7 +3601,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b201 1866.81 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b201 1866.81 7.41053     "
       },
       {
         "id": "B202",
@@ -3368,7 +3612,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b202 1874.22 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b202 1874.22 7.41053     "
       },
       {
         "id": "B203",
@@ -3378,7 +3623,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b203 1881.63 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b203 1881.63 7.41053     "
       },
       {
         "id": "B204",
@@ -3388,7 +3634,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b204 1889.04 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b204 1889.04 7.41053     "
       },
       {
         "id": "B205",
@@ -3398,7 +3645,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b205 1896.45 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b205 1896.45 7.41053     "
       },
       {
         "id": "B206",
@@ -3408,7 +3656,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b206 1903.86 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b206 1903.86 7.41053     "
       },
       {
         "id": "B207",
@@ -3418,7 +3667,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b207 1911.27 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b207 1911.27 7.41053     "
       },
       {
         "id": "B208",
@@ -3428,7 +3678,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b208 1918.68 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b208 1918.68 7.41053     "
       },
       {
         "id": "B209",
@@ -3438,7 +3689,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b209 1926.09 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b209 1926.09 7.41053     "
       },
       {
         "id": "B210",
@@ -3448,7 +3700,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b210 1933.51 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b210 1933.51 7.41053     "
       },
       {
         "id": "B211",
@@ -3458,7 +3711,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b211 1940.92 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b211 1940.92 7.41053     "
       },
       {
         "id": "B212",
@@ -3468,7 +3722,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b212 1948.33 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b212 1948.33 7.41053     "
       },
       {
         "id": "B213",
@@ -3478,7 +3733,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b213 1955.74 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b213 1955.74 7.41053     "
       },
       {
         "id": "B214",
@@ -3488,7 +3744,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b214 1963.15 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b214 1963.15 7.41053     "
       },
       {
         "id": "B215",
@@ -3498,7 +3755,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b215 1970.56 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b215 1970.56 7.41053     "
       },
       {
         "id": "B216",
@@ -3508,7 +3766,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b216 1977.97 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b216 1977.97 7.41053     "
       },
       {
         "id": "B217",
@@ -3518,7 +3777,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b217 1985.38 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b217 1985.38 7.41053     "
       },
       {
         "id": "B218",
@@ -3528,7 +3788,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b218 1992.79 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b218 1992.79 7.41053     "
       },
       {
         "id": "B219",
@@ -3538,7 +3799,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b219 2000.2 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b219 2000.2 7.41053     "
       },
       {
         "id": "B220",
@@ -3548,7 +3810,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b220 2007.61 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b220 2007.61 7.41053     "
       },
       {
         "id": "B221",
@@ -3558,7 +3821,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b221 2015.02 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b221 2015.02 7.41053     "
       },
       {
         "id": "B222",
@@ -3568,7 +3832,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b222 2022.43 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b222 2022.43 7.41053     "
       },
       {
         "id": "B223",
@@ -3578,7 +3843,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b223 2029.84 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b223 2029.84 7.41053     "
       },
       {
         "id": "B224",
@@ -3588,7 +3854,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b224 2037.25 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b224 2037.25 7.41053     "
       },
       {
         "id": "B225",
@@ -3598,7 +3865,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b225 2044.66 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b225 2044.66 7.41053     "
       },
       {
         "id": "B226",
@@ -3608,7 +3876,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b226 2052.07 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b226 2052.07 7.41053     "
       },
       {
         "id": "B227",
@@ -3618,7 +3887,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b227 2059.48 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b227 2059.48 7.41053     "
       },
       {
         "id": "B228",
@@ -3628,7 +3898,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b228 2066.89 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b228 2066.89 7.41053     "
       },
       {
         "id": "B229",
@@ -3638,7 +3909,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b229 2074.31 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b229 2074.31 7.41053     "
       },
       {
         "id": "B230",
@@ -3648,7 +3920,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b230 2081.72 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b230 2081.72 7.41053     "
       },
       {
         "id": "B231",
@@ -3658,7 +3931,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b231 2089.13 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b231 2089.13 7.41053     "
       },
       {
         "id": "B232",
@@ -3668,7 +3942,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b232 2096.54 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b232 2096.54 7.41053     "
       },
       {
         "id": "B233",
@@ -3678,7 +3953,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b233 2103.95 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b233 2103.95 7.41053     "
       },
       {
         "id": "B234",
@@ -3688,7 +3964,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b234 2111.36 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b234 2111.36 7.41053     "
       },
       {
         "id": "B235",
@@ -3698,7 +3975,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b235 2118.77 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b235 2118.77 7.41053     "
       },
       {
         "id": "B236",
@@ -3708,7 +3986,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b236 2126.18 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b236 2126.18 7.41053     "
       },
       {
         "id": "B237",
@@ -3718,7 +3997,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b237 2133.59 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b237 2133.59 7.41053     "
       },
       {
         "id": "B238",
@@ -3728,7 +4008,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b238 2141 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b238 2141 7.41053     "
       },
       {
         "id": "B239",
@@ -3738,7 +4019,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b239 2148.41 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b239 2148.41 7.41053     "
       },
       {
         "id": "B240",
@@ -3748,7 +4030,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b240 2155.82 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b240 2155.82 7.41053     "
       },
       {
         "id": "B241",
@@ -3758,7 +4041,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b241 2163.23 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b241 2163.23 7.41053     "
       },
       {
         "id": "B242",
@@ -3768,7 +4052,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b242 2170.64 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b242 2170.64 7.41053     "
       },
       {
         "id": "B243",
@@ -3778,7 +4063,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b243 2178.05 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b243 2178.05 7.41053     "
       },
       {
         "id": "B244",
@@ -3788,7 +4074,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b244 2185.46 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b244 2185.46 7.41053     "
       },
       {
         "id": "B245",
@@ -3798,7 +4085,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b245 2192.87 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b245 2192.87 7.41053     "
       },
       {
         "id": "B246",
@@ -3808,7 +4096,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b246 2200.28 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b246 2200.28 7.41053     "
       },
       {
         "id": "B247",
@@ -3818,7 +4107,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b247 2207.69 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b247 2207.69 7.41053     "
       },
       {
         "id": "B248",
@@ -3828,7 +4118,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b248 2215.11 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b248 2215.11 7.41053     "
       },
       {
         "id": "B249",
@@ -3838,7 +4129,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b249 2222.52 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b249 2222.52 7.41053     "
       },
       {
         "id": "B250",
@@ -3848,7 +4140,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b250 2229.93 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b250 2229.93 7.41053     "
       },
       {
         "id": "B251",
@@ -3858,7 +4151,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b251 2237.34 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b251 2237.34 7.41053     "
       },
       {
         "id": "B252",
@@ -3868,7 +4162,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b252 2244.75 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b252 2244.75 7.41053     "
       },
       {
         "id": "B253",
@@ -3878,7 +4173,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b253 2252.16 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b253 2252.16 7.41053     "
       },
       {
         "id": "B254",
@@ -3888,7 +4184,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b254 2259.57 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b254 2259.57 7.41053     "
       },
       {
         "id": "B255",
@@ -3898,7 +4195,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b255 2266.98 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b255 2266.98 7.41053     "
       },
       {
         "id": "B256",
@@ -3908,7 +4206,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b256 2274.39 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b256 2274.39 7.41053     "
       },
       {
         "id": "B257",
@@ -3918,7 +4217,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b257 2281.8 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b257 2281.8 7.41053     "
       },
       {
         "id": "B258",
@@ -3928,7 +4228,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b258 2289.21 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b258 2289.21 7.41053     "
       },
       {
         "id": "B259",
@@ -3938,7 +4239,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b259 2296.62 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b259 2296.62 7.41053     "
       },
       {
         "id": "B260",
@@ -3948,7 +4250,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b260 2304.03 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b260 2304.03 7.41053     "
       },
       {
         "id": "B261",
@@ -3958,7 +4261,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b261 2311.44 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b261 2311.44 7.41053     "
       },
       {
         "id": "B262",
@@ -3968,7 +4272,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b262 2318.85 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b262 2318.85 7.41053     "
       },
       {
         "id": "B263",
@@ -3978,7 +4283,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b263 2326.26 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b263 2326.26 7.41053     "
       },
       {
         "id": "B264",
@@ -3988,7 +4294,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b264 2333.67 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b264 2333.67 7.41053     "
       },
       {
         "id": "B265",
@@ -3998,7 +4305,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b265 2341.08 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b265 2341.08 7.41053     "
       },
       {
         "id": "B266",
@@ -4008,7 +4316,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b266 2348.49 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b266 2348.49 7.41053     "
       },
       {
         "id": "B267",
@@ -4018,7 +4327,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b267 2355.91 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b267 2355.91 7.41053     "
       },
       {
         "id": "B268",
@@ -4028,7 +4338,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b268 2363.32 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b268 2363.32 7.41053     "
       },
       {
         "id": "B269",
@@ -4038,7 +4349,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b269 2370.73 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b269 2370.73 7.41053     "
       },
       {
         "id": "B270",
@@ -4048,7 +4360,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b270 2378.14 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b270 2378.14 7.41053     "
       },
       {
         "id": "B271",
@@ -4058,7 +4371,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b271 2385.55 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b271 2385.55 7.41053     "
       },
       {
         "id": "B272",
@@ -4068,7 +4382,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b272 2392.96 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b272 2392.96 7.41053     "
       },
       {
         "id": "B273",
@@ -4078,7 +4393,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b273 2400.37 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b273 2400.37 7.41053     "
       },
       {
         "id": "B274",
@@ -4088,7 +4404,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b274 2407.78 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b274 2407.78 7.41053     "
       },
       {
         "id": "B275",
@@ -4098,7 +4415,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b275 2415.19 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b275 2415.19 7.41053     "
       },
       {
         "id": "B276",
@@ -4108,7 +4426,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b276 2422.6 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b276 2422.6 7.41053     "
       },
       {
         "id": "B277",
@@ -4118,7 +4437,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b277 2430.01 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b277 2430.01 7.41053     "
       },
       {
         "id": "B278",
@@ -4128,7 +4448,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b278 2437.42 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b278 2437.42 7.41053     "
       },
       {
         "id": "B279",
@@ -4138,7 +4459,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b279 2444.83 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b279 2444.83 7.41053     "
       },
       {
         "id": "B280",
@@ -4148,7 +4470,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b280 2452.24 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b280 2452.24 7.41053     "
       },
       {
         "id": "B281",
@@ -4158,7 +4481,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b281 2459.65 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b281 2459.65 7.41053     "
       },
       {
         "id": "B282",
@@ -4168,7 +4492,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b282 2467.06 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b282 2467.06 7.41053     "
       },
       {
         "id": "B283",
@@ -4178,7 +4503,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b283 2474.47 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b283 2474.47 7.41053     "
       },
       {
         "id": "B284",
@@ -4188,7 +4514,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b284 2481.88 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b284 2481.88 7.41053     "
       },
       {
         "id": "B285",
@@ -4198,7 +4525,8 @@
         "gsd": "",
         "description": "",
         "snr": "",
-        "search_text": "b285 2489.29 7.41053    "
+        "ne_delta_t": "",
+        "search_text": "b285 2489.29 7.41053     "
       }
     ],
     "imaging": [
@@ -4375,7 +4703,8 @@
         "gsd": "30",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 482.5 65 blue 30 blue "
+        "ne_delta_t": "",
+        "search_text": "b1 482.5 65 blue 30 blue  "
       },
       {
         "id": "B2",
@@ -4385,7 +4714,8 @@
         "gsd": "30",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 565 80 green 30 green "
+        "ne_delta_t": "",
+        "search_text": "b2 565 80 green 30 green  "
       },
       {
         "id": "B3",
@@ -4395,7 +4725,8 @@
         "gsd": "30",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 660 60 red 30 red "
+        "ne_delta_t": "",
+        "search_text": "b3 660 60 red 30 red  "
       },
       {
         "id": "B4",
@@ -4405,7 +4736,8 @@
         "gsd": "30",
         "description": "NIR",
         "snr": "",
-        "search_text": "b4 837.5 125 nir 30 nir "
+        "ne_delta_t": "",
+        "search_text": "b4 837.5 125 nir 30 nir  "
       },
       {
         "id": "B5",
@@ -4415,7 +4747,8 @@
         "gsd": "30",
         "description": "SWIR",
         "snr": "",
-        "search_text": "b5 1650 200 swir16 30 swir "
+        "ne_delta_t": "",
+        "search_text": "b5 1650 200 swir16 30 swir  "
       },
       {
         "id": "B6",
@@ -4425,7 +4758,8 @@
         "gsd": "30",
         "description": "TIR",
         "snr": "",
-        "search_text": "b6 11450 2100 lwir 30 tir "
+        "ne_delta_t": "0.22",
+        "search_text": "b6 11450 2100 lwir 30 tir  0.22"
       },
       {
         "id": "B7",
@@ -4435,7 +4769,8 @@
         "gsd": "30",
         "description": "SWIR 2",
         "snr": "",
-        "search_text": "b7 2215 270 swir22 30 swir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 2215 270 swir22 30 swir 2  "
       },
       {
         "id": "B8",
@@ -4445,7 +4780,8 @@
         "gsd": "15",
         "description": "Panchromatic",
         "snr": "",
-        "search_text": "b8 710 380 pan 15 panchromatic "
+        "ne_delta_t": "",
+        "search_text": "b8 710 380 pan 15 panchromatic  "
       }
     ],
     "imaging": [],
@@ -4521,6 +4857,9 @@
     "references": [
       {
         "url": "https://science.nasa.gov/mission/landsat/etm-plus/"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/20090027884/downloads/20090027884.pdf"
       }
     ]
   },
@@ -4610,7 +4949,8 @@
         "gsd": "250",
         "description": "Land cloud aerosols boundaries - Shortwave VIS",
         "snr": "128",
-        "search_text": "b1 645 50 red 250 land cloud aerosols boundaries - shortwave vis 128"
+        "ne_delta_t": "",
+        "search_text": "b1 645 50 red 250 land cloud aerosols boundaries - shortwave vis 128 "
       },
       {
         "id": "B2",
@@ -4620,7 +4960,8 @@
         "gsd": "250",
         "description": "Land cloud aerosols boundaries - Shortwave NIR",
         "snr": "201",
-        "search_text": "b2 858.5 35 nir08 250 land cloud aerosols boundaries - shortwave nir 201"
+        "ne_delta_t": "",
+        "search_text": "b2 858.5 35 nir08 250 land cloud aerosols boundaries - shortwave nir 201 "
       },
       {
         "id": "B3",
@@ -4630,7 +4971,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave VIS",
         "snr": "243",
-        "search_text": "b3 469 20 blue 500 land cloud aerosols properties - shortwave vis 243"
+        "ne_delta_t": "",
+        "search_text": "b3 469 20 blue 500 land cloud aerosols properties - shortwave vis 243 "
       },
       {
         "id": "B4",
@@ -4640,7 +4982,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave VIS",
         "snr": "228",
-        "search_text": "b4 555 20 green 500 land cloud aerosols properties - shortwave vis 228"
+        "ne_delta_t": "",
+        "search_text": "b4 555 20 green 500 land cloud aerosols properties - shortwave vis 228 "
       },
       {
         "id": "B5",
@@ -4650,7 +4993,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave NIR",
         "snr": "74",
-        "search_text": "b5 1240 20  500 land cloud aerosols properties - shortwave nir 74"
+        "ne_delta_t": "",
+        "search_text": "b5 1240 20  500 land cloud aerosols properties - shortwave nir 74 "
       },
       {
         "id": "B6",
@@ -4660,7 +5004,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
         "snr": "275",
-        "search_text": "b6 1640 24 swir16 500 land cloud aerosols properties - shortwave infrared swir 275"
+        "ne_delta_t": "",
+        "search_text": "b6 1640 24 swir16 500 land cloud aerosols properties - shortwave infrared swir 275 "
       },
       {
         "id": "B7",
@@ -4670,7 +5015,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
         "snr": "110",
-        "search_text": "b7 2130 50 swir22 500 land cloud aerosols properties - shortwave infrared swir 110"
+        "ne_delta_t": "",
+        "search_text": "b7 2130 50 swir22 500 land cloud aerosols properties - shortwave infrared swir 110 "
       },
       {
         "id": "B8",
@@ -4680,7 +5026,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "880",
-        "search_text": "b8 412.5 15 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 880"
+        "ne_delta_t": "",
+        "search_text": "b8 412.5 15 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 880 "
       },
       {
         "id": "B9",
@@ -4690,7 +5037,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "838",
-        "search_text": "b9 443 10 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 838"
+        "ne_delta_t": "",
+        "search_text": "b9 443 10 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 838 "
       },
       {
         "id": "B10",
@@ -4700,7 +5048,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "802",
-        "search_text": "b10 488 10 blue 1000 ocean color phytoplankton biogeochemistry - shortwave vis 802"
+        "ne_delta_t": "",
+        "search_text": "b10 488 10 blue 1000 ocean color phytoplankton biogeochemistry - shortwave vis 802 "
       },
       {
         "id": "B11",
@@ -4710,7 +5059,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "754",
-        "search_text": "b11 531 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 754"
+        "ne_delta_t": "",
+        "search_text": "b11 531 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 754 "
       },
       {
         "id": "B12",
@@ -4720,7 +5070,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "750",
-        "search_text": "b12 551 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 750"
+        "ne_delta_t": "",
+        "search_text": "b12 551 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 750 "
       },
       {
         "id": "B13",
@@ -4730,7 +5081,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "910",
-        "search_text": "b13 667 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 910"
+        "ne_delta_t": "",
+        "search_text": "b13 667 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 910 "
       },
       {
         "id": "B14",
@@ -4740,7 +5092,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "1087",
-        "search_text": "b14 678 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 1087"
+        "ne_delta_t": "",
+        "search_text": "b14 678 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 1087 "
       },
       {
         "id": "B15",
@@ -4750,7 +5103,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "586",
-        "search_text": "b15 748 10 rededge075 1000 ocean color phytoplankton biogeochemistry - shortwave vis 586"
+        "ne_delta_t": "",
+        "search_text": "b15 748 10 rededge075 1000 ocean color phytoplankton biogeochemistry - shortwave vis 586 "
       },
       {
         "id": "B16",
@@ -4760,7 +5114,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave NIR",
         "snr": "516",
-        "search_text": "b16 869.5 15 nir08 1000 ocean color phytoplankton biogeochemistry - shortwave nir 516"
+        "ne_delta_t": "",
+        "search_text": "b16 869.5 15 nir08 1000 ocean color phytoplankton biogeochemistry - shortwave nir 516 "
       },
       {
         "id": "B17",
@@ -4770,7 +5125,8 @@
         "gsd": "1000",
         "description": "Atmospheric water vapor - Shortwave NIR",
         "snr": "167",
-        "search_text": "b17 905 30 nir09 1000 atmospheric water vapor - shortwave nir 167"
+        "ne_delta_t": "",
+        "search_text": "b17 905 30 nir09 1000 atmospheric water vapor - shortwave nir 167 "
       },
       {
         "id": "B18",
@@ -4780,7 +5136,8 @@
         "gsd": "1000",
         "description": "Atmospheric water vapor - Shortwave NIR",
         "snr": "57",
-        "search_text": "b18 936 10 nir09 1000 atmospheric water vapor - shortwave nir 57"
+        "ne_delta_t": "",
+        "search_text": "b18 936 10 nir09 1000 atmospheric water vapor - shortwave nir 57 "
       },
       {
         "id": "B19",
@@ -4790,7 +5147,8 @@
         "gsd": "1000",
         "description": "Atmospheric water vapor - Shortwave NIR",
         "snr": "250",
-        "search_text": "b19 940 50 nir09 1000 atmospheric water vapor - shortwave nir 250"
+        "ne_delta_t": "",
+        "search_text": "b19 940 50 nir09 1000 atmospheric water vapor - shortwave nir 250 "
       },
       {
         "id": "B20",
@@ -4800,7 +5158,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b20 3750 180  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b20 3750 180  1000 surface cloud temperature - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B21",
@@ -4810,7 +5169,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b21 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.2",
+        "search_text": "b21 3959 60  1000 surface cloud temperature - longwave thermal infrared tir  0.2"
       },
       {
         "id": "B22",
@@ -4820,7 +5180,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b22 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.07",
+        "search_text": "b22 3959 60  1000 surface cloud temperature - longwave thermal infrared tir  0.07"
       },
       {
         "id": "B23",
@@ -4830,7 +5191,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b23 4050 60  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.07",
+        "search_text": "b23 4050 60  1000 surface cloud temperature - longwave thermal infrared tir  0.07"
       },
       {
         "id": "B24",
@@ -4840,7 +5202,8 @@
         "gsd": "1000",
         "description": "Atmospheric temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b24 4465.5 65  1000 atmospheric temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b24 4465.5 65  1000 atmospheric temperature - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B25",
@@ -4850,7 +5213,8 @@
         "gsd": "1000",
         "description": "Atmospheric temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b25 4515.5 67  1000 atmospheric temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b25 4515.5 67  1000 atmospheric temperature - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B26",
@@ -4860,7 +5224,8 @@
         "gsd": "1000",
         "description": "Cirrus clouds water vapor - Shortwave NIR",
         "snr": "150",
-        "search_text": "b26 1375 30 cirrus 1000 cirrus clouds water vapor - shortwave nir 150"
+        "ne_delta_t": "",
+        "search_text": "b26 1375 30 cirrus 1000 cirrus clouds water vapor - shortwave nir 150 "
       },
       {
         "id": "B27",
@@ -4870,7 +5235,8 @@
         "gsd": "1000",
         "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b27 6715 360  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b27 6715 360  1000 cirrus clouds water vapor - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B28",
@@ -4880,7 +5246,8 @@
         "gsd": "1000",
         "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b28 7325 300  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b28 7325 300  1000 cirrus clouds water vapor - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B29",
@@ -4890,7 +5257,8 @@
         "gsd": "1000",
         "description": "Cloud properties - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b29 8550 300 lwir 1000 cloud properties - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b29 8550 300 lwir 1000 cloud properties - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B30",
@@ -4900,7 +5268,8 @@
         "gsd": "1000",
         "description": "Ozone - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b30 9730 300 lwir 1000 ozone - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b30 9730 300 lwir 1000 ozone - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B31",
@@ -4910,7 +5279,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b31 11030 500 lwir11 1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b31 11030 500 lwir11 1000 surface cloud temperature - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B32",
@@ -4920,7 +5290,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b32 12020 500 lwir12 1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b32 12020 500 lwir12 1000 surface cloud temperature - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B33",
@@ -4930,7 +5301,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b33 13335 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b33 13335 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B34",
@@ -4940,7 +5312,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b34 13635 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b34 13635 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B35",
@@ -4950,7 +5323,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b35 13935 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b35 13935 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B36",
@@ -4960,7 +5334,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b36 14235 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.35",
+        "search_text": "b36 14235 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.35"
       }
     ],
     "imaging": [
@@ -5133,7 +5508,8 @@
         "gsd": "250",
         "description": "Land cloud aerosols boundaries - Shortwave VIS",
         "snr": "128",
-        "search_text": "b1 645 50 red 250 land cloud aerosols boundaries - shortwave vis 128"
+        "ne_delta_t": "",
+        "search_text": "b1 645 50 red 250 land cloud aerosols boundaries - shortwave vis 128 "
       },
       {
         "id": "B2",
@@ -5143,7 +5519,8 @@
         "gsd": "250",
         "description": "Land cloud aerosols boundaries - Shortwave NIR",
         "snr": "201",
-        "search_text": "b2 858.5 35 nir08 250 land cloud aerosols boundaries - shortwave nir 201"
+        "ne_delta_t": "",
+        "search_text": "b2 858.5 35 nir08 250 land cloud aerosols boundaries - shortwave nir 201 "
       },
       {
         "id": "B3",
@@ -5153,7 +5530,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave VIS",
         "snr": "243",
-        "search_text": "b3 469 20 blue 500 land cloud aerosols properties - shortwave vis 243"
+        "ne_delta_t": "",
+        "search_text": "b3 469 20 blue 500 land cloud aerosols properties - shortwave vis 243 "
       },
       {
         "id": "B4",
@@ -5163,7 +5541,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave VIS",
         "snr": "228",
-        "search_text": "b4 555 20 green 500 land cloud aerosols properties - shortwave vis 228"
+        "ne_delta_t": "",
+        "search_text": "b4 555 20 green 500 land cloud aerosols properties - shortwave vis 228 "
       },
       {
         "id": "B5",
@@ -5173,7 +5552,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave NIR",
         "snr": "74",
-        "search_text": "b5 1240 20  500 land cloud aerosols properties - shortwave nir 74"
+        "ne_delta_t": "",
+        "search_text": "b5 1240 20  500 land cloud aerosols properties - shortwave nir 74 "
       },
       {
         "id": "B6",
@@ -5183,7 +5563,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
         "snr": "275",
-        "search_text": "b6 1640 24 swir16 500 land cloud aerosols properties - shortwave infrared swir 275"
+        "ne_delta_t": "",
+        "search_text": "b6 1640 24 swir16 500 land cloud aerosols properties - shortwave infrared swir 275 "
       },
       {
         "id": "B7",
@@ -5193,7 +5574,8 @@
         "gsd": "500",
         "description": "Land cloud aerosols properties - Shortwave infrared SWIR",
         "snr": "110",
-        "search_text": "b7 2130 50 swir22 500 land cloud aerosols properties - shortwave infrared swir 110"
+        "ne_delta_t": "",
+        "search_text": "b7 2130 50 swir22 500 land cloud aerosols properties - shortwave infrared swir 110 "
       },
       {
         "id": "B8",
@@ -5203,7 +5585,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "880",
-        "search_text": "b8 412.5 15 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 880"
+        "ne_delta_t": "",
+        "search_text": "b8 412.5 15 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 880 "
       },
       {
         "id": "B9",
@@ -5213,7 +5596,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "838",
-        "search_text": "b9 443 10 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 838"
+        "ne_delta_t": "",
+        "search_text": "b9 443 10 coastal 1000 ocean color phytoplankton biogeochemistry - shortwave vis 838 "
       },
       {
         "id": "B10",
@@ -5223,7 +5607,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "802",
-        "search_text": "b10 488 10 blue 1000 ocean color phytoplankton biogeochemistry - shortwave vis 802"
+        "ne_delta_t": "",
+        "search_text": "b10 488 10 blue 1000 ocean color phytoplankton biogeochemistry - shortwave vis 802 "
       },
       {
         "id": "B11",
@@ -5233,7 +5618,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "754",
-        "search_text": "b11 531 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 754"
+        "ne_delta_t": "",
+        "search_text": "b11 531 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 754 "
       },
       {
         "id": "B12",
@@ -5243,7 +5629,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "750",
-        "search_text": "b12 551 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 750"
+        "ne_delta_t": "",
+        "search_text": "b12 551 10 green 1000 ocean color phytoplankton biogeochemistry - shortwave vis 750 "
       },
       {
         "id": "B13",
@@ -5253,7 +5640,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "910",
-        "search_text": "b13 667 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 910"
+        "ne_delta_t": "",
+        "search_text": "b13 667 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 910 "
       },
       {
         "id": "B14",
@@ -5263,7 +5651,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "1087",
-        "search_text": "b14 678 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 1087"
+        "ne_delta_t": "",
+        "search_text": "b14 678 10 red 1000 ocean color phytoplankton biogeochemistry - shortwave vis 1087 "
       },
       {
         "id": "B15",
@@ -5273,7 +5662,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave VIS",
         "snr": "586",
-        "search_text": "b15 748 10 rededge075 1000 ocean color phytoplankton biogeochemistry - shortwave vis 586"
+        "ne_delta_t": "",
+        "search_text": "b15 748 10 rededge075 1000 ocean color phytoplankton biogeochemistry - shortwave vis 586 "
       },
       {
         "id": "B16",
@@ -5283,7 +5673,8 @@
         "gsd": "1000",
         "description": "Ocean color phytoplankton biogeochemistry - Shortwave NIR",
         "snr": "516",
-        "search_text": "b16 869.5 15 nir08 1000 ocean color phytoplankton biogeochemistry - shortwave nir 516"
+        "ne_delta_t": "",
+        "search_text": "b16 869.5 15 nir08 1000 ocean color phytoplankton biogeochemistry - shortwave nir 516 "
       },
       {
         "id": "B17",
@@ -5293,7 +5684,8 @@
         "gsd": "1000",
         "description": "Atmospheric water vapor - Shortwave NIR",
         "snr": "167",
-        "search_text": "b17 905 30 nir09 1000 atmospheric water vapor - shortwave nir 167"
+        "ne_delta_t": "",
+        "search_text": "b17 905 30 nir09 1000 atmospheric water vapor - shortwave nir 167 "
       },
       {
         "id": "B18",
@@ -5303,7 +5695,8 @@
         "gsd": "1000",
         "description": "Atmospheric water vapor - Shortwave NIR",
         "snr": "57",
-        "search_text": "b18 936 10 nir09 1000 atmospheric water vapor - shortwave nir 57"
+        "ne_delta_t": "",
+        "search_text": "b18 936 10 nir09 1000 atmospheric water vapor - shortwave nir 57 "
       },
       {
         "id": "B19",
@@ -5313,7 +5706,8 @@
         "gsd": "1000",
         "description": "Atmospheric water vapor - Shortwave NIR",
         "snr": "250",
-        "search_text": "b19 940 50 nir09 1000 atmospheric water vapor - shortwave nir 250"
+        "ne_delta_t": "",
+        "search_text": "b19 940 50 nir09 1000 atmospheric water vapor - shortwave nir 250 "
       },
       {
         "id": "B20",
@@ -5323,7 +5717,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b20 3750 180  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b20 3750 180  1000 surface cloud temperature - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B21",
@@ -5333,7 +5728,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b21 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.2",
+        "search_text": "b21 3959 60  1000 surface cloud temperature - longwave thermal infrared tir  0.2"
       },
       {
         "id": "B22",
@@ -5343,7 +5739,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b22 3959 60  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.07",
+        "search_text": "b22 3959 60  1000 surface cloud temperature - longwave thermal infrared tir  0.07"
       },
       {
         "id": "B23",
@@ -5353,7 +5750,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b23 4050 60  1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.07",
+        "search_text": "b23 4050 60  1000 surface cloud temperature - longwave thermal infrared tir  0.07"
       },
       {
         "id": "B24",
@@ -5363,7 +5761,8 @@
         "gsd": "1000",
         "description": "Atmospheric temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b24 4465.5 65  1000 atmospheric temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b24 4465.5 65  1000 atmospheric temperature - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B25",
@@ -5373,7 +5772,8 @@
         "gsd": "1000",
         "description": "Atmospheric temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b25 4515.5 67  1000 atmospheric temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b25 4515.5 67  1000 atmospheric temperature - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B26",
@@ -5383,7 +5783,8 @@
         "gsd": "1000",
         "description": "Cirrus clouds water vapor - Shortwave NIR",
         "snr": "150",
-        "search_text": "b26 1375 30 cirrus 1000 cirrus clouds water vapor - shortwave nir 150"
+        "ne_delta_t": "",
+        "search_text": "b26 1375 30 cirrus 1000 cirrus clouds water vapor - shortwave nir 150 "
       },
       {
         "id": "B27",
@@ -5393,7 +5794,8 @@
         "gsd": "1000",
         "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b27 6715 360  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b27 6715 360  1000 cirrus clouds water vapor - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B28",
@@ -5403,7 +5805,8 @@
         "gsd": "1000",
         "description": "Cirrus clouds water vapor - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b28 7325 300  1000 cirrus clouds water vapor - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b28 7325 300  1000 cirrus clouds water vapor - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B29",
@@ -5413,7 +5816,8 @@
         "gsd": "1000",
         "description": "Cloud properties - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b29 8550 300 lwir 1000 cloud properties - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b29 8550 300 lwir 1000 cloud properties - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B30",
@@ -5423,7 +5827,8 @@
         "gsd": "1000",
         "description": "Ozone - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b30 9730 300 lwir 1000 ozone - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b30 9730 300 lwir 1000 ozone - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B31",
@@ -5433,7 +5838,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b31 11030 500 lwir11 1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b31 11030 500 lwir11 1000 surface cloud temperature - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B32",
@@ -5443,7 +5849,8 @@
         "gsd": "1000",
         "description": "Surface cloud temperature - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b32 12020 500 lwir12 1000 surface cloud temperature - longwave thermal infrared tir "
+        "ne_delta_t": "0.05",
+        "search_text": "b32 12020 500 lwir12 1000 surface cloud temperature - longwave thermal infrared tir  0.05"
       },
       {
         "id": "B33",
@@ -5453,7 +5860,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b33 13335 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b33 13335 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B34",
@@ -5463,7 +5871,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b34 13635 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b34 13635 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B35",
@@ -5473,7 +5882,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b35 13935 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.25",
+        "search_text": "b35 13935 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.25"
       },
       {
         "id": "B36",
@@ -5483,7 +5893,8 @@
         "gsd": "1000",
         "description": "Cloud top altitude - Longwave thermal infrared TIR",
         "snr": "",
-        "search_text": "b36 14235 300 lwir 1000 cloud top altitude - longwave thermal infrared tir "
+        "ne_delta_t": "0.35",
+        "search_text": "b36 14235 300 lwir 1000 cloud top altitude - longwave thermal infrared tir  0.35"
       }
     ],
     "imaging": [
@@ -5663,7 +6074,8 @@
         "gsd": "60",
         "description": "Aerosols",
         "snr": "129",
-        "search_text": "b1 442.7 20 coastal 60 aerosols 129"
+        "ne_delta_t": "",
+        "search_text": "b1 442.7 20 coastal 60 aerosols 129 "
       },
       {
         "id": "B2",
@@ -5673,7 +6085,8 @@
         "gsd": "10",
         "description": "Blue",
         "snr": "154",
-        "search_text": "b2 492.7 64 blue 10 blue 154"
+        "ne_delta_t": "",
+        "search_text": "b2 492.7 64 blue 10 blue 154 "
       },
       {
         "id": "B3",
@@ -5683,7 +6096,8 @@
         "gsd": "10",
         "description": "Green",
         "snr": "168",
-        "search_text": "b3 559.8 35 green 10 green 168"
+        "ne_delta_t": "",
+        "search_text": "b3 559.8 35 green 10 green 168 "
       },
       {
         "id": "B4",
@@ -5693,7 +6107,8 @@
         "gsd": "10",
         "description": "Red",
         "snr": "142",
-        "search_text": "b4 664.6 30 red 10 red 142"
+        "ne_delta_t": "",
+        "search_text": "b4 664.6 30 red 10 red 142 "
       },
       {
         "id": "B5",
@@ -5703,7 +6118,8 @@
         "gsd": "20",
         "description": "Red Edge 1",
         "snr": "117",
-        "search_text": "b5 704.1 14 rededge071 20 red edge 1 117"
+        "ne_delta_t": "",
+        "search_text": "b5 704.1 14 rededge071 20 red edge 1 117 "
       },
       {
         "id": "B6",
@@ -5713,7 +6129,8 @@
         "gsd": "20",
         "description": "Red Edge 2",
         "snr": "89",
-        "search_text": "b6 740.5 14 rededge075 20 red edge 2 89"
+        "ne_delta_t": "",
+        "search_text": "b6 740.5 14 rededge075 20 red edge 2 89 "
       },
       {
         "id": "B7",
@@ -5723,7 +6140,8 @@
         "gsd": "20",
         "description": "Red Edge 3",
         "snr": "105",
-        "search_text": "b7 782.8 20 rededge078 20 red edge 3 105"
+        "ne_delta_t": "",
+        "search_text": "b7 782.8 20 rededge078 20 red edge 3 105 "
       },
       {
         "id": "B8",
@@ -5733,7 +6151,8 @@
         "gsd": "10",
         "description": "NIR",
         "snr": "174",
-        "search_text": "b8 832.8 118 nir 10 nir 174"
+        "ne_delta_t": "",
+        "search_text": "b8 832.8 118 nir 10 nir 174 "
       },
       {
         "id": "B8A",
@@ -5743,7 +6162,8 @@
         "gsd": "20",
         "description": "Narrow NIR",
         "snr": "72",
-        "search_text": "b8a 864.7 20 nir08 20 narrow nir 72"
+        "ne_delta_t": "",
+        "search_text": "b8a 864.7 20 nir08 20 narrow nir 72 "
       },
       {
         "id": "B9",
@@ -5753,7 +6173,8 @@
         "gsd": "60",
         "description": "Water Vapour",
         "snr": "114",
-        "search_text": "b9 945.1 20 nir09 60 water vapour 114"
+        "ne_delta_t": "",
+        "search_text": "b9 945.1 20 nir09 60 water vapour 114 "
       },
       {
         "id": "B10",
@@ -5763,7 +6184,8 @@
         "gsd": "60",
         "description": "Cirrus",
         "snr": "50",
-        "search_text": "b10 1373.5 30 cirrus 60 cirrus 50"
+        "ne_delta_t": "",
+        "search_text": "b10 1373.5 30 cirrus 60 cirrus 50 "
       },
       {
         "id": "B11",
@@ -5773,7 +6195,8 @@
         "gsd": "20",
         "description": "SWIR 1",
         "snr": "100",
-        "search_text": "b11 1613.7 88 swir16 20 swir 1 100"
+        "ne_delta_t": "",
+        "search_text": "b11 1613.7 88 swir16 20 swir 1 100 "
       },
       {
         "id": "B12",
@@ -5783,7 +6206,8 @@
         "gsd": "20",
         "description": "SWIR 2",
         "snr": "100",
-        "search_text": "b12 2202.4 179 swir22 20 swir 2 100"
+        "ne_delta_t": "",
+        "search_text": "b12 2202.4 179 swir22 20 swir 2 100 "
       }
     ],
     "imaging": [],
@@ -6014,7 +6438,8 @@
         "gsd": "60",
         "description": "Aerosols",
         "snr": "129",
-        "search_text": "b1 442.2 20 coastal 60 aerosols 129"
+        "ne_delta_t": "",
+        "search_text": "b1 442.2 20 coastal 60 aerosols 129 "
       },
       {
         "id": "B2",
@@ -6024,7 +6449,8 @@
         "gsd": "10",
         "description": "Blue",
         "snr": "154",
-        "search_text": "b2 492.3 65 blue 10 blue 154"
+        "ne_delta_t": "",
+        "search_text": "b2 492.3 65 blue 10 blue 154 "
       },
       {
         "id": "B3",
@@ -6034,7 +6460,8 @@
         "gsd": "10",
         "description": "Green",
         "snr": "168",
-        "search_text": "b3 558.9 35 green 10 green 168"
+        "ne_delta_t": "",
+        "search_text": "b3 558.9 35 green 10 green 168 "
       },
       {
         "id": "B4",
@@ -6044,7 +6471,8 @@
         "gsd": "10",
         "description": "Red",
         "snr": "142",
-        "search_text": "b4 664.9 31 red 10 red 142"
+        "ne_delta_t": "",
+        "search_text": "b4 664.9 31 red 10 red 142 "
       },
       {
         "id": "B5",
@@ -6054,7 +6482,8 @@
         "gsd": "20",
         "description": "Red Edge 1",
         "snr": "117",
-        "search_text": "b5 703.8 15 rededge071 20 red edge 1 117"
+        "ne_delta_t": "",
+        "search_text": "b5 703.8 15 rededge071 20 red edge 1 117 "
       },
       {
         "id": "B6",
@@ -6064,7 +6493,8 @@
         "gsd": "20",
         "description": "Red Edge 2",
         "snr": "89",
-        "search_text": "b6 739.1 14 rededge075 20 red edge 2 89"
+        "ne_delta_t": "",
+        "search_text": "b6 739.1 14 rededge075 20 red edge 2 89 "
       },
       {
         "id": "B7",
@@ -6074,7 +6504,8 @@
         "gsd": "20",
         "description": "Red Edge 3",
         "snr": "105",
-        "search_text": "b7 779.7 20 rededge078 20 red edge 3 105"
+        "ne_delta_t": "",
+        "search_text": "b7 779.7 20 rededge078 20 red edge 3 105 "
       },
       {
         "id": "B8",
@@ -6084,7 +6515,8 @@
         "gsd": "10",
         "description": "NIR",
         "snr": "174",
-        "search_text": "b8 832.9 115 nir 10 nir 174"
+        "ne_delta_t": "",
+        "search_text": "b8 832.9 115 nir 10 nir 174 "
       },
       {
         "id": "B8A",
@@ -6094,7 +6526,8 @@
         "gsd": "20",
         "description": "Narrow NIR",
         "snr": "72",
-        "search_text": "b8a 864 20 nir08 20 narrow nir 72"
+        "ne_delta_t": "",
+        "search_text": "b8a 864 20 nir08 20 narrow nir 72 "
       },
       {
         "id": "B9",
@@ -6104,7 +6537,8 @@
         "gsd": "60",
         "description": "Water Vapour",
         "snr": "114",
-        "search_text": "b9 943.2 20 nir09 60 water vapour 114"
+        "ne_delta_t": "",
+        "search_text": "b9 943.2 20 nir09 60 water vapour 114 "
       },
       {
         "id": "B10",
@@ -6114,7 +6548,8 @@
         "gsd": "60",
         "description": "Cirrus",
         "snr": "50",
-        "search_text": "b10 1376.9 30 cirrus 60 cirrus 50"
+        "ne_delta_t": "",
+        "search_text": "b10 1376.9 30 cirrus 60 cirrus 50 "
       },
       {
         "id": "B11",
@@ -6124,7 +6559,8 @@
         "gsd": "20",
         "description": "SWIR 1",
         "snr": "100",
-        "search_text": "b11 1610.4 93 swir16 20 swir 1 100"
+        "ne_delta_t": "",
+        "search_text": "b11 1610.4 93 swir16 20 swir 1 100 "
       },
       {
         "id": "B12",
@@ -6134,7 +6570,8 @@
         "gsd": "20",
         "description": "SWIR 2",
         "snr": "100",
-        "search_text": "b12 2185.7 181 swir22 20 swir 2 100"
+        "ne_delta_t": "",
+        "search_text": "b12 2185.7 181 swir22 20 swir 2 100 "
       }
     ],
     "imaging": [],
@@ -6361,7 +6798,8 @@
         "gsd": "60",
         "description": "Aerosols",
         "snr": "894",
-        "search_text": "b1 444.2 21 coastal 60 aerosols 894"
+        "ne_delta_t": "",
+        "search_text": "b1 444.2 21 coastal 60 aerosols 894 "
       },
       {
         "id": "B2",
@@ -6371,7 +6809,8 @@
         "gsd": "10",
         "description": "Blue",
         "snr": "162",
-        "search_text": "b2 489 65 blue 10 blue 162"
+        "ne_delta_t": "",
+        "search_text": "b2 489 65 blue 10 blue 162 "
       },
       {
         "id": "B3",
@@ -6381,7 +6820,8 @@
         "gsd": "10",
         "description": "Green",
         "snr": "189",
-        "search_text": "b3 560.6 36 green 10 green 189"
+        "ne_delta_t": "",
+        "search_text": "b3 560.6 36 green 10 green 189 "
       },
       {
         "id": "B4",
@@ -6391,7 +6831,8 @@
         "gsd": "10",
         "description": "Red",
         "snr": "175",
-        "search_text": "b4 666.5 30 red 10 red 175"
+        "ne_delta_t": "",
+        "search_text": "b4 666.5 30 red 10 red 175 "
       },
       {
         "id": "B5",
@@ -6401,7 +6842,8 @@
         "gsd": "20",
         "description": "Red Edge 1",
         "snr": "192",
-        "search_text": "b5 707.1 15 rededge071 20 red edge 1 192"
+        "ne_delta_t": "",
+        "search_text": "b5 707.1 15 rededge071 20 red edge 1 192 "
       },
       {
         "id": "B6",
@@ -6411,7 +6853,8 @@
         "gsd": "20",
         "description": "Red Edge 2",
         "snr": "169",
-        "search_text": "b6 741.1 15 rededge075 20 red edge 2 169"
+        "ne_delta_t": "",
+        "search_text": "b6 741.1 15 rededge075 20 red edge 2 169 "
       },
       {
         "id": "B7",
@@ -6421,7 +6864,8 @@
         "gsd": "20",
         "description": "Red Edge 3",
         "snr": "161",
-        "search_text": "b7 784.7 21 rededge078 20 red edge 3 161"
+        "ne_delta_t": "",
+        "search_text": "b7 784.7 21 rededge078 20 red edge 3 161 "
       },
       {
         "id": "B8",
@@ -6431,7 +6875,8 @@
         "gsd": "10",
         "description": "NIR",
         "snr": "174",
-        "search_text": "b8 834.6 114 nir 10 nir 174"
+        "ne_delta_t": "",
+        "search_text": "b8 834.6 114 nir 10 nir 174 "
       },
       {
         "id": "B8A",
@@ -6441,7 +6886,8 @@
         "gsd": "20",
         "description": "Narrow NIR",
         "snr": "117",
-        "search_text": "b8a 865.6 20 nir08 20 narrow nir 117"
+        "ne_delta_t": "",
+        "search_text": "b8a 865.6 20 nir08 20 narrow nir 117 "
       },
       {
         "id": "B9",
@@ -6451,7 +6897,8 @@
         "gsd": "60",
         "description": "Water Vapour",
         "snr": "135",
-        "search_text": "b9 947.2 20 nir09 60 water vapour 135"
+        "ne_delta_t": "",
+        "search_text": "b9 947.2 20 nir09 60 water vapour 135 "
       },
       {
         "id": "B10",
@@ -6461,7 +6908,8 @@
         "gsd": "60",
         "description": "Cirrus",
         "snr": "301",
-        "search_text": "b10 1372.2 33 cirrus 60 cirrus 301"
+        "ne_delta_t": "",
+        "search_text": "b10 1372.2 33 cirrus 60 cirrus 301 "
       },
       {
         "id": "B11",
@@ -6471,7 +6919,8 @@
         "gsd": "20",
         "description": "SWIR 1",
         "snr": "133",
-        "search_text": "b11 1612 89 swir16 20 swir 1 133"
+        "ne_delta_t": "",
+        "search_text": "b11 1612 89 swir16 20 swir 1 133 "
       },
       {
         "id": "B12",
@@ -6481,7 +6930,8 @@
         "gsd": "20",
         "description": "SWIR 2",
         "snr": "141",
-        "search_text": "b12 2191.3 182 swir22 20 swir 2 141"
+        "ne_delta_t": "",
+        "search_text": "b12 2191.3 182 swir22 20 swir 2 141 "
       }
     ],
     "imaging": [],
@@ -6712,7 +7162,8 @@
         "gsd": "60",
         "description": "Green",
         "snr": "",
-        "search_text": "b4 550 100  60 green "
+        "ne_delta_t": "",
+        "search_text": "b4 550 100  60 green  "
       },
       {
         "id": "B5",
@@ -6722,7 +7173,8 @@
         "gsd": "60",
         "description": "Red",
         "snr": "",
-        "search_text": "b5 650 100  60 red "
+        "ne_delta_t": "",
+        "search_text": "b5 650 100  60 red  "
       },
       {
         "id": "B6",
@@ -6732,7 +7184,8 @@
         "gsd": "60",
         "description": "NIR",
         "snr": "",
-        "search_text": "b6 750 100  60 nir "
+        "ne_delta_t": "",
+        "search_text": "b6 750 100  60 nir  "
       },
       {
         "id": "B7",
@@ -6742,7 +7195,8 @@
         "gsd": "60",
         "description": "NIR 2",
         "snr": "",
-        "search_text": "b7 950 300  60 nir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 950 300  60 nir 2  "
       }
     ],
     "imaging": [],
@@ -6926,7 +7380,8 @@
         "gsd": "60",
         "description": "Green",
         "snr": "",
-        "search_text": "b4 550 100  60 green "
+        "ne_delta_t": "",
+        "search_text": "b4 550 100  60 green  "
       },
       {
         "id": "B5",
@@ -6936,7 +7391,8 @@
         "gsd": "60",
         "description": "Red",
         "snr": "",
-        "search_text": "b5 650 100  60 red "
+        "ne_delta_t": "",
+        "search_text": "b5 650 100  60 red  "
       },
       {
         "id": "B6",
@@ -6946,7 +7402,8 @@
         "gsd": "60",
         "description": "NIR",
         "snr": "",
-        "search_text": "b6 750 100  60 nir "
+        "ne_delta_t": "",
+        "search_text": "b6 750 100  60 nir  "
       },
       {
         "id": "B7",
@@ -6956,7 +7413,8 @@
         "gsd": "60",
         "description": "NIR 2",
         "snr": "",
-        "search_text": "b7 950 300  60 nir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 950 300  60 nir 2  "
       }
     ],
     "imaging": [],
@@ -7140,7 +7598,8 @@
         "gsd": "60",
         "description": "Green",
         "snr": "",
-        "search_text": "b4 550 100  60 green "
+        "ne_delta_t": "",
+        "search_text": "b4 550 100  60 green  "
       },
       {
         "id": "B5",
@@ -7150,7 +7609,8 @@
         "gsd": "60",
         "description": "Red",
         "snr": "",
-        "search_text": "b5 650 100  60 red "
+        "ne_delta_t": "",
+        "search_text": "b5 650 100  60 red  "
       },
       {
         "id": "B6",
@@ -7160,7 +7620,8 @@
         "gsd": "60",
         "description": "NIR",
         "snr": "",
-        "search_text": "b6 750 100  60 nir "
+        "ne_delta_t": "",
+        "search_text": "b6 750 100  60 nir  "
       },
       {
         "id": "B7",
@@ -7170,7 +7631,8 @@
         "gsd": "60",
         "description": "NIR 2",
         "snr": "",
-        "search_text": "b7 950 300  60 nir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 950 300  60 nir 2  "
       }
     ],
     "imaging": [],
@@ -7354,7 +7816,8 @@
         "gsd": "60",
         "description": "Green",
         "snr": "",
-        "search_text": "b1 550 100  60 green "
+        "ne_delta_t": "",
+        "search_text": "b1 550 100  60 green  "
       },
       {
         "id": "B2",
@@ -7364,7 +7827,8 @@
         "gsd": "60",
         "description": "Red",
         "snr": "",
-        "search_text": "b2 650 100  60 red "
+        "ne_delta_t": "",
+        "search_text": "b2 650 100  60 red  "
       },
       {
         "id": "B3",
@@ -7374,7 +7838,8 @@
         "gsd": "60",
         "description": "NIR",
         "snr": "",
-        "search_text": "b3 750 100  60 nir "
+        "ne_delta_t": "",
+        "search_text": "b3 750 100  60 nir  "
       },
       {
         "id": "B4",
@@ -7384,7 +7849,8 @@
         "gsd": "60",
         "description": "NIR 2",
         "snr": "",
-        "search_text": "b4 950 300  60 nir 2 "
+        "ne_delta_t": "",
+        "search_text": "b4 950 300  60 nir 2  "
       }
     ],
     "imaging": [],
@@ -7575,7 +8041,8 @@
         "gsd": "60",
         "description": "Green",
         "snr": "",
-        "search_text": "b1 550 100  60 green "
+        "ne_delta_t": "",
+        "search_text": "b1 550 100  60 green  "
       },
       {
         "id": "B2",
@@ -7585,7 +8052,8 @@
         "gsd": "60",
         "description": "Red",
         "snr": "",
-        "search_text": "b2 650 100  60 red "
+        "ne_delta_t": "",
+        "search_text": "b2 650 100  60 red  "
       },
       {
         "id": "B3",
@@ -7595,7 +8063,8 @@
         "gsd": "60",
         "description": "NIR",
         "snr": "",
-        "search_text": "b3 750 100  60 nir "
+        "ne_delta_t": "",
+        "search_text": "b3 750 100  60 nir  "
       },
       {
         "id": "B4",
@@ -7605,7 +8074,8 @@
         "gsd": "60",
         "description": "NIR 2",
         "snr": "",
-        "search_text": "b4 950 300  60 nir 2 "
+        "ne_delta_t": "",
+        "search_text": "b4 950 300  60 nir 2  "
       }
     ],
     "imaging": [],
@@ -7792,7 +8262,8 @@
         "gsd": "300",
         "description": "Aerosol correction and improved water constituent retrieval",
         "snr": "2188",
-        "search_text": "oa01 400 15 coastal 300 aerosol correction and improved water constituent retrieval 2188"
+        "ne_delta_t": "",
+        "search_text": "oa01 400 15 coastal 300 aerosol correction and improved water constituent retrieval 2188 "
       },
       {
         "id": "Oa02",
@@ -7802,7 +8273,8 @@
         "gsd": "300",
         "description": "Yellow substances detrital pigments and turbidity",
         "snr": "2061",
-        "search_text": "oa02 412.5 10 coastal 300 yellow substances detrital pigments and turbidity 2061"
+        "ne_delta_t": "",
+        "search_text": "oa02 412.5 10 coastal 300 yellow substances detrital pigments and turbidity 2061 "
       },
       {
         "id": "Oa03",
@@ -7812,7 +8284,8 @@
         "gsd": "300",
         "description": "Chlorophyll absorption biogeochemistry and vegetation",
         "snr": "1811",
-        "search_text": "oa03 442.5 10 blue 300 chlorophyll absorption biogeochemistry and vegetation 1811"
+        "ne_delta_t": "",
+        "search_text": "oa03 442.5 10 blue 300 chlorophyll absorption biogeochemistry and vegetation 1811 "
       },
       {
         "id": "Oa04",
@@ -7822,7 +8295,8 @@
         "gsd": "300",
         "description": "High chlorophyll concentrations and other pigments",
         "snr": "1541",
-        "search_text": "oa04 490 10 blue 300 high chlorophyll concentrations and other pigments 1541"
+        "ne_delta_t": "",
+        "search_text": "oa04 490 10 blue 300 high chlorophyll concentrations and other pigments 1541 "
       },
       {
         "id": "Oa05",
@@ -7832,7 +8306,8 @@
         "gsd": "300",
         "description": "Chlorophyll sediment turbidity and red tides",
         "snr": "1488",
-        "search_text": "oa05 510 10 green05 300 chlorophyll sediment turbidity and red tides 1488"
+        "ne_delta_t": "",
+        "search_text": "oa05 510 10 green05 300 chlorophyll sediment turbidity and red tides 1488 "
       },
       {
         "id": "Oa06",
@@ -7842,7 +8317,8 @@
         "gsd": "300",
         "description": "Chlorophyll reference at its reflectance minimum",
         "snr": "1280",
-        "search_text": "oa06 560 10 green 300 chlorophyll reference at its reflectance minimum 1280"
+        "ne_delta_t": "",
+        "search_text": "oa06 560 10 green 300 chlorophyll reference at its reflectance minimum 1280 "
       },
       {
         "id": "Oa07",
@@ -7852,7 +8328,8 @@
         "gsd": "300",
         "description": "Sediment loading",
         "snr": "997",
-        "search_text": "oa07 620 10 red 300 sediment loading 997"
+        "ne_delta_t": "",
+        "search_text": "oa07 620 10 red 300 sediment loading 997 "
       },
       {
         "id": "Oa08",
@@ -7862,7 +8339,8 @@
         "gsd": "300",
         "description": "Chlorophyll absorption sediment yellow substances and vegetation",
         "snr": "883",
-        "search_text": "oa08 665 10 red 300 chlorophyll absorption sediment yellow substances and vegetation 883"
+        "ne_delta_t": "",
+        "search_text": "oa08 665 10 red 300 chlorophyll absorption sediment yellow substances and vegetation 883 "
       },
       {
         "id": "Oa09",
@@ -7872,7 +8350,8 @@
         "gsd": "300",
         "description": "Chlorophyll fluorescence and spectral smile correction",
         "snr": "707",
-        "search_text": "oa09 673.75 7.5 red 300 chlorophyll fluorescence and spectral smile correction 707"
+        "ne_delta_t": "",
+        "search_text": "oa09 673.75 7.5 red 300 chlorophyll fluorescence and spectral smile correction 707 "
       },
       {
         "id": "Oa10",
@@ -7882,7 +8361,8 @@
         "gsd": "300",
         "description": "Chlorophyll fluorescence peak and red edge",
         "snr": "745",
-        "search_text": "oa10 681.25 7.5 red 300 chlorophyll fluorescence peak and red edge 745"
+        "ne_delta_t": "",
+        "search_text": "oa10 681.25 7.5 red 300 chlorophyll fluorescence peak and red edge 745 "
       },
       {
         "id": "Oa11",
@@ -7892,7 +8372,8 @@
         "gsd": "300",
         "description": "Chlorophyll fluorescence baseline and red-edge transition",
         "snr": "785",
-        "search_text": "oa11 708.75 10 rededge071 300 chlorophyll fluorescence baseline and red-edge transition 785"
+        "ne_delta_t": "",
+        "search_text": "oa11 708.75 10 rededge071 300 chlorophyll fluorescence baseline and red-edge transition 785 "
       },
       {
         "id": "Oa12",
@@ -7902,7 +8383,8 @@
         "gsd": "300",
         "description": "Oxygen absorption clouds and vegetation",
         "snr": "605",
-        "search_text": "oa12 753.75 7.5 rededge075 300 oxygen absorption clouds and vegetation 605"
+        "ne_delta_t": "",
+        "search_text": "oa12 753.75 7.5 rededge075 300 oxygen absorption clouds and vegetation 605 "
       },
       {
         "id": "Oa13",
@@ -7912,7 +8394,8 @@
         "gsd": "300",
         "description": "Oxygen absorption and aerosol correction",
         "snr": "232",
-        "search_text": "oa13 761.25 2.5  300 oxygen absorption and aerosol correction 232"
+        "ne_delta_t": "",
+        "search_text": "oa13 761.25 2.5  300 oxygen absorption and aerosol correction 232 "
       },
       {
         "id": "Oa14",
@@ -7922,7 +8405,8 @@
         "gsd": "300",
         "description": "Atmospheric correction",
         "snr": "305",
-        "search_text": "oa14 764.375 3.75  300 atmospheric correction 305"
+        "ne_delta_t": "",
+        "search_text": "oa14 764.375 3.75  300 atmospheric correction 305 "
       },
       {
         "id": "Oa15",
@@ -7932,7 +8416,8 @@
         "gsd": "300",
         "description": "Oxygen A-band cloud-top pressure and land fluorescence",
         "snr": "330",
-        "search_text": "oa15 767.5 2.5  300 oxygen a-band cloud-top pressure and land fluorescence 330"
+        "ne_delta_t": "",
+        "search_text": "oa15 767.5 2.5  300 oxygen a-band cloud-top pressure and land fluorescence 330 "
       },
       {
         "id": "Oa16",
@@ -7942,7 +8427,8 @@
         "gsd": "300",
         "description": "Atmospheric and aerosol correction",
         "snr": "812",
-        "search_text": "oa16 778.75 15 rededge078 300 atmospheric and aerosol correction 812"
+        "ne_delta_t": "",
+        "search_text": "oa16 778.75 15 rededge078 300 atmospheric and aerosol correction 812 "
       },
       {
         "id": "Oa17",
@@ -7952,7 +8438,8 @@
         "gsd": "300",
         "description": "Atmospheric and aerosol correction clouds and pixel co-registration",
         "snr": "666",
-        "search_text": "oa17 865 20 nir08 300 atmospheric and aerosol correction clouds and pixel co-registration 666"
+        "ne_delta_t": "",
+        "search_text": "oa17 865 20 nir08 300 atmospheric and aerosol correction clouds and pixel co-registration 666 "
       },
       {
         "id": "Oa18",
@@ -7962,7 +8449,8 @@
         "gsd": "300",
         "description": "Water-vapour reference and vegetation monitoring",
         "snr": "395",
-        "search_text": "oa18 885 10 nir09 300 water-vapour reference and vegetation monitoring 395"
+        "ne_delta_t": "",
+        "search_text": "oa18 885 10 nir09 300 water-vapour reference and vegetation monitoring 395 "
       },
       {
         "id": "Oa19",
@@ -7972,7 +8460,8 @@
         "gsd": "300",
         "description": "Water-vapour absorption and vegetation monitoring",
         "snr": "308",
-        "search_text": "oa19 900 10 nir09 300 water-vapour absorption and vegetation monitoring 308"
+        "ne_delta_t": "",
+        "search_text": "oa19 900 10 nir09 300 water-vapour absorption and vegetation monitoring 308 "
       },
       {
         "id": "Oa20",
@@ -7982,7 +8471,8 @@
         "gsd": "300",
         "description": "Water-vapour absorption and atmospheric correction",
         "snr": "203",
-        "search_text": "oa20 940 20 nir09 300 water-vapour absorption and atmospheric correction 203"
+        "ne_delta_t": "",
+        "search_text": "oa20 940 20 nir09 300 water-vapour absorption and atmospheric correction 203 "
       },
       {
         "id": "Oa21",
@@ -7992,7 +8482,8 @@
         "gsd": "300",
         "description": "Atmospheric and aerosol correction",
         "snr": "152",
-        "search_text": "oa21 1020 40 nir09 300 atmospheric and aerosol correction 152"
+        "ne_delta_t": "",
+        "search_text": "oa21 1020 40 nir09 300 atmospheric and aerosol correction 152 "
       }
     ],
     "imaging": [
@@ -8225,7 +8716,8 @@
         "gsd": "300",
         "description": "Aerosol correction and improved water constituent retrieval",
         "snr": "2188",
-        "search_text": "oa01 400 15 coastal 300 aerosol correction and improved water constituent retrieval 2188"
+        "ne_delta_t": "",
+        "search_text": "oa01 400 15 coastal 300 aerosol correction and improved water constituent retrieval 2188 "
       },
       {
         "id": "Oa02",
@@ -8235,7 +8727,8 @@
         "gsd": "300",
         "description": "Yellow substances detrital pigments and turbidity",
         "snr": "2061",
-        "search_text": "oa02 412.5 10 coastal 300 yellow substances detrital pigments and turbidity 2061"
+        "ne_delta_t": "",
+        "search_text": "oa02 412.5 10 coastal 300 yellow substances detrital pigments and turbidity 2061 "
       },
       {
         "id": "Oa03",
@@ -8245,7 +8738,8 @@
         "gsd": "300",
         "description": "Chlorophyll absorption biogeochemistry and vegetation",
         "snr": "1811",
-        "search_text": "oa03 442.5 10 blue 300 chlorophyll absorption biogeochemistry and vegetation 1811"
+        "ne_delta_t": "",
+        "search_text": "oa03 442.5 10 blue 300 chlorophyll absorption biogeochemistry and vegetation 1811 "
       },
       {
         "id": "Oa04",
@@ -8255,7 +8749,8 @@
         "gsd": "300",
         "description": "High chlorophyll concentrations and other pigments",
         "snr": "1541",
-        "search_text": "oa04 490 10 blue 300 high chlorophyll concentrations and other pigments 1541"
+        "ne_delta_t": "",
+        "search_text": "oa04 490 10 blue 300 high chlorophyll concentrations and other pigments 1541 "
       },
       {
         "id": "Oa05",
@@ -8265,7 +8760,8 @@
         "gsd": "300",
         "description": "Chlorophyll sediment turbidity and red tides",
         "snr": "1488",
-        "search_text": "oa05 510 10 green05 300 chlorophyll sediment turbidity and red tides 1488"
+        "ne_delta_t": "",
+        "search_text": "oa05 510 10 green05 300 chlorophyll sediment turbidity and red tides 1488 "
       },
       {
         "id": "Oa06",
@@ -8275,7 +8771,8 @@
         "gsd": "300",
         "description": "Chlorophyll reference at its reflectance minimum",
         "snr": "1280",
-        "search_text": "oa06 560 10 green 300 chlorophyll reference at its reflectance minimum 1280"
+        "ne_delta_t": "",
+        "search_text": "oa06 560 10 green 300 chlorophyll reference at its reflectance minimum 1280 "
       },
       {
         "id": "Oa07",
@@ -8285,7 +8782,8 @@
         "gsd": "300",
         "description": "Sediment loading",
         "snr": "997",
-        "search_text": "oa07 620 10 red 300 sediment loading 997"
+        "ne_delta_t": "",
+        "search_text": "oa07 620 10 red 300 sediment loading 997 "
       },
       {
         "id": "Oa08",
@@ -8295,7 +8793,8 @@
         "gsd": "300",
         "description": "Chlorophyll absorption sediment yellow substances and vegetation",
         "snr": "883",
-        "search_text": "oa08 665 10 red 300 chlorophyll absorption sediment yellow substances and vegetation 883"
+        "ne_delta_t": "",
+        "search_text": "oa08 665 10 red 300 chlorophyll absorption sediment yellow substances and vegetation 883 "
       },
       {
         "id": "Oa09",
@@ -8305,7 +8804,8 @@
         "gsd": "300",
         "description": "Chlorophyll fluorescence and spectral smile correction",
         "snr": "707",
-        "search_text": "oa09 673.75 7.5 red 300 chlorophyll fluorescence and spectral smile correction 707"
+        "ne_delta_t": "",
+        "search_text": "oa09 673.75 7.5 red 300 chlorophyll fluorescence and spectral smile correction 707 "
       },
       {
         "id": "Oa10",
@@ -8315,7 +8815,8 @@
         "gsd": "300",
         "description": "Chlorophyll fluorescence peak and red edge",
         "snr": "745",
-        "search_text": "oa10 681.25 7.5 red 300 chlorophyll fluorescence peak and red edge 745"
+        "ne_delta_t": "",
+        "search_text": "oa10 681.25 7.5 red 300 chlorophyll fluorescence peak and red edge 745 "
       },
       {
         "id": "Oa11",
@@ -8325,7 +8826,8 @@
         "gsd": "300",
         "description": "Chlorophyll fluorescence baseline and red-edge transition",
         "snr": "785",
-        "search_text": "oa11 708.75 10 rededge071 300 chlorophyll fluorescence baseline and red-edge transition 785"
+        "ne_delta_t": "",
+        "search_text": "oa11 708.75 10 rededge071 300 chlorophyll fluorescence baseline and red-edge transition 785 "
       },
       {
         "id": "Oa12",
@@ -8335,7 +8837,8 @@
         "gsd": "300",
         "description": "Oxygen absorption clouds and vegetation",
         "snr": "605",
-        "search_text": "oa12 753.75 7.5 rededge075 300 oxygen absorption clouds and vegetation 605"
+        "ne_delta_t": "",
+        "search_text": "oa12 753.75 7.5 rededge075 300 oxygen absorption clouds and vegetation 605 "
       },
       {
         "id": "Oa13",
@@ -8345,7 +8848,8 @@
         "gsd": "300",
         "description": "Oxygen absorption and aerosol correction",
         "snr": "232",
-        "search_text": "oa13 761.25 2.5  300 oxygen absorption and aerosol correction 232"
+        "ne_delta_t": "",
+        "search_text": "oa13 761.25 2.5  300 oxygen absorption and aerosol correction 232 "
       },
       {
         "id": "Oa14",
@@ -8355,7 +8859,8 @@
         "gsd": "300",
         "description": "Atmospheric correction",
         "snr": "305",
-        "search_text": "oa14 764.375 3.75  300 atmospheric correction 305"
+        "ne_delta_t": "",
+        "search_text": "oa14 764.375 3.75  300 atmospheric correction 305 "
       },
       {
         "id": "Oa15",
@@ -8365,7 +8870,8 @@
         "gsd": "300",
         "description": "Oxygen A-band cloud-top pressure and land fluorescence",
         "snr": "330",
-        "search_text": "oa15 767.5 2.5  300 oxygen a-band cloud-top pressure and land fluorescence 330"
+        "ne_delta_t": "",
+        "search_text": "oa15 767.5 2.5  300 oxygen a-band cloud-top pressure and land fluorescence 330 "
       },
       {
         "id": "Oa16",
@@ -8375,7 +8881,8 @@
         "gsd": "300",
         "description": "Atmospheric and aerosol correction",
         "snr": "812",
-        "search_text": "oa16 778.75 15 rededge078 300 atmospheric and aerosol correction 812"
+        "ne_delta_t": "",
+        "search_text": "oa16 778.75 15 rededge078 300 atmospheric and aerosol correction 812 "
       },
       {
         "id": "Oa17",
@@ -8385,7 +8892,8 @@
         "gsd": "300",
         "description": "Atmospheric and aerosol correction clouds and pixel co-registration",
         "snr": "666",
-        "search_text": "oa17 865 20 nir08 300 atmospheric and aerosol correction clouds and pixel co-registration 666"
+        "ne_delta_t": "",
+        "search_text": "oa17 865 20 nir08 300 atmospheric and aerosol correction clouds and pixel co-registration 666 "
       },
       {
         "id": "Oa18",
@@ -8395,7 +8903,8 @@
         "gsd": "300",
         "description": "Water-vapour reference and vegetation monitoring",
         "snr": "395",
-        "search_text": "oa18 885 10 nir09 300 water-vapour reference and vegetation monitoring 395"
+        "ne_delta_t": "",
+        "search_text": "oa18 885 10 nir09 300 water-vapour reference and vegetation monitoring 395 "
       },
       {
         "id": "Oa19",
@@ -8405,7 +8914,8 @@
         "gsd": "300",
         "description": "Water-vapour absorption and vegetation monitoring",
         "snr": "308",
-        "search_text": "oa19 900 10 nir09 300 water-vapour absorption and vegetation monitoring 308"
+        "ne_delta_t": "",
+        "search_text": "oa19 900 10 nir09 300 water-vapour absorption and vegetation monitoring 308 "
       },
       {
         "id": "Oa20",
@@ -8415,7 +8925,8 @@
         "gsd": "300",
         "description": "Water-vapour absorption and atmospheric correction",
         "snr": "203",
-        "search_text": "oa20 940 20 nir09 300 water-vapour absorption and atmospheric correction 203"
+        "ne_delta_t": "",
+        "search_text": "oa20 940 20 nir09 300 water-vapour absorption and atmospheric correction 203 "
       },
       {
         "id": "Oa21",
@@ -8425,7 +8936,8 @@
         "gsd": "300",
         "description": "Atmospheric and aerosol correction",
         "snr": "152",
-        "search_text": "oa21 1020 40 nir09 300 atmospheric and aerosol correction 152"
+        "ne_delta_t": "",
+        "search_text": "oa21 1020 40 nir09 300 atmospheric and aerosol correction 152 "
       }
     ],
     "imaging": [
@@ -8658,7 +9170,8 @@
         "gsd": "30",
         "description": "Aerosol",
         "snr": "",
-        "search_text": "b1 440 20 coastal 30 aerosol "
+        "ne_delta_t": "",
+        "search_text": "b1 440 20 coastal 30 aerosol  "
       },
       {
         "id": "B2",
@@ -8668,7 +9181,8 @@
         "gsd": "30",
         "description": "Blue",
         "snr": "",
-        "search_text": "b2 480 60 blue 30 blue "
+        "ne_delta_t": "",
+        "search_text": "b2 480 60 blue 30 blue  "
       },
       {
         "id": "B3",
@@ -8678,7 +9192,8 @@
         "gsd": "30",
         "description": "Green",
         "snr": "",
-        "search_text": "b3 560 60 green 30 green "
+        "ne_delta_t": "",
+        "search_text": "b3 560 60 green 30 green  "
       },
       {
         "id": "B4",
@@ -8688,7 +9203,8 @@
         "gsd": "30",
         "description": "Red",
         "snr": "",
-        "search_text": "b4 655 30 red 30 red "
+        "ne_delta_t": "",
+        "search_text": "b4 655 30 red 30 red  "
       },
       {
         "id": "B5",
@@ -8698,7 +9214,8 @@
         "gsd": "30",
         "description": "NIR",
         "snr": "",
-        "search_text": "b5 865 30 nir08 30 nir "
+        "ne_delta_t": "",
+        "search_text": "b5 865 30 nir08 30 nir  "
       },
       {
         "id": "B6",
@@ -8708,7 +9225,8 @@
         "gsd": "30",
         "description": "SWIR",
         "snr": "",
-        "search_text": "b6 1610 80 swir16 30 swir "
+        "ne_delta_t": "",
+        "search_text": "b6 1610 80 swir16 30 swir  "
       },
       {
         "id": "B7",
@@ -8718,7 +9236,8 @@
         "gsd": "30",
         "description": "SWIR 2",
         "snr": "",
-        "search_text": "b7 2200 180 swir22 30 swir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 2200 180 swir22 30 swir 2  "
       },
       {
         "id": "B8",
@@ -8728,7 +9247,8 @@
         "gsd": "15",
         "description": "Panchromatic",
         "snr": "",
-        "search_text": "b8 590 180 pan 15 panchromatic "
+        "ne_delta_t": "",
+        "search_text": "b8 590 180 pan 15 panchromatic  "
       },
       {
         "id": "B9",
@@ -8738,7 +9258,8 @@
         "gsd": "30",
         "description": "Cirrus",
         "snr": "",
-        "search_text": "b9 1370 20 cirrus 30 cirrus "
+        "ne_delta_t": "",
+        "search_text": "b9 1370 20 cirrus 30 cirrus  "
       }
     ],
     "imaging": [],
@@ -8924,7 +9445,8 @@
         "gsd": "30",
         "description": "Aerosol",
         "snr": "",
-        "search_text": "b1 440 20 coastal 30 aerosol "
+        "ne_delta_t": "",
+        "search_text": "b1 440 20 coastal 30 aerosol  "
       },
       {
         "id": "B2",
@@ -8934,7 +9456,8 @@
         "gsd": "30",
         "description": "Blue",
         "snr": "",
-        "search_text": "b2 480 60 blue 30 blue "
+        "ne_delta_t": "",
+        "search_text": "b2 480 60 blue 30 blue  "
       },
       {
         "id": "B3",
@@ -8944,7 +9467,8 @@
         "gsd": "30",
         "description": "Green",
         "snr": "",
-        "search_text": "b3 560 60 green 30 green "
+        "ne_delta_t": "",
+        "search_text": "b3 560 60 green 30 green  "
       },
       {
         "id": "B4",
@@ -8954,7 +9478,8 @@
         "gsd": "30",
         "description": "Red",
         "snr": "",
-        "search_text": "b4 655 30 red 30 red "
+        "ne_delta_t": "",
+        "search_text": "b4 655 30 red 30 red  "
       },
       {
         "id": "B5",
@@ -8964,7 +9489,8 @@
         "gsd": "30",
         "description": "NIR",
         "snr": "",
-        "search_text": "b5 865 30 nir08 30 nir "
+        "ne_delta_t": "",
+        "search_text": "b5 865 30 nir08 30 nir  "
       },
       {
         "id": "B6",
@@ -8974,7 +9500,8 @@
         "gsd": "30",
         "description": "SWIR",
         "snr": "",
-        "search_text": "b6 1610 80 swir16 30 swir "
+        "ne_delta_t": "",
+        "search_text": "b6 1610 80 swir16 30 swir  "
       },
       {
         "id": "B7",
@@ -8984,7 +9511,8 @@
         "gsd": "30",
         "description": "SWIR 2",
         "snr": "",
-        "search_text": "b7 2200 180 swir22 30 swir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 2200 180 swir22 30 swir 2  "
       },
       {
         "id": "B8",
@@ -8994,7 +9522,8 @@
         "gsd": "15",
         "description": "Panchromatic",
         "snr": "",
-        "search_text": "b8 590 180 pan 15 panchromatic "
+        "ne_delta_t": "",
+        "search_text": "b8 590 180 pan 15 panchromatic  "
       },
       {
         "id": "B9",
@@ -9004,7 +9533,8 @@
         "gsd": "30",
         "description": "Cirrus",
         "snr": "",
-        "search_text": "b9 1370 20 cirrus 30 cirrus "
+        "ne_delta_t": "",
+        "search_text": "b9 1370 20 cirrus 30 cirrus  "
       }
     ],
     "imaging": [],
@@ -9188,7 +9718,8 @@
         "gsd": "",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 20 blue  blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 20 blue  blue  "
       },
       {
         "id": "B2",
@@ -9198,7 +9729,8 @@
         "gsd": "",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 20 green  green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 20 green  green  "
       },
       {
         "id": "B3",
@@ -9208,7 +9740,8 @@
         "gsd": "",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 10 red  red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 10 red  red  "
       },
       {
         "id": "B4",
@@ -9218,7 +9751,8 @@
         "gsd": "",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 840 40 nir  near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 840 40 nir  near infrared  "
       },
       {
         "id": "B5",
@@ -9228,7 +9762,8 @@
         "gsd": "",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 10 rededge  red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 10 rededge  red edge  "
       }
     ],
     "imaging": [
@@ -9412,7 +9947,8 @@
         "gsd": "",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 20 blue  blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 20 blue  blue  "
       },
       {
         "id": "B2",
@@ -9422,7 +9958,8 @@
         "gsd": "",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 20 green  green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 20 green  green  "
       },
       {
         "id": "B3",
@@ -9432,7 +9969,8 @@
         "gsd": "",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 10 red  red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 10 red  red  "
       },
       {
         "id": "B4",
@@ -9442,7 +9980,8 @@
         "gsd": "",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 840 40 nir  near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 840 40 nir  near infrared  "
       },
       {
         "id": "B5",
@@ -9452,7 +9991,8 @@
         "gsd": "",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 10 rededge  red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 10 rededge  red edge  "
       }
     ],
     "imaging": [
@@ -9640,7 +10180,8 @@
         "gsd": "",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 32 blue  blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 32 blue  blue  "
       },
       {
         "id": "B2",
@@ -9650,7 +10191,8 @@
         "gsd": "",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 27 green  green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 27 green  green  "
       },
       {
         "id": "B3",
@@ -9660,7 +10202,8 @@
         "gsd": "",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 16 red  red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 16 red  red  "
       },
       {
         "id": "B4",
@@ -9670,7 +10213,8 @@
         "gsd": "",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 842 57 nir  near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 842 57 nir  near infrared  "
       },
       {
         "id": "B5",
@@ -9680,7 +10224,8 @@
         "gsd": "",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 12 rededge  red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 12 rededge  red edge  "
       }
     ],
     "imaging": [
@@ -9868,7 +10413,8 @@
         "gsd": "",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 20 blue  blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 20 blue  blue  "
       },
       {
         "id": "B2",
@@ -9878,7 +10424,8 @@
         "gsd": "",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 20 green  green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 20 green  green  "
       },
       {
         "id": "B3",
@@ -9888,7 +10435,8 @@
         "gsd": "",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 10 red  red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 10 red  red  "
       },
       {
         "id": "B4",
@@ -9898,7 +10446,8 @@
         "gsd": "",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 840 40 nir  near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 840 40 nir  near infrared  "
       },
       {
         "id": "B5",
@@ -9908,7 +10457,8 @@
         "gsd": "",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 10 rededge  red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 10 rededge  red edge  "
       }
     ],
     "imaging": [
@@ -10096,7 +10646,8 @@
         "gsd": "0.077",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 475 32 blue 0.077 blue "
+        "ne_delta_t": "",
+        "search_text": "b1 475 32 blue 0.077 blue  "
       },
       {
         "id": "B2",
@@ -10106,7 +10657,8 @@
         "gsd": "0.077",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 27 green 0.077 green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 27 green 0.077 green  "
       },
       {
         "id": "B3",
@@ -10116,7 +10668,8 @@
         "gsd": "0.077",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 668 16 red 0.077 red "
+        "ne_delta_t": "",
+        "search_text": "b3 668 16 red 0.077 red  "
       },
       {
         "id": "B4",
@@ -10126,7 +10679,8 @@
         "gsd": "0.077",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 842 57 nir 0.077 near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 842 57 nir 0.077 near infrared  "
       },
       {
         "id": "B5",
@@ -10136,7 +10690,8 @@
         "gsd": "0.077",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b5 717 12 rededge 0.077 red edge "
+        "ne_delta_t": "",
+        "search_text": "b5 717 12 rededge 0.077 red edge  "
       },
       {
         "id": "B6",
@@ -10146,7 +10701,8 @@
         "gsd": "0.0398",
         "description": "Panchromatic",
         "snr": "",
-        "search_text": "b6 634.5 463 pan 0.0398 panchromatic "
+        "ne_delta_t": "",
+        "search_text": "b6 634.5 463 pan 0.0398 panchromatic  "
       }
     ],
     "imaging": [
@@ -10331,7 +10887,8 @@
         "gsd": "0.148",
         "description": "Green",
         "snr": "",
-        "search_text": "b1 550 40 green 0.148 green "
+        "ne_delta_t": "",
+        "search_text": "b1 550 40 green 0.148 green  "
       },
       {
         "id": "B2",
@@ -10341,7 +10898,8 @@
         "gsd": "0.148",
         "description": "Red",
         "snr": "",
-        "search_text": "b2 660 40 red 0.148 red "
+        "ne_delta_t": "",
+        "search_text": "b2 660 40 red 0.148 red  "
       },
       {
         "id": "B3",
@@ -10351,7 +10909,8 @@
         "gsd": "0.148",
         "description": "Red edge",
         "snr": "",
-        "search_text": "b3 735 10 rededge 0.148 red edge "
+        "ne_delta_t": "",
+        "search_text": "b3 735 10 rededge 0.148 red edge  "
       },
       {
         "id": "B4",
@@ -10361,7 +10920,8 @@
         "gsd": "0.148",
         "description": "Near infrared",
         "snr": "",
-        "search_text": "b4 790 40 nir 0.148 near infrared "
+        "ne_delta_t": "",
+        "search_text": "b4 790 40 nir 0.148 near infrared  "
       }
     ],
     "imaging": [
@@ -10700,7 +11260,8 @@
         "gsd": "30",
         "description": "TIR 1",
         "snr": "",
-        "search_text": "b10 10900 600 lwir11 30 tir 1 "
+        "ne_delta_t": "0.4",
+        "search_text": "b10 10900 600 lwir11 30 tir 1  0.4"
       },
       {
         "id": "B11",
@@ -10710,7 +11271,8 @@
         "gsd": "30",
         "description": "TIR 2",
         "snr": "",
-        "search_text": "b11 12000 1000 lwir12 30 tir 2 "
+        "ne_delta_t": "0.4",
+        "search_text": "b11 12000 1000 lwir12 30 tir 2  0.4"
       }
     ],
     "imaging": [],
@@ -10807,6 +11369,9 @@
     "references": [
       {
         "url": "https://science.nasa.gov/mission/landsat/tirs/"
+      },
+      {
+        "url": "https://pubs.usgs.gov/publication/ofr20261014"
       }
     ]
   },
@@ -10896,7 +11461,8 @@
         "gsd": "30",
         "description": "TIR 1",
         "snr": "",
-        "search_text": "b10 10900 600 lwir11 30 tir 1 "
+        "ne_delta_t": "0.4",
+        "search_text": "b10 10900 600 lwir11 30 tir 1  0.4"
       },
       {
         "id": "B11",
@@ -10906,7 +11472,8 @@
         "gsd": "30",
         "description": "TIR 2",
         "snr": "",
-        "search_text": "b11 12000 1000 lwir12 30 tir 2 "
+        "ne_delta_t": "0.4",
+        "search_text": "b11 12000 1000 lwir12 30 tir 2  0.4"
       }
     ],
     "imaging": [],
@@ -11007,6 +11574,9 @@
     "references": [
       {
         "url": "https://science.nasa.gov/mission/landsat/tirs/"
+      },
+      {
+        "url": "https://pubs.usgs.gov/publication/ofr20231050"
       }
     ]
   },
@@ -11100,7 +11670,8 @@
         "gsd": "30",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 485 70 blue 30 blue "
+        "ne_delta_t": "",
+        "search_text": "b1 485 70 blue 30 blue  "
       },
       {
         "id": "B2",
@@ -11110,7 +11681,8 @@
         "gsd": "30",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 80 green 30 green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 80 green 30 green  "
       },
       {
         "id": "B3",
@@ -11120,7 +11692,8 @@
         "gsd": "30",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 660 60 red 30 red "
+        "ne_delta_t": "",
+        "search_text": "b3 660 60 red 30 red  "
       },
       {
         "id": "B4",
@@ -11130,7 +11703,8 @@
         "gsd": "30",
         "description": "NIR",
         "snr": "",
-        "search_text": "b4 830 140 nir 30 nir "
+        "ne_delta_t": "",
+        "search_text": "b4 830 140 nir 30 nir  "
       },
       {
         "id": "B5",
@@ -11140,7 +11714,8 @@
         "gsd": "30",
         "description": "SWIR",
         "snr": "",
-        "search_text": "b5 1650 200 swir16 30 swir "
+        "ne_delta_t": "",
+        "search_text": "b5 1650 200 swir16 30 swir  "
       },
       {
         "id": "B6",
@@ -11150,7 +11725,8 @@
         "gsd": "120",
         "description": "TIR",
         "snr": "",
-        "search_text": "b6 11455 2090 lwir 120 tir "
+        "ne_delta_t": "0.5",
+        "search_text": "b6 11455 2090 lwir 120 tir  0.5"
       },
       {
         "id": "B7",
@@ -11160,7 +11736,8 @@
         "gsd": "30",
         "description": "SWIR 2",
         "snr": "",
-        "search_text": "b7 2215 270 swir22 30 swir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 2215 270 swir22 30 swir 2  "
       }
     ],
     "imaging": [],
@@ -11251,6 +11828,9 @@
     "references": [
       {
         "url": "https://science.nasa.gov/mission/landsat/tm/"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19830013201/downloads/19830013201.pdf"
       }
     ]
   },
@@ -11344,7 +11924,8 @@
         "gsd": "30",
         "description": "Blue",
         "snr": "",
-        "search_text": "b1 485 70 blue 30 blue "
+        "ne_delta_t": "",
+        "search_text": "b1 485 70 blue 30 blue  "
       },
       {
         "id": "B2",
@@ -11354,7 +11935,8 @@
         "gsd": "30",
         "description": "Green",
         "snr": "",
-        "search_text": "b2 560 80 green 30 green "
+        "ne_delta_t": "",
+        "search_text": "b2 560 80 green 30 green  "
       },
       {
         "id": "B3",
@@ -11364,7 +11946,8 @@
         "gsd": "30",
         "description": "Red",
         "snr": "",
-        "search_text": "b3 660 60 red 30 red "
+        "ne_delta_t": "",
+        "search_text": "b3 660 60 red 30 red  "
       },
       {
         "id": "B4",
@@ -11374,7 +11957,8 @@
         "gsd": "30",
         "description": "NIR",
         "snr": "",
-        "search_text": "b4 830 140 nir 30 nir "
+        "ne_delta_t": "",
+        "search_text": "b4 830 140 nir 30 nir  "
       },
       {
         "id": "B5",
@@ -11384,7 +11968,8 @@
         "gsd": "30",
         "description": "SWIR",
         "snr": "",
-        "search_text": "b5 1650 200 swir16 30 swir "
+        "ne_delta_t": "",
+        "search_text": "b5 1650 200 swir16 30 swir  "
       },
       {
         "id": "B6",
@@ -11394,7 +11979,8 @@
         "gsd": "120",
         "description": "TIR",
         "snr": "",
-        "search_text": "b6 11455 2090 lwir 120 tir "
+        "ne_delta_t": "0.5",
+        "search_text": "b6 11455 2090 lwir 120 tir  0.5"
       },
       {
         "id": "B7",
@@ -11404,7 +11990,8 @@
         "gsd": "30",
         "description": "SWIR 2",
         "snr": "",
-        "search_text": "b7 2215 270 swir22 30 swir 2 "
+        "ne_delta_t": "",
+        "search_text": "b7 2215 270 swir22 30 swir 2  "
       }
     ],
     "imaging": [],
@@ -11495,6 +12082,9 @@
     "references": [
       {
         "url": "https://science.nasa.gov/mission/landsat/tm/"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19830013201/downloads/19830013201.pdf"
       }
     ]
   }

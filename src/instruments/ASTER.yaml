@@ -20,6 +20,7 @@ references:
   - "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt"
   - "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt"
   - "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt"
+  - "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/04_TIR/tir-des.htm"
   - "https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
 notes: >-
   ASTER includes separate VNIR, SWIR, and TIR subsystems. B3N is nadir-looking

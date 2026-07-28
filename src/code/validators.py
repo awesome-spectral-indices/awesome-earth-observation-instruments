@@ -111,12 +111,11 @@ def _validate_bands_csv(
         )
 
     df = pd.read_csv(bands_path)
-    band_props = (
-        spectral_schema["properties"]["bands"]["oneOf"][1]["additionalProperties"]["properties"]
-    )
-    required = set(
-        spectral_schema["properties"]["bands"]["oneOf"][1]["additionalProperties"]["required"]
-    )
+    band_schema = spectral_schema["properties"]["bands"]["oneOf"][1][
+        "additionalProperties"
+    ]
+    band_props = band_schema["properties"]
+    required = set(band_schema["required"])
     allowed_columns = set(band_props.keys()) | {"band"}
     csv_columns = set(df.columns)
 
@@ -132,12 +131,6 @@ def _validate_bands_csv(
             f"[{instrument_id}] bands CSV has unexpected columns: {unexpected_cols}"
         )
 
-    band_schema = {
-        "type": "object",
-        "required": sorted(required),
-        "properties": band_props,
-        "additionalProperties": False,
-    }
     band_validator = Draft202012Validator(band_schema)
     ordered_band_ids: list[str] = []
 

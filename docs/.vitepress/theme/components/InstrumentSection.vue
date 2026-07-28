@@ -18,6 +18,7 @@ type Band = {
   gsd: string
   description: string
   snr: string
+  ne_delta_t: string
   search_text: string
 }
 
@@ -161,6 +162,7 @@ function valueClass(prefix: string, value: string) {
                 <th>Common name</th>
                 <th>GSD (m)</th>
                 <th>SNR</th>
+                <th>NE(Δ)T (K)</th>
                 <th>Description</th>
               </tr>
             </thead>
@@ -172,6 +174,7 @@ function valueClass(prefix: string, value: string) {
                 <td>{{ band.common_name || '-' }}</td>
                 <td>{{ band.gsd || '-' }}</td>
                 <td>{{ band.snr || '-' }}</td>
+                <td>{{ band.ne_delta_t || '-' }}</td>
                 <td>{{ band.description || '-' }}</td>
               </tr>
             </tbody>

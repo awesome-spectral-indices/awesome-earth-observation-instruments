@@ -150,6 +150,7 @@
       "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt",
       "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt",
       "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt",
+      "https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/04_TIR/tir-des.htm",
       "https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
     ],
     "has_bands": true,
@@ -159,7 +160,7 @@
       "planetary_computer"
     ],
     "href": "/instruments/ASTER",
-    "search_text": "aster advanced spaceborne thermal emission and reflection radiometer aster terra satellite multispectral nasa meti japan space systems 1999-12-18 operational public https://github.com/davemlz https://asterweb.jpl.nasa.gov/index.asp https://asterweb.jpl.nasa.gov/characteristics.asp https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
+    "search_text": "aster advanced spaceborne thermal emission and reflection radiometer aster terra satellite multispectral nasa meti japan space systems 1999-12-18 operational public https://github.com/davemlz https://asterweb.jpl.nasa.gov/index.asp https://asterweb.jpl.nasa.gov/characteristics.asp https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/vnir.txt https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/swir.txt https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/archive/tir.txt https://asterweb.jpl.nasa.gov/content/01_mission/03_instrument/04_tir/tir-des.htm https://science.nasa.gov/blogs/science-news/2026/02/12/terra-adjusts-instrument-operations-to-extend-mission-life/"
   },
   {
     "id": "EMIT",
@@ -216,7 +217,8 @@
       "https://github.com/davemlz"
     ],
     "references": [
-      "https://science.nasa.gov/mission/landsat/etm-plus/"
+      "https://science.nasa.gov/mission/landsat/etm-plus/",
+      "https://ntrs.nasa.gov/api/citations/20090027884/downloads/20090027884.pdf"
     ],
     "has_bands": true,
     "has_srf": true,
@@ -225,7 +227,7 @@
       "planetary_computer"
     ],
     "href": "/instruments/ETM_L7",
-    "search_text": "etm_l7 enhanced thematic mapper plus etm+ landsat 7 satellite multispectral nasa usgs 1999-04-15 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/etm-plus/"
+    "search_text": "etm_l7 enhanced thematic mapper plus etm+ landsat 7 satellite multispectral nasa usgs 1999-04-15 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/etm-plus/ https://ntrs.nasa.gov/api/citations/20090027884/downloads/20090027884.pdf"
   },
   {
     "id": "MODIS_AQUA",
@@ -957,7 +959,8 @@
       "https://github.com/davemlz"
     ],
     "references": [
-      "https://science.nasa.gov/mission/landsat/tirs/"
+      "https://science.nasa.gov/mission/landsat/tirs/",
+      "https://pubs.usgs.gov/publication/ofr20261014"
     ],
     "has_bands": true,
     "has_srf": true,
@@ -967,7 +970,7 @@
       "planetary_computer"
     ],
     "href": "/instruments/TIRS2_L9",
-    "search_text": "tirs2_l9 thermal infrared sensor 2 tirs2 landsat 9 satellite multispectral nasa usgs 2021-09-27 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tirs/"
+    "search_text": "tirs2_l9 thermal infrared sensor 2 tirs2 landsat 9 satellite multispectral nasa usgs 2021-09-27 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tirs/ https://pubs.usgs.gov/publication/ofr20261014"
   },
   {
     "id": "TIRS_L8",
@@ -991,7 +994,8 @@
       "https://github.com/davemlz"
     ],
     "references": [
-      "https://science.nasa.gov/mission/landsat/tirs/"
+      "https://science.nasa.gov/mission/landsat/tirs/",
+      "https://pubs.usgs.gov/publication/ofr20231050"
     ],
     "has_bands": true,
     "has_srf": true,
@@ -1001,7 +1005,7 @@
       "planetary_computer"
     ],
     "href": "/instruments/TIRS_L8",
-    "search_text": "tirs_l8 thermal infrared sensor tirs landsat 8 satellite multispectral nasa usgs 2013-02-11 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tirs/"
+    "search_text": "tirs_l8 thermal infrared sensor tirs landsat 8 satellite multispectral nasa usgs 2013-02-11 operational public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tirs/ https://pubs.usgs.gov/publication/ofr20231050"
   },
   {
     "id": "TM_L4",
@@ -1025,7 +1029,8 @@
       "https://github.com/davemlz"
     ],
     "references": [
-      "https://science.nasa.gov/mission/landsat/tm/"
+      "https://science.nasa.gov/mission/landsat/tm/",
+      "https://ntrs.nasa.gov/api/citations/19830013201/downloads/19830013201.pdf"
     ],
     "has_bands": true,
     "has_srf": true,
@@ -1034,7 +1039,7 @@
       "planetary_computer"
     ],
     "href": "/instruments/TM_L4",
-    "search_text": "tm_l4 thematic mapper tm landsat 4 satellite multispectral nasa usgs 1982-07-16 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tm/"
+    "search_text": "tm_l4 thematic mapper tm landsat 4 satellite multispectral nasa usgs 1982-07-16 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tm/ https://ntrs.nasa.gov/api/citations/19830013201/downloads/19830013201.pdf"
   },
   {
     "id": "TM_L5",
@@ -1058,7 +1063,8 @@
       "https://github.com/davemlz"
     ],
     "references": [
-      "https://science.nasa.gov/mission/landsat/tm/"
+      "https://science.nasa.gov/mission/landsat/tm/",
+      "https://ntrs.nasa.gov/api/citations/19830013201/downloads/19830013201.pdf"
     ],
     "has_bands": true,
     "has_srf": true,
@@ -1067,6 +1073,6 @@
       "planetary_computer"
     ],
     "href": "/instruments/TM_L5",
-    "search_text": "tm_l5 thematic mapper tm landsat 5 satellite multispectral nasa usgs 1984-03-01 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tm/"
+    "search_text": "tm_l5 thematic mapper tm landsat 5 satellite multispectral nasa usgs 1984-03-01 retired public https://github.com/davemlz https://science.nasa.gov/mission/landsat/tm/ https://ntrs.nasa.gov/api/citations/19830013201/downloads/19830013201.pdf"
   }
 ]

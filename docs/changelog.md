@@ -21,6 +21,8 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
   (`wst`), Ground Range Detected (`grd`), and Radiometrically Terrain Corrected
   (`rtc`), and Single Look Complex (`slc`) product roles to every data-access
   point schema.
+- Added the optional positive `ne_delta_t` band property, in kelvin, for
+  thermal-band noise specifications and made it mutually exclusive with `snr`.
 
 ### Instruments And Metadata
 
@@ -31,11 +33,14 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 - Migrated existing UAV instrument lifecycle statuses from `operational` and
   `retired` to `active` and `legacy`.
 - Added the initial contributor attribution to every instrument record.
+- Added published NE(Δ)T specifications for Altum, Altum-PT, ASTER, Landsat
+  TM, ETM+, TIRS/TIRS-2, and MODIS thermal bands.
 
 ### Documentation
 
 - Added advanced instrument-index filters for core metadata, start dates,
   spectral resources, and data access providers.
+- Added NE(Δ)T values to the instrument-page spectral band tables.
 
 ## 0.2.0
 

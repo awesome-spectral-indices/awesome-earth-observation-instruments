@@ -46,6 +46,8 @@ It must provide:
 2. Spectral extension validation, when present:
    - `bands` as CSV: the file must exist in `src/bands/`, and CSV columns/values
      must validate as the inline `bands` schema representation.
+   - Band noise metadata: `snr` and `ne_delta_t` are mutually exclusive, and
+     `ne_delta_t` must be a positive value in kelvin.
    - `range`: `min` and `max` must be non-negative, and `min < max`.
    - `spectral_response_function`: the CSV must exist in `src/srf/`, include a
      `wavelength` column, and its band columns must match the spectral bands.

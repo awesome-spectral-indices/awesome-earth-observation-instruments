@@ -27,6 +27,9 @@ hero:
 
 <InstrumentSection instrument-id="ETM_L7" section="summary" />
 
+> [!NOTE]
+> The thermal band's NE(Δ)T value is specified for the high-gain acquisition at 280 K. The corresponding low-gain NE(Δ)T is 0.28 K.
+
 <InstrumentTabs instrument-id="ETM_L7" />
 
 ## Explore it with `xeo`

@@ -16,6 +16,7 @@ contributors:
   - "https://github.com/davemlz"
 references:
   - "https://science.nasa.gov/mission/landsat/tm/"
+  - "https://ntrs.nasa.gov/api/citations/19830013201/downloads/19830013201.pdf"
 
 data_links:
   - "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-4/data-access-tools"

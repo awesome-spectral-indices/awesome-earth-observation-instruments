@@ -737,6 +737,7 @@ def band_records(instrument: dict[str, Any]) -> list[dict[str, str]]:
             "gsd": text_value(band.get("gsd")),
             "description": text_value(band.get("band_description")),
             "snr": text_value(band.get("snr")),
+            "ne_delta_t": text_value(band.get("ne_delta_t")),
         }
         record["search_text"] = " ".join(record.values()).lower()
         records.append(record)

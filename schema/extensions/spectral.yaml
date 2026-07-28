@@ -68,6 +68,16 @@ properties:
               type: number
               description: Signal to Noise Ratio (SNR)
 
+            ne_delta_t:
+              type: number
+              exclusiveMinimum: 0
+              description: Noise-equivalent temperature difference (NE(Δ)T), in kelvin (K)
+
+          not:
+            required:
+              - snr
+              - ne_delta_t
+
   range:
     type: object
     description: Continuous spectral coverage metadata for instruments without explicit bands

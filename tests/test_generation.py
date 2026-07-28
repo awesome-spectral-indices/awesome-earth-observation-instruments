@@ -10,6 +10,7 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src" / "code"))
 
+import validators as validators_module
 from catalogue import CATALOGUE_NAME, _bands_from_range, generate_catalogue
 from validators import (
     ValidationError,
@@ -235,6 +236,109 @@ def test_specialized_data_access_roles_require_complete_metadata(
         validate_instrument(instrument_path)
 
 
+@pytest.mark.parametrize(
+    ("noise_properties", "is_valid"),
+    [
+        ({"ne_delta_t": 0.3}, True),
+        ({"ne_delta_t": 0}, False),
+        ({"ne_delta_t": -0.1}, False),
+        ({"ne_delta_t": "0.3"}, False),
+        ({"ne_delta_t": 0.3, "snr": 100}, False),
+    ],
+)
+def test_inline_ne_delta_t_validation(
+    tmp_path: Path,
+    noise_properties: dict[str, object],
+    is_valid: bool,
+) -> None:
+    # Thermal noise must be a positive number and cannot be combined with SNR.
+    instrument = {
+        "id": "TEST_INLINE_NE_DELTA_T",
+        "name": "Inline Thermal Noise Test Instrument",
+        "acronym": "TEST",
+        "type": "multispectral",
+        "platform_type": "satellite",
+        "platform": ["Test platform"],
+        "operator": ["Test operator"],
+        "contributors": ["https://github.com/davemlz"],
+        "start_date": "2020-01-01",
+        "status": "operational",
+        "availability": "public",
+        "extensions": {
+            "spectral": {
+                "bands": {
+                    "B1": {
+                        "center_wavelength": 11000,
+                        "bandwidth": 1000,
+                        **noise_properties,
+                    }
+                }
+            }
+        },
+        "references": ["https://example.com"],
+    }
+    instrument_path = tmp_path / "TEST_INLINE_NE_DELTA_T.yaml"
+    instrument_path.write_text(yaml.safe_dump(instrument), encoding="utf-8")
+
+    if is_valid:
+        assert validate_instrument(instrument_path)["extensions"]["spectral"][
+            "bands"
+        ]["B1"]["ne_delta_t"] == 0.3
+    else:
+        with pytest.raises(ValidationError):
+            validate_instrument(instrument_path)
+
+
+@pytest.mark.parametrize(
+    ("snr", "ne_delta_t", "is_valid"),
+    [
+        ("", "0.3", True),
+        ("", "0", False),
+        ("100", "0.3", False),
+    ],
+)
+def test_bands_csv_ne_delta_t_validation(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+    snr: str,
+    ne_delta_t: str,
+    is_valid: bool,
+) -> None:
+    # CSV rows must enforce the complete inline band schema, including `not`.
+    monkeypatch.setattr(validators_module, "BANDS_DIR", tmp_path)
+    bands_path = tmp_path / "TEST_NE_DELTA_T_BANDS.csv"
+    bands_path.write_text(
+        "band,center_wavelength,bandwidth,snr,ne_delta_t\n"
+        f"B1,11000,1000,{snr},{ne_delta_t}\n",
+        encoding="utf-8",
+    )
+    instrument = {
+        "id": "TEST_CSV_NE_DELTA_T",
+        "name": "CSV Thermal Noise Test Instrument",
+        "acronym": "TEST",
+        "type": "multispectral",
+        "platform_type": "satellite",
+        "platform": ["Test platform"],
+        "operator": ["Test operator"],
+        "contributors": ["https://github.com/davemlz"],
+        "start_date": "2020-01-01",
+        "status": "operational",
+        "availability": "public",
+        "extensions": {"spectral": {"bands": bands_path.name}},
+        "references": ["https://example.com"],
+    }
+    instrument_path = tmp_path / "TEST_CSV_NE_DELTA_T.yaml"
+    instrument_path.write_text(yaml.safe_dump(instrument), encoding="utf-8")
+
+    if is_valid:
+        assert validate_instrument(instrument_path)["extensions"]["spectral"][
+            "bands"
+        ] == bands_path.name
+    else:
+        with pytest.raises(ValidationError):
+            validate_instrument(instrument_path)
+
+
 def test_catalogue_structure_and_spectral_transforms(
     generated_outputs: dict[str, Path],
 ) -> None:
@@ -293,6 +397,67 @@ def test_catalogue_structure_and_spectral_transforms(
         ].values()
         for value in values
     )
+
+    # Documented thermal noise values should be materialized without SNR.
+    thermal_noise = {
+        "ALTUMAL04_lte_MICASENSE": {"B6": 0.05},
+        "ALTUMAL05_MICASENSE": {"B6": 0.05},
+        "ALTUMAL06_gte_MICASENSE": {"B6": 0.05},
+        "ALTUMPT_MICASENSE": {"B7": 0.06},
+        "ASTER": {f"B{band}": 0.3 for band in range(10, 15)},
+        "ETM_L7": {"B6": 0.22},
+        "MODIS_TERRA": {
+            "B20": 0.05,
+            "B21": 0.20,
+            "B22": 0.07,
+            "B23": 0.07,
+            "B24": 0.25,
+            "B25": 0.25,
+            "B27": 0.25,
+            "B28": 0.25,
+            "B29": 0.05,
+            "B30": 0.25,
+            "B31": 0.05,
+            "B32": 0.05,
+            "B33": 0.25,
+            "B34": 0.25,
+            "B35": 0.25,
+            "B36": 0.35,
+        },
+        "MODIS_AQUA": {
+            "B20": 0.05,
+            "B21": 0.20,
+            "B22": 0.07,
+            "B23": 0.07,
+            "B24": 0.25,
+            "B25": 0.25,
+            "B27": 0.25,
+            "B28": 0.25,
+            "B29": 0.05,
+            "B30": 0.25,
+            "B31": 0.05,
+            "B32": 0.05,
+            "B33": 0.25,
+            "B34": 0.25,
+            "B35": 0.25,
+            "B36": 0.35,
+        },
+        "TIRS_L8": {"B10": 0.4, "B11": 0.4},
+        "TIRS2_L9": {"B10": 0.4, "B11": 0.4},
+        "TM_L4": {"B6": 0.5},
+        "TM_L5": {"B6": 0.5},
+    }
+    for instrument_id, expected_bands in thermal_noise.items():
+        bands = instruments[instrument_id]["extensions"]["spectral"]["bands"]
+        for band_id, expected_value in expected_bands.items():
+            assert bands[band_id]["ne_delta_t"] == expected_value
+            assert "snr" not in bands[band_id]
+
+    modis_b26 = instruments["MODIS_TERRA"]["extensions"]["spectral"]["bands"][
+        "B26"
+    ]
+    assert modis_b26["snr"] == 150
+    assert "ne_delta_t" not in modis_b26
 
 
 def test_range_bandwidth_overrides_generated_bandwidth() -> None:
