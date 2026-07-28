@@ -68,6 +68,10 @@ PRODUCT_LABELS = {
     "raw": "Raw",
     "toa": "Top of atmosphere",
     "boa": "Bottom of atmosphere",
+    "lst": "Land surface temperature",
+    "wst": "Water surface temperature",
+    "grd": "Ground range detected",
+    "rtc": "Radiometrically terrain corrected",
 }
 
 

@@ -74,4 +74,64 @@ properties:
         type: string
         description: EOPF Sentinel Zarr Samples STAC collection name
 
+  lst:
+    type: object
+    description: Optional EOPF Sentinel Zarr Samples metadata for land surface temperature (LST) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of LST data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
+  wst:
+    type: object
+    description: Optional EOPF Sentinel Zarr Samples metadata for water surface temperature (WST) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of WST data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
+  grd:
+    type: object
+    description: Optional EOPF Sentinel Zarr Samples metadata for ground range detected (GRD) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of GRD data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
+  rtc:
+    type: object
+    description: Optional EOPF Sentinel Zarr Samples metadata for radiometrically terrain corrected (RTC) products
+    additionalProperties: false
+    required:
+      - docs
+      - collection
+    properties:
+      docs:
+        type: string
+        description: Link to the documentation of RTC data
+      collection:
+        type: string
+        description: EOPF Sentinel Zarr Samples STAC collection name
+
 additionalProperties: false

@@ -129,6 +129,112 @@ def test_contributors_are_required_github_profiles(
             validate_instrument(instrument_path)
 
 
+@pytest.mark.parametrize(
+    ("provider", "provider_metadata"),
+    [
+        ("ee", {}),
+        (
+            "planetary_computer",
+            {
+                "stac_endpoint": (
+                    "https://planetarycomputer.microsoft.com/api/stac/v1"
+                )
+            },
+        ),
+        (
+            "cdse",
+            {"stac_endpoint": "https://stac.dataspace.copernicus.eu/v1"},
+        ),
+        (
+            "eopf",
+            {"stac_endpoint": "https://stac.core.eopf.eodc.eu/"},
+        ),
+    ],
+)
+def test_data_access_supports_specialized_product_roles(
+    tmp_path: Path,
+    provider: str,
+    provider_metadata: dict[str, str],
+) -> None:
+    # Every provider should accept the same optional specialized product roles.
+    product_roles = ("lst", "wst", "grd", "rtc")
+    provider_data = {
+        **provider_metadata,
+        "primary": {
+            "docs": "https://example.com/primary",
+            "collection": "primary-collection",
+        },
+        **{
+            role: {
+                "docs": f"https://example.com/{role}",
+                "collection": f"{role}-collection",
+            }
+            for role in product_roles
+        },
+    }
+    instrument = {
+        "id": f"TEST_{provider.upper()}",
+        "name": "Data Access Test Instrument",
+        "acronym": "TEST",
+        "type": "other",
+        "platform_type": "satellite",
+        "platform": ["Test platform"],
+        "operator": ["Test operator"],
+        "contributors": ["https://github.com/davemlz"],
+        "start_date": "2020-01-01",
+        "status": "operational",
+        "availability": "public",
+        "extensions": {"data_access": {provider: provider_data}},
+        "references": ["https://example.com"],
+    }
+    instrument_path = tmp_path / f"TEST_{provider.upper()}.yaml"
+    instrument_path.write_text(yaml.safe_dump(instrument), encoding="utf-8")
+
+    validated_provider = validate_instrument(instrument_path)["extensions"][
+        "data_access"
+    ][provider]
+
+    assert all(role in validated_provider for role in product_roles)
+
+
+@pytest.mark.parametrize("role", ["lst", "wst", "grd", "rtc"])
+def test_specialized_data_access_roles_require_complete_metadata(
+    tmp_path: Path,
+    role: str,
+) -> None:
+    # Specialized roles follow the existing product shape: docs and collection.
+    instrument = {
+        "id": f"TEST_{role.upper()}",
+        "name": "Incomplete Data Access Test Instrument",
+        "acronym": "TEST",
+        "type": "other",
+        "platform_type": "satellite",
+        "platform": ["Test platform"],
+        "operator": ["Test operator"],
+        "contributors": ["https://github.com/davemlz"],
+        "start_date": "2020-01-01",
+        "status": "operational",
+        "availability": "public",
+        "extensions": {
+            "data_access": {
+                "ee": {
+                    "primary": {
+                        "docs": "https://example.com/primary",
+                        "collection": "primary-collection",
+                    },
+                    role: {"docs": f"https://example.com/{role}"},
+                }
+            }
+        },
+        "references": ["https://example.com"],
+    }
+    instrument_path = tmp_path / f"TEST_{role.upper()}.yaml"
+    instrument_path.write_text(yaml.safe_dump(instrument), encoding="utf-8")
+
+    with pytest.raises(ValidationError):
+        validate_instrument(instrument_path)
+
+
 def test_catalogue_structure_and_spectral_transforms(
     generated_outputs: dict[str, Path],
 ) -> None:

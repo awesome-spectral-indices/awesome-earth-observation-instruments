@@ -72,6 +72,10 @@ The tables below summarize the properties defined by the core schema and its ext
 | raw | No | object | Optional Earth Engine metadata for raw (unprocessed) products |
 | boa | No | object | Optional Earth Engine metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional Earth Engine metadata for top-of-atmosphere (TOA) products |
+| lst | No | object | Optional Earth Engine metadata for land surface temperature (LST) products |
+| wst | No | object | Optional Earth Engine metadata for water surface temperature (WST) products |
+| grd | No | object | Optional Earth Engine metadata for ground range detected (GRD) products |
+| rtc | No | object | Optional Earth Engine metadata for radiometrically terrain corrected (RTC) products |
 
 ## Planetary Computer Access Point ([`schema/extensions/data_access_points/planetary-computer.yaml`](schema/extensions/data_access_points/planetary-computer.yaml))
 
@@ -82,6 +86,10 @@ The tables below summarize the properties defined by the core schema and its ext
 | raw | No | object | Optional Planetary Computer metadata for raw (unprocessed) products |
 | boa | No | object | Optional Planetary Computer metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional Planetary Computer metadata for top-of-atmosphere (TOA) products |
+| lst | No | object | Optional Planetary Computer metadata for land surface temperature (LST) products |
+| wst | No | object | Optional Planetary Computer metadata for water surface temperature (WST) products |
+| grd | No | object | Optional Planetary Computer metadata for ground range detected (GRD) products |
+| rtc | No | object | Optional Planetary Computer metadata for radiometrically terrain corrected (RTC) products |
 
 ## Copernicus Data Space Ecosystem Access Point ([`schema/extensions/data_access_points/copernicus-data-space-ecosystem.yaml`](schema/extensions/data_access_points/copernicus-data-space-ecosystem.yaml))
 
@@ -92,6 +100,10 @@ The tables below summarize the properties defined by the core schema and its ext
 | raw | No | object | Optional Copernicus Data Space Ecosystem metadata for raw (unprocessed) products |
 | boa | No | object | Optional Copernicus Data Space Ecosystem metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional Copernicus Data Space Ecosystem metadata for top-of-atmosphere (TOA) products |
+| lst | No | object | Optional Copernicus Data Space Ecosystem metadata for land surface temperature (LST) products |
+| wst | No | object | Optional Copernicus Data Space Ecosystem metadata for water surface temperature (WST) products |
+| grd | No | object | Optional Copernicus Data Space Ecosystem metadata for ground range detected (GRD) products |
+| rtc | No | object | Optional Copernicus Data Space Ecosystem metadata for radiometrically terrain corrected (RTC) products |
 
 ## EOPF Sentinel Zarr Samples Access Point ([`schema/extensions/data_access_points/eopf-sentinel-zarr-samples.yaml`](schema/extensions/data_access_points/eopf-sentinel-zarr-samples.yaml))
 
@@ -102,3 +114,7 @@ The tables below summarize the properties defined by the core schema and its ext
 | raw | No | object | Optional EOPF Sentinel Zarr Samples metadata for raw (unprocessed) products |
 | boa | No | object | Optional EOPF Sentinel Zarr Samples metadata for bottom-of-atmosphere (BOA) products |
 | toa | No | object | Optional EOPF Sentinel Zarr Samples metadata for top-of-atmosphere (TOA) products |
+| lst | No | object | Optional EOPF Sentinel Zarr Samples metadata for land surface temperature (LST) products |
+| wst | No | object | Optional EOPF Sentinel Zarr Samples metadata for water surface temperature (WST) products |
+| grd | No | object | Optional EOPF Sentinel Zarr Samples metadata for ground range detected (GRD) products |
+| rtc | No | object | Optional EOPF Sentinel Zarr Samples metadata for radiometrically terrain corrected (RTC) products |

@@ -17,6 +17,9 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
   instruments use `active` or `legacy`; all platforms retain `experimental`
   and `planned`.
 - Added the required `contributors` property for unique GitHub profile URLs.
+- Added optional Land Surface Temperature (`lst`), Water Surface Temperature
+  (`wst`), Ground Range Detected (`grd`), and Radiometrically Terrain Corrected
+  (`rtc`) product roles to every data-access point schema.
 
 ### Instruments And Metadata
 
