@@ -1,5 +1,6 @@
 ---
-pageClass: rgb-class
+pageClass: instrument-page rgb-class
+instrumentId: "SEQUOIA_RGB_PARROT"
 isHome: true
 
 layout: home
@@ -9,19 +10,14 @@ hero:
   text: "Sequoia RGB Camera"
   tagline: "UAV"
   image:
-    src: /uav.png
-    alt: uav
+    src: /uav.jpg
+    alt: uav platform
   actions:
     - theme: alt
       text: 🡰 Back to Instrument Index
       link: /instruments/
 
 ---
-
-<div class="instrument-identity" aria-label="Instrument identifier">
-  <span class="instrument-identity-label">Instrument ID</span>
-  <code class="instrument-identity-value">SEQUOIA_RGB_PARROT</code>
-</div>
 
 ## Summary
 

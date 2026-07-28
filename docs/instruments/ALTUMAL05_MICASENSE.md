@@ -1,5 +1,6 @@
 ---
-pageClass: multispectral-class
+pageClass: instrument-page multispectral-class
+instrumentId: "ALTUMAL05_MICASENSE"
 isHome: true
 
 layout: home
@@ -9,19 +10,14 @@ hero:
   text: "Altum AL05 Series"
   tagline: "UAV"
   image:
-    src: /uav.png
-    alt: uav
+    src: /uav.jpg
+    alt: uav platform
   actions:
     - theme: alt
       text: 🡰 Back to Instrument Index
       link: /instruments/
 
 ---
-
-<div class="instrument-identity" aria-label="Instrument identifier">
-  <span class="instrument-identity-label">Instrument ID</span>
-  <code class="instrument-identity-value">ALTUMAL05_MICASENSE</code>
-</div>
 
 ## Summary
 

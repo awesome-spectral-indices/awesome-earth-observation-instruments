@@ -1,5 +1,6 @@
 ---
-pageClass: multispectral-class
+pageClass: instrument-page multispectral-class
+instrumentId: "MSI_S2A"
 isHome: true
 
 layout: home
@@ -9,19 +10,14 @@ hero:
   text: "MultiSpectral Instrument"
   tagline: "Sentinel-2A"
   image:
-    src: /satellite.png
-    alt: satellite
+    src: /satellite.jpg
+    alt: satellite platform
   actions:
     - theme: alt
       text: 🡰 Back to Instrument Index
       link: /instruments/
 
 ---
-
-<div class="instrument-identity" aria-label="Instrument identifier">
-  <span class="instrument-identity-label">Instrument ID</span>
-  <code class="instrument-identity-value">MSI_S2A</code>
-</div>
 
 ## Summary
 

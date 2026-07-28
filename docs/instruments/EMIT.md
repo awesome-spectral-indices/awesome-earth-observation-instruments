@@ -1,5 +1,6 @@
 ---
-pageClass: hyperspectral-class
+pageClass: instrument-page hyperspectral-class
+instrumentId: "EMIT"
 isHome: true
 
 layout: home
@@ -9,19 +10,14 @@ hero:
   text: "Earth Surface Mineral Dust Source Investigation"
   tagline: "ISS"
   image:
-    src: /satellite.png
-    alt: satellite
+    src: /satellite.jpg
+    alt: satellite platform
   actions:
     - theme: alt
       text: 🡰 Back to Instrument Index
       link: /instruments/
 
 ---
-
-<div class="instrument-identity" aria-label="Instrument identifier">
-  <span class="instrument-identity-label">Instrument ID</span>
-  <code class="instrument-identity-value">EMIT</code>
-</div>
 
 ## Summary
 

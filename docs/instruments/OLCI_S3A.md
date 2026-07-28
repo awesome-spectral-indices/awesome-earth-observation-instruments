@@ -1,5 +1,6 @@
 ---
-pageClass: multispectral-class
+pageClass: instrument-page multispectral-class
+instrumentId: "OLCI_S3A"
 isHome: true
 
 layout: home
@@ -9,19 +10,14 @@ hero:
   text: "Ocean and Land Colour Instrument"
   tagline: "Sentinel-3A"
   image:
-    src: /satellite.png
-    alt: satellite
+    src: /satellite.jpg
+    alt: satellite platform
   actions:
     - theme: alt
       text: 🡰 Back to Instrument Index
       link: /instruments/
 
 ---
-
-<div class="instrument-identity" aria-label="Instrument identifier">
-  <span class="instrument-identity-label">Instrument ID</span>
-  <code class="instrument-identity-value">OLCI_S3A</code>
-</div>
 
 ## Summary
 

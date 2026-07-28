@@ -6,15 +6,17 @@ const props = defineProps<{
 }>()
 
 const tabs = [
-  { id: 'quick-facts', label: 'Quick Facts' },
-  { id: 'spectral', label: 'Spectral' },
-  { id: 'imaging', label: 'Imaging' },
+  { id: 'characteristics', label: 'Characteristics' },
+  { id: 'operational-timeline', label: 'Timeline' },
+  { id: 'spectral-comparison', label: 'Spectral Comparison' },
+  { id: 'bands', label: 'Bands' },
   { id: 'data-access', label: 'Data Access' },
   { id: 'external-catalogues', label: 'External Catalogues' },
+  { id: 'related-instruments', label: 'Related Instruments' },
   { id: 'references', label: 'References' }
 ] as const
 
-const activeTab = ref<(typeof tabs)[number]['id']>('quick-facts')
+const activeTab = ref<(typeof tabs)[number]['id']>('characteristics')
 const tabButtons = ref<HTMLButtonElement[]>([])
 
 function selectTab(tabId: (typeof tabs)[number]['id'], focus = false) {
@@ -62,41 +64,53 @@ function handleKeydown(event: KeyboardEvent, index: number) {
     </div>
 
     <section
-      v-show="activeTab === 'quick-facts'"
-      id="instrument-panel-quick-facts"
+      v-show="activeTab === 'characteristics'"
+      id="instrument-panel-characteristics"
       role="tabpanel"
-      aria-labelledby="instrument-tab-quick-facts"
+      aria-labelledby="instrument-tab-characteristics"
       tabindex="0"
     >
       <h2>Quick Facts</h2>
       <InstrumentSection :instrument-id="props.instrumentId" section="quick-facts" />
+
+      <h2>Spectral Characteristics</h2>
+      <InstrumentSection :instrument-id="props.instrumentId" section="spectral-summary" />
+
+      <h2>Imaging</h2>
+      <InstrumentSection :instrument-id="props.instrumentId" section="imaging" />
+    </section>
+
+    <section
+      v-show="activeTab === 'operational-timeline'"
+      id="instrument-panel-operational-timeline"
+      role="tabpanel"
+      aria-labelledby="instrument-tab-operational-timeline"
+      tabindex="0"
+    >
+      <h2>Operational Timeline</h2>
       <InstrumentTimeline :instrument-id="props.instrumentId" />
     </section>
 
     <section
-      v-show="activeTab === 'spectral'"
-      id="instrument-panel-spectral"
+      v-show="activeTab === 'spectral-comparison'"
+      id="instrument-panel-spectral-comparison"
       role="tabpanel"
-      aria-labelledby="instrument-tab-spectral"
+      aria-labelledby="instrument-tab-spectral-comparison"
       tabindex="0"
     >
-      <h2>Spectral Characteristics</h2>
-      <InstrumentSection :instrument-id="props.instrumentId" section="spectral-summary" />
+      <h2>Spectral Comparison</h2>
       <SpectralComparison :instrument-id="props.instrumentId" />
-
-      <h2>Bands</h2>
-      <InstrumentSection :instrument-id="props.instrumentId" section="bands" />
     </section>
 
     <section
-      v-show="activeTab === 'imaging'"
-      id="instrument-panel-imaging"
+      v-show="activeTab === 'bands'"
+      id="instrument-panel-bands"
       role="tabpanel"
-      aria-labelledby="instrument-tab-imaging"
+      aria-labelledby="instrument-tab-bands"
       tabindex="0"
     >
-      <h2>Imaging</h2>
-      <InstrumentSection :instrument-id="props.instrumentId" section="imaging" />
+      <h2>Bands</h2>
+      <InstrumentSection :instrument-id="props.instrumentId" section="bands" />
     </section>
 
     <section
@@ -125,15 +139,23 @@ function handleKeydown(event: KeyboardEvent, index: number) {
     </section>
 
     <section
+      v-show="activeTab === 'related-instruments'"
+      id="instrument-panel-related-instruments"
+      role="tabpanel"
+      aria-labelledby="instrument-tab-related-instruments"
+      tabindex="0"
+    >
+      <h2>Related Instruments</h2>
+      <InstrumentSection :instrument-id="props.instrumentId" section="related" />
+    </section>
+
+    <section
       v-show="activeTab === 'references'"
       id="instrument-panel-references"
       role="tabpanel"
       aria-labelledby="instrument-tab-references"
       tabindex="0"
     >
-      <h2>Related Instruments</h2>
-      <InstrumentSection :instrument-id="props.instrumentId" section="related" />
-
       <h2>Sources and References</h2>
       <InstrumentSection :instrument-id="props.instrumentId" section="references" />
     </section>

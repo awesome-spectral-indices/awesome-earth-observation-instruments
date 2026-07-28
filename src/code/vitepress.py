@@ -5,7 +5,6 @@ from __future__ import annotations
 import json
 import math
 import re
-from html import escape
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -200,7 +199,8 @@ def render_frontmatter(instrument: dict[str, Any]) -> str:
 
     lines = [
         "---",
-        f"pageClass: {css_class(instrument.get('type'))}-class",
+        f"pageClass: instrument-page {css_class(instrument.get('type'))}-class",
+        f"instrumentId: {yaml_quote(instrument_id)}",
         "isHome: true",
         "",
         "layout: home",
@@ -210,8 +210,8 @@ def render_frontmatter(instrument: dict[str, Any]) -> str:
         f"  text: {yaml_quote(name)}",
         f"  tagline: {yaml_quote(platform)}",
         "  image:",
-        f"    src: /{platform_type}.png",
-        f"    alt: {platform_type}",
+        f"    src: /{platform_type}.jpg",
+        f"    alt: {platform_type} platform",
         "  actions:",
         "    - theme: alt",
         "      text: 🡰 Back to Instrument Index",
@@ -322,20 +322,6 @@ def render_notes(instrument: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def render_instrument_identity(instrument_id: Any) -> str:
-    """Render a compact visual callout for the catalogue instrument ID."""
-
-    safe_id = escape(text_value(instrument_id), quote=True)
-    return "\n".join(
-        [
-            '<div class="instrument-identity" aria-label="Instrument identifier">',
-            '  <span class="instrument-identity-label">Instrument ID</span>',
-            f'  <code class="instrument-identity-value">{safe_id}</code>',
-            "</div>",
-        ]
-    )
-
-
 def render_xeo_example(instrument_id: Any) -> str:
     """Render a Python example for exploring the instrument with xeo."""
 
@@ -385,7 +371,6 @@ def render_instrument_page(instrument: dict[str, Any]) -> str:
 
     sections = [
         render_frontmatter(instrument),
-        render_instrument_identity(instrument_id),
         "## Summary",
         f'<InstrumentSection instrument-id="{instrument_id}" section="summary" />',
         render_notes(instrument),

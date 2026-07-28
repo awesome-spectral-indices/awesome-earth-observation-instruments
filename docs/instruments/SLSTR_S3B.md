@@ -1,5 +1,6 @@
 ---
-pageClass: multispectral-class
+pageClass: instrument-page multispectral-class
+instrumentId: "SLSTR_S3B"
 isHome: true
 
 layout: home
@@ -9,19 +10,14 @@ hero:
   text: "Sea and Land Surface Temperature Radiometer"
   tagline: "Sentinel-3B"
   image:
-    src: /satellite.png
-    alt: satellite
+    src: /satellite.jpg
+    alt: satellite platform
   actions:
     - theme: alt
       text: 🡰 Back to Instrument Index
       link: /instruments/
 
 ---
-
-<div class="instrument-identity" aria-label="Instrument identifier">
-  <span class="instrument-identity-label">Instrument ID</span>
-  <code class="instrument-identity-value">SLSTR_S3B</code>
-</div>
 
 ## Summary
 

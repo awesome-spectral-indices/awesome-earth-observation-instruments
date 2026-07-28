@@ -1,5 +1,6 @@
 ---
-pageClass: multispectral-class
+pageClass: instrument-page multispectral-class
+instrumentId: "TIRS2_L9"
 isHome: true
 
 layout: home
@@ -9,19 +10,14 @@ hero:
   text: "Thermal Infrared Sensor 2"
   tagline: "Landsat 9"
   image:
-    src: /satellite.png
-    alt: satellite
+    src: /satellite.jpg
+    alt: satellite platform
   actions:
     - theme: alt
       text: 🡰 Back to Instrument Index
       link: /instruments/
 
 ---
-
-<div class="instrument-identity" aria-label="Instrument identifier">
-  <span class="instrument-identity-label">Instrument ID</span>
-  <code class="instrument-identity-value">TIRS2_L9</code>
-</div>
 
 ## Summary
 

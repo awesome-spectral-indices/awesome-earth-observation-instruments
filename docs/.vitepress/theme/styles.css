@@ -25,24 +25,125 @@
   --vp-c-brand-3: #0084ff;
 }
 
-.VPHero .image,
-.VPHero .image-container {
+.instrument-page .VPHero {
+  position: relative;
+  display: flex;
+  isolation: isolate;
+  min-height: clamp(410px, 48vw, 540px);
+  overflow: hidden;
+  background: #000;
+}
+
+.instrument-page .VPNav,
+.instrument-page .VPNavBar,
+.instrument-page .VPNavBar.has-sidebar .content,
+.instrument-page .VPNavBar:not(.home),
+.instrument-page .VPNavBar:not(.has-sidebar) {
+  background: #000 !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.instrument-page .VPNavBarTitle .title,
+.instrument-page .VPNavBarMenuLink,
+.instrument-page .VPNavBarSearch,
+.instrument-page .VPNavBarAppearance,
+.instrument-page .VPNavBarSocialLinks,
+.instrument-page .VPNavBarExtra {
+  color: #fff !important;
+}
+
+.instrument-page .VPNavBarHamburger .top,
+.instrument-page .VPNavBarHamburger .middle,
+.instrument-page .VPNavBarHamburger .bottom {
+  background-color: #fff !important;
+}
+
+.instrument-page .VPHero .container {
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
+}
+
+.instrument-page .VPHero .main {
+  z-index: 2;
+  width: min(76%, 592px);
+}
+
+.instrument-page .VPHero.has-image .name,
+.instrument-page .VPHero.has-image .text,
+.instrument-page .VPHero.has-image .tagline {
+  margin: 0;
+}
+
+.instrument-page .VPHero.has-image .actions {
+  justify-content: flex-start;
+}
+
+.instrument-page .VPHero .text {
+  color: #fff;
+}
+
+.instrument-page .VPHero .tagline {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.instrument-page .VPHero .image {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  order: initial;
+  aspect-ratio: 1;
+  width: auto !important;
+  height: 100% !important;
+  min-height: 0;
+  margin: 0 !important;
+}
+
+.instrument-page .VPHero .image-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+.instrument-page .VPHero .image-bg {
+  display: none;
+}
+
+.instrument-page .VPHero .image-src {
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
   max-width: none !important;
-  width: min(475px, 80vw) !important;
-  margin-inline: auto !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  transform: none !important;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(0, 0, 0, 0.15) 18%,
+    #000 55%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(0, 0, 0, 0.15) 18%,
+    #000 55%
+  );
 }
 
-.VPHero .image img {
-  width: min(475px, 80vw) !important;
-  height: auto !important;
-  max-width: 100% !important;
-}
-
-.VPHero .image-src {
-  width: min(300px, 62vw) !important;
-  height: min(300px, 62vw) !important;
-  max-width: 100% !important;
-  object-fit: contain !important;
+@media (min-width: 960px) {
+  .instrument-page .VPHero .container {
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 
 .instrument-identity {
@@ -68,7 +169,7 @@
   text-transform: uppercase;
 }
 
-.vp-doc .instrument-identity-value {
+.instrument-identity .instrument-identity-value {
   min-width: 0;
   padding: 0;
   background: transparent;
@@ -76,6 +177,22 @@
   font-size: 0.9rem;
   font-weight: 700;
   overflow-wrap: anywhere;
+}
+
+.instrument-page .VPHero .instrument-identity {
+  margin: 1.25rem 0 0;
+  border-color: rgba(255, 255, 255, 0.24);
+  border-left-color: var(--vp-c-brand-1);
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(8px);
+}
+
+.instrument-page .VPHero .instrument-identity-label {
+  color: rgba(255, 255, 255, 0.66);
+}
+
+.instrument-page .VPHero .instrument-identity-value {
+  color: #fff;
 }
 
 @media (max-width: 480px) {
