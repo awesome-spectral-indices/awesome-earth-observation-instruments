@@ -6,3 +6,5 @@ pageClass: landing-page
 ---
 
 ![cover](/cover-picture.png)
+
+<LandingActions />

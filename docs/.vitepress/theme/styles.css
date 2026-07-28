@@ -283,5 +283,116 @@
 .landing-page .vp-doc img[alt="cover"] {
   display: block;
   width: min(1100px, 92vw);
-  margin: clamp(2rem, 7vw, 6rem) auto;
+  margin: clamp(2rem, 7vw, 6rem) auto clamp(1.25rem, 3vw, 2rem);
+}
+
+.landing-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(180px, 0.75fr);
+  gap: clamp(1.75rem, 5vw, 4rem);
+  width: min(820px, 92vw);
+  margin: 0 auto clamp(3rem, 7vw, 6rem);
+}
+
+.landing-action-group {
+  display: grid;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.landing-action-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.landing-action-label {
+  padding-left: 1rem;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.landing-action {
+  --landing-action-accent: #5ddcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border: 1px solid color-mix(
+    in srgb,
+    var(--landing-action-accent) 48%,
+    rgba(255, 255, 255, 0.18)
+  );
+  border-radius: 999px;
+  padding: 0.62rem 1rem;
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--landing-action-accent) 16%, transparent),
+      color-mix(in srgb, var(--landing-action-accent) 5%, transparent)
+    ),
+    #050505;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 0 0 1px transparent;
+  color: #fff !important;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 750;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none !important;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.25s ease,
+    color 0.2s ease,
+    background 0.2s ease;
+}
+
+.landing-action-symbol {
+  margin-left: 0.45rem;
+  color: var(--landing-action-accent);
+  font-size: 1.05em;
+  line-height: 1;
+}
+
+.landing-action:hover {
+  border-color: var(--landing-action-accent);
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--landing-action-accent) 23%, transparent),
+      color-mix(in srgb, var(--landing-action-accent) 8%, transparent)
+    ),
+    #050505;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 0 0 1px color-mix(in srgb, var(--landing-action-accent) 24%, transparent),
+    0 0 22px color-mix(in srgb, var(--landing-action-accent) 42%, transparent);
+  color: var(--landing-action-accent) !important;
+}
+
+.landing-action:focus-visible {
+  outline: 2px solid var(--landing-action-accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .landing-actions {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    width: min(560px, 92vw);
+  }
+}
+
+@media (max-width: 420px) {
+  .landing-action-row {
+    grid-template-columns: 1fr;
+  }
 }
