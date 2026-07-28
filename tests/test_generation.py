@@ -43,6 +43,20 @@ def test_all_instruments_validate() -> None:
     assert all(instrument["contributors"] for instrument in instruments)
 
 
+def test_slstr_records_share_bands_and_use_platform_specific_srfs() -> None:
+    # SLSTR-A and SLSTR-B share nominal channels but retain measured platform SRFs.
+    instruments = {
+        instrument["id"]: instrument
+        for instrument in validate_all_instruments(REPO_ROOT / "src" / "instruments")
+    }
+    slstr_a = instruments["SLSTR_S3A"]["extensions"]["spectral"]
+    slstr_b = instruments["SLSTR_S3B"]["extensions"]["spectral"]
+
+    assert slstr_a["bands"] == slstr_b["bands"] == "SLSTR_BANDS.csv"
+    assert slstr_a["spectral_response_function"] == "SLSTR_S3A_SRF.csv"
+    assert slstr_b["spectral_response_function"] == "SLSTR_S3B_SRF.csv"
+
+
 @pytest.mark.parametrize(
     ("platform_type", "status", "is_valid"),
     [

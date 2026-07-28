@@ -938,6 +938,86 @@
     "search_text": "sequoia_rgb_parrot sequoia rgb camera sequoia uav uav rgb parrot 2016-02-09 active private https://github.com/davemlz https://www.parrot.com/en/support/documentation/sequoia https://www.parrot.com/assets/s3fs-public/2021-09/sequoia-userguide-en-fr-es-de-it-pt-ar-zn-zh-jp-ko_0.pdf https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
   },
   {
+    "id": "SLSTR_S3A",
+    "name": "Sea and Land Surface Temperature Radiometer",
+    "acronym": "SLSTR",
+    "platform": "Sentinel-3A",
+    "platforms": [
+      "Sentinel-3A"
+    ],
+    "platform_type": "satellite",
+    "type": "multispectral",
+    "operator": "ESA, EUMETSAT, Copernicus",
+    "operators": [
+      "ESA",
+      "EUMETSAT",
+      "Copernicus"
+    ],
+    "start_date": "2016-02-16",
+    "status": "operational",
+    "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://sentiwiki.copernicus.eu/web/s3-slstr-instrument",
+      "https://sentiwiki.copernicus.eu/web/slstr-products",
+      "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/About_the_launch",
+      "https://www.earthdata.nasa.gov/data/instruments/slstr",
+      "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902",
+      "https://sentiwiki.copernicus.eu/__attachments/a_aacdd1ba3831d1eefcea7c4d52b0cf9b26e65378d1a6f307f13e433ef353e10b/SLSTR_FM02_Spectral_Responses_Necdf_zip.zip"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "eopf",
+      "planetary_computer"
+    ],
+    "href": "/instruments/SLSTR_S3A",
+    "search_text": "slstr_s3a sea and land surface temperature radiometer slstr sentinel-3a satellite multispectral esa eumetsat copernicus 2016-02-16 operational public https://github.com/davemlz https://sentiwiki.copernicus.eu/web/s3-slstr-instrument https://sentiwiki.copernicus.eu/web/slstr-products https://www.esa.int/applications/observing_the_earth/copernicus/sentinel-3/about_the_launch https://www.earthdata.nasa.gov/data/instruments/slstr https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentid=902 https://sentiwiki.copernicus.eu/__attachments/a_aacdd1ba3831d1eefcea7c4d52b0cf9b26e65378d1a6f307f13e433ef353e10b/slstr_fm02_spectral_responses_necdf_zip.zip"
+  },
+  {
+    "id": "SLSTR_S3B",
+    "name": "Sea and Land Surface Temperature Radiometer",
+    "acronym": "SLSTR",
+    "platform": "Sentinel-3B",
+    "platforms": [
+      "Sentinel-3B"
+    ],
+    "platform_type": "satellite",
+    "type": "multispectral",
+    "operator": "ESA, EUMETSAT, Copernicus",
+    "operators": [
+      "ESA",
+      "EUMETSAT",
+      "Copernicus"
+    ],
+    "start_date": "2018-04-25",
+    "status": "operational",
+    "availability": "public",
+    "contributors": [
+      "https://github.com/davemlz"
+    ],
+    "references": [
+      "https://sentiwiki.copernicus.eu/web/s3-slstr-instrument",
+      "https://sentiwiki.copernicus.eu/web/slstr-products",
+      "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/About_the_launch",
+      "https://www.earthdata.nasa.gov/data/instruments/slstr",
+      "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902",
+      "https://sentiwiki.copernicus.eu/__attachments/a_e4699d3a086eeaaba636b279ec6e96e0721ecda34a04018b9a7ebb14e114244e/SLSTR_B_PFM_Spectral_Responses_Netcdf.zip?cb=d22d2a91201c02d330547dc3caddb3eb"
+    ],
+    "has_bands": true,
+    "has_srf": true,
+    "data_access_points": [
+      "cdse",
+      "eopf",
+      "planetary_computer"
+    ],
+    "href": "/instruments/SLSTR_S3B",
+    "search_text": "slstr_s3b sea and land surface temperature radiometer slstr sentinel-3b satellite multispectral esa eumetsat copernicus 2018-04-25 operational public https://github.com/davemlz https://sentiwiki.copernicus.eu/web/s3-slstr-instrument https://sentiwiki.copernicus.eu/web/slstr-products https://www.esa.int/applications/observing_the_earth/copernicus/sentinel-3/about_the_launch https://www.earthdata.nasa.gov/data/instruments/slstr https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentid=902 https://sentiwiki.copernicus.eu/__attachments/a_e4699d3a086eeaaba636b279ec6e96e0721ecda34a04018b9a7ebb14e114244e/slstr_b_pfm_spectral_responses_netcdf.zip?cb=d22d2a91201c02d330547dc3caddb3eb"
+  },
+  {
     "id": "TIRS2_L9",
     "name": "Thermal Infrared Sensor 2",
     "acronym": "TIRS2",

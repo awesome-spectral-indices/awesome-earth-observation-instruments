@@ -1,0 +1,12 @@
+band,center_wavelength,bandwidth,band_description,common_name,gsd,snr,ne_delta_t
+S1,554.27,19.26,Cloud screening; vegetation monitoring; aerosol retrieval,green,500,20,
+S2,659.47,19.25,NDVI; vegetation monitoring; aerosol retrieval,red,500,20,
+S3,868.00,20.60,NDVI; cloud flagging; pixel co-registration,nir08,500,20,
+S4,1374.80,20.80,Cirrus detection over land,cirrus,500,20,
+S5,1613.40,60.68,Cloud clearing; ice and snow detection; vegetation monitoring,swir16,500,20,
+S6,2255.70,50.15,Vegetation monitoring and cloud clearing,swir22,500,20,
+S7,3742,398,Sea and land surface temperature; active-fire detection,,1000,,0.08
+S8,10854,776,Sea and land surface temperature; active-fire detection,lwir11,1000,,0.05
+S9,12022.5,905,Sea and land surface temperature,lwir12,1000,,0.05
+F1,3742,398,Active-fire detection with extended dynamic range,,1000,,1
+F2,10854,776,Active-fire detection with extended dynamic range,lwir11,1000,,0.5

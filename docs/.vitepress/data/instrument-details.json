@@ -8593,6 +8593,13 @@
         "platform": "Sentinel-3B",
         "href": "/instruments/OLCI_S3B",
         "reason": "same instrument family"
+      },
+      {
+        "id": "SLSTR_S3A",
+        "name": "Sea and Land Surface Temperature Radiometer",
+        "platform": "Sentinel-3A",
+        "href": "/instruments/SLSTR_S3A",
+        "reason": "same platform"
       }
     ],
     "data_links": [
@@ -9047,6 +9054,13 @@
         "platform": "Sentinel-3A",
         "href": "/instruments/OLCI_S3A",
         "reason": "same instrument family"
+      },
+      {
+        "id": "SLSTR_S3B",
+        "name": "Sea and Land Surface Temperature Radiometer",
+        "platform": "Sentinel-3B",
+        "href": "/instruments/SLSTR_S3B",
+        "reason": "same platform"
       }
     ],
     "data_links": [
@@ -11171,6 +11185,710 @@
       },
       {
         "url": "https://www.parrot.com/assets/s3fs-public/2021-09/sequoia_integration_manual_en.pdf"
+      }
+    ]
+  },
+  "SLSTR_S3A": {
+    "id": "SLSTR_S3A",
+    "summary": "SLSTR_S3A (Sea and Land Surface Temperature Radiometer) is an operational multispectral instrument operated by ESA, EUMETSAT, Copernicus on Sentinel-3A. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "SLSTR_S3A"
+      },
+      {
+        "label": "Name",
+        "value": "Sea and Land Surface Temperature Radiometer"
+      },
+      {
+        "label": "Acronym",
+        "value": "SLSTR"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Sentinel-3A"
+      },
+      {
+        "label": "Operator",
+        "value": "ESA, EUMETSAT, Copernicus"
+      },
+      {
+        "label": "Start date",
+        "value": "2016-02-16"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "timeline": {
+      "name": "Sea and Land Surface Temperature Radiometer",
+      "acronym": "SLSTR",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2016-02-16",
+      "end_date": ""
+    },
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "11"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "554.27-12022.5 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "19.25-905 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "500-1000 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/SLSTR_S3A_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "S1",
+        "center_wavelength": "554.27",
+        "bandwidth": "19.26",
+        "common_name": "green",
+        "gsd": "500",
+        "description": "Cloud screening; vegetation monitoring; aerosol retrieval",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s1 554.27 19.26 green 500 cloud screening; vegetation monitoring; aerosol retrieval 20 "
+      },
+      {
+        "id": "S2",
+        "center_wavelength": "659.47",
+        "bandwidth": "19.25",
+        "common_name": "red",
+        "gsd": "500",
+        "description": "NDVI; vegetation monitoring; aerosol retrieval",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s2 659.47 19.25 red 500 ndvi; vegetation monitoring; aerosol retrieval 20 "
+      },
+      {
+        "id": "S3",
+        "center_wavelength": "868",
+        "bandwidth": "20.6",
+        "common_name": "nir08",
+        "gsd": "500",
+        "description": "NDVI; cloud flagging; pixel co-registration",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s3 868 20.6 nir08 500 ndvi; cloud flagging; pixel co-registration 20 "
+      },
+      {
+        "id": "S4",
+        "center_wavelength": "1374.8",
+        "bandwidth": "20.8",
+        "common_name": "cirrus",
+        "gsd": "500",
+        "description": "Cirrus detection over land",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s4 1374.8 20.8 cirrus 500 cirrus detection over land 20 "
+      },
+      {
+        "id": "S5",
+        "center_wavelength": "1613.4",
+        "bandwidth": "60.68",
+        "common_name": "swir16",
+        "gsd": "500",
+        "description": "Cloud clearing; ice and snow detection; vegetation monitoring",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s5 1613.4 60.68 swir16 500 cloud clearing; ice and snow detection; vegetation monitoring 20 "
+      },
+      {
+        "id": "S6",
+        "center_wavelength": "2255.7",
+        "bandwidth": "50.15",
+        "common_name": "swir22",
+        "gsd": "500",
+        "description": "Vegetation monitoring and cloud clearing",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s6 2255.7 50.15 swir22 500 vegetation monitoring and cloud clearing 20 "
+      },
+      {
+        "id": "S7",
+        "center_wavelength": "3742",
+        "bandwidth": "398",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Sea and land surface temperature; active-fire detection",
+        "snr": "",
+        "ne_delta_t": "0.08",
+        "search_text": "s7 3742 398  1000 sea and land surface temperature; active-fire detection  0.08"
+      },
+      {
+        "id": "S8",
+        "center_wavelength": "10854",
+        "bandwidth": "776",
+        "common_name": "lwir11",
+        "gsd": "1000",
+        "description": "Sea and land surface temperature; active-fire detection",
+        "snr": "",
+        "ne_delta_t": "0.05",
+        "search_text": "s8 10854 776 lwir11 1000 sea and land surface temperature; active-fire detection  0.05"
+      },
+      {
+        "id": "S9",
+        "center_wavelength": "12022.5",
+        "bandwidth": "905",
+        "common_name": "lwir12",
+        "gsd": "1000",
+        "description": "Sea and land surface temperature",
+        "snr": "",
+        "ne_delta_t": "0.05",
+        "search_text": "s9 12022.5 905 lwir12 1000 sea and land surface temperature  0.05"
+      },
+      {
+        "id": "F1",
+        "center_wavelength": "3742",
+        "bandwidth": "398",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Active-fire detection with extended dynamic range",
+        "snr": "",
+        "ne_delta_t": "1",
+        "search_text": "f1 3742 398  1000 active-fire detection with extended dynamic range  1"
+      },
+      {
+        "id": "F2",
+        "center_wavelength": "10854",
+        "bandwidth": "776",
+        "common_name": "lwir11",
+        "gsd": "1000",
+        "description": "Active-fire detection with extended dynamic range",
+        "snr": "",
+        "ne_delta_t": "0.5",
+        "search_text": "f2 10854 776 lwir11 1000 active-fire detection with extended dynamic range  0.5"
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Swath Width",
+        "value": "1470"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-synergy-syn-l2-netcdf",
+            "collection": "sentinel-3-synergy-syn-l2-netcdf"
+          },
+          {
+            "label": "Land surface temperature",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-lst-l2-netcdf",
+            "collection": "sentinel-3-slstr-lst-l2-netcdf"
+          },
+          {
+            "label": "Water surface temperature",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-wst-l2-netcdf",
+            "collection": "sentinel-3-slstr-wst-l2-netcdf"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc",
+            "collection": "sentinel-3-sl-1-rbt-ntc"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc",
+            "collection": "sentinel-3-sl-1-rbt-ntc"
+          },
+          {
+            "label": "Land surface temperature",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-lst-ntc",
+            "collection": "sentinel-3-sl-2-lst-ntc"
+          },
+          {
+            "label": "Water surface temperature",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-wst-ntc",
+            "collection": "sentinel-3-sl-2-wst-ntc"
+          }
+        ]
+      },
+      {
+        "key": "eopf",
+        "title": "EOPF Sentinel Zarr Samples",
+        "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt",
+            "collection": "sentinel-3-slstr-l1-rbt"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt",
+            "collection": "sentinel-3-slstr-l1-rbt"
+          },
+          {
+            "label": "Land surface temperature",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l2-lst",
+            "collection": "sentinel-3-slstr-l2-lst"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/slstr"
+      }
+    ],
+    "related": [
+      {
+        "id": "SLSTR_S3B",
+        "name": "Sea and Land Surface Temperature Radiometer",
+        "platform": "Sentinel-3B",
+        "href": "/instruments/SLSTR_S3B",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "OLCI_S3A",
+        "name": "Ocean and Land Colour Instrument",
+        "platform": "Sentinel-3A",
+        "href": "/instruments/OLCI_S3A",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-synergy-syn-l2-netcdf"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-lst-l2-netcdf"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-wst-l2-netcdf"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-lst-ntc"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-wst-ntc"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l2-lst"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/s3-slstr-instrument"
+      },
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/slstr-products"
+      },
+      {
+        "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/About_the_launch"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/slstr"
+      },
+      {
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902"
+      },
+      {
+        "url": "https://sentiwiki.copernicus.eu/__attachments/a_aacdd1ba3831d1eefcea7c4d52b0cf9b26e65378d1a6f307f13e433ef353e10b/SLSTR_FM02_Spectral_Responses_Necdf_zip.zip"
+      }
+    ]
+  },
+  "SLSTR_S3B": {
+    "id": "SLSTR_S3B",
+    "summary": "SLSTR_S3B (Sea and Land Surface Temperature Radiometer) is an operational multispectral instrument operated by ESA, EUMETSAT, Copernicus on Sentinel-3B. It is associated with a satellite platform and has public data availability.",
+    "quick_facts": [
+      {
+        "label": "Instrument id",
+        "value": "SLSTR_S3B"
+      },
+      {
+        "label": "Name",
+        "value": "Sea and Land Surface Temperature Radiometer"
+      },
+      {
+        "label": "Acronym",
+        "value": "SLSTR"
+      },
+      {
+        "label": "Type",
+        "value": "multispectral"
+      },
+      {
+        "label": "Platform type",
+        "value": "satellite"
+      },
+      {
+        "label": "Platform",
+        "value": "Sentinel-3B"
+      },
+      {
+        "label": "Operator",
+        "value": "ESA, EUMETSAT, Copernicus"
+      },
+      {
+        "label": "Start date",
+        "value": "2018-04-25"
+      },
+      {
+        "label": "Status",
+        "value": "operational"
+      },
+      {
+        "label": "Availability",
+        "value": "public"
+      }
+    ],
+    "timeline": {
+      "name": "Sea and Land Surface Temperature Radiometer",
+      "acronym": "SLSTR",
+      "type": "multispectral",
+      "status": "operational",
+      "start_date": "2018-04-25",
+      "end_date": ""
+    },
+    "spectral_summary": [
+      {
+        "label": "Total bands",
+        "value": "11"
+      },
+      {
+        "label": "Wavelength range",
+        "value": "554.27-12022.5 nm"
+      },
+      {
+        "label": "Bandwidth range",
+        "value": "19.25-905 nm"
+      },
+      {
+        "label": "Ground sampling distance",
+        "value": "500-1000 m"
+      },
+      {
+        "label": "Spectral response function",
+        "value": "Available",
+        "url": "https://raw.githubusercontent.com/awesome-spectral-indices/awesome-earth-observation-instruments/main/src/srf/SLSTR_S3B_SRF.csv",
+        "link_text": "Download CSV"
+      }
+    ],
+    "bands": [
+      {
+        "id": "S1",
+        "center_wavelength": "554.27",
+        "bandwidth": "19.26",
+        "common_name": "green",
+        "gsd": "500",
+        "description": "Cloud screening; vegetation monitoring; aerosol retrieval",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s1 554.27 19.26 green 500 cloud screening; vegetation monitoring; aerosol retrieval 20 "
+      },
+      {
+        "id": "S2",
+        "center_wavelength": "659.47",
+        "bandwidth": "19.25",
+        "common_name": "red",
+        "gsd": "500",
+        "description": "NDVI; vegetation monitoring; aerosol retrieval",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s2 659.47 19.25 red 500 ndvi; vegetation monitoring; aerosol retrieval 20 "
+      },
+      {
+        "id": "S3",
+        "center_wavelength": "868",
+        "bandwidth": "20.6",
+        "common_name": "nir08",
+        "gsd": "500",
+        "description": "NDVI; cloud flagging; pixel co-registration",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s3 868 20.6 nir08 500 ndvi; cloud flagging; pixel co-registration 20 "
+      },
+      {
+        "id": "S4",
+        "center_wavelength": "1374.8",
+        "bandwidth": "20.8",
+        "common_name": "cirrus",
+        "gsd": "500",
+        "description": "Cirrus detection over land",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s4 1374.8 20.8 cirrus 500 cirrus detection over land 20 "
+      },
+      {
+        "id": "S5",
+        "center_wavelength": "1613.4",
+        "bandwidth": "60.68",
+        "common_name": "swir16",
+        "gsd": "500",
+        "description": "Cloud clearing; ice and snow detection; vegetation monitoring",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s5 1613.4 60.68 swir16 500 cloud clearing; ice and snow detection; vegetation monitoring 20 "
+      },
+      {
+        "id": "S6",
+        "center_wavelength": "2255.7",
+        "bandwidth": "50.15",
+        "common_name": "swir22",
+        "gsd": "500",
+        "description": "Vegetation monitoring and cloud clearing",
+        "snr": "20",
+        "ne_delta_t": "",
+        "search_text": "s6 2255.7 50.15 swir22 500 vegetation monitoring and cloud clearing 20 "
+      },
+      {
+        "id": "S7",
+        "center_wavelength": "3742",
+        "bandwidth": "398",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Sea and land surface temperature; active-fire detection",
+        "snr": "",
+        "ne_delta_t": "0.08",
+        "search_text": "s7 3742 398  1000 sea and land surface temperature; active-fire detection  0.08"
+      },
+      {
+        "id": "S8",
+        "center_wavelength": "10854",
+        "bandwidth": "776",
+        "common_name": "lwir11",
+        "gsd": "1000",
+        "description": "Sea and land surface temperature; active-fire detection",
+        "snr": "",
+        "ne_delta_t": "0.05",
+        "search_text": "s8 10854 776 lwir11 1000 sea and land surface temperature; active-fire detection  0.05"
+      },
+      {
+        "id": "S9",
+        "center_wavelength": "12022.5",
+        "bandwidth": "905",
+        "common_name": "lwir12",
+        "gsd": "1000",
+        "description": "Sea and land surface temperature",
+        "snr": "",
+        "ne_delta_t": "0.05",
+        "search_text": "s9 12022.5 905 lwir12 1000 sea and land surface temperature  0.05"
+      },
+      {
+        "id": "F1",
+        "center_wavelength": "3742",
+        "bandwidth": "398",
+        "common_name": "",
+        "gsd": "1000",
+        "description": "Active-fire detection with extended dynamic range",
+        "snr": "",
+        "ne_delta_t": "1",
+        "search_text": "f1 3742 398  1000 active-fire detection with extended dynamic range  1"
+      },
+      {
+        "id": "F2",
+        "center_wavelength": "10854",
+        "bandwidth": "776",
+        "common_name": "lwir11",
+        "gsd": "1000",
+        "description": "Active-fire detection with extended dynamic range",
+        "snr": "",
+        "ne_delta_t": "0.5",
+        "search_text": "f2 10854 776 lwir11 1000 active-fire detection with extended dynamic range  0.5"
+      }
+    ],
+    "imaging": [
+      {
+        "label": "Swath Width",
+        "value": "1470"
+      }
+    ],
+    "data_access": [
+      {
+        "key": "planetary_computer",
+        "title": "Microsoft Planetary Computer",
+        "stac_endpoint": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-synergy-syn-l2-netcdf",
+            "collection": "sentinel-3-synergy-syn-l2-netcdf"
+          },
+          {
+            "label": "Land surface temperature",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-lst-l2-netcdf",
+            "collection": "sentinel-3-slstr-lst-l2-netcdf"
+          },
+          {
+            "label": "Water surface temperature",
+            "docs": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-wst-l2-netcdf",
+            "collection": "sentinel-3-slstr-wst-l2-netcdf"
+          }
+        ]
+      },
+      {
+        "key": "cdse",
+        "title": "Copernicus Data Space Ecosystem",
+        "stac_endpoint": "https://stac.dataspace.copernicus.eu/v1",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc",
+            "collection": "sentinel-3-sl-1-rbt-ntc"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc",
+            "collection": "sentinel-3-sl-1-rbt-ntc"
+          },
+          {
+            "label": "Land surface temperature",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-lst-ntc",
+            "collection": "sentinel-3-sl-2-lst-ntc"
+          },
+          {
+            "label": "Water surface temperature",
+            "docs": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-wst-ntc",
+            "collection": "sentinel-3-sl-2-wst-ntc"
+          }
+        ]
+      },
+      {
+        "key": "eopf",
+        "title": "EOPF Sentinel Zarr Samples",
+        "stac_endpoint": "https://stac.core.eopf.eodc.eu/",
+        "products": [
+          {
+            "label": "Primary",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt",
+            "collection": "sentinel-3-slstr-l1-rbt"
+          },
+          {
+            "label": "Top of atmosphere",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt",
+            "collection": "sentinel-3-slstr-l1-rbt"
+          },
+          {
+            "label": "Land surface temperature",
+            "docs": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l2-lst",
+            "collection": "sentinel-3-slstr-l2-lst"
+          }
+        ]
+      }
+    ],
+    "external_catalogues": [
+      {
+        "label": "CEOS EO Handbook",
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902"
+      },
+      {
+        "label": "EarthData",
+        "url": "https://www.earthdata.nasa.gov/data/instruments/slstr"
+      }
+    ],
+    "related": [
+      {
+        "id": "SLSTR_S3A",
+        "name": "Sea and Land Surface Temperature Radiometer",
+        "platform": "Sentinel-3A",
+        "href": "/instruments/SLSTR_S3A",
+        "reason": "same instrument family"
+      },
+      {
+        "id": "OLCI_S3B",
+        "name": "Ocean and Land Colour Instrument",
+        "platform": "Sentinel-3B",
+        "href": "/instruments/OLCI_S3B",
+        "reason": "same platform"
+      }
+    ],
+    "data_links": [
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-synergy-syn-l2-netcdf"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-lst-l2-netcdf"
+      },
+      {
+        "url": "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-wst-l2-netcdf"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-lst-ntc"
+      },
+      {
+        "url": "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-wst-ntc"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt"
+      },
+      {
+        "url": "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l2-lst"
+      }
+    ],
+    "references": [
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/s3-slstr-instrument"
+      },
+      {
+        "url": "https://sentiwiki.copernicus.eu/web/slstr-products"
+      },
+      {
+        "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/About_the_launch"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/data/instruments/slstr"
+      },
+      {
+        "url": "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902"
+      },
+      {
+        "url": "https://sentiwiki.copernicus.eu/__attachments/a_e4699d3a086eeaaba636b279ec6e96e0721ecda34a04018b9a7ebb14e114244e/SLSTR_B_PFM_Spectral_Responses_Netcdf.zip?cb=d22d2a91201c02d330547dc3caddb3eb"
       }
     ]
   },

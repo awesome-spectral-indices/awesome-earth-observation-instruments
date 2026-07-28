@@ -1,0 +1,94 @@
+id: SLSTR_S3B
+name: Sea and Land Surface Temperature Radiometer
+acronym: SLSTR
+type: multispectral
+platform_type: satellite
+platform:
+  - Sentinel-3B
+operator:
+  - ESA
+  - EUMETSAT
+  - Copernicus
+start_date: 2018-04-25
+status: operational
+availability: public
+contributors:
+  - "https://github.com/davemlz"
+references:
+  - "https://sentiwiki.copernicus.eu/web/s3-slstr-instrument"
+  - "https://sentiwiki.copernicus.eu/web/slstr-products"
+  - "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/About_the_launch"
+  - "https://www.earthdata.nasa.gov/data/instruments/slstr"
+  - "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902"
+  - "https://sentiwiki.copernicus.eu/__attachments/a_e4699d3a086eeaaba636b279ec6e96e0721ecda34a04018b9a7ebb14e114244e/SLSTR_B_PFM_Spectral_Responses_Netcdf.zip?cb=d22d2a91201c02d330547dc3caddb3eb"
+notes: >-
+  SLSTR uses nadir and oblique views to improve atmospheric correction and
+  surface-temperature retrievals. The recorded 1470 km swath is the nominal
+  nadir-view coverage; the oblique view covers approximately 768 km. F1 and F2
+  share the spectral responses of S7 and S8, respectively, but use an extended
+  dynamic range for active-fire observations. The nominal band definitions are
+  shared by SLSTR-A and SLSTR-B, while their SRFs come from separate pre-flight
+  calibration measurements.
+
+data_links:
+  - "https://planetarycomputer.microsoft.com/dataset/sentinel-3-synergy-syn-l2-netcdf"
+  - "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-lst-l2-netcdf"
+  - "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-wst-l2-netcdf"
+  - "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc"
+  - "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-lst-ntc"
+  - "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-wst-ntc"
+  - "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt"
+  - "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l2-lst"
+
+extensions:
+
+  spectral:
+    bands: SLSTR_BANDS.csv
+    spectral_response_function: SLSTR_S3B_SRF.csv
+
+  imaging:
+    swath_width: 1470
+
+  data_access:
+    planetary_computer:
+      stac_endpoint: "https://planetarycomputer.microsoft.com/api/stac/v1"
+      primary:
+        docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-3-synergy-syn-l2-netcdf"
+        collection: "sentinel-3-synergy-syn-l2-netcdf"
+      lst:
+        docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-lst-l2-netcdf"
+        collection: "sentinel-3-slstr-lst-l2-netcdf"
+      wst:
+        docs: "https://planetarycomputer.microsoft.com/dataset/sentinel-3-slstr-wst-l2-netcdf"
+        collection: "sentinel-3-slstr-wst-l2-netcdf"
+
+    cdse:
+      stac_endpoint: "https://stac.dataspace.copernicus.eu/v1"
+      primary:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc"
+        collection: "sentinel-3-sl-1-rbt-ntc"
+      toa:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-1-rbt-ntc"
+        collection: "sentinel-3-sl-1-rbt-ntc"
+      lst:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-lst-ntc"
+        collection: "sentinel-3-sl-2-lst-ntc"
+      wst:
+        docs: "https://browser.stac.dataspace.copernicus.eu/collections/sentinel-3-sl-2-wst-ntc"
+        collection: "sentinel-3-sl-2-wst-ntc"
+
+    eopf:
+      stac_endpoint: "https://stac.core.eopf.eodc.eu/"
+      primary:
+        docs: "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt"
+        collection: "sentinel-3-slstr-l1-rbt"
+      toa:
+        docs: "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l1-rbt"
+        collection: "sentinel-3-slstr-l1-rbt"
+      lst:
+        docs: "https://stac.browser.user.eopf.eodc.eu/collections/sentinel-3-slstr-l2-lst"
+        collection: "sentinel-3-slstr-l2-lst"
+
+  cross_links:
+    ceos: "https://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=902"
+    earthdata: "https://www.earthdata.nasa.gov/data/instruments/slstr"

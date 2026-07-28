@@ -26,6 +26,9 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 
 ### Instruments And Metadata
 
+- Added Sentinel-3A and Sentinel-3B SLSTR instrument records with a shared
+  11-band definition, platform-specific measured spectral response functions,
+  specialized surface-temperature data access, and external catalogue links.
 - Added separate Parrot Sequoia multispectral and RGB UAV instrument records,
   including the four-band multispectral definition.
 - Added Sentinel-3A and Sentinel-3B OLCI instrument records with shared nominal
