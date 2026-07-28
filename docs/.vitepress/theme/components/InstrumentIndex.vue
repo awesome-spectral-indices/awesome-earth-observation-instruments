@@ -894,7 +894,7 @@ function valueClass(prefix: string, value: string) {
 
 .instrument-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 0.85rem;
   margin: 1rem 0 0;
   padding: 0;
