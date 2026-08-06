@@ -11,10 +11,16 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Instrument Index', link: '/instruments/' },
       { text: 'Schema', link: '/schema' },
-      { text: 'Events', link: '/events' },
-      { text: 'Contributing', link: '/contributing' },
-      { text: 'Changelog', link: '/changelog' },
-      { text: 'How to cite', link: '/publications' },
+      {
+        text: 'More',
+        items: [
+          { text: 'Events', link: '/events' },
+          { text: 'Contributing', link: '/contributing' },
+          { text: 'Changelog', link: '/changelog' },
+          { text: 'How to cite', link: '/publications' },
+          { text: 'Funding', link: '/funding' },
+        ],
+      },
       { text: 'Python API', link: 'https://awesome-spectral-indices.github.io/xeo/' },
     ],
 

@@ -154,3 +154,17 @@
   );
   --vp-home-hero-image-filter: blur(44px);
 }
+
+.funding-logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.funding-logos img {
+  width: auto;
+  height: 72px;
+  object-fit: contain;
+}

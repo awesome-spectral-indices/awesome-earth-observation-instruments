@@ -4,6 +4,12 @@ All notable changes to Awesome Earth Observation Instruments are summarized here
 
 ## 0.4.0 (Upcoming)
 
+### Documentation
+
+- Added funding acknowledgements and funder logos to the repository README and
+  VitePress website.
+- Grouped secondary website links under a `More` navigation menu.
+
 ## 0.3.0
 
 ### Catalogue
